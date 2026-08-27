@@ -226,3 +226,7 @@ Watchlist at 12:05pm ET (from saved scan "Phase 1 Day Trader Universe"):
 Tradeable candidates: 0. Mid-day window (no new entries before 14:00 by rule).
 Plan: re-scan at ~13:55 ET for the afternoon window; entries only on a genuine setup
 passing every rail; flatten verification at 15:45–15:50 ET; full summary at EOD.
+
+13:56 ET re-scan: 2 names. WEN $7.79 (spread ok at $0.01, but -13.8% day and below
+VWAP 7.88 → no long; watch only for a VWAP reclaim on volume). XHLD $8.47 (spread
+$0.14 ≈ 1.7% → fails again; also below VWAP 8.62). Tradeable candidates: 0.
