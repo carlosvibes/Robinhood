@@ -24,6 +24,7 @@ All times are US Eastern. All dollar figures to two decimals.
 | Date | Starting equity | Ending equity | Day P&L | Day P&L % | Trades | Notes |
 |---|---|---|---|---|---|---|
 | 2026-08-26 | $100.00 | | | | | Account funded with $100.00 (deposit pending as of 2026-08-26 evening; buying power already $100.00). Phase 1. No trades yet. |
+| 2026-08-27 | $100.00 | $100.00 | $0.00 | 0.0% | 0 | First live session (started mid-day 12:05 ET). No setup cleared all rails. Flat verified at 15:46 ET. |
 
 ---
 
@@ -245,3 +246,41 @@ reward to HOD 5.51 = 1.15:1 < 2.00 gate; VWAP also crossed 3+ times (level not
 holding). FWDI $6.635 below VWAP 6.748 AND ATR $0.035 < $0.05 floor. PLAY -7.1%
 below VWAP. WEN no reclaim. XHLD spread. NMZ no setup. Entry window closed.
 DAY RESULT: 0 trades — no setup cleared all rails. Flatten check at 15:45.
+
+### Session — 2026-08-27
+
+Session hours (from marketHours):  open 09:30 — close 16:00 ET
+Flatten time:                      15:50 ET (close - 10 min)
+Blocking checks:                   STATUS ok / broker reconciled / buying power $100.00
+                                   / clock verified
+
+Pre-market watchlist:  none — session started mid-day at 12:05 ET (first live session,
+                       launched on Carlos's go-ahead after the market-hours verification)
+Market context:        SPY ~flat vs prior close. Scanner names were mostly single-stock
+                       stories: WEN -13.7% selloff day, DFDV +18% crypto-treasury mover,
+                       XHLD faded gapper, FWDI +12% fader.
+
+Opening orders submitted:  0  (cap 6)
+Filled / Rejected:         0 / 0
+Winners / Losers:          0 W / 0 L
+Consecutive loss streak at close:  0  (halt at 3)
+Gross P&L:             $0.00
+Net P&L:               $0.00  (0.0% of start-of-day equity)
+Ending equity:         $100.00
+Position count at flatten (verified by query at 15:46 ET):  0
+
+Halt conditions hit:   none
+Incidents:             none
+Rule conflicts:        Candidates rejected, by rail: spread gate (XHLD twice, ~1.7-2.0%
+                       of price vs 0.15% limit); VWAP direction filter (WEN all afternoon,
+                       FWDI, PLAY); 2:1 RR gate (DFDV — best structure gave 1.15:1);
+                       ATR >= $0.05 floor (FWDI). None of these look like rules blocking
+                       good trades; each rejection had a clear cost-based reason.
+
+Best decision today:   Passing DFDV at 14:35 — it looked buyable (above VWAP, spread ok)
+                       but the 77% retrace said reversal; it then chopped sideways-down
+                       and never paid. The RR gate refusal at 15:10 was also correct.
+Worst decision today:  None material. Session design note: a mid-day start offers
+                       structurally fewer setups — ORB impossible, prime window missed.
+Platform/data issues:  FMP news endpoint is tier-blocked, so catalysts cannot be
+                       verified — logged to learning.md as an open limitation.

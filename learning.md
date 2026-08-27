@@ -189,3 +189,27 @@ Every change to the strategy or rails, with date, reason, and who approved it. W
 | Date | Change | Reason | Approved by |
 |---|---|---|---|
 | | Initial system | — | Carlos |
+
+---
+
+## Session lessons — 2026-08-27 (first live session, 0 trades)
+
+Specific findings, not moods:
+
+1. **The spread gate is the binding constraint in this universe, not the scanner.**
+   Scanner returned 11 distinct names today; the two momentum movers it surfaced
+   mid-day (XHLD twice) carried 1.7–2.0% spreads vs the 0.15%/1-cent limit. Thin
+   $5–$10 movers may routinely fail this. Watch whether morning sessions (more
+   liquidity at the open) produce tighter books before concluding anything.
+2. **The 2:1 gate rejected the day's most tempting trade and was right.** DFDV at
+   14:35 looked buyable (above VWAP, 1-cent spread) but the 77%-retrace read said
+   reversal; it went nowhere after. The 15:10 refusal (1.15:1 best case) also held.
+   Zero evidence yet that the rails are blocking good trades.
+3. **Mid-day starts structurally under-produce.** ORB is impossible and the prime
+   window is gone by noon; today is not evidence about trade frequency. First
+   full-day sample starts 2026-08-28.
+4. **Catalyst verification is currently impossible** — FMP news endpoints are
+   tier-blocked and Robinhood MCP has no news tool. Until resolved, "Catalyst"
+   fields log as "unverifiable" and momentum setups are graded accordingly
+   (weaker without a known catalyst per strategies.md). Options if wanted later:
+   FMP plan upgrade (Carlos's call — costs money) or another news source.
