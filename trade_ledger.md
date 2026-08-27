@@ -213,3 +213,16 @@ Platform/data issues:
 ## Trades
 
 *(Entries begin below. Newest at the bottom — chronological order makes the progression readable.)*
+
+### Session in progress — 2026-08-27 (first live session; started mid-day ~12:05pm ET)
+
+Session hours: 09:30–16:00 ET (normal day) | Flatten: 15:50 ET
+Blocking checks: STATUS ok / broker reconciled (flat, 0 orders) / buying power $100.00 / clock verified
+
+Watchlist at 12:05pm ET (from saved scan "Phase 1 Day Trader Universe"):
+- XHLD (TEN Holdings) $9.48, +11.7%, RVOL 3.66, float 10.3M — REJECTED at spread check:
+  bid/ask 9.40/9.59, spread $0.19 ≈ 2.0% of price vs $0.014 limit. Not tradeable.
+
+Tradeable candidates: 0. Mid-day window (no new entries before 14:00 by rule).
+Plan: re-scan at ~13:55 ET for the afternoon window; entries only on a genuine setup
+passing every rail; flatten verification at 15:45–15:50 ET; full summary at EOD.

@@ -43,7 +43,13 @@ Verified 2026-08-26 by direct API test against the live account. Re-verify if th
 - `get_portfolio` → total value $100.00, cash $100.00, buying power $100.00 ($100 deposit pending).
 - SPY quote returned with fresh after-hours timestamp; 9-EMA and VWAP on 5-minute bars both computed server-side without error.
 - Phase 1 scanner created and saved: **scan_id `18b098e0-d0df-4f6e-beb1-f60a7987243a`**, title "Phase 1 Day Trader Universe", all five SKILL.md filters applied verbatim. Returned 7 names after hours (ITUB, NAT, LEG, RXST, LTRX, MBI, UNCY) — reuse this scan_id with `run_scan`; do not recreate it.
-- `get_equity_price_book` on ITUB → endpoint works, book empty because market closed. **Spread check still unverified during regular hours** — confirm on first live morning, along with the RVOL time-of-day normalization question below.
+- `get_equity_price_book` on ITUB → endpoint works, book empty because market closed.
+
+**2026-08-27 ~12:05pm ET market-hours verification (live session):**
+- All four blocking checks passed: STATUS ACTIVE, broker flat (0 positions, 0 orders, matches ledger), buying power $100.00, normal session 9:30–16:00 ET → flatten 15:50 ET. Local clock matches market time.
+- Saved scan runs during market hours and returned 1 name at 12:05pm (XHLD, RVOL 3.66) → the RVOL filter is not structurally empty intraday. Note: it compares cumulative day volume to a full-day 30-day average with no time-of-day normalization, so mid-day it under-counts and morning scans will be tighter still — treat a low candidate count as expected, but re-check against a known hot name before ever concluding "no candidates" on a day with obvious movers.
+- L2 book verified live: full depth ladder on XHLD. **Spread check works and immediately earned its keep** — XHLD bid 9.40 / ask 9.59, spread $0.19 ≈ 2.0% of price vs the ~$0.014 limit → not tradeable despite passing every scanner filter. Wide spreads on thin $5–$10 movers may be common; expect the spread gate to reject a large share of scanner hits.
+- Platform notes table rows 1–13: all consistent with today's observations. Nothing to correct.
 
 ### To fill in from live trading
 
