@@ -238,3 +238,10 @@ to 5.24 tagging VWAP; pullback retraced ~77% of the prior leg = reversal, not a
 flag per playbook. No catalyst verifiable (FMP news tier-blocked). Watching for a
 base above VWAP + volume break. WEN still below VWAP (7.805 vs 7.875) — no reclaim.
 XHLD spread $0.09 fails. NMZ: flat muni CEF, no setup. Trades so far: 0.
+
+15:10 ET final entry check: 6 scanner names. DFDV based above VWAP 5.23-5.35 but
+geometry fails — breakout entry ~5.36, stop below base 5.23 = $0.13 risk vs $0.15
+reward to HOD 5.51 = 1.15:1 < 2.00 gate; VWAP also crossed 3+ times (level not
+holding). FWDI $6.635 below VWAP 6.748 AND ATR $0.035 < $0.05 floor. PLAY -7.1%
+below VWAP. WEN no reclaim. XHLD spread. NMZ no setup. Entry window closed.
+DAY RESULT: 0 trades — no setup cleared all rails. Flatten check at 15:45.
