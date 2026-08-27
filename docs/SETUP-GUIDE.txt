@@ -1,0 +1,640 @@
+================================================================================
+AUTONOMOUS AI DAY TRADER  —  ROBINHOOD + CLAUDE CODE
+Complete setup guide
+Prepared for Carlos  |  August 26, 2026
+================================================================================
+
+
+--------------------------------------------------------------------------------
+PART 0 — WHAT YOU ARE ACTUALLY BUILDING
+--------------------------------------------------------------------------------
+
+Four pieces:
+
+  1. CLAUDE CODE          The brain. Runs on your desktop, reads your rules,
+                          makes decisions.
+
+  2. ROBINHOOD MCP        The hands. An official Robinhood connector that lets
+                          Claude place real orders. Endpoint:
+                          https://agent.robinhood.com/mcp/trading
+
+  3. THE SKILL            The rulebook. A folder of instructions telling Claude
+                          exactly how to trade, how much to risk, and when to
+                          stop. This is the part I built for you.
+
+  4. TWO LOG FILES        The memory. trade_ledger.md records every trade.
+                          learning.md turns those records into improvements.
+
+"MCP" = Model Context Protocol. Think of it as a USB port for AI. Robinhood
+built a plug; Claude Code has the socket.
+
+Important: Robinhood creates a SEPARATE "agentic account" for this. Your main
+Robinhood balance cannot be touched by the AI. Only the money you move into the
+agentic account is at risk.
+
+
+--------------------------------------------------------------------------------
+PART 1 — WHAT I CONFIRMED BEFORE BUILDING THIS
+--------------------------------------------------------------------------------
+
+[UPDATE, AUG 26 — CONNECTOR IS NOW LIVE. I ran the full systems check against
+ your real account. "Problem 2" below is SOLVED, and several things got better
+ than planned. See PART 8 at the end for everything that changed. Your agentic
+ account currently holds $0.00 — funding it is now the only thing blocking a
+ first session.]
+
+Three things I verified rather than assumed. Two of them changed the design.
+
+GOOD NEWS — THE DAY TRADING BLOCKER IS GONE
+The SEC eliminated the $25,000 pattern day trader minimum effective June 4,
+2026. Under the old rule a $100 account was limited to 3 day trades per 5
+business days, which would have made this system pointless. Note: brokerages
+have until October 2027 to fully implement, so CONFIRM Robinhood's current
+policy before your first session (Step 9 below).
+
+PROBLEM 1 — POLITICIAN TRADE DATA IS TOO OLD TO DAY TRADE ON
+You asked for congressional insider trading signals. I pulled live data to
+check. Senator Boozman's most recent filing:
+
+        Transaction date:  November 21, 2025
+        Disclosure date:   August 24, 2026
+        Lag:               about 9 months
+
+The law says 45 days. Reality is much worse. By the time you see it, the move
+happened three quarters ago. The skill keeps this data as watchlist context but
+BANS it as an entry trigger. Corporate insider filings (SEC Form 4) are much
+better — 2 business days — but still not an intraday signal.
+
+PROBLEM 2 — YOUR MARKET DATA HAS A GAP   [*** SOLVED — SEE PART 8 ***]
+Your FMP connector works for congressional and insider data. But intraday price
+charts and technical indicators (RSI, EMA, SMA) are BLOCKED on your current
+plan tier. I tested it and got an access-denied error.
+
+RESOLVED: the Robinhood connector computes all of these server-side, including
+VWAP. No FMP upgrade needed, and no manual EMA math. Details in Part 8.
+
+
+--------------------------------------------------------------------------------
+PART 2 — YOUR SETTINGS (from the questions you answered)
+--------------------------------------------------------------------------------
+
+  Starting capital ..... $100.00
+  Mode ................. Live, micro-sized for the first 20 trades
+  Autonomy ............. Fully autonomous within hard rails
+  Market data .......... Robinhood MCP first
+  Runs on .............. Desktop, on during market hours
+
+  PHASE 1 (first 20 closed trades)
+      Max position size .......... $10.00
+      Max risk per trade ......... $0.25
+      Consecutive loss limit ..... 3       (~$0.75 — this is the rail that
+                                            will actually fire)
+      Daily loss limit ........... $1.00   (backstop if a stop fails)
+      Weekly loss limit .......... $2.50   (halts for the week, needs your review)
+      Max opening orders/day ..... 6
+      Max open positions ......... 3
+      Stock price range .......... $5.00 - $10.00, WHOLE SHARES
+                                   (in practice ~1 share per trade, so a
+                                    winner is about +$0.50 and a loser -$0.25)
+      Flat by .................... 10 minutes before the close, every day
+
+  Why whole shares and a $5 floor? Two reasons that only showed up when I
+  stress-tested this:
+
+  (1) Fractional shares usually cannot carry a stop order. If the AI buys 0.8
+      shares of a $12 stock, there is no resting stop at the broker — the "stop"
+      exists only in the AI's head, and if the session ends or a tool errors,
+      nothing sells. Whole shares of a $5-$10 stock keep the stop real. That is
+      worth far more than access to pricier tickers.
+
+  (2) Spread cost scales with SHARE PRICE, not position size. A 2-cent spread on
+      an $8 stock is 0.25% each way. The same 2 cents on a $1.60 stock is 1.25%
+      each way, which would eat most of the trade before it started. Cheap
+      stocks are the expensive ones.
+
+  Advancing to Phase 2 ($25 positions, $1 risk, $3 daily, $7 weekly) requires
+  20+ closed trades, positive expectancy, AND your written approval — which
+  means YOU adding a dated row to the changelog table in learning.md. Not a chat
+  message. The AI cannot promote itself.
+
+
+--------------------------------------------------------------------------------
+PART 3 — INSTALLATION
+--------------------------------------------------------------------------------
+
+You need a desktop or laptop. Robinhood's agentic onboarding does not work on
+mobile. Budget about 45 minutes.
+
+
+STEP 1 — INSTALL NODE.JS
+    Go to https://nodejs.org and install the LTS version.
+    Verify by opening Terminal (Mac) or PowerShell (Windows) and typing:
+
+        node --version
+
+    You should see a version number. If "command not found", restart your
+    terminal first, then reinstall if it still fails.
+
+
+STEP 2 — INSTALL CLAUDE CODE
+
+        npm install -g @anthropic-ai/claude-code
+
+    Verify:
+
+        claude --version
+
+
+STEP 3 — CREATE YOUR TRADING FOLDER
+
+    Mac:
+        mkdir -p ~/trading
+        cd ~/trading
+        git init
+
+    Windows PowerShell:
+        mkdir $HOME\trading
+        cd $HOME\trading
+        git init
+
+    Everything lives here. Your logs will be written here.
+
+    The "git init" gives you version history on your trade log. That log is the
+    actual product of this whole system — the thing that tells you months from
+    now whether any of it worked. Losing it to a bad edit would be worse than
+    losing the $100. Once a week, run:  git add -A && git commit -m "week N"
+
+
+STEP 4 — START CLAUDE CODE AND LOG IN
+
+        claude
+
+    Follow the login prompt. Use the same account as your Claude subscription.
+    Type /exit when you're logged in.
+
+
+STEP 5 — CONNECT THE ROBINHOOD MCP
+
+    From inside the ~/trading folder:
+
+        claude mcp add robinhood-trading --transport http https://agent.robinhood.com/mcp/trading
+
+    Then restart Claude Code:
+
+        claude
+
+    Check the connection:
+
+        /mcp
+
+    You should see "robinhood-trading". If it says it needs authentication,
+    that's expected — Step 6.
+
+
+STEP 6 — AUTHENTICATE AND OPEN THE AGENTIC ACCOUNT
+
+    This step bounces between your terminal, your browser, and the Robinhood
+    mobile app. It is the fiddliest part. Go slowly.
+
+    6a. In Claude Code, type /mcp and select robinhood-trading, then
+        authenticate. A browser window opens.
+
+    6b. Log in to Robinhood and approve the connection.
+
+    6c. Robinhood walks you through opening the AGENTIC ACCOUNT. This is a new,
+        separate investing account. Complete the onboarding.
+
+    6d. Verify/approve on your Robinhood MOBILE app when prompted.
+
+    6e. You may get redirected to a "localhost" URL that shows a connection
+        error in the browser. THIS IS NORMAL. Copy the full URL from the
+        address bar and paste it back into Claude Code when asked.
+
+    6f. Back in Claude Code, run /mcp again. It should show connected.
+
+
+STEP 7 — FUND THE AGENTIC ACCOUNT WITH $100
+
+    Do this in the Robinhood app or website. Transfer exactly $100 into the
+    agentic account.
+
+    Do not fund it with more than you are fully prepared to lose. This is beta
+    software making autonomous decisions with real money.
+
+
+STEP 8 — INSTALL THE SKILL
+
+    Unzip the file I sent you: robinhood-day-trader.skill
+    (It is a normal zip file. If your computer doesn't recognize the extension,
+    rename it to robinhood-day-trader.zip and unzip it.)
+
+    Put the resulting folder here:
+
+    Mac:      ~/.claude/skills/robinhood-day-trader/
+    Windows:  %USERPROFILE%\.claude\skills\robinhood-day-trader\
+
+    When done, the path ~/.claude/skills/robinhood-day-trader/SKILL.md must
+    exist. If you end up with a doubled folder like
+    .../robinhood-day-trader/robinhood-day-trader/SKILL.md, move the inner
+    folder up one level.
+
+    Then create your two log files. From inside ~/trading:
+
+    Mac:
+        cp ~/.claude/skills/robinhood-day-trader/assets/trade_ledger_template.md ./trade_ledger.md
+        cp ~/.claude/skills/robinhood-day-trader/assets/learning_template.md ./learning.md
+
+    Windows PowerShell:
+        copy $HOME\.claude\skills\robinhood-day-trader\assets\trade_ledger_template.md .\trade_ledger.md
+        copy $HOME\.claude\skills\robinhood-day-trader\assets\learning_template.md .\learning.md
+
+    Finally, make the rulebook read-only so the AI cannot edit its own risk
+    limits. The skill tells it not to, but a norm is not a control:
+
+    Mac:
+        chmod -R a-w ~/.claude/skills/robinhood-day-trader
+
+    Windows PowerShell:
+        icacls "$HOME\.claude\skills\robinhood-day-trader" /deny "$env:USERNAME:(OI)(CI)(W)"
+
+    (To edit the skill later, reverse it: chmod -R u+w on Mac, or
+     icacls ... /remove:d "$env:USERNAME" on Windows.)
+
+
+STEP 9 — VERIFICATION RUN
+
+    The big systems check is already DONE — I ran it against your live account
+    on Aug 26 and the answers are pre-filled in learning.md. See Part 8.
+
+    What's left is confirming the plumbing works from inside Claude Code
+    specifically, which is a different path than the connector I used.
+
+    Start Claude Code from inside ~/trading:
+
+        claude
+
+    Paste this:
+
+        Load the robinhood-day-trader skill. Do NOT place any orders. Systems
+        check only:
+        1. Run get_accounts and confirm you can see the account with agentic
+           access. Report the last 4 digits and the account type.
+        2. Report equity and buying power from get_portfolio.
+        3. Pull a live SPY quote with the exact price and timestamp.
+        4. Pull the 9-period EMA and VWAP on 5-minute bars for SPY.
+        5. Build the Phase 1 scanner from the filter table in SKILL.md and run
+           it. Report how many names come back and list up to 5 of them.
+        6. Pull the Level 2 book for one of them and report the spread.
+        Confirm the platform notes table in learning.md matches what you see.
+
+    If step 5 returns zero names, that's usually the interval or the decimal-
+    percentage trap, not a broken scanner — tell me and I'll debug the filters.
+
+
+STEP 10 — FIRST LIVE SESSION
+
+    Do not start this until the agentic account actually holds money. As of
+    Aug 26 it reads $0.00, and the skill will stop the session at the buying-
+    power check rather than analyze a market it cannot act in.
+
+    On a normal trading day, at 8:30am ET, from inside ~/trading:
+
+        claude
+
+    Then:
+
+        Load the robinhood-day-trader skill and run a full trading session for
+        today. Phase 1 rules. Follow every rail. Log everything.
+
+    SIT WITH IT for the first week. You chose full autonomy, and the skill will
+    operate autonomously — but watch the first several trades happen so you
+    learn what it does and can hit Ctrl+C if something looks wrong. Full
+    autonomy is more useful once you trust the behavior you're seeing.
+
+
+--------------------------------------------------------------------------------
+PART 4 — RUNNING IT ON A SCHEDULE (WEEK 2+)
+--------------------------------------------------------------------------------
+
+READ THIS BEFORE AUTOMATING ANYTHING.
+
+I originally wrote a cron job for this section and then caught the problem while
+stress-testing. I'm leaving the explanation in because it's the kind of mistake
+that looks fine until it costs you money.
+
+THE TRAP: the obvious command is
+
+    claude -p "run a trading session"
+
+The -p flag is ONE-SHOT. Claude answers once and the process exits. It does not
+sit there from 9:30 to 4:00 managing your positions. So cron fires at 8:30, the
+AI thinks for a few minutes, possibly BUYS SOMETHING, and then quits — leaving a
+live position with nobody watching it, all day, through the close. That is the
+single worst outcome the whole system can produce, and it would happen silently
+every morning.
+
+WHAT TO DO INSTEAD: keep a real session alive.
+
+  1. Turn off sleep during market hours.
+       Mac:      System Settings > Lock Screen > turn display off never,
+                 and run: caffeinate -d
+       Windows:  Settings > System > Power > Screen and sleep > Never
+
+  2. Open a terminal at 8:30am ET each market day:
+       cd ~/trading
+       claude
+
+  3. Give it the session prompt:
+       Load the robinhood-day-trader skill and run a full trading session for
+       today. Phase 1 rules. Stay active until the flatten time.
+
+  4. LEAVE THE WINDOW OPEN until 4:05pm ET. Check in on it periodically.
+
+This is manual, and that's appropriate for now. An unattended process holding
+positions it cannot manage is worse than no automation at all.
+
+A SAFETY BACKSTOP worth adding either way — a one-shot job that only ever
+closes things. This one IS reasonable as a -p command, because closing
+positions is a single action that either completes or doesn't:
+
+    Mac, in crontab -e (cron uses your machine's LOCAL time — set this to
+    3:55pm in your own timezone, and re-check it after every daylight saving
+    change, because cron will not adjust itself):
+
+    55 15 * * 1-5 cd ~/trading && $(which claude) -p "Emergency flatten check. First check marketHours for today: if the market is closed or already closed more than 30 minutes ago, do nothing and exit. Otherwise query my Robinhood agentic account positions. If any position is open, cancel any resting stop orders first, verify the cancellation, then close the position with a marketable limit order. Verify by re-querying that position count is zero. Log the result to trade_ledger.md." >> ~/trading/flatten.log 2>&1
+
+Check your path first with:  which claude
+
+THREE THINGS TO KNOW ABOUT THIS BACKSTOP:
+
+  - It runs 5 minutes AFTER the agent's own flatten, so it only acts if the
+    main session already failed. That gap is deliberate.
+  - The marketHours check at the front is what stops it from firing on
+    holidays, or three hours after a 1:00pm half-day close.
+  - It may hang waiting for a tool-permission prompt that nobody is there to
+    answer. TEST IT on a day when you hold no positions and confirm it writes
+    to flatten.log. An untested backstop is worse than none, because you'll
+    believe it's protecting you.
+
+  On a 1:00pm half-day the marketHours guard makes it no-op, so a half-day is
+  the one session with no backstop. Half-days are published in advance — check
+  the market calendar and either sit those out or watch the session yourself.
+
+Do not add any of this until Step 10 has run cleanly for at least a week.
+
+
+--------------------------------------------------------------------------------
+PART 5 — WHAT'S IN THE SKILL
+--------------------------------------------------------------------------------
+
+  SKILL.md                        Mission, hard rails, position sizing math,
+                                  session workflow, anti-hallucination check
+  references/strategies.md        The five setups with exact entry/stop/target
+                                  rules, candlestick guidance, and an honest
+                                  breakdown of the four traders you named
+  references/risk-rules.md        Why each limit exists, halt procedure,
+                                  escalation triggers
+  references/data-sources.md      Which feed to use for what, and the traps
+  assets/trade_ledger_template.md The journal schema
+  assets/learning_template.md     The self-improvement schema
+
+THE ANTI-HALLUCINATION CHECK guards the failure mode you can't see coming: an
+AI can write a flawless thesis about a price it half-remembered, and the order
+still goes through.
+
+Before every order the agent must write its analysis price to the log FIRST,
+then pull a live quote, confirm the ticker resolves, confirm the quote is less
+than 30 seconds old, and confirm the live price is within 1% of both the logged
+analysis price AND the setup's trigger level. Any failure means no trade.
+
+The ordering is the whole trick. My first draft had it fetch the quote and then
+record it as the "analysis price" — which compares a number to itself and passes
+100% of the time. It would have looked like a working safety check while doing
+absolutely nothing. Writing the number down first is what makes it real.
+
+THE STOP-ORDER RULE is the other one worth knowing. No position may be opened
+unless a resting stop order can actually be placed at the broker right after the
+entry fills. If the stop is rejected, the position is closed immediately. A stop
+that exists only in the AI's reasoning is not a stop — it depends on the session
+staying alive, and sessions end.
+
+The stop must be a STOP-MARKET order, not stop-limit. A stop-limit can go
+unfilled exactly when you need it — a gap, a halt reopening, a sudden air
+pocket. You accept a slightly worse fill in exchange for the fill actually
+happening. This is the one place in the whole system where certainty is worth
+more than price.
+
+ON THE FOUR TRADERS YOU NAMED — the skill covers each honestly:
+  Ross Cameron       Transfers well. Momentum, gap-and-go, bull flags, 9 EMA.
+  Andrew Aziz        Transfers well. ORB, VWAP, systematic process.
+  Lance Breitstein   Transfers as review discipline, not as specific setups.
+  Kristjan Kullamägi Does NOT transfer. He is a multi-DAY swing trader. His
+                     setups hold for days or weeks on daily charts. Running
+                     them on a 5-minute chart isn't a faster version of his
+                     method, it's a different method wearing the same words.
+                     Worth revisiting if you ever add a swing sleeve.
+
+
+--------------------------------------------------------------------------------
+PART 6 — THE HONEST MATH ON $100
+--------------------------------------------------------------------------------
+
+At $0.25 risk per trade with a 2:1 target, a winning trade makes about $0.50.
+But two things cut that down before you ever see it:
+
+  - The consecutive-loss halt fires at 3 losses (~$0.75), so a bad day ends
+    early. Good — that's the point — but it caps the trade count.
+  - Spread cost is real. At the 0.15% filter on an $8 stock, round-trip
+    friction is roughly 2-3 cents, about 10% of your risk budget.
+
+Realistic good day: about +$0.60 net. Realistic strong month: single-digit
+dollars. That is not pessimism, it is arithmetic. Anyone promising more from
+$100 is selling something.
+
+What you are actually buying with this $100:
+  - A working, tested system you own
+  - A real trade log with real decisions, which is the only thing that tells
+    you whether the approach has an edge
+  - Reps on execution and discipline while the stakes are trivially small
+
+If after 50 trades the ledger shows positive expectancy, THEN adding capital is
+a decision backed by evidence instead of hope. If it shows negative expectancy,
+you found that out for $20 instead of $2,000. Both outcomes are worth the
+money. That second one is genuinely the better deal.
+
+Three ways this can still go wrong, so none of them surprise you:
+  1. Beta software. Robinhood's agentic trading and the MCP are new. Bugs are
+     expected.
+  2. AI errors. Hallucination guards reduce risk; they don't eliminate it.
+  3. Market risk. The strategies are sound and widely used, which also means
+     they are widely known. Most day traders lose money. That is the base rate
+     and you are not exempt from it.
+
+Only the $100 in the agentic account is exposed. Keep it that way until the log
+gives you a reason to change your mind.
+
+
+--------------------------------------------------------------------------------
+PART 7 — WHEN TO STOP AND ASK ME
+--------------------------------------------------------------------------------
+
+  - The Step 9 scanner returns zero names — I need to debug the filters, and
+    an empty scan looks exactly like "no setups today," which is the most
+    misleading failure this system can have
+  - Any Step 9 result that contradicts the platform notes table
+  - The OAuth flow in Step 6 dead-ends
+  - The agent places a trade that violates a rail (a serious bug — send the
+    ledger entry)
+  - Any INCIDENT block appears in the trade log, especially a rejected stop
+    order, an ambiguous order response, or a trading halt on a held position
+  - Equity drops below $85
+  - Any weekly halt fires
+  - After 20 closed trades — bring me the log and we'll do the phase review
+    together
+
+
+--------------------------------------------------------------------------------
+PART 8 — WHAT THE LIVE CONNECTOR CHANGED (AUG 26)
+--------------------------------------------------------------------------------
+
+I ran the full systems check against your real account. Results:
+
+YOUR ACCOUNT
+  Nickname:       "Agentic"  (ends 1910)
+  Account type:   LIMITED MARGIN  — this is the good outcome
+  Balance:        $0.00  <-- fund this, it's the only thing blocking you
+  Unsettled:      $0.00
+
+  Limited margin means sale proceeds are available immediately. No settlement
+  delay, no "good faith violations," and the 90-day-restriction scenario I
+  flagged as a real risk is off the table entirely. It is NOT a leverage
+  account — the skill never places an order exceeding buying power.
+
+WHAT'S AVAILABLE (all verified by direct test, not assumed)
+
+  Intraday bars ....... 15sec, 30sec, 1min, 5min, 10min, 30min, 1hr, 4hr
+                        Full OHLCV WITH VOLUME
+  Indicators .......... EMA, SMA, RSI, MACD, VWAP, ATR, Bollinger, ADX,
+                        Williams %R, CCI, MFI, Supertrend, OBV, pivots
+  Order types ......... market, limit, STOP_MARKET, stop_limit
+  Level 2 book ........ YES, full depth ladder
+  Market scanner ...... YES, with native relative-volume AND float filters
+  Idempotency key ..... YES (ref_id)
+  Pre-trade review .... YES, returns PDT and HALT alerts before you commit
+
+FIVE THINGS THAT CHANGED IN THE SKILL
+
+  1. FMP UPGRADE NO LONGER NEEDED. Robinhood computes every indicator
+     server-side. The manual EMA math is now a fallback that will probably
+     never run. Save your money.
+
+  2. VWAP IS IN. This was the highest-value addition available and it's
+     Andrew Aziz's core tool. Three uses: long setups now REQUIRE price above
+     VWAP (a bull flag below VWAP is a bull flag into overhead supply);
+     candlestick patterns only count at VWAP or another real level; and
+     there's a new "VWAP reclaim" setup for stocks that lose VWAP and take it
+     back on volume.
+
+  3. THE SCANNER REPLACES HAND-PICKING. Your watchlist is now built by a
+     Robinhood scan with hard filters instead of the AI choosing names it
+     likes. It computes relative volume natively, so the whole three-tier
+     fallback I wrote for measuring RVOL is gone.
+
+  4. FLOAT FILTER ADDED — minimum 10 million shares. This is the one I'm most
+     glad to have. Low-float stocks are where trading halts happen, and a halt
+     makes a stop order unenforceable at ANY price. That was the biggest tail
+     risk in the system. The cost is real: it screens out exactly the names
+     Ross Cameron hunts. He can absorb halt risk with size, experience and a
+     real-time platform. A one-share position on a 60-second poll cannot. Take
+     his structure, not his universe.
+
+  5. THE ORDER-RETRY RULE GOT SAFER. I originally wrote "never resubmit an
+     ambiguous order," because a retry could double your position. Robinhood
+     has a proper idempotency key — resending the same ref_id cannot create a
+     second order. So now: transport failure = retry once with the same key.
+     Anything else = stop and reconcile. Strictly better than sitting out
+     valid retries.
+
+  Also: I was WRONG that Level 2 depth wasn't available. It is. The skill now
+  checks resting bid size before entry so you know you can actually get out.
+  Corrected in the strategy file.
+
+WHAT I DELIBERATELY DID NOT ADD
+
+  Robinhood exposes ~18 indicators. I'm using three: VWAP, 9/20 EMA, ATR.
+
+  Not because MACD or Bollinger are bad, but because with 20 trades of sample
+  you cannot tell whether an eighth signal helped or whether you got lucky.
+  What extra indicators reliably produce at this stage is CONFLICT — MACD says
+  go, RSI says wait, Stochastic says overbought — and the AI resolves the tie
+  by picking whichever supports the trade it already wanted. That's a
+  rationalization engine with more inputs, not analysis.
+
+  We add one when learning.md shows a specific repeated failure it would have
+  caught. That's an evidence-driven change. Adding one because it's available
+  is how a system becomes impossible to falsify.
+
+
+--------------------------------------------------------------------------------
+APPENDIX — WHAT THE STRESS TEST CHANGED
+--------------------------------------------------------------------------------
+
+I had a second AI attack the first draft of this system looking specifically for
+ways it could lose money. It found real problems. Listing them because you asked
+to learn the mechanics, and because these are the failure modes to watch for in
+any AI trading setup, not just this one:
+
+  1. FRACTIONAL SHARES CAN'T HOLD STOPS. Original sizing produced fractional
+     positions, which typically can't carry a stop order. Fix: whole shares,
+     $5-$10 price band, and a hard rule that no position opens without a
+     resting broker-side stop.
+
+  2. THE CRON JOB LEFT POSITIONS UNMANAGED. Covered in Part 4.
+
+  3. THE ANTI-HALLUCINATION CHECK WAS CIRCULAR. Covered in Part 5.
+
+  4. THE OPENING RANGE BREAKOUT COULD NEVER HIT 2:1. My original entry was on
+     the breakout candle close. Run the geometry: with a stop at the range
+     midpoint and a target one range-height above, you get exactly 2:1 only if
+     you enter AT the range high. Every cent above it cuts reward and widens
+     risk simultaneously. Entering on the breakout candle gave about 1.1:1 —
+     meaning the AI would either take bad trades or fudge the numbers to pass
+     its own rule. Fix: enter on the pullback retest, and compute the ratio
+     explicitly before every order.
+
+  5. TRADING HALTS WERE MISSING ENTIRELY. A halted stock can't be sold at any
+     price, and stops don't execute through halts. This is the biggest tail
+     risk in the system and it's concentrated in exactly the low-priced
+     momentum names the strategy was steering toward. Part of why the price
+     floor moved to $5.
+
+  6. RETRYING AN AMBIGUOUS ORDER = DOUBLE POSITION. If an order call times out
+     after the order actually went through, the natural move is to retry. Now
+     explicitly banned; the agent reconciles against the broker instead.
+
+  7. PARTIAL FILLS CORRUPTED EVERYTHING DOWNSTREAM. If the agent computes P&L
+     off intended size while the broker filled 40%, every number in the
+     learning file is wrong from trade one. Now: read actual fills back from
+     the broker, always.
+
+  8. THE LOSS LIMITS WERE UNREACHABLE. Original $3 daily limit vs a maximum
+     possible loss of $1.50/day in Phase 1 — the rule could never fire. Scaled
+     to $1.00 daily / $2.50 weekly so they actually work.
+
+  9. CASH-ACCOUNT SETTLEMENT COULD FREEZE THE ACCOUNT FOR 90 DAYS. Resolved
+     Aug 26 — your account is limited margin, so this risk doesn't exist. But
+     it traded one exposure for another: a margin-capable account will open a
+     SHORT if it's told to sell more shares than you hold, where a cash
+     account would just reject it. That's why every order now carries its own
+     idempotency key.
+
+ 10. THE AI COULD EDIT ITS OWN RULES. The skill said not to; nothing stopped
+     it. Hence the chmod in Step 8, and "approval" being defined as you
+     personally adding a dated row to the changelog.
+
+None of these would have been obvious from watching it trade. They'd have shown
+up as one unexplained large loss, weeks in.
+
+================================================================================
+END
+================================================================================
