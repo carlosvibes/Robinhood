@@ -230,3 +230,11 @@ passing every rail; flatten verification at 15:45–15:50 ET; full summary at EO
 13:56 ET re-scan: 2 names. WEN $7.79 (spread ok at $0.01, but -13.8% day and below
 VWAP 7.88 → no long; watch only for a VWAP reclaim on volume). XHLD $8.47 (spread
 $0.14 ≈ 1.7% → fails again; also below VWAP 8.62). Tradeable candidates: 0.
+
+14:35 ET check: 4 scanner names. DFDV (+17%, $5.27) PASSES universe filter — spread
+$0.01 at limit, above VWAP 5.248, ATR $0.054, float 22.6M — but NO valid setup:
+rejected at HOD 5.51 (13:50), lower high 5.495 (14:05), then heavy-volume selldown
+to 5.24 tagging VWAP; pullback retraced ~77% of the prior leg = reversal, not a
+flag per playbook. No catalyst verifiable (FMP news tier-blocked). Watching for a
+base above VWAP + volume break. WEN still below VWAP (7.805 vs 7.875) — no reclaim.
+XHLD spread $0.09 fails. NMZ: flat muni CEF, no setup. Trades so far: 0.
