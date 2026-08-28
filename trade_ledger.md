@@ -25,6 +25,7 @@ All times are US Eastern. All dollar figures to two decimals.
 |---|---|---|---|---|---|---|
 | 2026-08-26 | $100.00 | | | | | Account funded with $100.00 (deposit pending as of 2026-08-26 evening; buying power already $100.00). Phase 1. No trades yet. |
 | 2026-08-27 | $100.00 | $100.00 | $0.00 | 0.0% | 0 | First live session (started mid-day 12:05 ET). No setup cleared all rails. Flat verified at 15:46 ET. |
+| 2026-08-28 | $100.00 | $100.00 | $0.00 | 0.0% | 0 | First full session from pre-market. 3 setups tracked (WEN ORB/flag, DFDV flag, VISN reclaim) — none confirmed; all refusals validated by outcome. Flat verified 15:45 ET. |
 
 ---
 
@@ -412,3 +413,44 @@ discussion with Carlos. Checks: 14:30, 15:00; flatten 15:45.
 No new names, WEN/DFDV unchanged in their disqualified states. No candidates.
 15:01 ET — Final entry check: VISN only (unchanged, -47%, no long structure). No
 entries this week. Entry window closed; flatten + EOD + weekly review at 15:45.
+
+### Session — 2026-08-28
+
+Session hours (from marketHours):  open 09:30 — close 16:00 ET
+Flatten time:                      15:50 ET (close - 10 min)
+Blocking checks:                   STATUS ok / broker reconciled / buying power $100.00
+                                   / clock verified (08:35 ET)
+
+Pre-market watchlist:  DFDV (SOL-treasury catalyst confirmed via news), VISN (-41%
+                       overnight crash into band), FWDI (multi-day momentum), WEN
+                       (post-crash stabilization — became the day's main candidate)
+Market context:        SPY flat, Nasdaq futures -0.3% pre-market. No index tailwind.
+
+Opening orders submitted:  0  (cap 6)
+Filled / Rejected:         0 / 0
+Winners / Losers:          0 W / 0 L
+Consecutive loss streak at close:  0  (halt at 3)
+Gross P&L:             $0.00
+Net P&L:               $0.00  (0.0% of start-of-day equity)
+Ending equity:         $100.00
+Position count at flatten (verified by query at 15:45 ET):  0
+
+Halt conditions hit:   none
+Incidents:             none
+Rule conflicts:        WEN ORB — two closes AT 8.07 (never above) on sub-threshold
+                       volume, then the clean 10:25 retest was missed between checks
+                       (cadence, not rules); WEN's 13:30 close above 8.20 came on weak
+                       volume inside the midday window and faded (trigger discipline
+                       validated). DFDV — four closing rejections of 5.54, then broke
+                       DOWN to 5.12 (refusals validated: entry would have been -1R).
+                       VISN — reclaim never closed above VWAP; kept bleeding to 6.11.
+                       WEN eliminated at 14:02 on ATR floor (0.024 < 0.05) + RVOL < 2.
+
+Best decision today:   Not chasing WEN at 8.125/8.185 after the missed retest — both
+                       chase geometries computed below 1:1 and were refused.
+Worst decision today:  15-min check cadence during an armed setup cost the one clean
+                       entry of the day (WEN 10:25 retest, ~4-min window). Fixed
+                       intraday: 5-min cadence while armed, adopted from 10:42 on.
+Platform/data issues:  Wake delivery latency up to +20 min observed on scheduled
+                       checks — noted in learning.md; broker-side resting stops mean
+                       open positions never depend on wake timing for protection.

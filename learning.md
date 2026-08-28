@@ -213,3 +213,46 @@ Specific findings, not moods:
    fields log as "unverifiable" and momentum setups are graded accordingly
    (weaker without a known catalyst per strategies.md). Options if wanted later:
    FMP plan upgrade (Carlos's call — costs money) or another news source.
+
+---
+
+## Weekly review — Week of 2026-08-24 (sessions: 8/27 partial, 8/28 full)
+
+Trades: 0 | Net P&L: $0.00 (0.0%) | Equity: $100.00
+
+**What worked:**
+- Every rail fired correctly on live data. Refusal scorecard across both days: 5+
+  would-have-been losers avoided (XHLD spread x2, DFDV chase/breakdown, WEN chases
+  x2, VISN falling knife). Zero incidents, zero rail breaches, zero unintended orders.
+- The full pipeline is proven end-to-end except order placement itself: scans,
+  per-candidate gates, structure analysis, trigger evaluation, staged entry plans.
+
+**What didn't:**
+- The one clean, rules-valid entry of the week (WEN 10:25 retest, Fri) was missed
+  on monitoring cadence (15-min checks vs a ~4-min window). Fixed same day: 5-min
+  cadence while a setup is armed. Wake latency (up to +20 min) compounds this;
+  cadence must assume it.
+- Trade count: 0. Not yet evidence the funnel is too tight (n=1.5 sessions, one a
+  Friday), but the funnel data is now on record:
+
+**Funnel data (for the RVOL-threshold discussion):**
+| Stage | Thu (half) | Fri |
+|---|---|---|
+| Scanner hits (any scan, unique names) | 11 | 6 |
+| Passed universe gates (spread/VWAP/ATR/RVOL) | 1 (DFDV) | 1 (WEN, until 14:00) |
+| Valid setup formed | 0 | 1 (WEN flag) |
+| Trigger confirmed by rule | 0 | 0 |
+The binding constraints in order: VWAP direction filter, spread gate, volume
+confirmation, ATR floor. RVOL 2.0 is NOT yet the proven bottleneck — most rejections
+happened downstream of the scanner. Hold the threshold; revisit Wednesday 9/2 per
+the agreement with Carlos if trades are still zero, with this table extended.
+
+**Repeated mistakes:** none repeated yet; the cadence miss is the one to not repeat.
+
+**Phase gate check:**
+  Closed trades:    0 / 20 required for Phase 2
+  Expectancy:       n/a (no trades)
+  Recommendation:   hold at Phase 1; no rail changes proposed this week.
+
+**Process notes for next week:** morning tool is the gap scan (4552457e), RVOL scan
+from midday; 5-min cadence when armed; catalyst checks via get_equity_news are live.
