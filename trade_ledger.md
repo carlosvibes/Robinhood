@@ -381,3 +381,7 @@ VISN 6.525 below VWAP 6.58 — dormant. Cadence 5 min.
 11:02 ET — 10:55 bar: DFDV touched 5.54 (trigger) but closed 5.51 — not through, vol
 expanded 65k. Flag valid, higher low 5.46. WEN 8.15 flag bottom. VISN 6.535 nearing
 VWAP 6.58 on 171k. No triggers. Cadence 5 min.
+11:18 ET — DFDV: THIRD closing rejection of 5.54 (11:05 high 5.57, close 5.50; 11:10
+close 5.51). Setup degrading — level actively defended. WEN sagging to 8.12, one tick
+above flag floor 8.11. Midday window starts 11:30 (default no new entries); both
+setups expire then unless triggered. VISN dead. Last pre-midday check ~11:25.
