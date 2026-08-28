@@ -385,3 +385,8 @@ VWAP 6.58 on 171k. No triggers. Cadence 5 min.
 close 5.51). Setup degrading — level actively defended. WEN sagging to 8.12, one tick
 above flag floor 8.11. Midday window starts 11:30 (default no new entries); both
 setups expire then unless triggered. VISN dead. Last pre-midday check ~11:25.
+11:28 ET — No trigger by midday cutoff. DFDV never closed above 5.54 (4 tests, vol
+now dried to 1k/bar); WEN never closed above 8.19. Both morning setups EXPIRED.
+Midday mode: no new entries 11:30-14:00, 30-min checks (RVOL scan + structure watch).
+Morning summary: 0 trades, 0 orders, $100.00 intact, 3 setups tracked, all correctly
+refused or unconfirmed. Afternoon hunting resumes 14:00.
