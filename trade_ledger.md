@@ -395,3 +395,9 @@ validated by outcome: DFDV broke DOWN to 5.12 (refused entry at 5.55 would have
 stopped at 5.42 = -1R avoided), VISN sank to 6.13 (failed reclaim read correct),
 WEN 8.175 never confirmed. Refusal scorecard today: 3/3 would-have-been losers
 avoided. Still flat, $100.00. Next check 13:30; entries resume 14:00.
+13:32 ET — RVOL scan: 1 name (VISN, RVOL 2.27, -47%, still no long structure). WEN
+coiled 8.16-8.20 for 45+ min pressing the high — afternoon breakout candidate:
+trigger close > 8.20 on volume expansion, stop 8.11 (flag low), target 8.54
+(0.34 impulse from 8.20), ~3.3:1. CAUTION — two rails to verify at entry: ATR
+(was 0.047 < 0.05 floor and compressing) and RVOL (WEN dropped OUT of the RVOL
+scan → may read < 2.0 now). Both are hard gates. Entries resume 14:00.
