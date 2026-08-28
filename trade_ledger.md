@@ -410,3 +410,5 @@ week 1; weekly review at 15:45 will compile the funnel data for the RVOL-thresho
 discussion with Carlos. Checks: 14:30, 15:00; flatten 15:45.
 14:31 ET — Scan: VISN only (still -47%, 6.11, downtrend intact — no long structure).
 No new names, WEN/DFDV unchanged in their disqualified states. No candidates.
+15:01 ET — Final entry check: VISN only (unchanged, -47%, no long structure). No
+entries this week. Entry window closed; flatten + EOD + weekly review at 15:45.
