@@ -331,3 +331,11 @@ normalize for time of day. Morning scans are structurally empty; use the gap sca
 (4552457e) + watchlist in the morning, RVOL scan from ~midday on.
 
 No entries. Next check 10:00 ET.
+
+10:02 ET — WEN at the trigger but NOT confirmed: 9:55 bar closed exactly AT the OR
+high 8.07 (not above), vol 194k vs ~206k OR-bar avg (just under). Now 8.085, VWAP
+8.005 (above ✓). Waiting for the 10:00 bar close (10:05): needs close > 8.07 on
+vol > 206k, then entry on a RETEST at/below 8.07 — no chasing. Pre-computed plan
+if confirmed: entry ~8.05-8.06, stop 7.96 (OR mid), target 8.29 (H+R), RR ~2.3,
+1 share (~$8.06 position, $0.10-0.11 risk). ATR check pending. Others: VISN fading
+6.635 no reclaim; DFDV bouncing 5.23 but below OR mid; FWDI 6.625 below OR high.
