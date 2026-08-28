@@ -284,3 +284,32 @@ Worst decision today:  None material. Session design note: a mid-day start offer
                        structurally fewer setups — ORB impossible, prime window missed.
 Platform/data issues:  FMP news endpoint is tier-blocked, so catalysts cannot be
                        verified — logged to learning.md as an open limitation.
+
+### Session in progress — 2026-08-28 (second live session; full day from pre-market)
+
+Session hours: 09:30–16:00 ET (normal day) | Flatten: 15:50 ET
+Blocking checks (08:35 ET): STATUS ok / broker flat (0 pos, 0 orders) / buying power
+$100.00 / clock verified. learning.md read.
+
+Market context: SPY flat pre-market (771.50 vs 771.10 close), Nasdaq futures -0.3%.
+
+NEW CAPABILITY: Robinhood MCP now exposes get_equity_news — catalyst verification
+works. Yesterday's "unverifiable" limitation is resolved. (Also: main RVOL scan
+returns 0 pre-market as predicted in learning.md; built a saved gap scan instead —
+"Pre-market Gappers $5-10", scan_id 4552457e-8b53-40c5-9f81-f987eb23252f.)
+
+Pre-market watchlist (08:36 ET):
+1. DFDV $5.33 (+0.9% pre) — CATALYST CONFIRMED (MT Newswires 8/27 14:17): resumed
+   SOL purchases, ~19k SOL, treasury ~2.3M SOL. Yesterday +18% on the news. Play:
+   momentum continuation / breakout over yesterday's high 5.51 if volume confirms.
+2. VISN $6.78 (-41.5% overnight, from 11.63) — crash into our band; catalyst
+   unclear from news (only a buyback note). Float 223M, avg vol 8M. Long-only =
+   VWAP-reclaim ONLY, and only on a closing 5-min candle above VWAP w/ volume.
+   Crash-day chop expected; extreme caution, likely no trade.
+3. FWDI $6.90 (+3.6% pre) — multi-day momentum (news 8/20-8/24: repeated 8-12%
+   up moves); faded yesterday afternoon, ATR was thin ($0.035). Needs ATR >= $0.05
+   and a clean flag to qualify.
+4. WEN $7.84 (flat) — post-crash stabilization, no catalyst for a long. Low priority.
+
+Plan: 9:30-9:45 record opening ranges, NO entries. 9:45+ hunt ORB retest per
+playbook geometry (R <= $0.50, R <= 6% of price, entry at/below range high, 3e >= 2s).
