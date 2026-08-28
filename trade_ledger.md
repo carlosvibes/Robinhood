@@ -339,3 +339,13 @@ vol > 206k, then entry on a RETEST at/below 8.07 — no chasing. Pre-computed pl
 if confirmed: entry ~8.05-8.06, stop 7.96 (OR mid), target 8.29 (H+R), RR ~2.3,
 1 share (~$8.06 position, $0.10-0.11 risk). ATR check pending. Others: VISN fading
 6.635 no reclaim; DFDV bouncing 5.23 but below OR mid; FWDI 6.625 below OR high.
+
+10:27 ET — WEN RESOLVED WITHOUT ENTRY. Sequence: 10:05 close 8.085 (7k vol, trivial);
+10:10 dip to 8.03 held VWAP; 10:15 closed 8.125 on 110.7k (< 206k OR-bar avg →
+never met the volume confirmation); now 8.125, high 8.158. Entry at current price
+fails geometry (risk 0.165 / reward 0.165 = 1.0:1) — chase banned. Rule conflict
+logged for learning.md: OR-bar average volume (~206k) may be an unreachable
+confirmation bar after 10:00 because opening bars carry peak volume; the breakout
+"worked" without ever confirming. Candidate proposal: compare breakout volume to
+the average of the prior N non-OR bars instead. NOT ACTIVE — needs Carlos approval.
+Watching for a pullback that holds 8.07-8.08 (entry there = 2.0-2.3:1, still valid).
