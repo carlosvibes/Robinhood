@@ -378,3 +378,6 @@ target); valid only if a flag forms above ~5.40 (impulse 5.03→5.51 = 0.48 proj
 8.15-8.19 holding BUT ATR compressed to 0.047 < $0.05 floor — currently fails the
 universe ATR check; re-verify at any trigger (a breakout bar may restore it).
 VISN 6.525 below VWAP 6.58 — dormant. Cadence 5 min.
+11:02 ET — 10:55 bar: DFDV touched 5.54 (trigger) but closed 5.51 — not through, vol
+expanded 65k. Flag valid, higher low 5.46. WEN 8.15 flag bottom. VISN 6.535 nearing
+VWAP 6.58 on 171k. No triggers. Cadence 5 min.
