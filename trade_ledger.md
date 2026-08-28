@@ -371,3 +371,10 @@ checks at entry time. DFDV: broke morning range to 5.475 on 113k (biggest bar si
 open), testing yesterday's high 5.51 — entry HERE fails RR (~0.4:1 to measured
 target); valid only if a flag forms above ~5.40 (impulse 5.03→5.51 = 0.48 projects
 ~5.98 on a flag break). VISN 6.515 still below VWAP 6.583 — dormant. Cadence 5 min.
+
+10:57 ET — Flags intact. DFDV now primary: flag 5.43-5.54, declining vol (43k→25k),
+22% retrace of 0.51 impulse. Trigger = 5-min close > 5.54 on expanding vol; entry
+~5.55, stop 5.42, target ~6.05 (impulse from flag high), ~3.9:1, 1 share. WEN flag
+8.15-8.19 holding BUT ATR compressed to 0.047 < $0.05 floor — currently fails the
+universe ATR check; re-verify at any trigger (a breakout bar may restore it).
+VISN 6.525 below VWAP 6.58 — dormant. Cadence 5 min.
