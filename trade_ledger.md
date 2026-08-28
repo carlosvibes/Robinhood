@@ -362,3 +362,12 @@ learning.md: wake delivery latency (up to +20 min observed) means time-critical
 entries need the tightest cadence the scheduler allows.
 VISN bouncing 6.41→6.52 on rising vol (331k bar) — possible VWAP reclaim forming,
 not confirmed. DFDV 5.37 (+1.7%) recovering. FWDI 6.53 red. Next check 5 min.
+
+10:50 ET — TWO SETUPS ARMING. WEN bull flag: impulse 7.85→8.19 (0.34), shallow flag
+8.11-8.19 on declining vol (24% retrace, clean per playbook 2). Trigger: 5-min close
+over 8.19 on expanding vol. Pre-plan: entry ~8.19-8.20, stop 8.11 (below flag low,
+risk ~0.09), target 8.53 (impulse from flag high) = ~3.7:1. ATR + spread + bid-size
+checks at entry time. DFDV: broke morning range to 5.475 on 113k (biggest bar since
+open), testing yesterday's high 5.51 — entry HERE fails RR (~0.4:1 to measured
+target); valid only if a flag forms above ~5.40 (impulse 5.03→5.51 = 0.48 projects
+~5.98 on a flag break). VISN 6.515 still below VWAP 6.583 — dormant. Cadence 5 min.
