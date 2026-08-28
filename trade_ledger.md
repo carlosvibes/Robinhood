@@ -401,3 +401,10 @@ trigger close > 8.20 on volume expansion, stop 8.11 (flag low), target 8.54
 (0.34 impulse from 8.20), ~3.3:1. CAUTION — two rails to verify at entry: ATR
 (was 0.047 < 0.05 floor and compressing) and RVOL (WEN dropped OUT of the RVOL
 scan → may read < 2.0 now). Both are hard gates. Entries resume 14:00.
+14:02 ET — Afternoon window open, ZERO qualifying candidates. WEN ELIMINATED: ATR
+collapsed to 0.024 (< 0.05 floor, hard universe fail) + RVOL < 2.0 (out of scan).
+Note: its only close above 8.20 came at 13:30 (inside no-entry window) on weak
+volume and faded back — the trigger discipline validated yet again. VISN: only
+scanner name, -47%, no long structure all session. Expect a 0-trade close to
+week 1; weekly review at 15:45 will compile the funnel data for the RVOL-threshold
+discussion with Carlos. Checks: 14:30, 15:00; flatten 15:45.
