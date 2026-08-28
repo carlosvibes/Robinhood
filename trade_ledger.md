@@ -408,3 +408,5 @@ volume and faded back — the trigger discipline validated yet again. VISN: only
 scanner name, -47%, no long structure all session. Expect a 0-trade close to
 week 1; weekly review at 15:45 will compile the funnel data for the RVOL-threshold
 discussion with Carlos. Checks: 14:30, 15:00; flatten 15:45.
+14:31 ET — Scan: VISN only (still -47%, 6.11, downtrend intact — no long structure).
+No new names, WEN/DFDV unchanged in their disqualified states. No candidates.
