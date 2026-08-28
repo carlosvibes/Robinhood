@@ -349,3 +349,16 @@ confirmation bar after 10:00 because opening bars carry peak volume; the breakou
 "worked" without ever confirming. Candidate proposal: compare breakout volume to
 the average of the prior N non-OR bars instead. NOT ACTIVE — needs Carlos approval.
 Watching for a pullback that holds 8.07-8.08 (entry there = 2.0-2.3:1, still valid).
+
+10:42 ET — WEN: THE RETEST CAME AND WENT BETWEEN CHECKS. 10:25 bar low was 8.07
+exactly (the level), held, closed 8.095; now 8.185 with high 8.19. That was the
+playbook entry (~8.08, would now be +$0.10 with target 8.29 live). Missed on
+monitoring cadence: retest window ~4 min, check interval 15 min, and observed
+wake latency has been up to 20 min. Entry now fails 2:1 from every stop (0.5-0.9:1)
+— letting it go per rule, not chasing.
+LESSON (operational, adopting immediately — cadence is not a risk rail): while a
+setup is ARMED near its trigger, re-arm checks at ~5 min, not 15. Also log for
+learning.md: wake delivery latency (up to +20 min observed) means time-critical
+entries need the tightest cadence the scheduler allows.
+VISN bouncing 6.41→6.52 on rising vol (331k bar) — possible VWAP reclaim forming,
+not confirmed. DFDV 5.37 (+1.7%) recovering. FWDI 6.53 red. Next check 5 min.
