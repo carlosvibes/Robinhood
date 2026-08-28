@@ -390,3 +390,8 @@ now dried to 1k/bar); WEN never closed above 8.19. Both morning setups EXPIRED.
 Midday mode: no new entries 11:30-14:00, 30-min checks (RVOL scan + structure watch).
 Morning summary: 0 trades, 0 orders, $100.00 intact, 3 setups tracked, all correctly
 refused or unconfirmed. Afternoon hunting resumes 14:00.
+12:31 ET midday check — RVOL scan: 0 names (quiet Friday). Morning refusals all
+validated by outcome: DFDV broke DOWN to 5.12 (refused entry at 5.55 would have
+stopped at 5.42 = -1R avoided), VISN sank to 6.13 (failed reclaim read correct),
+WEN 8.175 never confirmed. Refusal scorecard today: 3/3 would-have-been losers
+avoided. Still flat, $100.00. Next check 13:30; entries resume 14:00.
