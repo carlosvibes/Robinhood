@@ -313,3 +313,21 @@ Pre-market watchlist (08:36 ET):
 
 Plan: 9:30-9:45 record opening ranges, NO entries. 9:45+ hunt ORB retest per
 playbook geometry (R <= $0.50, R <= 6% of price, entry at/below range high, 3e >= 2s).
+
+09:47 ET — Opening ranges (9:30-9:45):
+  WEN:  H 8.07 / L 7.85 / R 0.22 / M 7.96 — now 7.97 (+2.0%), strongest name.
+        ORB watch: needs 5-min close > 8.07 on vol > OR avg (~206k/bar). Entry on
+        retest at/below 8.07, stop 7.96, target 8.29 (H+R). Geometry: risk 0.11,
+        reward 0.22 = 2.0:1 at trigger exactly — prefer entry a cent or two below.
+  DFDV: H 5.40 / L 5.08 / R 0.32 / M 5.24 — now 5.06, BROKE below OR low. Red on
+        day, below yesterday close. Continuation thesis dead; no long structure.
+  FWDI: H 6.73 / L 6.41 / R 0.32 / M 6.57 — now 6.48, below mid, fading.
+  VISN: H 6.85 / L 6.53 / R 0.32 / M 6.69 — now 6.71, mid-range crash-day chop.
+        Massive volume (890k first 15 min). VWAP-reclaim only, none formed.
+
+FINDING (answers learning.md open question #1): RVOL scan returned 0 at 09:46 even
+with VISN at ~890k shares in 15 min — FILTER_TYPE_RELATIVE_VOLUME at 1d does NOT
+normalize for time of day. Morning scans are structurally empty; use the gap scan
+(4552457e) + watchlist in the morning, RVOL scan from ~midday on.
+
+No entries. Next check 10:00 ET.
