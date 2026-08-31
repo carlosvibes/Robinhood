@@ -278,3 +278,11 @@ Touches a rail?:  No — this is a strategy trigger definition, not position siz
                   loss limits, phase gates, flat-by-close, or the universe filter.
                   Presented for approval anyway per the changelog process.
 Status:           AWAITING APPROVAL
+
+**2026-08-31 10:28 addendum to the ORB-volume proposal — counter-case:** VISN's
+unconfirmed breakout (10:05, 6.365 close on 177k) failed back to 6.275 by 10:20 —
+exactly the staged stop. Under the proposed rule (1.5x prior-6-bar avg = ~100k),
+177k would have CONFIRMED and the trade would be stopped for -1R. Scorecard on the
+volume gate is now 1 win missed (WEN 8/28) vs 1 loss avoided (VISN 8/31) — a wash.
+Recommendation revised: HOLD the current rule; do not approve the proposal yet.
+Collect more cases. This is what the evidence process is for.

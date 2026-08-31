@@ -504,3 +504,8 @@ confirms properly; close < 6.19 kills it. Cadence 5 min.
 ever "confirming" under the current rule, mirroring WEN Friday. Logged as further
 proposal evidence. Setup armed (needs close > 6.36 on >= 375k; dies < 6.19).
 Volume-rule proposal is in learning.md AWAITING Carlos's changelog approval.
+10:28 ET — VISN breakout FAILED back: 10:15 bar 6.365→6.295, 10:20 closed 6.275
+(= the staged stop level). The volume-gate refusal at 10:05 AVOIDED a -1R loss.
+Counter-case to the proposal logged. Changelog checked after git pull: no approval
+row — current rule stands (and just proved its worth). Setup degraded: back at OR
+mid, below the level; still technically armed (dies < 6.19) but weakened.
