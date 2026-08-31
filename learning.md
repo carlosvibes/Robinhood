@@ -256,3 +256,25 @@ the agreement with Carlos if trades are still zero, with this table extended.
 
 **Process notes for next week:** morning tool is the gap scan (4552457e), RVOL scan
 from midday; 5-min cadence when armed; catalyst checks via get_equity_news are live.
+
+### 2026-08-31 — ORB volume confirmation: compare to recent bars, not OR-bar average
+Change:           In the ORB/breakout volume confirmation, replace "volume greater
+                  than the average of the opening-range candles" with "volume
+                  greater than 1.5x the average of the prior 6 completed non-OR
+                  bars". All other trigger conditions unchanged.
+Evidence:         Two cases in two sessions. (1) WEN 8/28: broke OR high 8.07,
+                  never printed a bar above the 206k OR average, ran +$0.11 to
+                  8.19+ without us. (2) VISN 8/31 10:05: closed 6.365 above
+                  trigger 6.36 on 177k vs 375k required — the 375k average is
+                  inflated by the 864k 9:30 bar, which is structurally the day's
+                  heaviest. Opening bars carry peak volume; requiring later bars
+                  to exceed their average makes the confirmation nearly
+                  unreachable after ~10:00, so valid breakouts are refused on a
+                  measurement artifact rather than a market signal.
+Expected effect:  Breakout confirmations become reachable mid-morning while still
+                  requiring genuine volume expansion (1.5x recent). Measured by:
+                  confirmed-trigger count and the win rate of resulting trades.
+Touches a rail?:  No — this is a strategy trigger definition, not position sizing,
+                  loss limits, phase gates, flat-by-close, or the universe filter.
+                  Presented for approval anyway per the changelog process.
+Status:           AWAITING APPROVAL
