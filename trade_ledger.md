@@ -583,3 +583,19 @@ afternoon, volume building toward the ~60k trigger bar. 14:55 held 5.355 (26k).
 Now 5.365, bid/ask 5.360/5.370. Higher lows + expanding up-volume under the
 5.38 line — closest approach yet. Still ARMED, no close > 5.38. Trigger windows
 left: 15:00/15:05/15:10/15:15/15:20 bar closes (15:25 last entry). Next ~15:08.
+15:11 ET — DPRO TRIGGERED BUT NOT ENTERABLE — STAND-DOWN (rules, not judgment):
+15:00 bar closed 5.390 > 5.38 on 39.5k (volume SHORT of ~60k/2x trigger);
+15:05 bar closed 5.400 on 56.2k (marginal, ~1.9x), high 5.420. Now 5.415.
+GATE RESULTS AT THE BREAK:
+- RR/no-chase: fill now = 5.415-5.42 -> RR 1.31 (risk 0.145 / reward 0.19).
+  HARD FAIL. Max valid fill was ~5.38. Correct refusal — this is the DFDV
+  chase pattern.
+- ATR floor: live ATR(14,5m) = 0.032 < 0.05 — LOWER than the 0.038 at 13:59
+  (quiet coil bars kept dragging the average down). Wilder ATR gains only
+  ~0.002 per expanded bar -> CANNOT reach 0.05 before the 15:25 last-entry.
+  Even a textbook 5.38 retest is unenterable today. VWAP 5.228 (fine, moot).
+DECISION: DPRO DE-ARMED for entry. No trade. Observation wake ~15:25 to record
+how the retest resolves (evidence for the coil-compression/ATR-floor pattern —
+CASE 4, the cleanest yet: structure trigger fired, breakout real, ATR gate
+alone made every entry path invalid). Flatten wake 15:45 armed. Still flat,
+$100.00, 0 trades.
