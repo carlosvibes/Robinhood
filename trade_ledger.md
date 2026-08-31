@@ -567,3 +567,8 @@ expansion; kill line 5.275 intact). Still ARMED. Next ~14:29.
 close 5.330 (20k — mild sell pressure on the dip). Now 5.330, bid/ask
 5.320/5.330. Leaning lower but kill line 5.275 intact. Still ARMED, no trigger.
 Next ~14:38.
+14:39 ET — DPRO tick: 14:30 bar closed 5.295 (low 5.290) on 29k — heaviest bar
+in an hour and it's DOWNSIDE. Close is 2c above the 5.275 kill line. Bounced to
+5.315 now. Setup degrading: lower lows, sell volume expanding while breakout
+volume never showed. Still ARMED per rules (no close < 5.275) but on watch for
+de-arm. Next ~14:46.
