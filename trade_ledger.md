@@ -599,3 +599,13 @@ how the retest resolves (evidence for the coil-compression/ATR-floor pattern —
 CASE 4, the cleanest yet: structure trigger fired, breakout real, ATR gate
 alone made every entry path invalid). Flatten wake 15:45 armed. Still flat,
 $100.00, 0 trades.
+15:26 ET — DPRO post-breakout observation (CASE 4 outcome, no position):
+breakout HELD. 15:10 closed 5.410, 15:15 5.415, 15:20 high 5.4512 / low 5.390
+(5.38 confirmed as support), now 5.440. Hypothetical blocked entry (5.38-5.385
+retest, stop 5.27, target 5.605): only fillable in the opening seconds of the
+15:05 bar (low 5.3802) — marginal fill in reality — but marked +0.055-0.06
+unrealized now, never threatened the stop. Verdict so far: ATR floor blocked a
+(paper) winner. Coil-compression scorecard: 2 wins missed (WEN 8/28, DPRO 8/31)
+vs 1 loss avoided (VISN 8/31) across the volume + ATR compression gates.
+Evidence only — no rule change without Carlos. Flat, $100.00, 0 trades. Next
+wake: 15:45 flatten/EOD.
