@@ -488,3 +488,7 @@ Plan: opening ranges 9:30-9:45, then playbook hunting per week-1 process.
 DFDV still < $5.00, out. Cadence: 5 min (VISN armed).
 09:54 ET — 9:45 bar: VISN 6.27 (inside OR, below trigger 6.36, below VWAP — armed,
 intact). WEN 8.275 below OR mid, weakening. No triggers. Cadence 5 min.
+10:01 ET — VISN 9:50 bar tagged 6.36 exactly (close 6.31, vol 236k rising, higher
+low at OR mid 6.275); 9:55 bar tight pause 6.29-6.315 on fading vol — constructive
+coil under the trigger, near VWAP. Still needs the closing break > 6.36. Armed.
+WEN 8.28 stagnant. Cadence 5 min.
