@@ -492,3 +492,10 @@ intact). WEN 8.275 below OR mid, weakening. No triggers. Cadence 5 min.
 low at OR mid 6.275); 9:55 bar tight pause 6.29-6.315 on fading vol — constructive
 coil under the trigger, near VWAP. Still needs the closing break > 6.36. Armed.
 WEN 8.28 stagnant. Cadence 5 min.
+10:11 ET — VISN 10:05 bar CLOSED 6.365 (above trigger 6.36, high 6.40) on 177k —
+volume confirmation FAILED by the rule as written (requires > OR-bar avg 375k,
+which is inflated by the 864k opening bar). Second documented occurrence of the
+OR-volume-bar structural issue (WEN Friday was the first — that breakout worked
+without ever "confirming"). Rule applied strictly: NO ENTRY. Proposal evidence
+strengthened for Wednesday's review. Setup stays armed: a close > 6.36 on >= 375k
+confirms properly; close < 6.19 kills it. Cadence 5 min.
