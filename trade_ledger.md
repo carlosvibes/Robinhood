@@ -575,3 +575,6 @@ de-arm. Next ~14:46.
 14:46 ET — DPRO tick: dip held. 14:35 closed 5.311 (14k), 14:40 closed 5.320
 (24k) — buyers defended, no close near 5.275. Now 5.320, bid/ask 5.310/5.320.
 Coil now roughly 5.29-5.37, trigger 5.38 unchanged. Still ARMED. Next ~14:53.
+14:55 ET — DPRO tick: 14:45 closed 5.340 (27k), now 5.350 pushing back toward
+the 5.38 trigger. Higher low sequence off the 5.29 dip — constructive, but
+volume still ~half the ~60k trigger bar. Still ARMED, no trigger. Next ~15:01.
