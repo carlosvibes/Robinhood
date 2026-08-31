@@ -514,3 +514,14 @@ over 6.36). Level crossed 4+ times = pivot, not a level (playbook rule); geometr
 from any honest stop now < 2:1. DOWNGRADED to watch-only. NEW SCANNER HIT: DPRO
 (Draganfly) $5.285, +18.4%, RVOL 3.54, float 37.1M, avg vol 710k — new primary
 candidate pending full gates (spread/ATR/VWAP/structure/news). Cadence 5 min.
+10:45 ET — DPRO FULL EVALUATION: ALL universe gates pass (price 5.285 ✓, spread
+$0.01 at limit ✓, ATR 0.091 ✓, RVOL 3.54 ✓, float 37.1M ✓, above VWAP 5.158 ✓,
+NASDAQ ✓, bid size ✓). Catalyst: drone-sector momentum (tariff theme; no fresh
+headline today — graded weaker). Structure: impulse to 5.36 (9:55), base 5.10-5.20
+on declining vol (10:05-10:25), 3x-vol breakout bar to 5.37 (10:35) — that base's
+measured move (5.31) already achieved. ARMED SETUP (Momentum Continuation): tight
+flag holding >= ~5.25, then 5-min close ABOVE 5.37 (HOD double-top) on expanding
+vol. Plan: entry ~5.38, stop-market below flag low (>= 1x ATR 0.091 → stop no
+closer than ~5.28; use flag low, est 5.25-5.27), target ~5.65 (0.275 leg projected
+from 5.37), 1 share, RR ~2.2 recomputed live at trigger. Now 5.285 mid-pullback.
+VISN watch-only. Cadence 5 min.
