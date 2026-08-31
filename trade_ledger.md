@@ -572,3 +572,6 @@ in an hour and it's DOWNSIDE. Close is 2c above the 5.275 kill line. Bounced to
 5.315 now. Setup degrading: lower lows, sell volume expanding while breakout
 volume never showed. Still ARMED per rules (no close < 5.275) but on watch for
 de-arm. Next ~14:46.
+14:46 ET — DPRO tick: dip held. 14:35 closed 5.311 (14k), 14:40 closed 5.320
+(24k) — buyers defended, no close near 5.275. Now 5.320, bid/ask 5.310/5.320.
+Coil now roughly 5.29-5.37, trigger 5.38 unchanged. Still ARMED. Next ~14:53.
