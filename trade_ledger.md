@@ -578,3 +578,8 @@ Coil now roughly 5.29-5.37, trigger 5.38 unchanged. Still ARMED. Next ~14:53.
 14:55 ET — DPRO tick: 14:45 closed 5.340 (27k), now 5.350 pushing back toward
 the 5.38 trigger. Higher low sequence off the 5.29 dip — constructive, but
 volume still ~half the ~60k trigger bar. Still ARMED, no trigger. Next ~15:01.
+15:02 ET — DPRO tick: 14:50 closed 5.365 on 43.7k — biggest up-bar of the
+afternoon, volume building toward the ~60k trigger bar. 14:55 held 5.355 (26k).
+Now 5.365, bid/ask 5.360/5.370. Higher lows + expanding up-volume under the
+5.38 line — closest approach yet. Still ARMED, no close > 5.38. Trigger windows
+left: 15:00/15:05/15:10/15:15/15:20 bar closes (15:25 last entry). Next ~15:08.
