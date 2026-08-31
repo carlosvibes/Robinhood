@@ -509,3 +509,8 @@ Volume-rule proposal is in learning.md AWAITING Carlos's changelog approval.
 Counter-case to the proposal logged. Changelog checked after git pull: no approval
 row — current rule stands (and just proved its worth). Setup degraded: back at OR
 mid, below the level; still technically armed (dies < 6.19) but weakened.
+10:42 ET — VISN whipsawed back up: 10:35 bar closed 6.415 (third unconfirmed close
+over 6.36). Level crossed 4+ times = pivot, not a level (playbook rule); geometry
+from any honest stop now < 2:1. DOWNGRADED to watch-only. NEW SCANNER HIT: DPRO
+(Draganfly) $5.285, +18.4%, RVOL 3.54, float 37.1M, avg vol 710k — new primary
+candidate pending full gates (spread/ATR/VWAP/structure/news). Cadence 5 min.
