@@ -529,3 +529,11 @@ VISN watch-only. Cadence 5 min.
 the 5.095→5.37 leg (>50% = reversal per playbook 2). Setup de-armed before any
 trigger; no entry. Watch: close < 5.20 kills the name; a fresh base + new impulse
 re-arms it. Midday boundary 11:30 in ~38 min. Cadence 10 min.
+11:19 ET — Morning wrap: DPRO closed below 5.20 (10:50) killing the old structure,
+then rebased 5.15-5.25 on modest vol (RVOL now 3.98, still the only scanner name).
+No time for a valid new trigger before the 11:30 midday cutoff. AFTERNOON PLAN:
+DPRO re-arms at 14:00+ ONLY on a fresh read — base held, break of the base high on
+expanding volume, honest 2:1 from new structure. Morning totals: 0 trades, 0 orders,
+$100.00 intact; 3 setups armed (VISN ORB, DPRO flag, DPRO continuation), all
+de-armed by rules before risk. Midday cadence: 12:00 / 12:30 / 13:00 / 13:30;
+afternoon window check 13:55.
