@@ -543,3 +543,13 @@ name). Afternoon candidate intact. Still flat. Next check 12:30.
 5.15-5.25 midday base during the no-entry window (not tradeable — noted) and is
 holding the breakout. Strength building into the afternoon window; fresh structure
 read at 13:55 defines the trade. Still flat. Only scanner name.
+13:59 ET — DPRO afternoon read: 2-hour coil 5.275-5.38 (last hour 5.31-5.36), now
+5.35, VWAP 5.217 (well above ✓), RVOL 6+ ✓, spread $0.01 ✓. ARMED (Momentum
+Continuation): trigger = 5-min close ABOVE 5.38 on >= 2x recent vol (~60k+).
+Geometry: impulse 5.155→5.38 (0.225) projects target 5.605; entry MUST fill <=
+~5.385 for RR >= 2.0 (5.38 fill = 2.05; 5.39 = 1.87 FAIL — no chase tolerance).
+Stop 5.27 (below consolidation low; distance 0.11). GATE CAUTION: ATR compressed
+to 0.038 < 0.05 floor — one breakout bar lifts it only to ~0.044; the floor
+realistically clears on the SECOND expanded bar → valid entry is likely the
+retest, not the first break. (3rd documented coil-compression case — WEN Fri,
+WEN this AM, DPRO now — added to learning evidence.) Cadence 5 min.
