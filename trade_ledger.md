@@ -557,3 +557,6 @@ WEN this AM, DPRO now — added to learning evidence.) Cadence 5 min.
 toward the 5.38 trigger but no close above and volume light (need ~60k+
 expanding). Now 5.365, bid/ask 5.360/5.370 ($0.01 ✓). Still ARMED, no trigger.
 Setup dies on close < 5.275. Next check ~14:13.
+14:15 ET — DPRO tick: 14:05 bar closed 5.355 on 8.6k (light); now 5.331, bid/ask
+5.330/5.340. Faded off the 5.37 poke back into mid-coil, volume drying up — no
+trigger, no volume expansion. Still ARMED (kill line 5.275 intact). Next ~14:21.
