@@ -486,3 +486,5 @@ Plan: opening ranges 9:30-9:45, then playbook hunting per week-1 process.
         trigger) and today's volume is light (RVOL likely < 2). Secondary.
   FWDI: H 5.96 / L 5.83 — weak, red-ish, light volume. Shelved.
 DFDV still < $5.00, out. Cadence: 5 min (VISN armed).
+09:54 ET — 9:45 bar: VISN 6.27 (inside OR, below trigger 6.36, below VWAP — armed,
+intact). WEN 8.275 below OR mid, weakening. No triggers. Cadence 5 min.
