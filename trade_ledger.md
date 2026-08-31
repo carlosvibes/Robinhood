@@ -563,3 +563,7 @@ trigger, no volume expansion. Still ARMED (kill line 5.275 intact). Next ~14:21.
 14:22 ET — DPRO tick: 14:10 bar closed 5.331 on 9.9k; now 5.331, drifting
 sideways 5.33-5.35 on thin volume. Coil tightening further (no trigger, no
 expansion; kill line 5.275 intact). Still ARMED. Next ~14:29.
+14:31 ET — DPRO tick: 14:15 5.335 (14k), 14:20 5.340 (4.7k), 14:25 low 5.31
+close 5.330 (20k — mild sell pressure on the dip). Now 5.330, bid/ask
+5.320/5.330. Leaning lower but kill line 5.275 intact. Still ARMED, no trigger.
+Next ~14:38.
