@@ -525,3 +525,7 @@ vol. Plan: entry ~5.38, stop-market below flag low (>= 1x ATR 0.091 → stop no
 closer than ~5.28; use flag low, est 5.25-5.27), target ~5.65 (0.275 leg projected
 from 5.37), 1 share, RR ~2.2 recomputed live at trigger. Now 5.285 mid-pullback.
 VISN watch-only. Cadence 5 min.
+10:52 ET — DPRO flag INVALIDATED: pullback to 5.215 (10:45 close) = 58% retrace of
+the 5.095→5.37 leg (>50% = reversal per playbook 2). Setup de-armed before any
+trigger; no entry. Watch: close < 5.20 kills the name; a fresh base + new impulse
+re-arms it. Midday boundary 11:30 in ~38 min. Cadence 10 min.
