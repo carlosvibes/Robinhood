@@ -537,3 +537,5 @@ expanding volume, honest 2:1 from new structure. Morning totals: 0 trades, 0 ord
 $100.00 intact; 3 setups armed (VISN ORB, DPRO flag, DPRO continuation), all
 de-armed by rules before risk. Midday cadence: 12:00 / 12:30 / 13:00 / 13:30;
 afternoon window check 13:55.
+12:01 ET — DPRO $5.17, base 5.15-5.25 HOLDING, RVOL climbed to 4.46 (only scanner
+name). Afternoon candidate intact. Still flat. Next check 12:30.
