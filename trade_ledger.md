@@ -553,3 +553,7 @@ to 0.038 < 0.05 floor — one breakout bar lifts it only to ~0.044; the floor
 realistically clears on the SECOND expanded bar → valid entry is likely the
 retest, not the first break. (3rd documented coil-compression case — WEN Fri,
 WEN this AM, DPRO now — added to learning evidence.) Cadence 5 min.
+14:07 ET — DPRO tick: 14:00 bar closed 5.365 (high 5.370, vol 32k) — creeping
+toward the 5.38 trigger but no close above and volume light (need ~60k+
+expanding). Now 5.365, bid/ask 5.360/5.370 ($0.01 ✓). Still ARMED, no trigger.
+Setup dies on close < 5.275. Next check ~14:13.
