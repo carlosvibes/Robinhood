@@ -473,3 +473,16 @@ Pre-market watchlist (08:33 ET):
 OUT: DFDV $4.99 — below the $5.00 price floor, out of universe.
 
 Plan: opening ranges 9:30-9:45, then playbook hunting per week-1 process.
+
+09:48 ET — Opening ranges (9:30-9:45):
+  VISN: H 6.36 / L 6.19 / R 0.17 / M 6.275 — now 6.25, VWAP 6.289 (just below).
+        PRIMARY ARMED SETUP: ATR 0.057 >= 0.05 ✓, massive volume (864k first bar,
+        RVOL trending >2), R 2.7% of price ✓. Trigger: 5-min close > 6.36 on vol >
+        ~375k OR-bar avg (break also clears VWAP). Plan: retest entry <= 6.36,
+        stop 6.275 (M), target 6.53 (H+R), risk ~0.085 (>= 1x ATR ✓), RR 2.0,
+        1 share. Day-2 bounce on Friday's -47% crash = genuine volatility.
+  WEN:  H 8.38 / L 8.22 / R 0.16 / M 8.30 — 8.32, above VWAP 8.298. Structure ok
+        BUT ATR 0.042 < 0.05 (rising as Friday's coil rolls off — recheck at any
+        trigger) and today's volume is light (RVOL likely < 2). Secondary.
+  FWDI: H 5.96 / L 5.83 — weak, red-ish, light volume. Shelved.
+DFDV still < $5.00, out. Cadence: 5 min (VISN armed).
