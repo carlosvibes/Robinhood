@@ -26,6 +26,7 @@ All times are US Eastern. All dollar figures to two decimals.
 | 2026-08-26 | $100.00 | | | | | Account funded with $100.00 (deposit pending as of 2026-08-26 evening; buying power already $100.00). Phase 1. No trades yet. |
 | 2026-08-27 | $100.00 | $100.00 | $0.00 | 0.0% | 0 | First live session (started mid-day 12:05 ET). No setup cleared all rails. Flat verified at 15:46 ET. |
 | 2026-08-28 | $100.00 | $100.00 | $0.00 | 0.0% | 0 | First full session from pre-market. 3 setups tracked (WEN ORB/flag, DFDV flag, VISN reclaim) — none confirmed; all refusals validated by outcome. Flat verified 15:45 ET. |
+| 2026-08-31 | $100.00 | $100.00 | $0.00 | 0.0% | 0 | Week 2 Monday. VISN ORB refused (unconfirmed vol) and failed to the staged stop (-1R avoided). DPRO continuation triggered 15:00 but blocked by no-chase RR + ATR floor 0.032; breakout held (paper win missed — coil-compression case 4). Flat verified 15:47 ET. |
 
 ---
 
@@ -609,3 +610,53 @@ unrealized now, never threatened the stop. Verdict so far: ATR floor blocked a
 vs 1 loss avoided (VISN 8/31) across the volume + ATR compression gates.
 Evidence only — no rule change without Carlos. Flat, $100.00, 0 trades. Next
 wake: 15:45 flatten/EOD.
+
+### Session — 2026-08-31
+
+Session hours (from marketHours):  open 09:30 — close 16:00 ET
+Flatten time:                      15:50 ET (close - 10 min)
+Blocking checks:                   STATUS ok / broker reconciled / buying power $100.00
+                                   / clock verified (08:32 ET)
+
+Pre-market watchlist:  VISN (continuation), DPRO (drone-tariff sector momentum —
+                       became the day's main candidate)
+Market context:        Quiet pre-Labor-Day Monday; DPRO +21% on sector momentum,
+                       RVOL 6+, the only strong scanner name most of the day.
+
+Opening orders submitted:  0  (cap 6)
+Filled / Rejected:         0 / 0
+Winners / Losers:          0 W / 0 L
+Consecutive loss streak at close:  0  (halt at 3)
+Gross P&L:             $0.00
+Net P&L:               $0.00  (0.0% of start-of-day equity)
+Ending equity:         $100.00
+Position count at flatten (verified by query at 15:47 ET):  0 — no orders were
+                       placed today; nothing to flatten. Open orders: 0.
+
+Halt conditions hit:   none
+Incidents:             none
+Rule conflicts:        VISN ORB 10:05 — closed above trigger on unconfirmed volume
+                       (177k vs 375k required); refused, then failed to exactly the
+                       staged stop by 10:20 (-1R avoided — gate validated).
+                       DPRO flag (morning) — 58% retrace invalidated it pre-risk.
+                       DPRO continuation (afternoon) — the day's big one: 2-hour
+                       coil under 5.38, armed from 13:59, monitored on 5-min
+                       cadence for 70+ min. 15:00 bar closed 5.390 (39.5k — volume
+                       short of 2x/~60k), 15:05 closed 5.400 on 56.2k (~1.9x,
+                       marginal) and ran to 5.42 before any confirmed close
+                       existed. Entry gates at that point: RR 1.31 at the 5.415
+                       tape (no-chase HARD FAIL; max valid fill ~5.38 never
+                       offered on a confirmed break) and live ATR(14,5m) 0.032 <
+                       0.05 floor — mathematically unable to clear before the
+                       15:25 last-entry. Stood down at 15:11. Breakout then HELD
+                       (5.38 became support, extended to 5.451, 5.44 at 15:26):
+                       paper winner missed. Logged as coil-compression CASE 4.
+Best decision today:   Refusing the 5.415 chase — identical geometry to the DFDV
+                       chase that broke down last week; and pre-committing the
+                       stand-down criteria in the 13:59 ledger block so the 15:11
+                       decision was mechanical, not judgment under pressure.
+Worst decision today:  No operational errors: 5-min cadence held through the
+                       entire armed window, every trigger bar was evaluated on
+                       time. Today's zero was the rulebook's zero (ATR floor +
+                       no-chase), not a monitoring miss.
+Platform/data issues:  none new; wake latency within known bounds all day.

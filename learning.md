@@ -286,3 +286,45 @@ exactly the staged stop. Under the proposed rule (1.5x prior-6-bar avg = ~100k),
 volume gate is now 1 win missed (WEN 8/28) vs 1 loss avoided (VISN 8/31) — a wash.
 Recommendation revised: HOLD the current rule; do not approve the proposal yet.
 Collect more cases. This is what the evidence process is for.
+
+## Session lessons — 2026-08-31 (Monday week 2, 0 trades)
+
+1. **Coil-compression CASE 4 — the cleanest yet, and the first where ATR alone
+   was the blocker.** DPRO coiled 2 hours under 5.38 after a +20% morning run.
+   The structure call was right: armed 13:59, trigger fired 15:00-15:05, breakout
+   held and extended to 5.45+. Every entry path was rules-invalid: (a) the
+   confirmed break was only visible after price reached 5.41+ → no-chase RR 1.31
+   FAIL (correct — this gate is 2-for-2 after DFDV); (b) live ATR(14,5m) had
+   *fallen* to 0.032 during the coil (quiet bars drag the Wilder average down
+   faster than 1-2 breakout bars can lift it; recovery is ~0.002/bar → the 0.05
+   floor was unreachable within the entry window). Outcome: paper winner missed
+   (retest fill marginal but markable at ~+0.5R unrealized by 15:26, stop never
+   threatened).
+2. **Compression-gate scorecard (volume + ATR gates on coiled breakouts): 2 wins
+   missed (WEN 8/28, DPRO 8/31) vs 1 loss avoided (VISN 8/31).** Not yet
+   actionable — VISN's -1R save shows the same gates catch real failures. The
+   structural observation for a future proposal: the ATR floor measures *recent
+   average* range, so it is lowest exactly at the end of a long coil — the moment
+   the setup is best. A floor based on the breakout bar's own range (or ATR
+   measured pre-coil) would not have this inversion. NOT proposing yet; logging
+   until the case count justifies it.
+3. **Pre-committed stand-down criteria work.** The 13:59 ledger block wrote the
+   no-chase math and the ATR caution before the trigger; at 15:11 the decision
+   was mechanical. Zero temptation-driven errors on a day the candidate ran +21%.
+4. **Operationally clean day:** 5-min armed cadence held 13:59→15:11 (12 checks,
+   every trigger bar evaluated on time). Today's zero was the rulebook's zero,
+   not a monitoring miss.
+
+**Extended funnel table (RVOL-threshold discussion — revisit Wed 9/2 if still 0):**
+| Stage | Thu (half) | Fri | Mon |
+|---|---|---|---|
+| Scanner hits (unique names) | 11 | 6 | 2 (DPRO, VISN) |
+| Passed universe gates | 1 (DFDV) | 1 (WEN, until 14:00) | 2 |
+| Valid setup formed | 0 | 1 (WEN flag) | 3 (VISN ORB, DPRO flag, DPRO cont.) |
+| Trigger fired (structure) | 0 | 1 (missed on cadence) | 2 (VISN 10:05, DPRO 15:00) |
+| Trigger confirmed by full rule | 0 | 0 | 0 (VISN vol-fail; DPRO vol marginal) |
+| Entry gates passed | 0 | 0 | 0 (DPRO: no-chase + ATR floor) |
+Binding constraints this week so far: volume confirmation and ATR floor — both
+downstream of RVOL. RVOL 2.0 still not the proven bottleneck: the scanner IS
+surfacing the movers (DPRO RVOL 6+); rejections happen at trigger/entry gates.
+The Wednesday discussion should weigh trigger-gate calibration, not scanner width.
