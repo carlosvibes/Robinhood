@@ -454,3 +454,22 @@ Worst decision today:  15-min check cadence during an armed setup cost the one c
 Platform/data issues:  Wake delivery latency up to +20 min observed on scheduled
                        checks — noted in learning.md; broker-side resting stops mean
                        open positions never depend on wake timing for protection.
+
+### Session in progress — 2026-08-31 (Monday, week 2)
+
+Blocking checks (08:32 ET): STATUS ok / broker flat (0 pos, 0 orders) / buying power
+$100.00 / clock verified. Weekly loss counter reset. learning.md week-1 review read.
+
+Market context: SPY -0.3% pre (766.88 vs 769.35). No fresh gappers in band — gap
+scan returned only VISN and that gap is Friday's candle (known filter behavior:
+1d gapRatio reads the last completed daily candle pre-market).
+
+Pre-market watchlist (08:33 ET):
+1. FWDI $6.11 (+3.7% pre) — only pre-market mover; multi-day momentum name. Needs
+   ATR >= 0.05 and RVOL > 2 at any trigger.
+2. WEN $8.20 (-0.8% pre) — held Friday's gains (closed 8.27). Continuation over
+   Friday high 8.29 only with returned volume + ATR/RVOL gates.
+3. VISN $6.07 (flat) — post-crash bounce watch, VWAP-reclaim only, no fresh news.
+OUT: DFDV $4.99 — below the $5.00 price floor, out of universe.
+
+Plan: opening ranges 9:30-9:45, then playbook hunting per week-1 process.
