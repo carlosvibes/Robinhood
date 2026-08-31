@@ -499,3 +499,8 @@ OR-volume-bar structural issue (WEN Friday was the first — that breakout worke
 without ever "confirming"). Rule applied strictly: NO ENTRY. Proposal evidence
 strengthened for Wednesday's review. Setup stays armed: a close > 6.36 on >= 375k
 confirms properly; close < 6.19 kills it. Cadence 5 min.
+10:20 ET — VISN 10:10 bar: second consecutive close above trigger (6.37, held
+6.35-6.37) on 40k — still no 375k confirmation bar. Price extending away without
+ever "confirming" under the current rule, mirroring WEN Friday. Logged as further
+proposal evidence. Setup armed (needs close > 6.36 on >= 375k; dies < 6.19).
+Volume-rule proposal is in learning.md AWAITING Carlos's changelog approval.
