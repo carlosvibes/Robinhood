@@ -539,3 +539,7 @@ de-armed by rules before risk. Midday cadence: 12:00 / 12:30 / 13:00 / 13:30;
 afternoon window check 13:55.
 12:01 ET — DPRO $5.17, base 5.15-5.25 HOLDING, RVOL climbed to 4.46 (only scanner
 name). Afternoon candidate intact. Still flat. Next check 12:30.
+13:02 ET — DPRO $5.34 (+19.5%), RVOL surged to 6.07, vol 6.7M. Broke above the
+5.15-5.25 midday base during the no-entry window (not tradeable — noted) and is
+holding the breakout. Strength building into the afternoon window; fresh structure
+read at 13:55 defines the trade. Still flat. Only scanner name.
