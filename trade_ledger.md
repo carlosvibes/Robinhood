@@ -560,3 +560,6 @@ Setup dies on close < 5.275. Next check ~14:13.
 14:15 ET — DPRO tick: 14:05 bar closed 5.355 on 8.6k (light); now 5.331, bid/ask
 5.330/5.340. Faded off the 5.37 poke back into mid-coil, volume drying up — no
 trigger, no volume expansion. Still ARMED (kill line 5.275 intact). Next ~14:21.
+14:22 ET — DPRO tick: 14:10 bar closed 5.331 on 9.9k; now 5.331, drifting
+sideways 5.33-5.35 on thin volume. Coil tightening further (no trigger, no
+expansion; kill line 5.275 intact). Still ARMED. Next ~14:29.
