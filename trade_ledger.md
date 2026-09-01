@@ -660,3 +660,27 @@ Worst decision today:  No operational errors: 5-min cadence held through the
                        time. Today's zero was the rulebook's zero (ATR floor +
                        no-chase), not a monitoring miss.
 Platform/data issues:  none new; wake latency within known bounds all day.
+
+### Session in progress — 2026-09-01 (Tuesday, week 2)
+
+Blocking checks (08:39 ET): STATUS ok / broker flat (0 pos, 0 orders) / buying
+power $100.00 / clock verified / market hours regular 09:30-16:00 (flatten 15:50,
+last new entry 15:25).
+
+Pre-market scans: Gappers scan -> 2 names, both carrying YESTERDAY's gap (known
+pre-market artifact): DPRO and MNSO. Universe (RVOL) scan -> 0 pre-market
+(morning-blind, expected; rerun mid-morning).
+
+Watchlist:
+- DPRO (primary): Mon +21% drone-tariff runner, closed 5.42; pre-market 5.22
+  (-3.7%) on a wide 5.20/5.37 book. Catalyst intact (tariff sector momentum).
+  Continuation candidate ONLY on a VWAP reclaim + fresh structure; yesterday's
+  expanded bars mean ATR should finally sit near/above the 0.05 floor — verify
+  live at any entry. Below ~5.15 it's a fade, not a dip.
+- MNSO (secondary, skeptical): 9.38 in-band, float 102M, avg vol 825k — but the
+  catalyst is NEGATIVE (HSBC/Citi/Nomura downgrades after Q2 miss; -10% Mon).
+  Long-only system on a downgrade wave: watch for a high-volume VWAP reclaim
+  only; default is pass.
+Plan: record opening ranges 09:30-09:45 (no entries), first structure read
+~09:47, 15-min baseline cadence, 5-min when armed, midday no-entry 12:00-13:30,
+flatten wake armed for 15:45.
