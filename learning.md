@@ -328,3 +328,40 @@ Binding constraints this week so far: volume confirmation and ATR floor — both
 downstream of RVOL. RVOL 2.0 still not the proven bottleneck: the scanner IS
 surfacing the movers (DPRO RVOL 6+); rejections happen at trigger/entry gates.
 The Wednesday discussion should weigh trigger-gate calibration, not scanner width.
+
+## Session lessons — 2026-09-01 (Tuesday week 2, 0 trades)
+
+1. **Risk-off tape = correct zero.** Nasdaq -1.4%; the only band entrants were
+   damaged goods (a -55% trial-failure knife, a downgrade bounce, a thin-tape
+   biotech). The ALMS pass was validated within 90 minutes when its
+   "stabilization" base broke and it fell to -58% — the cleanest same-day
+   refusal validation yet.
+2. **The spread gate earned its keep for the first time.** KYTX had the day's
+   only honest structure (above VWAP, flag under 8.27, 2.5:1 geometry) but the
+   book was 5-66 shares deep with a $0.02-0.03 spread vs the $0.0124 limit.
+   That is not a filter artifact — it is genuinely untradeable liquidity, even
+   at 1 share the round-trip friction would have been ~20-25% of the risk
+   budget.
+3. **ATR-floor compression case count: 5** (WEN 8/28, WEN 8/31 AM, DPRO 8/31,
+   VISN 8/31 context, KYTX 9/1 at 0.044). It keeps appearing precisely on
+   consolidations. Still logging, not proposing.
+
+**Funnel table extended (Wed 9/2 is the checkpoint):**
+| Stage | Thu (half) | Fri | Mon | Tue |
+|---|---|---|---|---|
+| Scanner hits (unique names) | 11 | 6 | 2 | 5 (DPRO, MNSO, ALMS, IHS, KYTX) |
+| Passed universe gates | 1 | 1 | 2 | 0-1 (KYTX failed spread; rest failed RVOL/VWAP/thesis) |
+| Valid setup formed | 0 | 1 | 3 | 1 (KYTX flag) |
+| Trigger fired (structure) | 0 | 1 | 2 | 0 |
+| Trigger confirmed by full rule | 0 | 0 | 0 | 0 |
+| Entry gates passed | 0 | 0 | 0 | 0 |
+Four days, 0 trades. The scanner surfaces movers fine; the funnel dies at
+trigger/entry gates (volume confirmation, ATR floor, spread on thin names,
+no-chase RR). The Wednesday proposal to Carlos should present exactly this:
+the RVOL threshold is NOT the bottleneck, so widening the scanner would add
+candidates of the type already being refused. The honest options are (a) keep
+waiting — the rails are behaving correctly and the tape has been genuinely
+poor (risk-off week, no clean momentum in the band), or (b) calibrate the
+trigger gates with evidence (the ORB-volume proposal already on file, plus the
+ATR-floor compression pattern at 5 cases). Present both; recommend nothing
+until the numbers justify it.

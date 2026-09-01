@@ -27,6 +27,7 @@ All times are US Eastern. All dollar figures to two decimals.
 | 2026-08-27 | $100.00 | $100.00 | $0.00 | 0.0% | 0 | First live session (started mid-day 12:05 ET). No setup cleared all rails. Flat verified at 15:46 ET. |
 | 2026-08-28 | $100.00 | $100.00 | $0.00 | 0.0% | 0 | First full session from pre-market. 3 setups tracked (WEN ORB/flag, DFDV flag, VISN reclaim) — none confirmed; all refusals validated by outcome. Flat verified 15:45 ET. |
 | 2026-08-31 | $100.00 | $100.00 | $0.00 | 0.0% | 0 | Week 2 Monday. VISN ORB refused (unconfirmed vol) and failed to the staged stop (-1R avoided). DPRO continuation triggered 15:00 but blocked by no-chase RR + ATR floor 0.032; breakout held (paper win missed — coil-compression case 4). Flat verified 15:47 ET. |
+| 2026-09-01 | $100.00 | $100.00 | $0.00 | 0.0% | 0 | Risk-off Tuesday (Nasdaq -1.4%). 5 candidates, 5 gate refusals: DPRO pop-and-fade, MNSO no-volume bounce, ALMS trial-failure knife (pass validated — base broke to -58%), IHS block volume, KYTX flag failed spread/ATR/volume gates. Flat verified 15:46 ET. |
 
 ---
 
@@ -743,3 +744,48 @@ DAY declared (the correct zero: the only structures on offer were a
 broken-thesis knife, a downgrade bounce on no volume, and a thin-tape flag
 that failed spread + ATR + volume). Flat, $100.00. Quiet until 15:45
 flatten/EOD wake.
+
+### Session — 2026-09-01
+
+Session hours (from marketHours):  open 09:30 — close 16:00 ET
+Flatten time:                      15:50 ET (close - 10 min)
+Blocking checks:                   STATUS ok / broker reconciled / buying power $100.00
+                                   / clock verified (08:39 ET)
+
+Pre-market watchlist:  DPRO (Mon runner, pullback continuation IF VWAP reclaim),
+                       MNSO (downgrade decliner, skeptical watch)
+Market context:        Dow -300 pts, Nasdaq -1.4% in the morning — broad risk-off
+                       Tuesday; small-cap momentum thin all day.
+
+Opening orders submitted:  0  (cap 6)
+Filled / Rejected:         0 / 0
+Winners / Losers:          0 W / 0 L
+Consecutive loss streak at close:  0  (halt at 3)
+Gross P&L:             $0.00
+Net P&L:               $0.00  (0.0% of start-of-day equity)
+Ending equity:         $100.00
+Position count at flatten (verified by query at 15:46 ET):  0 — no orders were
+                       placed today; nothing to flatten. Open orders: 0.
+
+Halt conditions hit:   none
+Incidents:             none
+Rule conflicts:        Five candidates, five refusals, each on a named gate:
+                       DPRO — opening-bar pop to 5.577 reversed to 5.13 in 10
+                       min (pop-and-fade, below VWAP all day; plan killed at
+                       09:48, validated: hugged $5.00 by 11:13). MNSO — orderly
+                       bounce above VWAP but RVOL pace ~0.9-1.0x vs the >2.0
+                       gate + negative catalyst (3 downgrades); never armed.
+                       ALMS — failed Ph2b lupus trial, -55% into the band;
+                       long-only pass at 10:52, validated at 12:31 when the
+                       9.70 base failed and it knifed to 9.09 (-58%). IHS —
+                       RVOL 2.4+ but price flat: block volume, no structure.
+                       KYTX — the day's only real structure (above VWAP, flag
+                       under 8.27, RR 2.5 geometry) but spread $0.02-0.03 vs
+                       $0.0124 limit, ATR 0.044 < 0.05, and the ~15k
+                       confirmation bar never printed (300-3.5k bars). No
+                       trigger, no entry.
+Best decision today:   Passing ALMS at 10:52 — the -55% "stabilization" broke
+                       within 90 minutes; a long would have been run over.
+Worst decision today:  None operational. Every window checked on schedule;
+                       KYTX watch criteria were pre-written and held.
+Platform/data issues:  none new.
