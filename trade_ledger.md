@@ -720,3 +720,14 @@ pass. Prime window closes 11:30 with zero valid setups today. Midday: no-entry
 remove from candidates unless a genuine afternoon reversal structure forms.
 KYTX 8.11 (-4.3%, RVOL 2.5) ticking up off lows — weak watch for the 13:55
 read. IHS unchanged flat. Flat, no setups. Next: 13:55 afternoon structure read.
+14:31 ET — Afternoon structure read: KYTX is the day's first real candidate —
+above VWAP (8.20 vs 7.91), V-recovery off the morning flush, 90-min
+consolidation 8.14-8.23 under the 8.27 high. Flag geometry if it breaks:
+trigger 5-min close > 8.27 on >= ~3x recent vol (>= ~15k bar), stop 8.13
+(below consolidation), target 8.66 (measured move 7.88->8.27 projected), RR
+2.5 at 8.28 fill, max fill 8.30 (RR 2.0 floor). BUT two gates FAIL live:
+spread $0.02 vs $0.0124 limit (66 shrs on best bid — thin) and ATR(14,5m)
+0.044 < 0.05. No news catalyst found. CONDITIONAL WATCH, not armed: all of
+trigger + spread + ATR + RR must pass at entry, verified live. ALMS stays
+excluded (knife, -58%). Cadence 15 min (tighten to 5 if pressing 8.25+ on
+volume). Next ~14:45. Flat.
