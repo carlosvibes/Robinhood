@@ -708,3 +708,10 @@ from ~21.80; long-only pass (VISN class). IHS 8.43 (RVOL 2.4 but +0.2% flat):
 block volume, no directional structure — nothing to trade. DPRO still dead
 below VWAP (5.13-5.19 chop); MNSO drifting 9.60-9.64 on 2-6k bars (RVOL fail).
 Flat, no setups. Next ~11:10 (last prime-window check).
+11:13 ET — Last prime-window check: nothing armed. DPRO broke to ~5.05 (hugging
+the $5.00 band floor — done). MNSO faded to 9.55, bounce fizzled (RVOL never
+cleared). ALMS basing 9.70-10.06 on heavy vol (145k-330k bars) post-crash but
+BELOW day-VWAP with a broken thesis — watch only, no reclaim. New scanner name
+KYTX 7.93 (-6.5%, RVOL 2.0): drifting biotech decliner, no long structure —
+pass. Prime window closes 11:30 with zero valid setups today. Midday: no-entry
+12:00-13:30, checks ~12:30 and 13:55 (fresh afternoon structure read). Flat.
