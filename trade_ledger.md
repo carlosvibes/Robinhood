@@ -701,3 +701,10 @@ flat. Next ~10:30.
 10:32 ET — Baseline check: unchanged. DPRO 5.13-5.19 below VWAP (dead). MNSO
 stalled ~9.61, volume shrinking (1.9k-10k bars) — RVOL gate still far from 2.0.
 Universe scan 0. No setups, flat. Next ~10:50.
+10:52 ET — Scanner woke up: 2 names, both vetted and PASSED ON. ALMS 9.86
+(-55%, RVOL 7.1, 9.8M vol): failed Ph2b lupus trial (missed primary+secondary
+endpoints overall pop.) — broken-thesis biotech knife crashing into the band
+from ~21.80; long-only pass (VISN class). IHS 8.43 (RVOL 2.4 but +0.2% flat):
+block volume, no directional structure — nothing to trade. DPRO still dead
+below VWAP (5.13-5.19 chop); MNSO drifting 9.60-9.64 on 2-6k bars (RVOL fail).
+Flat, no setups. Next ~11:10 (last prime-window check).
