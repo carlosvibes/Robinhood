@@ -715,3 +715,8 @@ BELOW day-VWAP with a broken thesis — watch only, no reclaim. New scanner name
 KYTX 7.93 (-6.5%, RVOL 2.0): drifting biotech decliner, no long structure —
 pass. Prime window closes 11:30 with zero valid setups today. Midday: no-entry
 12:00-13:30, checks ~12:30 and 13:55 (fresh afternoon structure read). Flat.
+12:31 ET — Midday check (no-entry window): ALMS base FAILED — broke 9.70, now
+9.095 (-58%, RVOL 12.7, 17.5M vol), still knifing. Pass validated in real time;
+remove from candidates unless a genuine afternoon reversal structure forms.
+KYTX 8.11 (-4.3%, RVOL 2.5) ticking up off lows — weak watch for the 13:55
+read. IHS unchanged flat. Flat, no setups. Next: 13:55 afternoon structure read.
