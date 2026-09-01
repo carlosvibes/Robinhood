@@ -731,3 +731,8 @@ spread $0.02 vs $0.0124 limit (66 shrs on best bid — thin) and ATR(14,5m)
 trigger + spread + ATR + RR must pass at entry, verified live. ALMS stays
 excluded (knife, -58%). Cadence 15 min (tighten to 5 if pressing 8.25+ on
 volume). Next ~14:45. Flat.
+14:47 ET — KYTX watch check: stalling, not building. Grinding 8.20-8.22 on
+500-1.2k bars (volume drying), book thinner: best bid 8.19 x 5 shares, spread
+$0.02 (fails $0.0124 limit). No trigger; ~15k confirmation bar unlikely at
+this pace. Watch stays on, low expectation. Next ~15:05 (last realistic
+pre-15:25 window). Flat.
