@@ -736,3 +736,10 @@ volume). Next ~14:45. Flat.
 $0.02 (fails $0.0124 limit). No trigger; ~15k confirmation bar unlikely at
 this pace. Watch stays on, low expectation. Next ~15:05 (last realistic
 pre-15:25 window). Flat.
+15:07 ET — Final entry-window check: KYTX crept to 8.24 but never closed above
+8.27; bars 300-3.5k (confirmation needs ~15k), spread WIDENED to $0.03
+(8.22/8.25) vs $0.0124 limit. Multiple hard gate failures — no entry. NO-TRADE
+DAY declared (the correct zero: the only structures on offer were a
+broken-thesis knife, a downgrade bounce on no volume, and a thin-tape flag
+that failed spread + ATR + volume). Flat, $100.00. Quiet until 15:45
+flatten/EOD wake.
