@@ -698,3 +698,6 @@ reclaim, stays dead. MNSO grinding up to 9.622 (+3.5%) but on tiny volume
 (3.6k-24k bars; cumulative pace ~0.9x avg) — RVOL gate still hard-fails; watch
 only. Universe scan: 0 names even post-10:00 — quiet tape. No armed setups,
 flat. Next ~10:30.
+10:32 ET — Baseline check: unchanged. DPRO 5.13-5.19 below VWAP (dead). MNSO
+stalled ~9.61, volume shrinking (1.9k-10k bars) — RVOL gate still far from 2.0.
+Universe scan 0. No setups, flat. Next ~10:50.
