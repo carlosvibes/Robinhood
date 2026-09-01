@@ -684,3 +684,12 @@ Watchlist:
 Plan: record opening ranges 09:30-09:45 (no entries), first structure read
 ~09:47, 15-min baseline cadence, 5-min when armed, midday no-entry 12:00-13:30,
 flatten wake armed for 15:45.
+09:48 ET — Opening ranges (9:30-9:45): DPRO OR 5.11-5.5772 — pop-and-fade:
+opened 5.27, spiked 5.577 on 276k, reversed to close 5.13 by 9:40. Now 5.15,
+below VWAP (~5.36) and AT the 5.15 kill level -> continuation plan DEAD; only a
+VWAP reclaim revives it. MNSO OR 9.38-9.59 — orderly bounce to 9.588 (+3.1%),
+above VWAP (~9.50), sitting at OR high; hypothetical ORB geometry (entry 9.59,
+stop 9.485 mid, target 9.80) = 2.0 RR exactly, spread $0.01 OK — but RVOL pace
+~1.0x (87k/15min vs 825k avg day) HARD-FAILS the >2.0 gate, catalyst negative
+(downgrades). Watch only. Universe scan: 0 (morning-blind). No armed setups.
+Cadence 15 min; next ~10:05.
