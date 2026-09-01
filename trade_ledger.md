@@ -693,3 +693,8 @@ stop 9.485 mid, target 9.80) = 2.0 RR exactly, spread $0.01 OK — but RVOL pace
 ~1.0x (87k/15min vs 825k avg day) HARD-FAILS the >2.0 gate, catalyst negative
 (downgrades). Watch only. Universe scan: 0 (morning-blind). No armed setups.
 Cadence 15 min; next ~10:05.
+10:15 ET — Baseline check: DPRO chopping 5.12-5.22 below VWAP (now 5.175) — no
+reclaim, stays dead. MNSO grinding up to 9.622 (+3.5%) but on tiny volume
+(3.6k-24k bars; cumulative pace ~0.9x avg) — RVOL gate still hard-fails; watch
+only. Universe scan: 0 names even post-10:00 — quiet tape. No armed setups,
+flat. Next ~10:30.
