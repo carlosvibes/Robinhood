@@ -969,3 +969,5 @@ without a reversal. Never gave the upside trigger — the stock rolled over on i
 own (market, not the rules). Loose watch only; officially dead on a 5-min close
 below VWAP. Dropping to ~20-min cadence + scan for fresh names into the last-
 entry window (15:25). Flat, $100.00. Flatten/EOD wake 15:45 armed.
+14:28 ET — Scan unchanged: GBTG pinned, QMLS -2.2% decliner, OABI 5.17 fading
+into VWAP (dead long). No candidates. Flat, $100.00. 20-min cadence to close.
