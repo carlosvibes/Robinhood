@@ -890,3 +890,21 @@ a long "above VWAP" means ABOVE, not sitting on it as it decays into the level
 bar closed 5.565 (above VWAP) so not dead yet. Still armed: a BOUNCE holding
 clearly above VWAP (~5.53-5.54) with spread <=$0.01 and price <=5.55 = clean
 entry (5.47 stop / 5.72 target). A 5-min close below VWAP = dead. Next ~10:40.
+10:42 ET — DPRO DEAD, DE-ARMED. Breakout failed: 10:30 bar closed 5.500, 10:35
+closed 5.485 — TWO consecutive 5-min closes below VWAP (5.515) on heavy sell
+volume (75k, 81k). Now 5.485. This ORB attempt is over; DPRO off the armed list,
+15-min cadence.
+** OUTCOME VALIDATES DISCIPLINE — and reframes the 10:06 "process error":
+  - The 10:34 no-entry (declined to buy the long sitting ON VWAP as it decayed)
+    was CORRECT: price went 5.52 -> 5.485 within 8 min, straight toward the stop.
+  - The 10:06 entry I flagged as a MISSED win (5.55 fill) would have been a
+    LOSER: the 10:35 bar low was 5.460, BELOW the 5.47 stop -> stopped for -1R
+    (-$0.08). So the over-caution AVOIDED a losing trade, not a winner.
+  Honest net lesson (both true): (1) I did deviate from my written plan at 10:06
+  (added a condition mid-decision) — a real process discipline point to fix; but
+  (2) in THIS instance the caution avoided a -1R loss, because the breakout was a
+  fakeout. The rulebook's skepticism of a confirmation-and-run-then-fade pattern
+  was right. This is now the DPRO "failed ORB" archetype: gap-up day-2, ORB break,
+  immediate run, no clean pullback, fade back through VWAP and fail. Refusal count
+  today: DPRO ORB (failed), ALMS (above band), KYTX (thin), MNSO (n/a). Still
+  flat, $100.00, 0 trades. Universe scan now 0. Next 15-min ~10:57.
