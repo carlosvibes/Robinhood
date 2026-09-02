@@ -813,3 +813,16 @@ Session runs on CURRENT rules; the ~20% gate calibration is being written to
 learning.md as PROPOSED — NOT ACTIVE for Carlos this morning (his directive).
 Plan: OR 09:30-09:45, first read ~09:47, 15-min baseline / 5-min armed,
 midday no-entry 12:00-13:30, flatten wake armed 15:45.
+09:48 ET — Opening ranges + first read. DPRO is the live one: opened 5.38, ran
+to 5.55, now 5.54, ABOVE VWAP 5.457, ATR(14,5m) 0.053 (clears the 0.05 floor
+for the first time — Monday's expansion healed it), RVOL strong (85k opening
+bar). OR 5.375-5.55. ARMED (day-2 momentum/ORB): trigger = 5-min close ABOVE
+5.55 on continued volume. Geometry to verify live at the break — needs honest
+RR>=2.0: measured move (OR height 0.175 -> ~5.725 target) vs a stop below
+VWAP/swing (~5.45) only gives ~1.75, so entry must be AT/below 5.55 with stop
+tightened to structure OR the break must extend the target; NO CHASE. ATR/spread
+/VWAP/review all live-checked at entry. Dies on a close back below VWAP 5.457.
+ALMS: opened 10.18, printing 10.37-10.53 — ABOVE the $10 band ceiling, NOT
+tradeable (out of universe); ignore unless it comes back inside $10. KYTX:
+spiked 8.72 then faded to 8.43, thin (2.6k bars) — spread-gate disqualified.
+Cadence -> 5 min (DPRO armed). Next ~09:54.
