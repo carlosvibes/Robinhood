@@ -826,3 +826,20 @@ ALMS: opened 10.18, printing 10.37-10.53 — ABOVE the $10 band ceiling, NOT
 tradeable (out of universe); ignore unless it comes back inside $10. KYTX:
 spiked 8.72 then faded to 8.43, thin (2.6k bars) — spread-gate disqualified.
 Cadence -> 5 min (DPRO armed). Next ~09:54.
+09:57 ET — DPRO TRIGGERED (9:50 bar closed 5.579 > OR high 5.55 on 42.9k) but
+NOT enterable at the tape — STAND-DOWN, stay armed for retest. Now 5.6055,
+bid/ask 5.590/5.610. Three simultaneous blocks on a chase entry here:
+  1. NO-CHASE: 5.61 is +1.1% above the 5.55 trigger (rule: ORB entry at/below
+     trigger, drift <0.5%). Hard fail.
+  2. SPREAD: $0.02 (5.59/5.61) vs $0.01 limit at this price. Fail right now.
+  3. RR: structural stop must be below VWAP (~5.49) at ~5.48 = 0.13 risk from
+     5.61; measured-move target 5.72 (OR height 0.172) = 0.11 reward -> RR 0.85.
+     Hard fail. (6.00 target is a 38k-share ask wall, not a real target.)
+VALID ENTRY = THE RETEST (WEN 8/29 lesson applies): if price pulls back to
+<= ~5.55 AND holds above VWAP AND spread <= $0.01, enter 1 share, stop 5.47
+(below the 9:40 base low 5.475, 0.08 risk = 1x ATR 0.056 ✓, 1.4% <3% ✓), target
+5.72 (measured move) -> RR 2.1 ✓. Max fill 5.55 (RR 2.0). Full entry sequence
+if it sets up. Setup dies on a 5-min close back below VWAP or a fade under 5.47
+without a fill. ATR 0.056 ✓ (first day it clears the floor). Cadence tightened
+to ~3 min (retests are fast). Book is deep/liquid now (500+ per level) — the
+spread, not depth, is the constraint.
