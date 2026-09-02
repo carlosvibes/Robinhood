@@ -949,3 +949,11 @@ actual fill, review clean. DIES on a 5-min close below VWAP 5.156 (would be a
 failed bounce / continuation lower). 5-min cadence. NOTE: momentum is currently
 DOWN (just faded 3%); this is a bounce play, stop is tight, risk tiny — exactly
 the trade class the Moderate rules enable.
+13:53 ET — OABI broke DOWN, not up: 17:45 bar closed 5.215 (below the 5.23 base),
+now 5.19 (bid/ask 5.190/5.200), just above VWAP 5.157. The armed trigger (up
+through 5.26) never came; it broke the other way. NO ENTRY (buying a downside
+break into VWAP = knife-catch, VWAP rail). Setup near death — a 5-min close below
+VWAP 5.157 de-arms it. Momentum has been DOWN all afternoon (5.385->5.19); if we
+had shorting this would be a short, but Moderate = long-only. Watching for either
+a VWAP hold + genuine reclaim base, or de-arm on a close below VWAP. Re-scan for
+fresh names. Flat, $100.00.
