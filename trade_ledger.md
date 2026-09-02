@@ -916,3 +916,20 @@ essentially done; shifting to 30-min cadence into midday no-entry (12:00-13:30).
 Next ~11:50, then 13:55 afternoon structure read.
 11:50 ET — Midday: universe scan 0, no candidates. Flat, $100.00. No-entry
 window 12:00-13:30. 30-min cadence; next ~12:30, then the 13:55 afternoon read.
+[RESUMED ~13:32 ET after a ~1hr usage-limit gap. Verified flat (0 pos, 0 orders)
+— nothing was left unprotected during the gap. 12:00-13:30 no-entry window passed
+with no position. Afternoon window now open.]
+13:33 ET — Scanner alive: OABI + GBTG. GBTG 9.46 flat on RVOL 9.7 / 11.6M vol =
+block-cross/arbitrage PIN (price not moving despite volume) — no trend, SKIP.
+OABI (OmniAb) 5.295, +19% day, the day's real candidate: above VWAP 5.154 (+2.7%,
+genuine strength — NOT a fade), ATR(14,5m) 0.0536 (clears floor ✓), spread $0.01,
+float 132M ✓, RVOL 3.2 ✓, NASDAQ ✓. Catalyst: momentum (health-care mover list);
+old Lilly partnership (8/17) is the only named news, nothing fresh today. BUT
+NO CLEAN 2:1: afternoon range is tight (5.30-5.385, ~0.085 wide) under HEAVY
+overhead supply (ask walls 5.50=3705, 5.52=6060, 5.55=3575). With 1x-ATR min stop
+(~0.10-0.11), a 2:1 target lands ~5.52 = straight into the wall -> RR <2.0 on every
+path; and it's pulling back off the high, not breaking out. Geometry bind, filter
+working. WATCH: reconsider only on (a) a decisive break >5.40 opening room toward
+6.00 with a tight structural stop giving honest 2:1, or (b) a flush to VWAP 5.15
+and reclaim with a larger target. No trade now. Flat, $100.00. Afternoon read
+~13:55 covers it; last entry 15:25.
