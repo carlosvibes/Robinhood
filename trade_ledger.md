@@ -971,3 +971,8 @@ below VWAP. Dropping to ~20-min cadence + scan for fresh names into the last-
 entry window (15:25). Flat, $100.00. Flatten/EOD wake 15:45 armed.
 14:28 ET — Scan unchanged: GBTG pinned, QMLS -2.2% decliner, OABI 5.17 fading
 into VWAP (dead long). No candidates. Flat, $100.00. 20-min cadence to close.
+14:51 ET — VSTM (Verastem) checked: +5% day, 7.97, above VWAP 7.959, RVOL 2.0,
+BUT ATR(14,5m) 0.026 << 0.04 floor — tight 7.94-7.99 grind, can't reach 1.5:1 in
+time. FAIL (ATR), skip. (5% move already spent; now dead-money grind — ATR floor
+working.) No other candidates: OABI dead, QMLS decliner, GBTG pinned. No trade.
+Flat, $100.00. One more check ~15:06, else quiet to the 15:45 flatten/EOD.
