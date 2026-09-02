@@ -957,3 +957,9 @@ VWAP 5.157 de-arms it. Momentum has been DOWN all afternoon (5.385->5.19); if we
 had shorting this would be a short, but Moderate = long-only. Watching for either
 a VWAP hold + genuine reclaim base, or de-arm on a close below VWAP. Re-scan for
 fresh names. Flat, $100.00.
+13:54 ET — OABI 5.19, holding VWAP 5.157 (~3c above) but chopping, not
+reclaiming toward the 5.26 trigger — still ARMED, not triggered, momentum flat-
+to-down. Scan: QMLS 5.42 -3.1% RVOL 2.2 = low-vol decliner (no long setup, skip);
+GBTG still pinned (skip). No action. Widening to ~10-min cadence (OABI not
+pressing trigger) per usage-conservation policy; tighten to 5-min only if OABI
+surges toward 5.26. Flat, $100.00. Last entry 15:25; flatten wake 15:45 armed.
