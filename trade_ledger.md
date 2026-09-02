@@ -976,3 +976,9 @@ BUT ATR(14,5m) 0.026 << 0.04 floor — tight 7.94-7.99 grind, can't reach 1.5:1 
 time. FAIL (ATR), skip. (5% move already spent; now dead-money grind — ATR floor
 working.) No other candidates: OABI dead, QMLS decliner, GBTG pinned. No trade.
 Flat, $100.00. One more check ~15:06, else quiet to the 15:45 flatten/EOD.
+15:08 ET — Final scan: same 4 duds (GBTG pinned, VSTM +4.5% ATR-too-low, OABI
+5.125 dead, QMLS decliner). No rules-clean setup under the new gates. NO-TRADE
+DAY declared. Note: the Moderate rules went live midday and DID produce one
+arm-able long (OABI, first ever) — it just broke down before triggering. Rules
+worked; the stock didn't cooperate. Going quiet; 15:45 flatten/EOD wake handles
+the writeup + Thursday. Flat, $100.00, 0 trades.
