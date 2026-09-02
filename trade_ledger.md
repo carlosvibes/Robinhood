@@ -938,3 +938,14 @@ RR floor 2.0->1.5, ATR floor 0.05->0.04, volume confirm 1.6x prior-6, scanner
 RVOL 1.6. No shorting yet (short module deferred to Phase 2). All risk rails
 UNCHANGED. Changelog row added to learning.md. RE-EVALUATING today's candidates
 under the new gates immediately.
+13:46 ET — OABI RE-EVAL under NEW rules -> ARMED (first arm-able long post-
+calibration). Flushed 5.385->5.23, now basing 5.23-5.26 ABOVE VWAP 5.156.
+ARMED (VWAP-hold reclaim/flag-break): trigger = 5-min CLOSE above 5.26 on
+>= ~29k vol (1.6x prior-6-bar avg ~18k). Entry <= 5.27 (no chase). Stop 5.20
+(below base, 0.06-0.07 risk = >1x ATR 0.054, ~1.2% <3%). Target 5.36 (just
+under the 5.38 ask wall 3034). RR ~1.67 (clears new 1.5 floor). 1 share, ~$0.06
+risk. Live-verify at trigger: above VWAP, ATR>=0.04, spread<=$0.01, RR>=1.5 from
+actual fill, review clean. DIES on a 5-min close below VWAP 5.156 (would be a
+failed bounce / continuation lower). 5-min cadence. NOTE: momentum is currently
+DOWN (just faded 3%); this is a bounce play, stop is tight, risk tiny — exactly
+the trade class the Moderate rules enable.
