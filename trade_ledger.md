@@ -875,3 +875,9 @@ Still ARMED: a pullback to <=5.55 holding above VWAP (5.515) with spread <=$0.01
 is STILL a valid entry (5.55/5.47/5.72, RR 2.1) — take it per plan, no extra
 conditions. Also watching for a fresh higher consolidation + breakout. 5-min
 cadence. Next ~10:24.
+10:27 ET — DPRO PATH-1 pullback came (5.53, at the 5.55 zone, ~1c above VWAP
+5.519) BUT blocked: spread $0.02 (book: bid 5.52x582 / ask 5.54x284 — deep but
+2c wide) vs $0.01 limit. AND momentum fading: 5.625 high -> 5.53, sinking toward
+VWAP; 10:15/10:20 bars closed 5.58/5.57 (lower highs). Not an entry. If a 5-min
+bar closes below VWAP 5.519 -> DEAD, de-arm. If spread tightens to $0.01 while
+price holds >VWAP <=5.55 -> still valid (5.55/5.47/5.72). One more check ~10:32.
