@@ -843,3 +843,15 @@ if it sets up. Setup dies on a 5-min close back below VWAP or a fade under 5.47
 without a fill. ATR 0.056 ✓ (first day it clears the floor). Cadence tightened
 to ~3 min (retests are fast). Book is deep/liquid now (500+ per level) — the
 spread, not depth, is the constraint.
+10:06 ET — DPRO did NOT die, coiling ON VWAP. 5-min closes: 9:55 = 5.525
+(above VWAP), 10:00 = 5.500 (AT VWAP 5.504, indecisive). Now 5.545, above VWAP,
+spread $0.01 (5.54/5.55). Holding the 5.50-5.55 breakout zone rather than
+collapsing — constructive, but not yet a clean "hold above VWAP" (last bar
+closed on the level). Mechanical gates otherwise PASS: entry 5.55, stop 5.47
+(0.08 risk = 1x ATR 0.056, 1.4%<3%), target 5.72 (measured move 0.17, just under
+the 5.75/5.76 ask wall), RR 2.1, 1 share, $0.08 risk. HOLDING for confirmation:
+need ONE 5-min close ABOVE VWAP (the 10:05 bar) to confirm the reclaim before
+entry — a bar closing at/below VWAP is not "holding above VWAP" (my own
+pre-committed criterion). If 10:05 closes above VWAP with price still <=5.55 and
+spread <=$0.01 -> ENTER trade #1. If it closes below VWAP -> setup dead, stand
+down. Tight check armed ~10:10.
