@@ -379,3 +379,87 @@ module (recommendation: hold until Phase 2 / 20 closed trades), both under
 PROPOSED - NOT ACTIVE. Activation still requires Carlos's dated Changelog row
 naming the specifics — his 20%-ish chat directive authorizes preparing the
 change, and his sign-off on the exact values completes it.
+
+### 2026-09-02 — Gate calibration (~20% looser), per Carlos's directive
+Change:           Three trigger/entry gates loosen by ~20%; everything else
+                  unchanged.
+                  1. ATR(14,5min) floor: $0.05 -> $0.04.
+                  2. Breakout/continuation volume confirmation: "2x recent" /
+                     OR-candle-average -> ">= 1.6x the average of the prior 6
+                     completed bars" (uniform basis; this SUPERSEDES the
+                     2026-08-31 ORB-volume proposal, which is withdrawn and
+                     folded in here).
+                  3. Scanner RVOL filter: > 2.0 -> > 1.6.
+Explicitly UNCHANGED: spread gate (validated by KYTX 9/1 — real friction),
+                  RR >= 2.00 from structure + no-chase max fill (2-for-2
+                  saving us from confirmed losers: DFDV, DPRO 8/31 chase),
+                  VWAP direction filter, float > 10M, $5-10 band, stop >= 1x
+                  ATR and <= 3%, and ALL risk rails (position cap, $0.25
+                  risk, loss halts, 6-order cap, flat by close-10).
+Evidence:         4 sessions, 0 trades; funnel dies at trigger/entry gates,
+                  not the scanner (see funnel table above). ATR-compression
+                  pattern: 5 documented cases where the floor was lowest
+                  exactly at the end of a coil.
+Honest replay of the new gates against the logged record:
+                  - VISN 8/31 ORB: 177k = ~1.77x prior-6 -> WOULD have
+                    confirmed under the new rule -> -1R loser TAKEN (-$0.25).
+                  - WEN 8/28 ORB: would likely have confirmed on the break ->
+                    probable winner taken (missed +$0.11+ run).
+                  - DPRO 8/31: STILL blocked — ATR was 0.032 < 0.04 and the
+                    only confirmed fill was chase-priced. The calibration
+                    does NOT capture that one; only a floor <= 0.03 would,
+                    and that is too loose to defend.
+                  - KYTX 9/1: ATR 0.044 passes 0.04, but spread still fails
+                    -> still no trade (correctly).
+                  Net on the replayed sample: roughly one loser and one
+                  winner added — approximately breakeven P&L, but ~2 trades
+                  instead of 0. The honest framing: this calibration mainly
+                  RAISES TRADE FREQUENCY so the system starts generating the
+                  data the whole project exists to collect, at close to
+                  neutral expected cost. It is not a promise of more wins.
+Expected effect:  1-3 trades/week instead of 0. Measured by: trades taken,
+                  win rate, expectancy per trade, and whether refused setups
+                  still validate (the refusal scorecard continues).
+Touches a rail?:  No risk rail changes. Trigger definitions + scanner width
+                  only. Presented for approval per the changelog process.
+Status:           AWAITING APPROVAL — Carlos directed "~20%, you decide the
+                  specifics" (2026-09-01 chat); these are the specifics.
+Changelog row to add on approval:
+                  | 2026-09-02 | Carlos | Gate calibration: ATR floor 0.04,
+                  volume confirm 1.6x prior-6 bars, scanner RVOL 1.6.
+                  Supersedes 8/31 ORB-volume proposal. All risk rails
+                  unchanged. |
+
+### 2026-09-02 — Short module (bet-against capability) — recommend HOLD until Phase 2
+Change:           Add a SHORT setup class, mirroring the long playbook:
+                  - Setups: breakdown below VWAP only (mirror of the VWAP
+                    long filter), momentum-breakdown and failed-bounce
+                    continuation; same structure-derived targets, RR >= 2.00.
+                  - Risk identical: $0.25 max risk, $10 max position, whole
+                    shares, 1 short position max at a time, counts toward
+                    all loss halts and the 6-order cap.
+                  - Protection: a resting BUY-stop-market placed immediately
+                    after fill (mirror of the long stop), stop distance >= 1x
+                    ATR and <= 3%.
+                  - Exclusions (stricter than longs): no float < 25M, no
+                    stocks that have been halted today, no names down > 30%
+                    on the day (halt/squeeze risk), no shorting into the
+                    first 15 minutes, flat by close-10 as always.
+Why HOLD:         (1) A short's loss is unbounded and gaps/halts make the
+                  stop unenforceable at any price — the one risk class the
+                  $100 book cannot absorb; our high-RVOL universe is exactly
+                  where squeezes and halts concentrate (ALMS bounced +5.8%
+                  overnight after the -58% day — that gap is the short's
+                  overnight nightmare, and intraday versions exist too).
+                  (2) Zero closed trades: the long system's edge is still
+                  unmeasured. Adding a second direction now doubles the ways
+                  to lose and halves the sample per direction. The 20-trade
+                  Phase 2 gate exists for exactly this.
+Status:           DRAFTED — recommend activation be revisited at Phase 2
+                  (20 closed trades, positive expectancy). Carlos may
+                  activate earlier via changelog row; the rails above would
+                  apply from day one.
+Changelog row to add on approval:
+                  | YYYY-MM-DD | Carlos | Short module active per 2026-09-02
+                  draft: VWAP-breakdown shorts, $0.25 risk, resting buy-stop
+                  mandatory, exclusions as drafted. |

@@ -789,3 +789,27 @@ Best decision today:   Passing ALMS at 10:52 — the -55% "stabilization" broke
 Worst decision today:  None operational. Every window checked on schedule;
                        KYTX watch criteria were pre-written and held.
 Platform/data issues:  none new.
+
+### Session in progress — 2026-09-02 (Wednesday, week 2 — checkpoint day)
+
+Blocking checks (08:34 ET): STATUS ok / broker flat (0 pos, 0 orders) / buying
+power $100.00 / clock verified / regular hours 09:30-16:00 (flatten 15:50,
+last entry 15:25). SPY flat vs Mon — neutral tape.
+
+Pre-market: Gappers scan -> ALMS only (day-2 bounce +5.8% to ~10.02 after the
+-58% trial-failure crash; the 54% "gap" is yesterday's crash candle). Universe
+scan deferred to mid-morning (RVOL blind).
+
+Watchlist:
+- ALMS (skeptical): day-2 bounce is a real setup class, but (a) price is AT the
+  $10.00 band ceiling — only tradeable if it sets up INSIDE $5-10, (b) thesis
+  still broken, (c) yesterday's "stabilization" already burned once. Needs
+  in-band structure above VWAP + volume; max skepticism.
+- DPRO: closed 5.38 after reclaiming Tuesday's fade (low 5.05 -> close 5.38).
+  Third day on watch; a fresh coil above VWAP makes it a candidate again.
+- KYTX: yesterday's flag DID break on the close (8.35); pre-market soft 8.20.
+  Thin tape (spread gate) remains its disqualifier unless liquidity appears.
+Session runs on CURRENT rules; the ~20% gate calibration is being written to
+learning.md as PROPOSED — NOT ACTIVE for Carlos this morning (his directive).
+Plan: OR 09:30-09:45, first read ~09:47, 15-min baseline / 5-min armed,
+midday no-entry 12:00-13:30, flatten wake armed 15:45.
