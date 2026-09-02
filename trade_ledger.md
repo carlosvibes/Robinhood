@@ -855,3 +855,23 @@ entry — a bar closing at/below VWAP is not "holding above VWAP" (my own
 pre-committed criterion). If 10:05 closes above VWAP with price still <=5.55 and
 spread <=$0.01 -> ENTER trade #1. If it closes below VWAP -> setup dead, stand
 down. Tight check armed ~10:10.
+10:19 ET — DPRO CONFIRMED the reclaim (10:05 bar closed 5.610 above VWAP on
+31.9k, 10:10 held 5.602) — but confirmation + breakout were the SAME move
+(5.505->5.61 in one bar, ran to 5.625). No instant where "confirmed" AND
+"price <=5.55" coincided. Now 5.5945/VWAP 5.515; a 5.59 entry gives RR ~0.9 ->
+NO CHASE, no entry at the tape.
+** PROCESS ERROR (honest): at 10:06 price was 5.545, above VWAP (5.504), spread
+$0.01 — which SATISFIED my pre-committed entry criteria (pullback <=5.55 +
+above VWAP + spread). I added an EXTRA "wait for a confirming close" condition
+in the moment that was NOT in the written plan, and that over-caution cost the
+entry. Goalpost-moving in the conservative direction = the same discipline
+failure as chasing, just inverted. Would-be entry 5.55/stop 5.47/target 5.72 is
+currently a live winner-in-progress (+~0.05, stop never threatened, not yet at
+target). LESSON: when pre-written mechanical criteria are met, EXECUTE — do not
+add conditions at the decision point. (Pairs with the WEN 8/29 cadence miss and
+strengthens the no-chase-tolerance question for a future proposal: 2 real
+breakouts now missed because confirmation and move coincided.)
+Still ARMED: a pullback to <=5.55 holding above VWAP (5.515) with spread <=$0.01
+is STILL a valid entry (5.55/5.47/5.72, RR 2.1) — take it per plan, no extra
+conditions. Also watching for a fresh higher consolidation + breakout. 5-min
+cadence. Next ~10:24.
