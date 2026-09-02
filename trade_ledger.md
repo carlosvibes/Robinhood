@@ -933,3 +933,8 @@ working. WATCH: reconsider only on (a) a decisive break >5.40 opening room towar
 6.00 with a tight structural stop giving honest 2:1, or (b) a flush to VWAP 5.15
 and reclaim with a larger target. No trade now. Flat, $100.00. Afternoon read
 ~13:55 covers it; last entry 15:25.
+13:40 ET — *** RULE CHANGE ACTIVE (Carlos approved "Moderate" in chat) ***
+RR floor 2.0->1.5, ATR floor 0.05->0.04, volume confirm 1.6x prior-6, scanner
+RVOL 1.6. No shorting yet (short module deferred to Phase 2). All risk rails
+UNCHANGED. Changelog row added to learning.md. RE-EVALUATING today's candidates
+under the new gates immediately.

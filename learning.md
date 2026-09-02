@@ -189,6 +189,7 @@ Every change to the strategy or rails, with date, reason, and who approved it. W
 | Date | Change | Reason | Approved by |
 |---|---|---|---|
 | | Initial system | — | Carlos |
+| 2026-09-02 | ACTIVE: "Moderate" gate calibration. Reward-to-risk floor 2.0 -> **1.5** (computed from structure; 1.5:1 needs >40% win rate for positive expectancy). ATR(14,5m) floor 0.05 -> **0.04**. Breakout/continuation volume confirmation -> **>=1.6x the avg of the prior 6 completed bars** (supersedes/withdraws the 8/31 ORB-volume proposal). Scanner RVOL filter 2.0 -> **1.6**. NO shorting (short module stays DRAFTED, deferred to Phase 2). ALL RISK RAILS UNCHANGED: $10 max position, $0.25 max risk/trade, whole shares, $5-10 band, stop always resting at broker >=1x ATR and <=3%, long-only above VWAP, spread gate (larger of $0.01/0.15%), float>10M, daily/weekly loss halts, 3-consecutive-loss halt, 6-order cap, flat by close-10. | 4 sessions 0 trades; funnel died at trigger/entry gates, not the scanner. Goal: raise trade frequency to start generating expectancy data at ~neutral expected cost. | Carlos (chat, 2026-09-02) |
 
 ---
 
@@ -422,8 +423,10 @@ Expected effect:  1-3 trades/week instead of 0. Measured by: trades taken,
                   still validate (the refusal scorecard continues).
 Touches a rail?:  No risk rail changes. Trigger definitions + scanner width
                   only. Presented for approval per the changelog process.
-Status:           AWAITING APPROVAL — Carlos directed "~20%, you decide the
-                  specifics" (2026-09-01 chat); these are the specifics.
+Status:           ***APPROVED & ACTIVE 2026-09-02*** — Carlos chose the
+                  "Moderate" package in chat, which ALSO lowers the RR floor
+                  2.0 -> 1.5 (bigger lever than the original ~20%). See the
+                  Changelog row dated 2026-09-02. Now the live ruleset.
 Changelog row to add on approval:
                   | 2026-09-02 | Carlos | Gate calibration: ATR floor 0.04,
                   volume confirm 1.6x prior-6 bars, scanner RVOL 1.6.
