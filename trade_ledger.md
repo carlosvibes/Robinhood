@@ -914,3 +914,5 @@ $10 band, KYTX thin. No candidates. Flat, $100.00. Prime window closing (11:30);
 11:19 ET — Baseline: universe scan 0, no candidates. Flat, $100.00. Prime window
 essentially done; shifting to 30-min cadence into midday no-entry (12:00-13:30).
 Next ~11:50, then 13:55 afternoon structure read.
+11:50 ET — Midday: universe scan 0, no candidates. Flat, $100.00. No-entry
+window 12:00-13:30. 30-min cadence; next ~12:30, then the 13:55 afternoon read.
