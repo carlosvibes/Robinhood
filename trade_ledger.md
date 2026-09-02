@@ -963,3 +963,9 @@ to-down. Scan: QMLS 5.42 -3.1% RVOL 2.2 = low-vol decliner (no long setup, skip)
 GBTG still pinned (skip). No action. Widening to ~10-min cadence (OABI not
 pressing trigger) per usage-conservation policy; tighten to 5-min only if OABI
 surges toward 5.26. Flat, $100.00. Last entry 15:25; flatten wake 15:45 armed.
+14:06 ET — OABI fading, effectively DE-ARMED: bars 5.190/5.180/5.185, drifting
+DOWN toward VWAP 5.158 on light volume, no reclaim, 5.26 trigger out of reach
+without a reversal. Never gave the upside trigger — the stock rolled over on its
+own (market, not the rules). Loose watch only; officially dead on a 5-min close
+below VWAP. Dropping to ~20-min cadence + scan for fresh names into the last-
+entry window (15:25). Flat, $100.00. Flatten/EOD wake 15:45 armed.
