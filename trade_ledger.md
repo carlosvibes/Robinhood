@@ -908,3 +908,6 @@ volume (75k, 81k). Now 5.485. This ORB attempt is over; DPRO off the armed list,
   immediate run, no clean pullback, fade back through VWAP and fail. Refusal count
   today: DPRO ORB (failed), ALMS (above band), KYTX (thin), MNSO (n/a). Still
   flat, $100.00, 0 trades. Universe scan now 0. Next 15-min ~10:57.
+10:59 ET — Baseline: universe scan 0. DPRO ~5.48 below VWAP (dead), ALMS above
+$10 band, KYTX thin. No candidates. Flat, $100.00. Prime window closing (11:30);
+15-min cadence to midday. Next ~11:14.
