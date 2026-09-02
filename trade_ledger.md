@@ -881,3 +881,12 @@ cadence. Next ~10:24.
 VWAP; 10:15/10:20 bars closed 5.58/5.57 (lower highs). Not an entry. If a 5-min
 bar closes below VWAP 5.519 -> DEAD, de-arm. If spread tightens to $0.01 while
 price holds >VWAP <=5.55 -> still valid (5.55/5.47/5.72). One more check ~10:32.
+10:34 ET — DPRO NO ENTRY: price faded to 5.52 sitting EXACTLY on VWAP (5.5201
+vs VWAP 5.5196). Spread now $0.01 (5.52/5.53) and RR would be fine (~3:1), but
+price is AT VWAP after a clear momentum roll-over (5.625->5.52, lower highs), and
+a long "above VWAP" means ABOVE, not sitting on it as it decays into the level
+= where the stop lives. Declining is the VWAP rail, not over-caution (contrast
+10:06 where price was cleanly +0.04 above VWAP — that one I wrongly passed). 10:25
+bar closed 5.565 (above VWAP) so not dead yet. Still armed: a BOUNCE holding
+clearly above VWAP (~5.53-5.54) with spread <=$0.01 and price <=5.55 = clean
+entry (5.47 stop / 5.72 target). A 5-min close below VWAP = dead. Next ~10:40.
