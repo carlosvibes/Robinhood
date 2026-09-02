@@ -365,3 +365,17 @@ poor (risk-off week, no clean momentum in the band), or (b) calibrate the
 trigger gates with evidence (the ORB-volume proposal already on file, plus the
 ATR-floor compression pattern at 5 cases). Present both; recommend nothing
 until the numbers justify it.
+
+**2026-09-01 evening — Owner directive from Carlos (chat):** After Wednesday's
+session, lower parameters by ~20%, with the specific gates left to my judgment
+based on the evidence. Also: confirmed the operating vision (continuous
+monitoring, take the best catalyst/volatility name when it confirms, frequent
+in-position checks, stops to lock quick wins — all current behavior), and
+requested a shorting/"bet against" capability for bearish tapes. Plan of
+record: Wednesday pre-market I write the full calibration proposal (ATR floor
+0.05->0.04, volume confirmation 2.0x->1.6x, scanner RVOL 2.0->1.6; spread
+gate, RR>=2/no-chase, and all risk rails UNCHANGED) plus a drafted short
+module (recommendation: hold until Phase 2 / 20 closed trades), both under
+PROPOSED - NOT ACTIVE. Activation still requires Carlos's dated Changelog row
+naming the specifics — his 20%-ish chat directive authorizes preparing the
+change, and his sign-off on the exact values completes it.
