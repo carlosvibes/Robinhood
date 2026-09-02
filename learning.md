@@ -466,3 +466,55 @@ Changelog row to add on approval:
                   | YYYY-MM-DD | Carlos | Short module active per 2026-09-02
                   draft: VWAP-breakdown shorts, $0.25 risk, resting buy-stop
                   mandatory, exclusions as drafted. |
+
+## Session lessons — 2026-09-02 (Wednesday week 2, 0 trades; RULES CHANGED midday)
+
+1. **The Moderate calibration went live and immediately worked as designed.**
+   Within ~1hr of activation it produced the FIRST arm-able long of the whole
+   project (OABI VWAP-reclaim, RR 1.67 — would have been refused under the old
+   2:1). It just didn't trigger (OABI broke down). The rules reached a live
+   entry gate that the old rules never let us reach. That's the unlock.
+2. **DPRO cleared the ATR floor for the first time (0.056)** — Monday's
+   volatility expansion healed the compression, exactly as the ATR-compression
+   evidence predicted. Its ORB triggered but the confirmation and the run came
+   in the same 5-min bar, leaving no non-chase entry; then the breakout FAILED
+   (2 closes below VWAP, flushed to 5.48). A would-be 5.55 entry = -1R.
+3. **Process error (logged, honest): the 10:06 DPRO over-caution.** My
+   pre-written criteria (pullback <=5.55 + above VWAP + spread) were MET at
+   10:06, but I added an unwritten "wait for a confirming close" condition at
+   the decision point and skipped it. FIX: when pre-committed mechanical
+   criteria are met, EXECUTE — do not add conditions mid-decision. (This session
+   the over-caution avoided a loss, but that's luck, not vindication of the
+   slip; the discipline point stands either direction.)
+4. **Spread + ATR gates keep earning their keep:** VSTM +5% but ATR 0.026 (dead-
+   money grind, correctly skipped); GBTG 10x RVOL but price PINNED (block-cross/
+   arbitrage, no trend); QMLS a decliner. The scanner surfaces movers; the
+   entry gates correctly reject the un-tradeable ones.
+5. **Usage-limit gap (~1hr midday):** account-wide limit (all Claude sessions
+   share it), not this chat alone. Broker-side stops make it a monitoring gap,
+   not a capital risk. Mitigation now standing policy (below).
+
+**Funnel table extended:**
+| Stage | Thu | Fri | Mon | Tue | Wed |
+|---|---|---|---|---|---|
+| Scanner hits (unique) | 11 | 6 | 2 | 5 | 5 (DPRO,ALMS,OABI,QMLS,GBTG,VSTM) |
+| Passed universe gates | 1 | 1 | 2 | 0-1 | 2 (DPRO,OABI) |
+| Valid setup formed | 0 | 1 | 3 | 1 | 2 (DPRO ORB, OABI reclaim) |
+| Trigger fired | 0 | 1 | 2 | 0 | 1 (DPRO 9:50) |
+| Confirmed + enterable | 0 | 0 | 0 | 0 | 0 (DPRO chase; OABI broke down) |
+| Entry gates passed | 0 | 0 | 0 | 0 | 0 |
+5 sessions, 0 trades — but Wed is the first day a setup ARMED under enter-able
+geometry (post-calibration). The block is now stock follow-through, not the
+rulebook. Thursday runs on the new gates from the open.
+
+## Standing policy — usage/token discipline (2026-09-02)
+- Idle/flat + nothing armed: 20-30 min cadence (NOT 15).
+- Tighten to 5-min ONLY when a setup is armed near its trigger or in-position.
+- Do NOT pull the full L2 price book except in the final seconds before an
+  actual entry (it is a large payload). Use quote + bars + VWAP + ATR for
+  routine reads.
+- Keep ledger ticks terse; batch data pulls. One validated action beats many
+  speculative checks.
+- The account-wide usage limit is shared across ALL of Carlos's Claude sessions;
+  a higher plan tier (Max) is the only way to raise the ceiling — that's his to
+  decide.

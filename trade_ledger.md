@@ -28,6 +28,7 @@ All times are US Eastern. All dollar figures to two decimals.
 | 2026-08-28 | $100.00 | $100.00 | $0.00 | 0.0% | 0 | First full session from pre-market. 3 setups tracked (WEN ORB/flag, DFDV flag, VISN reclaim) — none confirmed; all refusals validated by outcome. Flat verified 15:45 ET. |
 | 2026-08-31 | $100.00 | $100.00 | $0.00 | 0.0% | 0 | Week 2 Monday. VISN ORB refused (unconfirmed vol) and failed to the staged stop (-1R avoided). DPRO continuation triggered 15:00 but blocked by no-chase RR + ATR floor 0.032; breakout held (paper win missed — coil-compression case 4). Flat verified 15:47 ET. |
 | 2026-09-01 | $100.00 | $100.00 | $0.00 | 0.0% | 0 | Risk-off Tuesday (Nasdaq -1.4%). 5 candidates, 5 gate refusals: DPRO pop-and-fade, MNSO no-volume bounce, ALMS trial-failure knife (pass validated — base broke to -58%), IHS block volume, KYTX flag failed spread/ATR/volume gates. Flat verified 15:46 ET. |
+| 2026-09-02 | $100.00 | $100.00 | $0.00 | 0.0% | 0 | Wed. RULE CHANGE: Carlos approved "Moderate" calibration midday (RR 1.5, ATR 0.04, vol 1.6x, RVOL 1.6). DPRO cleared ATR floor + triggered ORB but failed (2 closes below VWAP; a would-be entry = -1R). OABI = first arm-able long under new rules but broke down before triggering. ~1hr usage-limit gap (flat verified on resume). Flat verified 15:45 ET. |
 
 ---
 
@@ -982,3 +983,58 @@ DAY declared. Note: the Moderate rules went live midday and DID produce one
 arm-able long (OABI, first ever) — it just broke down before triggering. Rules
 worked; the stock didn't cooperate. Going quiet; 15:45 flatten/EOD wake handles
 the writeup + Thursday. Flat, $100.00, 0 trades.
+
+### Session — 2026-09-02
+
+Session hours (from marketHours):  open 09:30 — close 16:00 ET
+Flatten time:                      15:50 ET (close - 10 min)
+Blocking checks:                   STATUS ok / broker reconciled / buying power $100.00
+                                   / clock verified (08:34 ET). MIDSESSION: ~1hr
+                                   usage-limit gap ~12:30-13:32; verified flat on
+                                   resume, nothing left unprotected.
+RULE CHANGE (midday): Carlos approved the "Moderate" gate calibration in chat
+                      -> Changelog row dated 2026-09-02 added; NEW gates went live
+                      ~13:40: RR floor 1.5, ATR floor 0.04, vol confirm 1.6x,
+                      scanner RVOL 1.6. Risk rails unchanged. No shorting.
+
+Pre-market watchlist:  DPRO (Mon/Tue runner, +on the day), ALMS (day-2 bounce),
+                       plus intraday scanner names.
+Market context:        Dow +250; mixed. In-band movers were choppy/failed.
+
+Opening orders submitted:  0  (cap 6)
+Filled / Rejected:         0 / 0
+Winners / Losers:          0 W / 0 L
+Consecutive loss streak at close:  0  (halt at 3)
+Gross / Net P&L:       $0.00 / $0.00  (0.0% of start-of-day equity)
+Ending equity:         $100.00
+Position count at flatten (verified by query at 15:45 ET):  0 — no orders placed.
+
+Halt conditions hit:   none
+Incidents:             none (usage-limit gap handled: flat verified on resume)
+Rule conflicts / candidates:
+  DPRO — day-2 momentum, cleared the ATR floor for the FIRST time (0.056) and
+    triggered its ORB (9:50, close 5.579>5.55), but (a) confirmation+run came in
+    the SAME bar so no non-chase entry existed, (b) a process-error over-caution
+    at 10:06 skipped a criteria-met 5.55 retest entry — which the outcome then
+    VINDICATED (the breakout FAILED, flushed through VWAP, and a 5.55 entry would
+    have stopped at 5.47 for -1R). DPRO died 10:42 (2 closes below VWAP).
+  ALMS — gapped ABOVE the $10 band (out of universe).
+  OABI — the day's cleanest test of the NEW rules: flushed 5.385->5.23, based
+    above VWAP, ARMED as a VWAP-reclaim long (trigger 5.26, stop 5.20, target
+    5.36, RR 1.67 — FIRST arm-able long produced by the Moderate calibration).
+    But it broke DOWN instead of up and faded to ~5.12. No trigger, no entry.
+  KYTX/QMLS/GBTG/VSTM — decliners, pinned block-volume (GBTG), or ATR-too-low
+    (VSTM 0.026). All correctly skipped.
+
+Best decision today:   Not chasing DPRO's breakout (would have been -1R). The
+                       over-caution at 10:06 was a genuine process slip, but the
+                       market made it the right outcome.
+Worst decision today:  The 10:06 DPRO over-caution — added an unwritten condition
+                       at the decision point and skipped a criteria-met entry.
+                       Logged; the fix is to execute pre-written criteria without
+                       adding conditions mid-decision. (Net cost: $0 — the trade
+                       would have lost.)
+Platform/data issues:  Account-wide usage limit cut the session ~1hr midday
+                       (~12:30-13:32). Broker-side stops mean this is a monitoring
+                       gap, not a capital risk. Cadence widened + data pulls
+                       trimmed going forward to conserve budget.
