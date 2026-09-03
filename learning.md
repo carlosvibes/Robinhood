@@ -190,6 +190,8 @@ Every change to the strategy or rails, with date, reason, and who approved it. W
 |---|---|---|---|
 | | Initial system | — | Carlos |
 | 2026-09-02 | ACTIVE: "Moderate" gate calibration. Reward-to-risk floor 2.0 -> **1.5** (computed from structure; 1.5:1 needs >40% win rate for positive expectancy). ATR(14,5m) floor 0.05 -> **0.04**. Breakout/continuation volume confirmation -> **>=1.6x the avg of the prior 6 completed bars** (supersedes/withdraws the 8/31 ORB-volume proposal). Scanner RVOL filter 2.0 -> **1.6**. NO shorting (short module stays DRAFTED, deferred to Phase 2). ALL RISK RAILS UNCHANGED: $10 max position, $0.25 max risk/trade, whole shares, $5-10 band, stop always resting at broker >=1x ATR and <=3%, long-only above VWAP, spread gate (larger of $0.01/0.15%), float>10M, daily/weekly loss halts, 3-consecutive-loss halt, 6-order cap, flat by close-10. | 4 sessions 0 trades; funnel died at trigger/entry gates, not the scanner. Goal: raise trade frequency to start generating expectancy data at ~neutral expected cost. | Carlos (chat, 2026-09-02) |
+| 2026-09-03 | ACTIVE: **Spread gate widened** from max($0.01, 0.15%) -> **max($0.02, 0.35%)** (Lever A). Bounded 10-trade experiment: after 10 closed trades, review expectancy AND spread-paid-vs-gross-P&L; revert if friction is eating the edge. Makes DPRO/BKKT-class movers (0.3% spreads) tradeable; still rejects ABTC-class 0.5%+ junk. ALL OTHER RISK RAILS UNCHANGED. | 6 sessions 0 trades; root cause localized to the spread gate — it rejected 3 of 4 movers on 9/3 and was flagged Day 1. | Carlos (chat, 2026-09-03) |
+| 2026-09-03 | ACTIVE: **Trend-follow tactics** (how we trade, not the risk rails). (1) EARLY ENTRY: enter at the first valid structural trigger of a move (pullback-reclaim, micro-consolidation break, first-higher-low) rather than waiting only for the fully-confirmed breakout — provided a tight structural stop keeps risk <=$0.25 and RR>=1.5 to the measured target still holds. (2) TRAILING STOP is the primary exit: once price reaches ~+1R or prints a new higher low, ratchet the resting broker stop up (breakeven first, then trail below successive higher lows or by 1xATR) to ride the trend and lock profit if it reverses. (3) QUICK PROFIT: scalp the move — do NOT default to holding all day; take the trailed profit when momentum stalls. Holding to EOD allowed at operator discretion when the trend is intact. (4) RE-ENTRY permitted if a stopped-out setup re-validates, within the 6-order/day cap and all loss halts. (5) ACT FAST: tighten monitoring to catch and follow trends early. ALL RISK RAILS UNCHANGED (resting broker stop ALWAYS on; trailing = cancel-old-then-place-new-higher; $0.25 risk, $10 position, halts, flat by close-10). | Carlos: "part of the game is get in early and follow the stock up with stop losses... quick money, not hold all day... pick up trends fast and act faster." | Carlos (chat, 2026-09-03) |
 
 ---
 
@@ -608,3 +610,70 @@ Changelog row to add on approval (Lever A):
                   max($0.02,0.35%) as a bounded 10-trade experiment. All other
                   rails unchanged. Review expectancy + spread-vs-P&L after 10
                   trades. |
+
+## Playbook — Trend-follow tactics (ACTIVE 2026-09-03, Carlos directive)
+
+The shift: from "wait for full breakout confirmation, take one fixed-target trade"
+to "get in EARLY on a valid trigger, TRAIL the stop up to ride the move, take
+QUICK profit, RE-ENTER if it re-sets." Higher activity, higher variance, tighter
+management. Risk rails are UNCHANGED — this changes entry timing and exit
+management, not how much we can lose per trade.
+
+**1. Early entry (earlier trigger, same risk cap).**
+- Valid early triggers (any one), all still LONG + above VWAP:
+  a) Pullback-reclaim: price pulls back to rising VWAP / prior breakout level /
+     a higher low and reclaims it on a green bar.
+  b) Micro-consolidation break: a 2-4 bar tight flag breaks up (don't need the
+     full-range breakout).
+  c) First higher-low after an impulse: enter on the turn off the higher low.
+- STILL REQUIRED at entry: tight structural stop just below the trigger low so
+  risk <= $0.25 (1 share => stop <= $0.25 below entry AND <=3% AND >=1xATR);
+  measured-move target giving RR >= 1.5; spread <= max($0.02, 0.35%); volume
+  showing up (>=1.6x prior-6 on the trigger bar preferred, but an early
+  pullback-reclaim may precede the volume surge — use judgment, log it).
+- Early entry usually gives a TIGHTER stop (closer support) => better RR, but
+  LOWER hit-rate (less confirmation). Net expectancy is the open question the
+  experiment measures.
+
+**2. Trailing stop = primary exit (the core mechanic).**
+- Initial: place the resting stop-MARKET immediately after fill, as always.
+- Ratchet rules (move the stop UP only, never down):
+  - At ~+1R unrealized (or the first new higher low): move stop to BREAKEVEN
+    (entry). Now it's a free roll.
+  - Thereafter: trail the stop below each successive higher low (structure trail),
+    or ~1xATR below price if the move is vertical with no clean pullbacks.
+  - Keep the trail loose enough to survive normal pullbacks (below the higher
+    low, not at it) — a too-tight trail whipsaws out before the real move.
+- Mechanic (1 share, can't hold two stops): to raise the stop -> cancel the
+  resting stop, VERIFY cancellation by query, then IMMEDIATELY place the new
+  higher stop with a fresh ref_id, then verify it rests. Brief unprotected gap
+  is acceptable given active monitoring; do it on a pullback, not mid-spike.
+- Exit = the trail gets hit (locks the trailed profit) OR momentum clearly
+  stalls (take it manually via cancel-verify-then-sell) OR flat by 15:50.
+
+**3. Quick profit, not buy-and-hold.**
+- Default is to SCALP the move and bank the trailed gain when momentum stalls
+  (lower highs, volume dying, VWAP loss). Do NOT default to holding to EOD hoping
+  it closes high.
+- Holding longer is allowed at operator discretion ONLY when the trend is clearly
+  intact (higher highs + higher lows, volume sustaining) — and the trailing stop
+  protects it either way.
+
+**4. Re-entry.**
+- If stopped out but the setup RE-VALIDATES (reclaims the trigger, prints a new
+  higher low with volume), re-enter — same full entry sequence, fresh ref_ids.
+- Budget: each entry burns 1 of the 6 daily opening orders. The 3-consecutive-
+  loss halt and daily/weekly $ halts still bind. Don't revenge-trade a chop.
+
+**5. Act fast.**
+- In a live move, tighten monitoring (1-2 min) to catch the early trigger and to
+  manage the trail. Usage-discipline still applies when flat/nothing armed
+  (20-30 min), but a live trend justifies the faster cadence — that's the trade,
+  not idle polling.
+
+**Honest note on this package + the wider spread gate:** together these
+materially raise trade frequency AND variance. More entries = more spread paid
+and more false starts. That's the intended experiment (finally generate
+expectancy data), but it means the account can now actually move — down as well
+as up. The $0.25/trade cap + halts bound the damage; the 10-trade review is where
+we find out if early-entry trend-following clears its costs.

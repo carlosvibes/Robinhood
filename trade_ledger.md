@@ -1177,3 +1177,17 @@ WITHOUT MCP connector tools, which would break trading; send_later resumes THIS
 persistent session with full tools, proven across today's wakes). Mon 9/7 = Labor
 Day, market closed; next session after Fri is Tue 9/8. Awaiting Carlos on the
 spread-gate proposal.
+
+15:40 ET — RULE CHANGES ACTIVE (Carlos approved, chat 2026-09-03), effective next
+session (Fri 9/4):
+  1. SPREAD GATE widened max($0.01,0.15%) -> max($0.02,0.35%) [Lever A, bounded
+     10-trade experiment].
+  2. TREND-FOLLOW TACTICS active: early entry on first valid trigger (pullback-
+     reclaim / micro-flag break / first higher-low), TRAILING resting stop as the
+     primary exit (breakeven at +1R, then trail below higher lows or 1xATR), QUICK
+     profit (scalp the move, don't default to EOD hold), RE-ENTRY on re-validation
+     (within 6-order cap + halts), faster monitoring in live trends. See
+     learning.md Playbook + Changelog rows dated 2026-09-03.
+  ALL RISK RAILS UNCHANGED ($0.25/trade, $10 position, resting broker stop ALWAYS
+  on, loss halts, flat by close-10). Friday wake already carries the "re-read
+  Changelog" instruction so it picks these up.
