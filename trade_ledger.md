@@ -1052,3 +1052,7 @@ open. Watchlist TBD at the open. Plan: OR 09:30-09:45, first read ~09:47,
 wake armed for 15:45.
 09:48 ET — Both scans 0 (no $5-10 gappers today; universe morning-blind). No
 movers to arm. Flat, $100.00. Re-check ~10:15 when RVOL firms up.
+10:20 ET — CONFIG FIX: updated saved universe scan (18b098e0) RVOL filter 2.0
+-> 1.6 to implement the approved Moderate calibration (scanner was still on old
+2.0). Even at 1.6, scan = 0: genuinely quiet tape, no $5-10 name >1.6x vol.
+Gappers 0 too. No candidates. Flat, $100.00. Re-check ~10:45.
