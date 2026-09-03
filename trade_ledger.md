@@ -1097,3 +1097,12 @@ underwater at 6.295, at the 6.28 stop). DPRO back in midday range, setup broken.
 9.32-9.42 but vol collapsed 32k->11k->5k, no break of 9.42 (stale). DPRO drifting
 6.29-6.33 on 6-11k vol, no re-base. Neither near trigger. Flat, $100.00. Widen to
 ~15min; re-tighten if volume returns ~2:30-3:00 window. Last entry 15:25.
+14:17 ET — Scan added BKKT (Bakkt) 8.39 +12.9% RVOL 1.70, mid-band (crypto-adj,
+allowed). But spread 8.37/8.40 = $0.03 (0.36%) = 2.4x over gate -> FAILS. Spread
+tally this PM: ABTC $0.05 (0.53%) FAIL, BKKT $0.03 (0.36%) FAIL, DPRO $0.01
+(0.16%) PASS but not triggering (6.295, drifting below 6.39 day high). CONFIRMED
+STRUCTURAL FINDING: every volatile sub-$10 mover trades 0.3-0.5% spreads and
+fails the max($0.01,0.15%) gate; the only tight-spread name (DPRO) isn't moving.
+This is the headline for tonight's calibration rec to Carlos (spread gate is the
+binding constraint on tradeability, NOT risk/RR/ATR). Flat, $100.00. DPRO stays
+the one clean-spread watch. Widen ~15min; watch 2:30-3:00 window.
