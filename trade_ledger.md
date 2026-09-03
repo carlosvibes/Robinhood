@@ -1057,3 +1057,4 @@ movers to arm. Flat, $100.00. Re-check ~10:15 when RVOL firms up.
 2.0). Even at 1.6, scan = 0: genuinely quiet tape, no $5-10 name >1.6x vol.
 Gappers 0 too. No candidates. Flat, $100.00. Re-check ~10:45.
 10:47 ET — Scan 0 (RVOL 1.6). Quiet tape, no candidates. Flat. Re-check ~11:15, then midday.
+11:17 ET — Scan 0. Prime window closes dead (no in-band mover all morning). Flat. Midday: no-entry 12:00-13:30; next check ~13:00, then 13:55 afternoon read.
