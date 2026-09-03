@@ -1168,3 +1168,12 @@ proposal 2026-09-03). Risk rails should stay untouched.
 Platform/data: clean session, no tool errors, no usage-limit gap (discipline
 policy working). 5 consecutive no-trade days — cause is gate/universe fit, not
 execution.
+
+15:24 ET — EOD finalized early (flat all day, no position to manage, entry window
+closed at cutoff). Account-log row + learning.md lesson/funnel/spread-proposal
+written & pushed. Friday 9/4 pre-market wake scheduled via send_later for 12:32
+UTC (send_later chosen over create_trigger: create_trigger warned it would fire
+WITHOUT MCP connector tools, which would break trading; send_later resumes THIS
+persistent session with full tools, proven across today's wakes). Mon 9/7 = Labor
+Day, market closed; next session after Fri is Tue 9/8. Awaiting Carlos on the
+spread-gate proposal.
