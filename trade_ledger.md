@@ -1064,3 +1064,21 @@ RVOL 1.71 (American Bitcoin, crypto-adjacent=allowed, near band top); XHLD 9.455
 +2.3% RVOL 6.5 (low float 10.3M, only +2.3% — halt risk, weak % ). Best for the
 afternoon: DPRO and ABTC. Armed the afternoon read for ~13:35 (entries reopen
 13:30) to evaluate under NEW gates. Flat, $100.00.
+13:40 ET — AFTERNOON READ. Flat, $100.00 (0 pos / 0 orders). Universe scan (RVOL
+1.6) = 4 names: TIGR $5.00 +4.4% (liquid/tight but not moving — no vol trade),
+XHLD 9.41 +1.8% RVOL 6.6 (churn, flat price, thin 10.3M float — avoid), ABTC 9.32
++18% (CHASE — 3-bar vertical 9.14->9.39, 0.54% spread, no clean RR from a 9.36
+fill), DPRO 6.34 +11% (testing day high 6.39).
+  >>> ARMED: DPRO day-high breakout (Trade #1 candidate) <<<
+  Structure: morning impulse 6.13->6.39 (0.26), midday base 6.22-6.335, now
+  retesting the 6.39 day high. Above VWAP 6.14, ATR(14,5m) 0.071 (>0.04 floor),
+  float 37M, NASDAQ, liquid 4.4M sh.
+  TRIGGER: decisive 5-min break/HOLD above 6.39 (completed close >6.39, or a
+  strong push to 6.42+ holding) WITH confirming volume >=1.6x prior-6-bar avg
+  (~47k).
+  ENTRY: marketable limit <=0.3% through offer, ONLY IF spread <=$0.01 at the
+  instant (DPRO's $0.02 spread must tighten on the break). Non-chase (~6.40).
+  STOP: 6.28 resting stop-MARKET (below midday base; >=1xATR, <=3%). Risk ~0.12.
+  TARGET: 6.65 (measured move off morning impulse). Reward ~0.25. RR ~2.1.
+  If spread stays fat or volume doesn't confirm at the trigger -> NO trade (gate
+  holds). Cadence -> 5-min while armed. Last entry 15:25, flatten 15:50.
