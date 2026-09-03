@@ -1111,3 +1111,16 @@ the one clean-spread watch. Widen ~15min; watch 2:30-3:00 window.
 rolling-over tape. Flat, $100.00. Widen to ~30min; one last-hour reversal check
 ~3:05pm before the 15:25 last-entry cutoff. Likely a no-trade day. EOD flatten/
 summary wake at 19:45 UTC (3:45pm).
+15:08 ET — Last-hour scan added liquid names: SBET (Sharplink) 8.96 +10.6% RVOL
+1.60 float 216M — FINALLY a mover with a TIGHT SPREAD (8.96/8.97 = $0.01, PASSES
+gate). Also BULL 9.98 (at $10 ceiling, no room), UPB -8.9% (decliner, excluded),
+DPRO back to 6.38 but spread rewidened to $0.02 (fails). Pulled SBET full
+structure: strong all-day uptrend, day high 9.015 (noon), coiling 8.85-8.96 under
+it for ~2.5h. Above VWAP. BUT ATR(14,5m)=0.0343 < 0.04 floor -> HARD DQ (late-day
+compression). Marginal RR too (coil break -> ~9.08, ~1.0 RR). NO entry.
+  DAY VERDICT: NO TRADE. Every candidate failed >=1 hard gate: ABTC/BKKT spread,
+  DPRO trigger+spread, SBET ATR floor, BULL ceiling, UPB decliner, TIGR/XHLD no
+  setup. Flat, $100.00.
+  One live last-15min scenario: SBET decisive break >9.01 on a WIDE-RANGE/high-vol
+  bar re-expands ATR>=0.04 + gives momentum -> could re-qualify. Low-prob (hard
+  15:50 flatten 30min away). One final check ~15:20, else cutoff 15:25.
