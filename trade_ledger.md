@@ -29,6 +29,7 @@ All times are US Eastern. All dollar figures to two decimals.
 | 2026-08-31 | $100.00 | $100.00 | $0.00 | 0.0% | 0 | Week 2 Monday. VISN ORB refused (unconfirmed vol) and failed to the staged stop (-1R avoided). DPRO continuation triggered 15:00 but blocked by no-chase RR + ATR floor 0.032; breakout held (paper win missed — coil-compression case 4). Flat verified 15:47 ET. |
 | 2026-09-01 | $100.00 | $100.00 | $0.00 | 0.0% | 0 | Risk-off Tuesday (Nasdaq -1.4%). 5 candidates, 5 gate refusals: DPRO pop-and-fade, MNSO no-volume bounce, ALMS trial-failure knife (pass validated — base broke to -58%), IHS block volume, KYTX flag failed spread/ATR/volume gates. Flat verified 15:46 ET. |
 | 2026-09-02 | $100.00 | $100.00 | $0.00 | 0.0% | 0 | Wed. RULE CHANGE: Carlos approved "Moderate" calibration midday (RR 1.5, ATR 0.04, vol 1.6x, RVOL 1.6). DPRO cleared ATR floor + triggered ORB but failed (2 closes below VWAP; a would-be entry = -1R). OABI = first arm-able long under new rules but broke down before triggering. ~1hr usage-limit gap (flat verified on resume). Flat verified 15:45 ET. |
+| 2026-09-03 | $100.00 | $100.00 | $0.00 | 0.0% | 0 | Thu. First full day on Moderate gates. Quiet AM (universe scan 0 all morning). PM movers evaluated under new gates — ALL failed >=1 hard rail: ABTC/BKKT spread (0.53%/0.36% vs 0.15% gate), DPRO day-high trigger failed + spread rewidened, SBET (finally a tight-$0.01-spread mover) failed ATR floor (0.034<0.04, late-day coil), BULL at $10 ceiling, UPB decliner. KEY FINDING: spread gate is the binding constraint on this sub-$10 universe. DPRO arm discipline held (rejected 6.4155 wick-chase). Flat verified 15:21 ET. |
 
 ---
 
@@ -1124,3 +1125,46 @@ compression). Marginal RR too (coil break -> ~9.08, ~1.0 RR). NO entry.
   One live last-15min scenario: SBET decisive break >9.01 on a WIDE-RANGE/high-vol
   bar re-expands ATR>=0.04 + gives momentum -> could re-qualify. Low-prob (hard
   15:50 flatten 30min away). One final check ~15:20, else cutoff 15:25.
+
+### Session close — 2026-09-03 (Thursday) — NO TRADE (day 5 of Phase 1)
+
+Final: FLAT (0 pos / 0 orders verified 15:21 ET). Equity $100.00. Day P&L $0.00.
+Trades: 0. Halts: none hit. Buying power $100.00.
+
+Funnel (Thu): scan universe hit 8 names across the day; movers surfaced midday/PM.
+Candidates seriously evaluated: DPRO, ABTC, BKKT, SBET (+ BULL/UPB/TIGR/XHLD
+screened out fast). Arm-able setups: 1 (DPRO day-high breakout, armed 13:40).
+Triggered: 0 clean (DPRO poked 6.4155 but rejected — HOLD condition correctly
+kept us out). Entries: 0.
+
+Per-candidate DQ:
+  DPRO 6.13->6.39 impulse, armed day-high breakout (target 6.65, RR~2.1). 17:35
+    bar spiked to 6.4155 on 70k vol but CLOSED 6.3486 (rejection wick) -> no HOLD,
+    correctly no entry. Later spread rewidened to $0.02 (fails gate). Faded.
+  ABTC +18% vertical, clean bull-flag geometry (RR~3.0 on >9.42 break) but spread
+    persistently $0.05 (0.53%) = 3.5x over gate. HARD FAIL all afternoon.
+  BKKT +12% mid-band, spread $0.03 (0.36%) = 2.4x over gate. FAIL.
+  SBET +10.6% liquid (216M float) — the ONLY tight-spread mover ($0.01, PASSES) —
+    but ATR(14,5m)=0.0343 < 0.04 floor (2.5h late-day coil under 9.01) + marginal
+    RR (~1.0). HARD FAIL on ATR. Never broke 9.01. This was the closest call.
+  BULL 9.98 at $10 band ceiling (no target room). UPB -8.9% decliner (long-only).
+
+Best decision: Holding the DPRO HOLD-condition (rejected the 6.4155 wick-chase
+  that immediately reversed to 6.295 = would've been at the 6.28 stop). Process
+  discipline that the 9/2 lesson (execute pre-written criteria) is NOT in tension
+  with — the criterion WAS "break AND hold," and hold didn't happen.
+Worst decision: None material. Cadence/usage well-managed (no rate-limit gap
+  today). Arguably could have surfaced the spread-gate finding as a formal
+  proposal earlier in the week rather than day 5.
+
+KEY STRUCTURAL FINDING (headline for Carlos): Across 4 movers x multiple scans,
+the SPREAD gate [<= max($0.01, 0.15%)] — NOT risk/RR/ATR — was the single most
+frequent disqualifier. Volatile sub-$10 momentum names structurally trade
+0.3-0.5% spreads; the one name with a tight spread (SBET) was too coiled to clear
+ATR. Net: the current gate set makes this universe nearly untradeable. The
+highest-leverage next calibration is the spread tolerance (see learning.md
+proposal 2026-09-03). Risk rails should stay untouched.
+
+Platform/data: clean session, no tool errors, no usage-limit gap (discipline
+policy working). 5 consecutive no-trade days — cause is gate/universe fit, not
+execution.

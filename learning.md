@@ -518,3 +518,93 @@ rulebook. Thursday runs on the new gates from the open.
 - The account-wide usage limit is shared across ALL of Carlos's Claude sessions;
   a higher plan tier (Max) is the only way to raise the ceiling — that's his to
   decide.
+
+## Session lessons — 2026-09-03 (Thursday week 2, 0 trades; first FULL day on Moderate gates)
+
+1. **The spread gate is now the confirmed primary blocker — and it was flagged
+   Day 1.** Today 3 of 4 evaluated movers failed on spread alone: ABTC $0.05
+   (0.53%), BKKT $0.03 (0.36%), DPRO rewidened to $0.02 (0.31%) — all vs the
+   max($0.01, 0.15%) gate. This is the SAME finding as the 2026-08-27 session
+   lesson #1 ("spread gate is the binding constraint in this universe, not the
+   scanner"). One week, same wall. It is no longer a hypothesis. Formal proposal
+   below.
+2. **The one tight-spread mover (SBET, $0.01) failed on ATR, not spread —
+   revealing the real tension.** Liquid names (SBET 216M float, BULL 448M) carry
+   naturally tight spreads BUT move less / coil (SBET ATR 0.034 after a 2.5h
+   consolidation). Thin names (ABTC/DPRO/BKKT, 23-37M float) move hard but carry
+   0.3-0.5% spreads. The universe splits into "moves but can't execute" vs
+   "executable but doesn't move enough." THIS is the structural problem, stated
+   precisely. Neither the RR nor ATR loosening from the Moderate package can fix
+   it — it's a spread-vs-liquidity tradeoff, not a trigger-tightness problem.
+3. **Arm discipline held cleanly.** DPRO armed on a day-high breakout with a
+   "break AND HOLD >6.39" trigger. It poked 6.4155 intrabar (on 70k vol) but
+   CLOSED 6.3486 and faded to 6.295. Requiring the HOLD (not the poke) correctly
+   avoided a wick-chase that would have been immediately underwater at the 6.28
+   stop. Note this does NOT contradict the 9/2 "execute pre-written criteria"
+   lesson — the pre-written criterion WAS break-and-hold, and hold never
+   happened. Executing the actual criterion = not entering.
+4. **Usage discipline worked** — no rate-limit gap today (vs Wed's ~1hr). The
+   20-30/5-min cadence policy held budget through a full session.
+
+**Funnel table extended:**
+| Stage | Thu(8/28) | Fri | Mon | Tue | Wed | Thu(9/3) |
+|---|---|---|---|---|---|---|
+| Scanner hits (unique) | 11 | 6 | 2 | 5 | 5 | 8 |
+| Passed universe gates | 1 | 1 | 2 | 0-1 | 2 | 4 (DPRO,ABTC,BKKT,SBET) |
+| Valid setup formed | 0 | 1 | 3 | 1 | 2 | 2 (DPRO break, SBET coil) |
+| Trigger fired | 0 | 1 | 2 | 0 | 1 | 1 (DPRO poke, no hold) |
+| Confirmed + enterable | 0 | 0 | 0 | 0 | 0 | 0 |
+| Entry gates passed | 0 | 0 | 0 | 0 | 0 | 0 |
+6 sessions, 0 trades. Thu(9/3): the funnel reached the ENTRY-GATE stage on 4
+names — the widest funnel yet — and died there, 3x on SPREAD, 1x on ATR. The
+block has migrated from "no setup" (early week) to "setup exists but fails the
+spread/ATR execution gates" (now). That precisely localizes the fix.
+
+### 2026-09-03 — PROPOSAL: spread-gate calibration (PROPOSED — NOT ACTIVE, needs Carlos's dated Changelog row)
+Problem:          6 sessions, 0 trades. Root cause now localized to ONE gate:
+                  the spread limit max($0.01, 0.15%) rejects essentially every
+                  volatile sub-$10 mover (they trade 0.3-0.5% spreads), while the
+                  only tight-spread names are too liquid to move/clear ATR. This
+                  is the Day-1 finding, now confirmed across the full week.
+Two candidate levers (Carlos picks; both are rulebook changes):
+  LEVER A (spread tolerance) — widen the gate from max($0.01, 0.15%) to
+                  **max($0.02, 0.35%)**. Catches DPRO (0.31%), BKKT (0.36% ~edge),
+                  and DPRO-class $0.02 names; still rejects ABTC-class 0.5%+ junk.
+                  COST (honest): friction rises from ~$0.012 to up to ~$0.03
+                  round-trip on a ~$8 / 1-share position. Against a $0.25 max risk
+                  and typical $0.15-0.25 target, that's ~10-15% of gross reward
+                  paid to spread. On an UNPROVEN edge (0 closed trades) this is
+                  real: it could bleed the account faster if the setups don't win.
+                  Bounded as a 2-week / 10-trade experiment with a hard review.
+  LEVER B (universe liquidity) — instead of paying spread, raise the scanner's
+                  liquidity floor (e.g. avg vol > 3-5M or float > 50M) so it
+                  surfaces liquid movers (SBET/BULL-class) that carry $0.01
+                  spreads naturally. COST: those names move less in % and coil
+                  more (SBET failed ATR today), so fewer big-range setups — may
+                  just move the block from "spread" to "ATR/RR." Lower capital
+                  risk, possibly still 0 trades.
+Recommendation:   **LEVER A, bounded**, as the direct test of Carlos's stated
+                  goal (take small volatility profits on the names that actually
+                  move). Rationale: his trading style (quick in-and-out on 10-20%
+                  movers with $0.10-0.30 intraday swings) can absorb a $0.02-0.03
+                  spread when the move dwarfs it; and the ONLY way to get the
+                  expectancy data the project needs is to actually take trades in
+                  the tradeable universe. Pair it with a strict stop: if after 10
+                  trades expectancy is negative and spread friction is the driver,
+                  revert. Keep ALL risk rails ($0.25 risk, $10 position, loss
+                  halts, resting stop) UNCHANGED — this only touches the spread
+                  filter's threshold.
+Touches a rail?:  YES — the spread gate is a risk rail (protects against friction
+                  bleed). This is why it routes to Carlos, not self-activated.
+                  The 2026-09-02 package explicitly left it unchanged; this
+                  revisits that specific decision with a week of confirming data.
+Measured by:      trades taken, win rate, expectancy/trade, and a new column:
+                  spread paid vs gross P&L per trade (to see if friction is
+                  eating the edge).
+Status:           PROPOSED 2026-09-03. Awaiting Carlos. NOT active until he adds a
+                  dated Changelog row naming the exact threshold.
+Changelog row to add on approval (Lever A):
+                  | 2026-09-03 | Carlos | Spread gate widened max($0.01,0.15%) ->
+                  max($0.02,0.35%) as a bounded 10-trade experiment. All other
+                  rails unchanged. Review expectancy + spread-vs-P&L after 10
+                  trades. |
