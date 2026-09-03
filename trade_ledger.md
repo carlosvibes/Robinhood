@@ -1093,3 +1093,7 @@ underwater at 6.295, at the 6.28 stop). DPRO back in midday range, setup broken.
   Two live watches: (1) ABTC break >9.42 ONLY IF spread <=$0.014 at the instant;
   (2) DPRO re-base + 2nd attempt >6.39. Neither AT trigger now -> ~10min cadence.
   Flat, $100.00.
+14:00 ET — Both watches fading on dead volume (early-PM lull). ABTC flag intact
+9.32-9.42 but vol collapsed 32k->11k->5k, no break of 9.42 (stale). DPRO drifting
+6.29-6.33 on 6-11k vol, no re-base. Neither near trigger. Flat, $100.00. Widen to
+~15min; re-tighten if volume returns ~2:30-3:00 window. Last entry 15:25.
