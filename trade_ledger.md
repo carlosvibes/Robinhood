@@ -1106,3 +1106,8 @@ fails the max($0.01,0.15%) gate; the only tight-spread name (DPRO) isn't moving.
 This is the headline for tonight's calibration rec to Carlos (spread gate is the
 binding constraint on tradeability, NOT risk/RR/ATR). Flat, $100.00. DPRO stays
 the one clean-spread watch. Widen ~15min; watch 2:30-3:00 window.
+14:34 ET — Afternoon momentum window did NOT fire; all movers fading: ABTC 9.256
+(off 9.42), BKKT 8.31 (off 8.40), DPRO 6.275 (off day high). No long setup in a
+rolling-over tape. Flat, $100.00. Widen to ~30min; one last-hour reversal check
+~3:05pm before the 15:25 last-entry cutoff. Likely a no-trade day. EOD flatten/
+summary wake at 19:45 UTC (3:45pm).
