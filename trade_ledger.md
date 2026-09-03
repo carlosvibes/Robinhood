@@ -1082,3 +1082,14 @@ fill), DPRO 6.34 +11% (testing day high 6.39).
   TARGET: 6.65 (measured move off morning impulse). Reward ~0.25. RR ~2.1.
   If spread stays fat or volume doesn't confirm at the trigger -> NO trade (gate
   holds). Cadence -> 5-min while armed. Last entry 15:25, flatten 15:50.
+13:48 ET — DPRO trigger FAILED: 17:35 bar spiked to 6.4155 (through 6.39 day
+high) on 70k vol but CLOSED 6.3486 (rejection wick), faded to 6.295. Required a
+HOLD above 6.39, not a poke -> correctly NO entry (a 6.4155 chase would be
+underwater at 6.295, at the 6.28 stop). DPRO back in midday range, setup broken.
+  ABTC re-read: coiling 9.32-9.42 bull flag on declining vol (30k->22k) after
+  its impulse. Break >9.42 -> measured move ~9.79, stop 9.30, RR ~3.0 (geometry
+  GOOD). BUT spread persistent $0.05 (0.53%) = 3.5x over the $0.014 gate -> HARD
+  FAIL unless it tightens on the break. Watch item, spread-gated.
+  Two live watches: (1) ABTC break >9.42 ONLY IF spread <=$0.014 at the instant;
+  (2) DPRO re-base + 2nd attempt >6.39. Neither AT trigger now -> ~10min cadence.
+  Flat, $100.00.
