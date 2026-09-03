@@ -1058,3 +1058,9 @@ movers to arm. Flat, $100.00. Re-check ~10:15 when RVOL firms up.
 Gappers 0 too. No candidates. Flat, $100.00. Re-check ~10:45.
 10:47 ET — Scan 0 (RVOL 1.6). Quiet tape, no candidates. Flat. Re-check ~11:15, then midday.
 11:17 ET — Scan 0. Prime window closes dead (no in-band mover all morning). Flat. Midday: no-entry 12:00-13:30; next check ~13:00, then 13:55 afternoon read.
+13:00 ET — Tape woke up midday. 3 candidates (no-entry window, observation):
+DPRO 6.24 +9.7% RVOL 1.89 (familiar drone name, above $6 now); ABTC 9.07 +15.2%
+RVOL 1.71 (American Bitcoin, crypto-adjacent=allowed, near band top); XHLD 9.455
++2.3% RVOL 6.5 (low float 10.3M, only +2.3% — halt risk, weak % ). Best for the
+afternoon: DPRO and ABTC. Armed the afternoon read for ~13:35 (entries reopen
+13:30) to evaluate under NEW gates. Flat, $100.00.
