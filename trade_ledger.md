@@ -1050,3 +1050,5 @@ Pre-market: gappers scan 0 (quiet/early); universe scan morning-blind, runs at
 open. Watchlist TBD at the open. Plan: OR 09:30-09:45, first read ~09:47,
 20-30 min baseline cadence / 5-min when armed (usage-discipline policy). Flatten
 wake armed for 15:45.
+09:48 ET — Both scans 0 (no $5-10 gappers today; universe morning-blind). No
+movers to arm. Flat, $100.00. Re-check ~10:15 when RVOL firms up.
