@@ -1038,3 +1038,15 @@ Platform/data issues:  Account-wide usage limit cut the session ~1hr midday
                        (~12:30-13:32). Broker-side stops mean this is a monitoring
                        gap, not a capital risk. Cadence widened + data pulls
                        trimmed going forward to conserve budget.
+
+### Session in progress — 2026-09-03 (Thursday, week 2 — FIRST full day on NEW gates)
+
+Blocking checks (08:33 ET): STATUS ACTIVE / broker flat (0 pos, 0 orders) /
+buying power $100.00 (deposit fully settled, 0 pending) / clock verified /
+regular hours 09:30-16:00 (flatten 15:50, last entry 15:25). ACTIVE rules =
+Moderate calibration (RR 1.5, ATR 0.04, vol 1.6x, RVOL 1.6; risk rails unchanged;
+no shorting) per learning.md Changelog 2026-09-02 — confirmed no newer row.
+Pre-market: gappers scan 0 (quiet/early); universe scan morning-blind, runs at
+open. Watchlist TBD at the open. Plan: OR 09:30-09:45, first read ~09:47,
+20-30 min baseline cadence / 5-min when armed (usage-discipline policy). Flatten
+wake armed for 15:45.
