@@ -1303,3 +1303,8 @@ breakout = knife, no long. Fresh FMP gainer KPLT 7.70 +14% but spread 7.63/7.78=
 $0.15 (1.95%) untradeable. No tradeable in-band setup (triple-confirmed: universe
 scan bugged, gappers junk, FMP gainers junk/CHPT rolling over). Flat, $100.00.
 Firmly trending NO-TRADE day. Widen ~30min; loose watch for a late mover, else EOD.
+13:56 ET — Fresh FMP gainers: no new tradeable in-band name (same junk: MTEX 5%
+spread, KPLT 1.9% spread; rest <$5 / >$10 / leveraged ETFs). CHPT rolling over
+below VWAP. Confirmed NO-TRADE day (6 hrs, 3 sources, nothing in-band+tight-spread
++tradeable). Flat, $100.00 (no order placed all session). Widen to one pre-cutoff
+check ~2:50pm, then EOD wake 19:47 UTC handles flatten+summary. Last entry 15:25.
