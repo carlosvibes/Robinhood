@@ -1257,3 +1257,16 @@ still 0 (thin tape). CHPT WATCH: a pullback into $9.70-9.95 (in-band, affordable
 holding prior-$10-as-support = valid trend-follow continuation long (ATR 0.22,
 target highs 10.20+, stop below pullback). Flat, $100.00. ~10min cadence to catch
 a CHPT pullback-into-band; keep scanning.
+11:45 ET — >>> ARMED: CHPT sub-$10 early-entry long (Trade #1 candidate) <<<
+CHPT broke 10.24 (11:25), failed/faded to 9.71 low (11:40), bounced close 9.89,
+now 9.82. Day lows RISING: 9.30->9.46->9.71 (ascending triangle under $10, huge
+vol, +8% catalyst). KEY: can't ENTER >$10 (position cap) but CAN enter sub-$10
+early and HOLD through the breakout, trailing = captures the move.
+  TRIGGER: confirmed green 5-min reclaim off the 9.71 higher-low, holding >~9.88,
+  above VWAP, spread <=$0.0345, entry <=$9.92 (must be <$10; keep RR).
+  STOP: 9.67 (below 9.71 HL; risk ~0.21-0.23; >=1xATR 0.2255-ish; <=3%).
+  TARGET: measured move ~10.77 (recent range 9.71-10.24 projected) -> RR ~2+.
+  Trail: breakeven at +1R, then below higher lows/1xATR; HOLD through $10.
+  Risk if it fails again (5th $10 rejection) = -1R (~$0.22), acceptable.
+  If it loses VWAP / breaks 9.71 -> setup dead, no trade. Universe scan still 0.
+  Flat, $100.00. 5-min cadence.
