@@ -1236,3 +1236,13 @@ avg this early). Gappers unchanged (CHPT hot / DPRO,DFDV red — all non-tradeab
 Flat, $100.00. Nothing. Widen ~30min to the midday window (scanner's productive
 period all week). Ready to tighten fast if a mid-ATR tight-spread green mover
 appears.
+11:18 ET — Universe scan STILL 0 (persistent morning-blind). Re-examined CHPT: it
+COOLED — ATR(14,5m) now 0.2255 (was ~0.45), just under the $0.25 ceiling => now
+mechanically tradeable. Pulled back to 9.30-9.50, based, rallied to tag $10 a 3RD
+time (10.04) -> rejected -> 9.84 now. BUT: (1) spread $0.04 (0.41%) fails new
+0.35% gate; (2) at 9.84 it's mid-range, just rejected off the triple-top -> no
+clean trigger, momentum down; (3) $10 CEILING BIND: the clean breakout trade needs
+entry >$10 (OUT of band); only sub-$10 pullback-reclaim allowed, capped by $10.
+NO entry. Watch for a pullback-reclaim ~9.55-9.65 (in-band, higher-low, targeting
+$10 break) WITH tighter spread. Marginal even then (ATR at edge of cap). Flat,
+$100.00. ~12min cadence; keep scanning for a cleaner name.
