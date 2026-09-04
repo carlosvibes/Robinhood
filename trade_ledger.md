@@ -1296,3 +1296,10 @@ our float>10M + spread gates would reject anyway -> the RVOL bug isn't costing u
 tradeable setups. No tradeable in-band name exists now (CHPT>$10, MTEX/CURX 5%
 spreads, DPRO/DFDV red). Flat, $100.00. Trending no-trade but ruled out 3 ways.
 Widen ~28min; keep watching CHPT for an unlikely pullback into band.
+13:24 ET — CHPT back in-band 9.795 w/ tight $0.01 spread (pullback I watched for)
+BUT structure bearish: broke $10 again (10.14 @12:45), failed, grinding DOWN with
+lower lows (9.87->9.77->9.751), now BELOW VWAP (9.82). Distribution after failed
+breakout = knife, no long. Fresh FMP gainer KPLT 7.70 +14% but spread 7.63/7.78=
+$0.15 (1.95%) untradeable. No tradeable in-band setup (triple-confirmed: universe
+scan bugged, gappers junk, FMP gainers junk/CHPT rolling over). Flat, $100.00.
+Firmly trending NO-TRADE day. Widen ~30min; loose watch for a late mover, else EOD.
