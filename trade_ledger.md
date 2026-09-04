@@ -1191,3 +1191,20 @@ session (Fri 9/4):
   ALL RISK RAILS UNCHANGED ($0.25/trade, $10 position, resting broker stop ALWAYS
   on, loss halts, flat by close-10). Friday wake already carries the "re-read
   Changelog" instruction so it picks these up.
+
+### Session in progress — 2026-09-04 (Friday week 2) — FIRST day on widened spread + trend-follow tactics
+
+Blocking checks (08:33 ET pre-market): STATUS ACTIVE / broker flat (0 pos, 0
+orders) / account ••••1910 active, limited_margin, agentic, 0 unsettled ->
+buying power $100.00 / regular hours 09:30-16:00 ET (flatten 15:50, last entry
+15:25). ACTIVE ruleset = Moderate calibration + Lever A spread gate
+max($0.02,0.35%) + trend-follow tactics (early entry / trailing stop / quick
+profit / re-entry / act fast), per learning.md Changelog 2026-09-03 (confirmed
+newest rows). No shorting.
+Pre-market gappers (noisy, RVOL not meaningful yet): CHPT 9.10 (44M vol already,
+float 26.6M — the standout, watch at open), DPRO 6.40 (flat), DFDV 5.92 (-2.6%).
+Universe scan morning-blind until RVOL firms ~10:15. Plan: watch the open 09:30-
+09:45, first real read ~09:47; hunt CHPT + whatever the universe scan surfaces.
+Under the NEW tactics, look to get in EARLY on the first valid trigger (pullback-
+reclaim / micro-flag / first higher-low) with a tight stop, then TRAIL up. Goal:
+Trade #1. Usage-discipline cadence (20-30min flat / 5min armed-or-in-position).
