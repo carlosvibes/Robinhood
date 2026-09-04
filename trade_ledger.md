@@ -1246,3 +1246,14 @@ entry >$10 (OUT of band); only sub-$10 pullback-reclaim allowed, capped by $10.
 NO entry. Watch for a pullback-reclaim ~9.55-9.65 (in-band, higher-low, targeting
 $10 break) WITH tighter spread. Marginal even then (ATR at edge of cap). Flat,
 $100.00. ~12min cadence; keep scanning for a cleaner name.
+11:33 ET — CHPT BROKE $10 (now 10.19, spread $0.03). It did exactly the trend-
+follow thing (based under triple-top, broke out) — but it's now OUT OF REACH:
+1 share @10.19 = $10.19 > the $10 max-position cap. The $5-10 band = position
+affordability on a $100 book (can't afford 1 share >$10). Airtight, no chase. The
+one tradeable window (sub-$10 pullback-reclaim) was brief + gave no clean trigger
+on my ~12min checks. Lesson: the $10 ceiling excludes the strongest names once
+they break $10; also fast breakouts can outrun a 12min cadence. Universe scan
+still 0 (thin tape). CHPT WATCH: a pullback into $9.70-9.95 (in-band, affordable)
+holding prior-$10-as-support = valid trend-follow continuation long (ATR 0.22,
+target highs 10.20+, stop below pullback). Flat, $100.00. ~10min cadence to catch
+a CHPT pullback-into-band; keep scanning.
