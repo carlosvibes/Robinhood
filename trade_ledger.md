@@ -30,6 +30,7 @@ All times are US Eastern. All dollar figures to two decimals.
 | 2026-09-01 | $100.00 | $100.00 | $0.00 | 0.0% | 0 | Risk-off Tuesday (Nasdaq -1.4%). 5 candidates, 5 gate refusals: DPRO pop-and-fade, MNSO no-volume bounce, ALMS trial-failure knife (pass validated — base broke to -58%), IHS block volume, KYTX flag failed spread/ATR/volume gates. Flat verified 15:46 ET. |
 | 2026-09-02 | $100.00 | $100.00 | $0.00 | 0.0% | 0 | Wed. RULE CHANGE: Carlos approved "Moderate" calibration midday (RR 1.5, ATR 0.04, vol 1.6x, RVOL 1.6). DPRO cleared ATR floor + triggered ORB but failed (2 closes below VWAP; a would-be entry = -1R). OABI = first arm-able long under new rules but broke down before triggering. ~1hr usage-limit gap (flat verified on resume). Flat verified 15:45 ET. |
 | 2026-09-03 | $100.00 | $100.00 | $0.00 | 0.0% | 0 | Thu. First full day on Moderate gates. Quiet AM (universe scan 0 all morning). PM movers evaluated under new gates — ALL failed >=1 hard rail: ABTC/BKKT spread (0.53%/0.36% vs 0.15% gate), DPRO day-high trigger failed + spread rewidened, SBET (finally a tight-$0.01-spread mover) failed ATR floor (0.034<0.04, late-day coil), BULL at $10 ceiling, UPB decliner. KEY FINDING: spread gate is the binding constraint on this sub-$10 universe. DPRO arm discipline held (rejected 6.4155 wick-chase). Flat verified 15:21 ET. |
+| 2026-09-04 | $100.00 | $100.00 | $0.00 | 0.0% | 0 | Fri. First day on widened-spread + trend-follow tactics. CHPT (day's mover, +8%) untradeable: too volatile at open (ATR~0.45>0.25 cap), then boxed by/above the $10 position cap. Universe RVOL scanner BUGGED all day (0 despite real movers). FMP-gainers cross-check: in-band names all 1.9-5% spreads (MTEX/KPLT/CURX). No tradeable in-band setup, triple-confirmed. ROOT CAUSE identified + FIXED: Carlos approved FRACTIONAL LARGE-CAP trading (starts Tue 9/8) — the $5-10 whole-share universe was the disease. Flat verified 15:34 ET. |
 
 ---
 
@@ -1313,3 +1314,50 @@ FMP gainers: no new clean in-band name (MTEX 5% / KPLT 1.9% spreads, RGC/KFFB
 thin; rest <$5 / >$10 / leveraged ETFs). NO-TRADE day confirmed. 33min to cutoff,
 no runway anyway. Standing down to the EOD wake (19:47 UTC) for flatten-verify +
 week-in-review summary. Flat, $100.00.
+
+### Session close — 2026-09-04 (Friday) — NO TRADE (day 7 of Phase 1) — but the week's biggest fix approved
+
+Final: FLAT (0 pos / 0 orders verified 15:34 ET). Equity $100.00. Day P&L $0.00.
+Trades: 0. Halts: none. Buying power $100.00.
+
+What happened: CHPT (ChargePoint, +8%, the day's clear catalyst mover) was the
+only real in-band name and proved UNTRADEABLE two different ways — at the open too
+volatile (ATR~0.45 >> the $0.25/1-share risk-cap ceiling of ~0.25), then after it
+cooled (ATR~0.22) it was pinned at / broke above the $10 position cap (1 share
+>$10 = unaffordable). Its L2 book showed a wall of supply $10-10.50 (why it
+rejected $10 6-7x). The universe RVOL scanner was BUGGED all day (0 results despite
+CHPT at ~5x volume) — used FMP biggest-gainers as an alt source (Carlos signal-
+expansion), which surfaced only wide-spread junk in-band (MTEX 5%, KPLT 1.9%, CURX
+5%). No tradeable in-band setup existed — confirmed via 3 independent sources.
+
+THE REAL OUTCOME: root cause of 7 sessions / 0 trades finally isolated and FIXED.
+The $5-10 whole-share universe is structurally junk (thin/wide-spread, or $10-
+capped). Carlos approved (chat 2026-09-04) FRACTIONAL LARGE-CAP TRADING: trade $10-
+25 of any liquid large-cap (penny spreads), manual-stop protocol (attended <=1min,
+no resting stop on fractionals), $0.25 risk unchanged, $5-10 whole-share path kept
+as secondary. Also approved earlier: signal-source expansion (news/political +
+congressional + insider PUBLIC disclosures as candidate layers). See learning.md
+Changelog + the two new playbooks. Starts Tue 9/8 (Mon = Labor Day).
+
+Best decision: not forcing a wide-spread microcap or an unaffordable/over-ATR CHPT
+trade just to "do something" — AND diagnosing the true root cause + bringing Carlos
+a concrete fix rather than a 5th "no-trade, here's why."
+Worst decision: arguably should have identified the whole-share-universe ceiling as
+the structural disease earlier in the week instead of iterating on spread/ATR gates
+within a doomed universe.
+Platform/data issues: universe RVOL scanner returned 0 all day despite obvious
+movers (RVOL metric mis-computed, showing ~0.2 at ~5x vol). Rely on gappers + FMP
+gainers/most-active until it self-corrects.
+
+Week-in-review (Aug 26 - Sep 4, 7 sessions, 0 trades, $100.00 flat throughout):
+The Phase-1 $5-10 whole-share design could not produce a single fill: its universe
+is dominated by thin wide-spread microcaps and $10-ceiling names. Each rule
+loosening (RR 2.0->1.5, ATR 0.05->0.04, spread 0.15%->0.35%, RVOL 2.0->1.6, trend-
+follow tactics) correctly widened the funnel but couldn't overcome the universe
+itself. Fractional large-caps is the structural fix. Zero capital lost — the rails
+did their job protecting the account while we found the real problem.
+
+Funnel (Fri 9/4): universe scan BUGGED (0 all day). Movers seen via gappers/FMP:
+CHPT (untradeable: ATR-too-hot then $10-capped), MTEX/KPLT/CURX (wide spreads),
+DPRO/DFDV (red). Arm-able: 0 clean (CHPT armed once ~11:45, invalidated on VWAP
+loss + book-confirmed overhead). Entries: 0.
