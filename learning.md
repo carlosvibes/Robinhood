@@ -677,3 +677,50 @@ and more false starts. That's the intended experiment (finally generate
 expectancy data), but it means the account can now actually move — down as well
 as up. The $0.25/trade cap + halts bound the damage; the 10-trade review is where
 we find out if early-entry trend-following clears its costs.
+
+## 2026-09-04 — PROPOSAL: signal-source expansion (Carlos directive) — legality-sorted
+Carlos: add (1) copying successful/profitable day traders, (2) watching media
+from political figures / people of power, (3) "looking out for insider trading."
+These are CANDIDATE-GENERATION / CATALYST layers — they feed the SAME risk-gated
+execution framework (rails unchanged). Sorted by feasibility + legality:
+
+GREEN (legal, feasible, high-value) — implement:
+- POLITICAL / MEDIA CATALYSTS: trade news-driven moves from policy/political
+  figures. Tools available: Robinhood get_equity_news, FMP news, WebSearch.
+  Use to (a) explain WHY a scanner mover is moving (catalyst grade), (b) surface
+  sectors/names in play after a major policy statement. Feeds candidate list +
+  catalyst confirmation; does NOT bypass entry gates.
+- CONGRESSIONAL TRADE DISCLOSURES (STOCK Act): U.S. senators'/reps' trades are
+  PUBLICLY disclosed by law. Tools: FMP `senate` (+ house) endpoints. Legal,
+  well-known "follow the smart money" signal. Use as a watchlist/candidate
+  source (names disclosed as bought by multiple members = a research lead), then
+  the name must still pass ALL our entry gates intraday. NOT a blind copy.
+- CORPORATE INSIDER DISCLOSURES (SEC Form 4): company insiders' OWN buys/sells,
+  publicly filed with the SEC. Tools: FMP `insiderTrades`, Robinhood
+  get_sec_filing(_facts). Cluster-buys by execs = a legitimate public bullish
+  signal. Legal. Candidate source only; entry gates still apply.
+
+AMBER (feasible but limited) — approximate, set expectations:
+- COPYING DAY TRADERS: there is NO clean API for "what profitable day traders
+  are buying now." No social-sentiment (StockTwits/Twitter) tools in this
+  session. Best approximation: unusual-volume + our momentum scanners + options
+  flow (FMP) as a proxy for where active traders are. Cannot literally mirror a
+  specific trader's book. Manage expectations: we infer crowd activity from
+  volume/price/flow, not from copying named individuals.
+
+RED (ILLEGAL — will NOT do) — hard line:
+- Trading on MATERIAL NON-PUBLIC INFORMATION (actual "insider trading" in the
+  criminal sense) is illegal and off the table, full stop. The GREEN items above
+  use only PUBLIC disclosures (Form 4s, STOCK Act filings) — that is legal and
+  is what "looking out for insider trading" will mean for us: monitoring public
+  insider/congressional FILINGS, never acting on secret information.
+
+How it fits: these change CANDIDATE GENERATION and CATALYST GRADING, not the
+risk rails or entry gates. A congressionally-bought or insider-bought or
+politically-catalyzed name STILL must clear: $5-9.99 band, ATR 0.04-0.25, spread
+<=max($0.02,0.35%), above VWAP, RR>=1.5, $0.25 risk, resting stop, etc. They
+widen the FUNNEL TOP (more/better candidates), which is exactly what a thin-tape
+day like today (RVOL scanner broken, only CHPT moving) needs.
+Status: PROPOSED 2026-09-04. GREEN items are low-risk to start using as research/
+candidate inputs immediately (they don't touch rails). Awaiting Carlos's OK to
+wire them into the daily routine + a Changelog row if he wants them formalized.
