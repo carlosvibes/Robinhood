@@ -192,6 +192,7 @@ Every change to the strategy or rails, with date, reason, and who approved it. W
 | 2026-09-02 | ACTIVE: "Moderate" gate calibration. Reward-to-risk floor 2.0 -> **1.5** (computed from structure; 1.5:1 needs >40% win rate for positive expectancy). ATR(14,5m) floor 0.05 -> **0.04**. Breakout/continuation volume confirmation -> **>=1.6x the avg of the prior 6 completed bars** (supersedes/withdraws the 8/31 ORB-volume proposal). Scanner RVOL filter 2.0 -> **1.6**. NO shorting (short module stays DRAFTED, deferred to Phase 2). ALL RISK RAILS UNCHANGED: $10 max position, $0.25 max risk/trade, whole shares, $5-10 band, stop always resting at broker >=1x ATR and <=3%, long-only above VWAP, spread gate (larger of $0.01/0.15%), float>10M, daily/weekly loss halts, 3-consecutive-loss halt, 6-order cap, flat by close-10. | 4 sessions 0 trades; funnel died at trigger/entry gates, not the scanner. Goal: raise trade frequency to start generating expectancy data at ~neutral expected cost. | Carlos (chat, 2026-09-02) |
 | 2026-09-03 | ACTIVE: **Spread gate widened** from max($0.01, 0.15%) -> **max($0.02, 0.35%)** (Lever A). Bounded 10-trade experiment: after 10 closed trades, review expectancy AND spread-paid-vs-gross-P&L; revert if friction is eating the edge. Makes DPRO/BKKT-class movers (0.3% spreads) tradeable; still rejects ABTC-class 0.5%+ junk. ALL OTHER RISK RAILS UNCHANGED. | 6 sessions 0 trades; root cause localized to the spread gate — it rejected 3 of 4 movers on 9/3 and was flagged Day 1. | Carlos (chat, 2026-09-03) |
 | 2026-09-03 | ACTIVE: **Trend-follow tactics** (how we trade, not the risk rails). (1) EARLY ENTRY: enter at the first valid structural trigger of a move (pullback-reclaim, micro-consolidation break, first-higher-low) rather than waiting only for the fully-confirmed breakout — provided a tight structural stop keeps risk <=$0.25 and RR>=1.5 to the measured target still holds. (2) TRAILING STOP is the primary exit: once price reaches ~+1R or prints a new higher low, ratchet the resting broker stop up (breakeven first, then trail below successive higher lows or by 1xATR) to ride the trend and lock profit if it reverses. (3) QUICK PROFIT: scalp the move — do NOT default to holding all day; take the trailed profit when momentum stalls. Holding to EOD allowed at operator discretion when the trend is intact. (4) RE-ENTRY permitted if a stopped-out setup re-validates, within the 6-order/day cap and all loss halts. (5) ACT FAST: tighten monitoring to catch and follow trends early. ALL RISK RAILS UNCHANGED (resting broker stop ALWAYS on; trailing = cancel-old-then-place-new-higher; $0.25 risk, $10 position, halts, flat by close-10). | Carlos: "part of the game is get in early and follow the stock up with stop losses... quick money, not hold all day... pick up trends fast and act faster." | Carlos (chat, 2026-09-03) |
+| 2026-09-04 | ACTIVE: **Fractional large-cap trading** — the universe/sizing unlock. UNIVERSE expands from $5-10 whole-share stocks to **any highly-liquid stock (fractional shares allowed)** — prefer mega/large-caps with penny-tight spreads (AAPL, NVDA, META, TSLA, AMD, GOOGL, AMZN, MSFT, etc.). Fractional orders are MARKET orders, regular hours only, and **carry NO resting broker stop** (platform note #4), so protection = **MANUAL STOP protocol**: stay attended at <=1-min cadence while in a fractional position and fire a market SELL the instant price trades through the pre-set stop; NEVER leave a fractional position unattended; hard flat by 15:50. SIZING (my implementation per Carlos "as you see fit," conservative): **max position raised $10 -> $25**, **max risk/trade STAYS $0.25** (the real rail, unchanged). Volatility floor re-expressed for large-caps as **ATR% (ATR/price) >= ~0.3% intraday** (replaces the $0.04 absolute floor, which only made sense for $5-10 names). Spread gate for large-caps effectively trivial (they're <0.05%). RETAIN the $5-10 whole-share path as a SECONDARY option (with its resting broker stop) — kept "on the side," not relied upon. UNCHANGED: $0.25 risk/trade, long-only + above VWAP, RR>=1.5, 3-consec-loss halt, $1 daily / $2.50 weekly halt, 6-order/day cap, flat by close-10, NO shorting (Phase 2). MUST verify fractional order mechanics via review_equity_order (preview) before the first live fractional entry (Tue 9/8 pre-market). | 7 sessions 0 trades; ROOT CAUSE = the $5-10 whole-share universe is structurally junk (thin/wide-spread or $10-capped). Fractionals open the entire liquid market (large-cap spreads 0.004-0.03% vs our 0.3-5%) and fix spread/ATR/band/halt at once. | Carlos (chat, 2026-09-04) |
 
 ---
 
@@ -779,3 +780,52 @@ different. (2) Consider adding capital if $ results (not just edge proof) matter
 now. (3) Keep shorting deferred until the long edge is proven. 
 Status: PROPOSED 2026-09-04, awaiting Carlos. Rail change -> needs his dated
 Changelog row before I act on it.
+
+## Playbook — Fractional Large-Cap trading (ACTIVE 2026-09-04, Carlos-approved)
+
+The primary path going forward. Trade small dollar amounts of GREAT instruments
+instead of whole shares of junk. Retain the trend-follow tactics (early entry,
+trail, quick profit, re-entry) — only the universe, sizing, and stop-mechanics change.
+
+**Candidate universe.** Highly-liquid stocks, any price (fractional). Prefer
+mega/large-caps that are MOVING today (a catalyst, sector momentum, or a clean
+intraday trend) with penny-tight spreads. Sources: FMP biggest-gainers/losers +
+most-active, news/political catalysts, congressional/insider disclosures (GREEN
+signal layers), and the classic liquid movers (NVDA/META/TSLA/AMD/AAPL/GOOGL/AMZN/
+MSFT/AVGO/NFLX/COIN/PLTR/…). The broken $5-10 RVOL scanner is no longer the
+bottleneck.
+
+**Entry gates (per trade).**
+- Liquid: tight spread (<~0.05%, effectively always true for large-caps) + real ADV.
+- Direction: LONG only, ABOVE VWAP (shorting still Phase-2 deferred).
+- Volatility: ATR% (ATR/price) >= ~0.3% intraday — enough range for a move to clear
+  friction and reach a target. (Replaces the $0.04 absolute ATR floor.)
+- Trigger: a trend-follow early trigger (pullback-reclaim / micro-flag break /
+  first-higher-low) or a clean breakout with room.
+- Risk: define a stop level; size the fractional $-position so the loss to that stop
+  is <= $0.25 max risk. Position <= $25. (Example: NVDA $230, stop 0.6% away =
+  $1.38/share; to risk $0.25 buy $0.25/0.006 = ~$42 notional -> but cap at $25, so
+  risk on $25 = $0.15. Fine — smaller risk is OK; NEVER exceed $0.25 or $25 notional.)
+- RR: measured-move target gives >= 1.5 R.
+
+**Execution sequence (fractional).**
+1. Write ENTRY block to trade_ledger.md + commit/push (thesis, entry, stop, target, RR, size).
+2. Fresh quote (<30s). Confirm spread + above VWAP + trigger still valid.
+3. review_equity_order (preview) — halt/PDT check. Halt alert = ABORT.
+4. Place fractional BUY (dollar-based market order, fresh ref_id UUID).
+5. Read actual fill (get_equity_orders / get_equity_positions).
+6. **No resting stop is possible** -> record the MANUAL stop price; go to <=1-min
+   attended monitoring immediately.
+7. Manage: if price trades through the stop -> fire market SELL now (fresh ref_id),
+   verify flat. Else TRAIL the manual stop up (breakeven at +1R, then under higher
+   lows / by ATR). Take quick profit when momentum stalls (market SELL). Re-enter
+   on re-validation within the 6-order/day cap + halts.
+8. HARD FLAT by 15:50 regardless (market SELL, verify zero).
+
+**Hard safety rules (non-negotiable).**
+- NEVER leave a fractional position unattended — no resting stop means a monitoring
+  gap = a capital risk. If I must stop attending, flatten first.
+- $0.25 max risk/trade and all loss halts (3-consec / $1 daily / $2.50 weekly) and
+  the 6-order/day cap remain fully in force.
+- Verify fractional order mechanics with a review_equity_order preview BEFORE the
+  first real fractional entry (Tue 9/8 pre-market).
