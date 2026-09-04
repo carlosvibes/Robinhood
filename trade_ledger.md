@@ -1270,3 +1270,8 @@ early and HOLD through the breakout, trailing = captures the move.
   Risk if it fails again (5th $10 rejection) = -1R (~$0.22), acceptable.
   If it loses VWAP / breaks 9.71 -> setup dead, no trade. Universe scan still 0.
   Flat, $100.00. 5-min cadence.
+11:54 ET — CHPT NOT triggered: faded to 9.78, LOST VWAP (9.799). Below VWAP = no
+long (hard filter). The failed $10 breakout is resolving DOWN. Sitting at the
+9.71-9.80 decision zone. NOT dead yet (9.71 HL intact) but long thesis weakening.
+One more 5-min check at the 9.71-hold / VWAP-reclaim decision; if still <VWAP or
+breaks 9.71 -> DISARM CHPT + widen. No entry. Flat, $100.00.
