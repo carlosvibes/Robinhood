@@ -1231,3 +1231,8 @@ CHPT 9.74 (dropped, ATR too hot), DPRO 5.97 -7% (breaking DOWN — short candida
 but shorting inactive), DFDV 5.74 -5.6% (falling). Long-only + ATR ceiling rule
 out all three. No long setups. Flat, $100.00. Widen ~25min; universe scan
 historically populates midday — hunt mid-ATR tight-spread movers then.
+10:44 ET — Universe scan still 0 (morning-blind persists; needs 1.6x full-day
+avg this early). Gappers unchanged (CHPT hot / DPRO,DFDV red — all non-tradeable).
+Flat, $100.00. Nothing. Widen ~30min to the midday window (scanner's productive
+period all week). Ready to tighten fast if a mid-ATR tight-spread green mover
+appears.
