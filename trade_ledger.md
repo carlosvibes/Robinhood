@@ -1226,3 +1226,8 @@ from $0.25 risk cap / 1-share min). The day's BIGGEST movers are often TOO
 volatile for this account. Dropping CHPT. DPRO/DFDV red. Nothing tradeable @9:52.
 Universe scan 0 (morning-blind). Flat, $100.00. Widen ~18min; hunt a mid-ATR
 ($0.04-0.25) tight-spread mover as the scan populates ~10:15.
+10:14 ET — Universe scan still 0 (morning-blind). Gappers all non-tradeable:
+CHPT 9.74 (dropped, ATR too hot), DPRO 5.97 -7% (breaking DOWN — short candidate
+but shorting inactive), DFDV 5.74 -5.6% (falling). Long-only + ATR ceiling rule
+out all three. No long setups. Flat, $100.00. Widen ~25min; universe scan
+historically populates midday — hunt mid-ATR tight-spread movers then.
