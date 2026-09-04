@@ -829,3 +829,56 @@ bottleneck.
   the 6-order/day cap remain fully in force.
 - Verify fractional order mechanics with a review_equity_order preview BEFORE the
   first real fractional entry (Tue 9/8 pre-market).
+
+## 2026-09-04 — Strategy roadmap: quant methods (Carlos directive "think like a PhD quant")
+Carlos wants economic-principle + mathematical/statistical thinking: supply/demand,
+substitutes/complements, PAIRS TRADING (KO/PEP example: correlated names diverge ->
+short the rich one, long the cheap one, hold until they converge), candlestick
+math. Honest quant sorting — what fits our constraints NOW vs later:
+
+PAIRS / STATISTICAL ARBITRAGE (KO/PEP, etc.) — DEFERRED (Phase 2+), honest why:
+- It's a real, respected strategy (mean-reversion on cointegrated pairs, traded on
+  the z-score of the spread). BUT it structurally does NOT fit us right now:
+  (1) Requires SHORTING one leg — shorting is Phase-2-gated (20 closed trades +
+      positive expectancy) AND can't be done on fractionals (no resting stop) AND
+      needs borrow/margin we haven't verified.
+  (2) It's a SWING trade — pairs diverge and reconverge over DAYS-WEEKS, not
+      intraday. That collides head-on with our flat-by-close day-trading mandate.
+      KO/PEP essentially never diverge+reconverge within one session.
+  (3) Two legs tie up scarce capital ($100 acct) on one idea.
+  (4) NOT risk-free: "until they meet again" is the classic trap — pairs can
+      DE-couple permanently (earnings miss, scandal, secular shift). Convergence
+      is a probability, not a guarantee; needs cointegration testing + a stop on
+      the spread, not blind faith they reconverge.
+  Verdict: revisit at Phase 2 (with shorting + a multi-day swing sleeve, if Carlos
+  wants a separate non-day-trading bucket). Not a $100 intraday fit today.
+
+USABLE NOW (within long-only fractional intraday rules) — the honest version of
+the same economic insight:
+- RELATIVE STRENGTH / rotation: among correlated names (KO vs PEP, V vs MA, NVDA
+  vs AMD, XOM vs CVX), when the sector moves, go LONG the leader (momentum) or the
+  mean-reverting laggard (the one lagging its pair intraday with a reclaim setup).
+  Captures the "they move together" insight with a long only.
+- MEAN-REVERSION math intraday: z-score of price vs VWAP, and Bollinger-band
+  reversion on liquid large-caps — fade stretched moves back to the mean, or buy
+  VWAP reclaims. Fits fractional large-caps + trend-follow tactics.
+- VOLATILITY-NORMALIZED sizing/targets: size and set stops/targets in ATR (already
+  doing via the $0.25 risk cap); rank candidates by ATR% and expected move.
+- STAT DISCIPLINE: track expectancy, win rate, R-multiples, and cut by regime;
+  demand statistical significance before trusting any pattern (n>=~30).
+
+CANDLESTICK PATTERNS: Carlos referenced specific candlestick trends "he told me
+about" — NOT captured in current context (pre-compaction). ACTION: ask Carlos to
+restate them, or point to where he specified. Default set I'll use at S/R until
+then: bullish/bearish engulfing, hammer/shooting-star, doji at support/resistance,
+inside-bar breaks — as CONFIRMATION on the trigger bar, not standalone signals.
+
+THE OVERRIDING QUANT POINT (most important, and the honest one): we have ZERO
+closed trades. A real quant does NOT layer stat-arb/pairs/complex models onto a
+system with n=0 — that's overfitting before a single data point. PRIORITY: get
+Trade #1, build a sample of 10-20 fractional large-cap trades, measure real
+expectancy, THEN add sophistication where the data says it helps. Roadmap logged;
+execution stays simple until we have an edge to refine.
+Status: roadmap PROPOSED 2026-09-04. Relative-strength + VWAP/Bollinger mean-
+reversion are usable now within existing rules (long-only, fractional). Pairs/
+short-based stat-arb DEFERRED to Phase 2. Candlesticks pending Carlos's specifics.
