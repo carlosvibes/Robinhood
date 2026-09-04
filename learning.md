@@ -724,3 +724,58 @@ day like today (RVOL scanner broken, only CHPT moving) needs.
 Status: PROPOSED 2026-09-04. GREEN items are low-risk to start using as research/
 candidate inputs immediately (they don't touch rails). Awaiting Carlos's OK to
 wire them into the daily routine + a Changelog row if he wants them formalized.
+
+## 2026-09-04 — PROPOSAL: the real unlock — FRACTIONAL SHARES on liquid large-caps (Carlos escalation)
+THE DISEASE (root cause of 7 sessions, 0 trades): the $10-max-position + whole-
+shares rails force our entire universe to $5-10 stocks. That slice is structurally
+junk: thin micro-caps with 0.3-5% spreads, or names pinned at the $10 ceiling we
+can't follow. It is NOT gate-timidity — the tradeable universe itself is the
+problem. Proof (2026-09-04 ~15:28 ET): NVDA spread $0.01 (0.004%), META $0.07
+(0.011%), AMD $0.13 (0.028%, +3.4%), TSLA $0.03 (0.008%, -5.7%) vs our $5-10
+names at 0.3-5%. The whole market of clean, liquid names is 10-100x better — we
+just can't afford 1 whole share of a $230-616 stock on a $10 position.
+
+THE FIX: allow FRACTIONAL shares -> trade $10 of ANY liquid large-cap (AAPL, NVDA,
+META, TSLA, AMD, GOOGL, AMZN, etc.). This solves EVERY blocker at once:
+- Spread gate: large-caps are penny-wide (<0.05%) — trivially passes.
+- ATR ceiling: with fractional $-sizing, risk = (stop%) x $position, decoupled
+  from share price; the $0.25 risk cap works on ANY price stock.
+- $5-10 band + $10 ceiling: GONE — price no longer constrains the universe.
+- Thin float / halt risk: GONE — mega-caps.
+- Candidate scarcity / broken RVOL scanner: GONE — hundreds of liquid names,
+  plus the FMP/news/congressional/insider layers now have quality names to rank.
+
+THE TRADEOFF (honest, and why it's a RAIL change for Carlos): fractional orders
+are MARKET orders, regular hours only, and CANNOT carry a resting broker stop
+(platform note #4). So the broker-side stop — our core protection — is not
+available on fractionals. Mitigation = MANUAL stop protocol: while in a fractional
+position I monitor at 1-min cadence and fire a market SELL the instant price
+trades through the stop level; hard flat by 15:50; never leave a fractional
+position unattended. This converts "a monitoring gap is not a capital risk" (true
+with resting stops) into "a monitoring gap COULD be a capital risk" — acceptable
+only because I actively attend every position under the trend-follow tactics, and
+$0.25 max risk caps the damage. THIS IS CARLOS'S CALL (risk rail).
+
+CAPITAL MATH (must be honest): on $100 with $10/trade and $0.25 max risk, the best
+realistic WIN is ~$0.20-0.50/trade. We CANNOT make "$70 in a day" on this account
+- the math forbids it (a $10 position would have to +700%). Carlos's friend's $70
+on META was real capital (~1+ shares = $600+). So there are TWO separate problems:
+(1) we're not trading at all -> fractionals/large-caps fixes this; (2) even
+trading, $10 positions make cents -> only MORE CAPITAL fixes this. Proving a
+positive-expectancy EDGE on small size first, THEN scaling capital, is the whole
+point of Phase 1. Recommend: approve fractionals to start generating real trades +
+edge data; separately, consider funding the account beyond $100 if the $ outcomes
+are to matter.
+
+PHASE 2 note: Phase 2 = the SHORT module, gated on 20 CLOSED trades + positive
+expectancy. We have 0 closed trades — skipping to it is unearned AND shorting
+doesn't fix the universe problem (it adds a second way to lose on the same junk).
+NOT the move now. (Though TSLA -5.7% today is exactly the kind of clean large-cap
+SHORT fractionals+Phase2 would eventually open.)
+
+RECOMMENDATION (priority order): (1) Approve FRACTIONAL large-cap trading with the
+manual-stop protocol above — biggest single unlock, makes Tuesday completely
+different. (2) Consider adding capital if $ results (not just edge proof) matter
+now. (3) Keep shorting deferred until the long edge is proven. 
+Status: PROPOSED 2026-09-04, awaiting Carlos. Rail change -> needs his dated
+Changelog row before I act on it.
