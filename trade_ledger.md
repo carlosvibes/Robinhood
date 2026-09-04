@@ -1216,3 +1216,13 @@ upside. Above VWAP (~9.6). NOT a clean early entry yet — watching for a pullba
 reclaim to a higher-low (~9.55-9.65) with tighter spread, or a clean break >10.20.
 DPRO 6.27 (-2.5%, red, no long), DFDV 5.85 (-3.8%, red, wide spread). CHPT-only
 focus; ~7min cadence (day's mover developing). Universe scan repopulates ~10:15.
+09:52 ET — CHPT DQ (important structural finding): tested $10 twice, rejected
+(10.20 open, 10.08 @9:40), now 9.79 — ascending triangle into $10 resistance.
+But 5-min bar ranges 0.28-0.94 => ATR(14,5m) ~0.45. MECHANICAL CONFLICT: 1-share
+min + stop >=1xATR (~0.45) forces risk ~$0.45, which EXCEEDS the $0.25 max-risk
+cap. => CHPT untradeable in EITHER direction on a $100 book. GENERAL RULE surfaced:
+tradeable names need ATR(14,5m) between ~$0.04 (floor) and ~$0.25 (implied ceiling
+from $0.25 risk cap / 1-share min). The day's BIGGEST movers are often TOO
+volatile for this account. Dropping CHPT. DPRO/DFDV red. Nothing tradeable @9:52.
+Universe scan 0 (morning-blind). Flat, $100.00. Widen ~18min; hunt a mid-ATR
+($0.04-0.25) tight-spread mover as the scan populates ~10:15.
