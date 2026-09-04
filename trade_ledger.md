@@ -1275,3 +1275,14 @@ long (hard filter). The failed $10 breakout is resolving DOWN. Sitting at the
 9.71-9.80 decision zone. NOT dead yet (9.71 HL intact) but long thesis weakening.
 One more 5-min check at the 9.71-hold / VWAP-reclaim decision; if still <VWAP or
 breaks 9.71 -> DISARM CHPT + widen. No entry. Flat, $100.00.
+12:01 ET — CHPT reclaimed VWAP (9.88>9.799) off the 9.71 HL — structural trigger
+hit. Pulled L2 book (final-seconds check): true inside 9.87x9.89 = $0.02 spread
+(PASSES; the 9.86/9.90 quote was stale). BUT book revealed HEAVY overhead supply
+walls $10-10.50 (1700@10.09, 1600@10.18, 1500@10.37, 1500@10.47, 1812@10.50) —
+$10 rejected 5x today. Realistic target into that wall ~10.24-10.30 -> RR only
+~1.46-1.71 (borderline) AND ATR 0.2255 at the risk-cap ceiling (max-risk trade)
+AND it's a reclaim off a FAILED breakout at midday. Low conviction + borderline
+gates = PASS. The book saved a marginal max-risk trade into stacked supply.
+NO ENTRY. Disarm tight CHPT watch. Keep as loose watch only for a DEEPER pullback-
+reclaim (~9.40-9.55, more room to $10) or a fresh in-band name. Universe scan
+still 0. Flat, $100.00. Widen ~20min, rescan.
