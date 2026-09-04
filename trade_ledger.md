@@ -1286,3 +1286,13 @@ gates = PASS. The book saved a marginal max-risk trade into stacked supply.
 NO ENTRY. Disarm tight CHPT watch. Keep as loose watch only for a DEEPER pullback-
 reclaim (~9.40-9.55, more room to $10) or a fresh in-band name. Universe scan
 still 0. Flat, $100.00. Widen ~20min, rescan.
+12:54 ET — CHPT cleared $10 (now 10.085, running) = OUT OF REACH (1sh>$10 cap).
+Universe scan RVOL metric BUGGED all day (shows CHPT RVOL 0.22 at ~5x vol) ->
+returns 0; used FMP biggest-gainers as an alt mover source (per Carlos signal-
+expansion, legal public data). In-band FMP gainers: MTEX 8.80 +25% but spread
+8.46/8.91=$0.45 (5.1%) UNTRADEABLE; CURX 5.17 +11% spread 5.03/5.30=$0.27 (5.2%)
+UNTRADEABLE. FINDING: the names the broken scanner "missed" are thin micro-caps
+our float>10M + spread gates would reject anyway -> the RVOL bug isn't costing us
+tradeable setups. No tradeable in-band name exists now (CHPT>$10, MTEX/CURX 5%
+spreads, DPRO/DFDV red). Flat, $100.00. Trending no-trade but ruled out 3 ways.
+Widen ~28min; keep watching CHPT for an unlikely pullback into band.
