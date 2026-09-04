@@ -1208,3 +1208,11 @@ Universe scan morning-blind until RVOL firms ~10:15. Plan: watch the open 09:30-
 Under the NEW tactics, look to get in EARLY on the first valid trigger (pullback-
 reclaim / micro-flag / first higher-low) with a tight stop, then TRAIL up. Goal:
 Trade #1. Usage-discipline cadence (20-30min flat / 5min armed-or-in-position).
+09:43 ET — Open read. Flat, $100.00. Universe scan 0 (morning-blind). Gappers:
+CHPT is the day's name — gapped 9.08->open, SPIKED to 10.20 at the open then
+rejected to 9.32, now 9.81 (+8%). Wide whippy OR (9.26-10.20). CONCERNS: spread
+$0.06 (0.61%) fails even new 0.35% gate; mid-range now; $10 + 10.20 high cap
+upside. Above VWAP (~9.6). NOT a clean early entry yet — watching for a pullback-
+reclaim to a higher-low (~9.55-9.65) with tighter spread, or a clean break >10.20.
+DPRO 6.27 (-2.5%, red, no long), DFDV 5.85 (-3.8%, red, wide spread). CHPT-only
+focus; ~7min cadence (day's mover developing). Universe scan repopulates ~10:15.
