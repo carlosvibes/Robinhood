@@ -1497,3 +1497,7 @@ wide-spread, INTC/CRWV/IONQ/ROIV all +9-19%). ROIV 41.70 (my win, not a fresh
 re-setup). Nothing to take without chasing. Flat, day +$0.47. Protecting the win;
 widen ~55min, re-scan the 2:30-3:00 momentum window; else close the day on the one
 clean +2R winner. EOD wake 19:45 UTC.
+13:34 ET — Trade #2 scan: still no clean/fresh/non-extended liquid setup (SEI +17%,
+CRWV +15%, ROIV +20% past my exit, rest microcaps/leveraged ETFs). Strong trend day
+where movers ran early = nothing to enter without chasing. Flat, day +$0.47.
+Holding the win. One more scan ~2:40pm (momentum window); else EOD closes green.
