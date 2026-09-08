@@ -55,9 +55,9 @@ Verified 2026-08-26 by direct API test against the live account. Re-verify if th
 
 | # | Question | Answer | Date |
 |---|---|---|---|
-| 14 | Typical observed round-trip spread cost at Phase 1 size | | |
-| 15 | Average slippage vs the reference quote on marketable limits | | |
-| 16 | Has a PDT alert ever appeared on `review_equity_order`? | | |
+| 14 | Typical observed round-trip spread cost at Phase 1 size | Trade #1 ROIV: spread ~$0.03-0.04 (0.08-0.10%) on a liquid large-cap — trivial vs the $5-10 junk (0.3-5%). Fractional large-caps ~eliminate spread cost. | 2026-09-08 |
+| 15 | Average slippage vs the reference quote on marketable/dollar-market orders | Trade #1 ROIV: BUY filled 40.9743 vs ask ~41.01 (POSITIVE ~+$0.036/sh); SELL filled 41.9313 vs bid ~41.84 (POSITIVE ~+$0.09/sh). Fractional dollar-market orders filled AT or BETTER than quote on this liquid name — negligible/favorable slippage. | 2026-09-08 |
+| 16 | Has a PDT alert ever appeared on `review_equity_order`? | No. order_checks empty on the $10 test preview, the $21/$20 ROIV buy, and prior. No PDT/halt/BP alerts on fractional large-cap orders so far. | 2026-09-08 |
 
 ---
 
@@ -69,14 +69,14 @@ Update after every closed trade. Recompute the aggregates weekly.
 
 | Metric | Value |
 |---|---|
-| Total closed trades | 0 |
-| Win rate | — |
-| Average win ($) | — |
+| Total closed trades | 1 |
+| Win rate | 100% (1/1) — n=1, not significant |
+| Average win ($) | +$0.47 |
 | Average loss ($) | — |
-| Average R multiple | — |
-| Expectancy per trade ($) | — |
-| Largest win / largest loss | — |
-| Max drawdown from peak equity | — |
+| Average R multiple | +2.0R |
+| Expectancy per trade ($) | +$0.47 (n=1) |
+| Largest win / largest loss | +$0.47 / — |
+| Max drawdown from peak equity | ~$0.08 intratrade unrealized (Trade #1); $0 realized |
 | Current phase | 1 |
 
 Expectancy is the number that matters most:
@@ -128,6 +128,31 @@ Lesson:       [one specific, actionable sentence]
 Repeat of:    [a previous trade number if this is the same mistake again — repeats are
                the highest-priority signal in this file]
 ```
+
+### Trade #1 — ROIV — 2026-09-08 — +$0.47, +2.0R (WIN)
+Expected:     Semis/AI complex broadly bid (relative-strength tailwind). ROIV +18% on
+              a catalyst, clean intraday uptrend (higher-lows above VWAP), coiling in
+              a bull flag under the 41.35 OR-high. Early flag entry -> continuation to
+              a 42.40 measured-move target.
+Happened:     Entered 40.9743 ($20 fractional). Immediately faded to ~40.81 (scary
+              VWAP retest) — held above VWAP + stop. Reclaimed 41.0, BROKE 41.35 on
+              the 3rd test, ran to ~41.93. Banked +2.0R into strength as momentum
+              decelerated near the target (exit 41.9313), didn't round-trip.
+Gap:          Minor: the FIRST entry attempt (pre-ROIV, on INTC) was aborted correctly
+              — I'd committed to an INTC entry on an UNCONFIRMED intra-bar VWAP pop
+              that then failed; the fresh-quote-before-place step caught it, no fill.
+              Fixed the trigger to require a confirmed hold. ROIV was the disciplined
+              re-attempt on a genuinely confirmed trend.
+Decision grade: GOOD PROCESS. Instrument (liquid large-cap, 0.10% spread, via
+              fractional) + thesis (relative-strength + flag) + early entry + not
+              getting shaken on the VWAP retest + trailing + banking into strength.
+Lesson:       (1) FRACTIONAL LARGE-CAPS WORK — the universe unlock produced a clean
+              +2R on day one; large-cap spreads/slippage are negligible/favorable
+              (filled at-or-better both ways). (2) A CONFIRMED trend (multiple
+              higher-lows holding VWAP) is tradeable early; an UNCONFIRMED intra-bar
+              pop (INTC) is not — require the hold. (3) Banking into strength near
+              target on decelerating momentum beat hoping for the last $0.25 to 42.40.
+Repeat of:    n/a (first trade).
 
 ---
 
