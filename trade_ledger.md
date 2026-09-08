@@ -1478,3 +1478,11 @@ entry on the flag pullback, held through a scary VWAP retest without getting
 shaken (stop did its job), trailed the breakout, banked into strength near target
 on decelerating momentum rather than round-tripping. The fractional large-cap
 unlock produced Trade #1 on Day 1.
+11:40 ET — Post-win Trade #2 hunt. Flat, $100.47. Semis/AI still leading. Candidates
+NOT clean enough to take: INTC 104.33 (+8.9%, EXTENDED, consolidating at highs after
+its 103.24 breakout run — chasing the high = marginal ~1.5RR, pass); TSLA 365.91
+(+3.3%, above VWAP 362.34 but mid-pullback off the 367.95 high, no confirmed
+higher-low reclaim, RR to retest only ~1.2). Not forcing a 2nd trade after a clean
++2R win. WATCH: INTC pullback to ~103.24 breakout-support reclaim; TSLA confirmed
+higher-low reclaim toward 367.95; or a fresh name just starting to trend. Widen
+~20min, protect the day's win. (Day trades used: 1 round-trip = watch PDT if adding.)
