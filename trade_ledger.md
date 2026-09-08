@@ -1486,3 +1486,8 @@ higher-low reclaim, RR to retest only ~1.2). Not forcing a 2nd trade after a cle
 +2R win. WATCH: INTC pullback to ~103.24 breakout-support reclaim; TSLA confirmed
 higher-low reclaim toward 367.95; or a fresh name just starting to trend. Widen
 ~20min, protect the day's win. (Day trades used: 1 round-trip = watch PDT if adding.)
+12:04 ET — Trade #2 hunt: no clean/fresh setup. Movers all extended or hot (INTC
++9.5%, CRWV +15%, IONQ +11%, SMR +16%, TSLA +3.8% at highs) or NVDA red (-1.8%).
+Nothing non-extended to enter without chasing. Flat, day +$0.47. Protecting the
+win; only an A+ pullback/fresh-breakout takes Trade #2. Widen ~30min, coast toward
+EOD; re-scan a couple times this afternoon.
