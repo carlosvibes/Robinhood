@@ -1447,3 +1447,13 @@ RR>=1.5 ✓, $21<=$25 ✓, long-only ✓. Fractional => NO resting stop => MANUA
 attended <=1-2min. Mgmt: trail to breakeven (~41.19) at +1R (~41.68), then under
 higher lows/1xATR; quick profit on stall; MARKET SELL instant it breaks 40.70;
 hard flat 15:50.
+
+>>> FILLED — Trade #1 — ROIV LONG — 2026-09-08 10:34:38 ET <<<
+FILL: 0.488110 sh @ avg 40.9743 ($20.00 notional, $0 fees). Order 6aa01cfe filled.
+Position: LONG 0.4881 ROIV, avg 40.97. Account now HOLDING (first live position of
+the project).
+MANUAL STOP: 40.50 (no resting stop on fractional). Actual risk = (40.9743-40.50)*
+0.4881 = $0.23 (<=$0.25 ✓). Target 42.40 -> +$0.70, RR ~3.0.
+Trail plan: at +1R (~41.45) move manual stop to breakeven 40.97; then trail under
+higher lows / 1xATR. Quick profit if momentum stalls. MARKET SELL instant price
+trades <=40.50. HARD FLAT by 15:50. ATTENDED <=1-2min (I am the stop).
