@@ -1380,3 +1380,19 @@ catalysts (news/congressional/insider) + relative-strength among correlated larg
 caps; take the best clean setup (above VWAP, ATR%>=0.3%, RR>=1.5) with a $10-25
 fractional and a manual trailing stop. GOAL: Trade #1. OR window 09:30-09:45, first
 hunt ~09:40. Cadence 20-30min flat / <=1-2min armed-or-in-position.
+09:42 ET — >>> ARMED: INTC fractional long (Trade #1 candidate) <<<
+Semis/AI complex broadly bid (INTC/ORCL/QCOM/BE/CRWV/IONQ all green) = sector
+relative-strength tailwind. INTC +6% ($101.54), spread $0.03 (0.03%), ATR(5m)
+~0.80 = ATR% 0.79% (>0.3% floor). Opening range 100.73-103.24 (spiked 103.24,
+pulled back). VWAP 101.64; price 101.54 = just UNDER VWAP -> not triggered yet
+(long-only above VWAP).
+  TRIGGER A (preferred): reclaim + hold >VWAP 101.64 on a green 5-min bar off a
+  higher-low; entry ~101.7-101.9; stop just below the reclaim higher-low (aim
+  ~101.0, tighten if a higher HL forms); target OR-high 103.24 then measured move.
+  TRIGGER B: decisive break/hold >103.24 (OR-high); stop ~102.3; target ~105.7.
+  SIZE: fractional $ so loss-to-stop <= $0.25 (position <= $25); e.g. stop 0.8%
+  away -> ~$25 position risks ~$0.20. RR must be >=1.5 at entry.
+  Execution: MARKET fractional buy (no resting stop) -> MANUAL stop, attended
+  <=1-2min, trail breakeven@+1R then under higher lows/1xATR, quick profit, flat
+  15:50. ORCL secondary (also +6% but 2.9% OR = wider stop/smaller size).
+  Flat, $100.00. 5-min cadence to catch the trigger.
