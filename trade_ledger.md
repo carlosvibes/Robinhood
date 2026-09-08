@@ -1422,3 +1422,9 @@ require a COMPLETED green 5-min bar closing above VWAP off a higher-low before
 committing. The fresh-quote-before-place step correctly caught the failed reclaim
 = the sequence did its job. Re-arm INTC with the stricter trigger; keep watching
 the semis complex.
+09:58 ET — No trigger. INTC chopping around VWAP (101.45): bounced 101.86, faded
+close 101.38, now 101.23 (below VWAP) — consolidation 100.6-101.86, no clean
+higher-low trend = chop, don't force. ORCL faded 170.70->164.35 (weak, no long).
+Flat, $100.00. Stay armed INTC: need OR-high break >103.24 OR a completed green
+bar holding >VWAP off a higher-low. ~7min cadence; watch the semis complex for a
+cleaner leader.
