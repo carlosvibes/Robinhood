@@ -1361,3 +1361,22 @@ Funnel (Fri 9/4): universe scan BUGGED (0 all day). Movers seen via gappers/FMP:
 CHPT (untradeable: ATR-too-hot then $10-capped), MTEX/KPLT/CURX (wide spreads),
 DPRO/DFDV (red). Arm-able: 0 clean (CHPT armed once ~11:45, invalidated on VWAP
 loss + book-confirmed overhead). Entries: 0.
+
+### Session in progress — 2026-09-08 (Tuesday) — FRACTIONAL LARGE-CAP era begins
+
+Blocking checks (08:31 ET pre-market): STATUS ACTIVE / broker flat (0 pos, 0
+orders) / buying power $100.00 (flat over the long weekend) / regular hours
+09:30-16:00 ET (flatten 15:50, last entry 15:25). ACTIVE ruleset = fractional
+large-cap (Changelog 2026-09-04) + trend-follow tactics + Carlos operator mindset;
+$0.25 risk, $25 max position, long-only above VWAP, manual-stop protocol, no
+shorting.
+>>> FRACTIONAL MECHANICS VERIFIED <<< review_equity_order preview of a $10 NVDA
+dollar-based MARKET buy returned cleanly, order_checks EMPTY (no PDT/halt/BP
+alert). Dollar-based fractional orders WORK on 609021910. (NVDA pre-mkt ~231.98,
+bid/ask 231.85/232.00.) => the new engine is GO. Note: fractional = MARKET order,
+regular-hours only, NO resting stop -> manual-stop protocol applies.
+Plan: at the open, build candidate list from FMP biggest-gainers/most-active +
+catalysts (news/congressional/insider) + relative-strength among correlated large-
+caps; take the best clean setup (above VWAP, ATR%>=0.3%, RR>=1.5) with a $10-25
+fractional and a manual trailing stop. GOAL: Trade #1. OR window 09:30-09:45, first
+hunt ~09:40. Cadence 20-30min flat / <=1-2min armed-or-in-position.
