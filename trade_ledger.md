@@ -1396,3 +1396,16 @@ pulled back). VWAP 101.64; price 101.54 = just UNDER VWAP -> not triggered yet
   <=1-2min, trail breakeven@+1R then under higher lows/1xATR, quick profit, flat
   15:50. ORCL secondary (also +6% but 2.9% OR = wider stop/smaller size).
   Flat, $100.00. 5-min cadence to catch the trigger.
+
+>>> ENTRY — Trade #1 — INTC — 2026-09-08 ~09:49 ET <<<
+Setup: VWAP-reclaim long (trend-follow early entry). Semis/AI complex broadly bid
+(sector relative-strength). INTC +6%, spike to OR-high 103.24 then pullback to
+100.35, now reclaiming VWAP (101.49) at ~101.72.
+Thesis: reclaim holds -> retest/break OR-high 103.24 on sector momentum.
+Entry: fractional MARKET buy ~101.72 (ask 101.73), $25 notional (~0.245 sh).
+MANUAL STOP: 100.90 (~1xATR below, under VWAP). Risk ~$0.20 (<=$0.25 cap).
+Target: 103.24 (OR-high) then trail beyond. RR ~1.85.
+Gates: above VWAP ✓, spread $0.03/0.03% ✓, ATR% 0.79% ✓, RR>=1.5 ✓, $25<=cap ✓,
+long-only ✓. Fractional => NO resting stop => MANUAL stop, attended <=1-2min.
+Mgmt: trail to breakeven at +1R (~102.5), then under higher lows/1xATR; quick
+profit on stall; MARKET SELL instant it breaks 100.90; hard flat 15:50.
