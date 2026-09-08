@@ -154,7 +154,10 @@ Lesson:       (1) FRACTIONAL LARGE-CAPS WORK — the universe unlock produced a 
               target on decelerating momentum beat hoping for the last $0.25 to 42.40.
 Repeat of:    n/a (first trade).
 
-REFINEMENT RAISED (2026-09-08, PENDING CARLOS APPROVAL — do not apply yet):
+REFINEMENT RAISED (2026-09-08) — DECISION: Carlos likes it, DEFERRED to Phase 2 /
+  larger funds ("once we have a couple more successful trades... and maybe when we
+  move on to phase 2, once we have good momentum and a lot more funds"). Do NOT
+  apply now. Revisit at the Phase 2 gate. Detail retained below.
   Carlos asked, watching ROIV keep rising past our 41.9313 exit: "shouldn't we
   have set a stop loss instead of selling directly?" Honest answer: ROIV was only
   ~+$0.31/sh (~0.75%) higher at ~2:40pm and chopped to get there — a trailing stop
@@ -240,6 +243,7 @@ Every change to the strategy or rails, with date, reason, and who approved it. W
 | 2026-09-02 | ACTIVE: "Moderate" gate calibration. Reward-to-risk floor 2.0 -> **1.5** (computed from structure; 1.5:1 needs >40% win rate for positive expectancy). ATR(14,5m) floor 0.05 -> **0.04**. Breakout/continuation volume confirmation -> **>=1.6x the avg of the prior 6 completed bars** (supersedes/withdraws the 8/31 ORB-volume proposal). Scanner RVOL filter 2.0 -> **1.6**. NO shorting (short module stays DRAFTED, deferred to Phase 2). ALL RISK RAILS UNCHANGED: $10 max position, $0.25 max risk/trade, whole shares, $5-10 band, stop always resting at broker >=1x ATR and <=3%, long-only above VWAP, spread gate (larger of $0.01/0.15%), float>10M, daily/weekly loss halts, 3-consecutive-loss halt, 6-order cap, flat by close-10. | 4 sessions 0 trades; funnel died at trigger/entry gates, not the scanner. Goal: raise trade frequency to start generating expectancy data at ~neutral expected cost. | Carlos (chat, 2026-09-02) |
 | 2026-09-03 | ACTIVE: **Spread gate widened** from max($0.01, 0.15%) -> **max($0.02, 0.35%)** (Lever A). Bounded 10-trade experiment: after 10 closed trades, review expectancy AND spread-paid-vs-gross-P&L; revert if friction is eating the edge. Makes DPRO/BKKT-class movers (0.3% spreads) tradeable; still rejects ABTC-class 0.5%+ junk. ALL OTHER RISK RAILS UNCHANGED. | 6 sessions 0 trades; root cause localized to the spread gate — it rejected 3 of 4 movers on 9/3 and was flagged Day 1. | Carlos (chat, 2026-09-03) |
 | 2026-09-03 | ACTIVE: **Trend-follow tactics** (how we trade, not the risk rails). (1) EARLY ENTRY: enter at the first valid structural trigger of a move (pullback-reclaim, micro-consolidation break, first-higher-low) rather than waiting only for the fully-confirmed breakout — provided a tight structural stop keeps risk <=$0.25 and RR>=1.5 to the measured target still holds. (2) TRAILING STOP is the primary exit: once price reaches ~+1R or prints a new higher low, ratchet the resting broker stop up (breakeven first, then trail below successive higher lows or by 1xATR) to ride the trend and lock profit if it reverses. (3) QUICK PROFIT: scalp the move — do NOT default to holding all day; take the trailed profit when momentum stalls. Holding to EOD allowed at operator discretion when the trend is intact. (4) RE-ENTRY permitted if a stopped-out setup re-validates, within the 6-order/day cap and all loss halts. (5) ACT FAST: tighten monitoring to catch and follow trends early. ALL RISK RAILS UNCHANGED (resting broker stop ALWAYS on; trailing = cancel-old-then-place-new-higher; $0.25 risk, $10 position, halts, flat by close-10). | Carlos: "part of the game is get in early and follow the stock up with stop losses... quick money, not hold all day... pick up trends fast and act faster." | Carlos (chat, 2026-09-03) |
+| 2026-09-08 | ACTIVE: **Conviction-based position sizing (two-tier).** Splits sizing into STANDARD vs A+. **STANDARD setups (default): $25 max position, $0.25 max risk/trade** (unchanged). **A+ HIGH-CONVICTION setups: up to $50 max position, up to $0.50 max risk/trade.** An entry qualifies as A+ only if it meets ALL of: (1) textbook-clean, CONFIRMED setup (confirmed trend / higher-lows holding above VWAP, a clear structural stop level, penny-tight spread); (2) a genuine catalyst or clear relative-strength leadership; (3) **RR >= 2.0** (a higher bar than the standard 1.5); (4) it is the primary / highest-conviction setup on the radar — being the ONLY clean stock of the day is an explicit reason to concentrate size into it rather than diversify thin (Carlos: "especially if it's the only stock on our radar"). HALT INTERACTION: one A+ loser = $0.50 = half the $1 daily halt, so two A+ losers trips the daily halt; **after ANY A+ loss, drop back to STANDARD sizing for the rest of that day.** 3-consecutive-loss halt unchanged. This deploys more of our own CASH buying power (up to ~half the account in one name) — it is NOT leverage/margin; stays long-only, never exceeds available buying power, and at $100 equity only one A+ position at a time. ALL OTHER RAILS UNCHANGED (fractional manual-stop protocol, long-only above VWAP, ATR% floor ~0.3%, spread gate, $2.50 weekly halt, 6-order/day cap, flat by 15:50, NO shorting). NOTE: the SCALE-OUT tactic (sell part into strength, trail a runner) is separately DEFERRED to Phase 2 / larger funds per Carlos — not active now. | Trade #1 used only $20 of $100 buying power; on a clean A+ setup that is the day's single best idea, larger size gives materially better dollar returns for a still-tightly-capped downside. Carlos: "we can turn that up to like 40-50 depending on its probability of success... a little more risky but it gives us better margins on returns." | Carlos (chat + AskUserQuestion risk-cap = $0.50, 2026-09-08) |
 | 2026-09-04 | ACTIVE: **Fractional large-cap trading** — the universe/sizing unlock. UNIVERSE expands from $5-10 whole-share stocks to **any highly-liquid stock (fractional shares allowed)** — prefer mega/large-caps with penny-tight spreads (AAPL, NVDA, META, TSLA, AMD, GOOGL, AMZN, MSFT, etc.). Fractional orders are MARKET orders, regular hours only, and **carry NO resting broker stop** (platform note #4), so protection = **MANUAL STOP protocol**: stay attended at <=1-min cadence while in a fractional position and fire a market SELL the instant price trades through the pre-set stop; NEVER leave a fractional position unattended; hard flat by 15:50. SIZING (my implementation per Carlos "as you see fit," conservative): **max position raised $10 -> $25**, **max risk/trade STAYS $0.25** (the real rail, unchanged). Volatility floor re-expressed for large-caps as **ATR% (ATR/price) >= ~0.3% intraday** (replaces the $0.04 absolute floor, which only made sense for $5-10 names). Spread gate for large-caps effectively trivial (they're <0.05%). RETAIN the $5-10 whole-share path as a SECONDARY option (with its resting broker stop) — kept "on the side," not relied upon. UNCHANGED: $0.25 risk/trade, long-only + above VWAP, RR>=1.5, 3-consec-loss halt, $1 daily / $2.50 weekly halt, 6-order/day cap, flat by close-10, NO shorting (Phase 2). MUST verify fractional order mechanics via review_equity_order (preview) before the first live fractional entry (Tue 9/8 pre-market). | 7 sessions 0 trades; ROOT CAUSE = the $5-10 whole-share universe is structurally junk (thin/wide-spread or $10-capped). Fractionals open the entire liquid market (large-cap spreads 0.004-0.03% vs our 0.3-5%) and fix spread/ATR/band/halt at once. | Carlos (chat, 2026-09-04) |
 
 ---
@@ -850,11 +854,22 @@ bottleneck.
   friction and reach a target. (Replaces the $0.04 absolute ATR floor.)
 - Trigger: a trend-follow early trigger (pullback-reclaim / micro-flag break /
   first-higher-low) or a clean breakout with room.
-- Risk: define a stop level; size the fractional $-position so the loss to that stop
-  is <= $0.25 max risk. Position <= $25. (Example: NVDA $230, stop 0.6% away =
-  $1.38/share; to risk $0.25 buy $0.25/0.006 = ~$42 notional -> but cap at $25, so
-  risk on $25 = $0.15. Fine — smaller risk is OK; NEVER exceed $0.25 or $25 notional.)
-- RR: measured-move target gives >= 1.5 R.
+- Risk & sizing (TWO-TIER, per 2026-09-08 Changelog): define a stop level; size the
+  fractional $-position so the loss to that stop stays within the tier's risk cap.
+  - **STANDARD (default): <= $0.25 risk, <= $25 position.** RR >= 1.5. Use this for
+    any ordinary clean setup. (Example: NVDA $230, stop 0.6% away = $1.38/share; to
+    risk $0.25 buy $0.25/0.006 = ~$42 notional -> cap at $25, risk on $25 = $0.15.
+    Smaller risk is fine; NEVER exceed the tier caps.)
+  - **A+ HIGH-CONVICTION: up to $0.50 risk, up to $50 position.** Only when ALL hold:
+    textbook-clean CONFIRMED setup (higher-lows above VWAP, clear structural stop,
+    tight spread) + genuine catalyst/relative-strength leadership + **RR >= 2.0** +
+    it's the day's primary/only clean idea (concentrate rather than diversify thin).
+    Deploys up to ~half the account CASH in one name — not leverage; one A+ position
+    at a time; never exceed available buying power.
+  - HALT INTERACTION: one A+ loss ($0.50) = half the $1 daily halt; **after any A+
+    loss, revert to STANDARD sizing for the rest of the day.** 3-consec-loss halt
+    unchanged. SCALE-OUT is Phase-2 deferred (not active).
+- RR: STANDARD >= 1.5 R; A+ requires >= 2.0 R (measured-move target).
 
 **Execution sequence (fractional).**
 1. Write ENTRY block to trade_ledger.md + commit/push (thesis, entry, stop, target, RR, size).
