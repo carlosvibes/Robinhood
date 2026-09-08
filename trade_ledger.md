@@ -1433,3 +1433,17 @@ cleaner leader.
 103.24, never built a clean higher-low push). Stop fixating on INTC. Flat, $100.00.
 Widen ~15min; next check do a fresh FMP most-active/gainers sweep for a name
 actually TRENDING (clean higher-lows above VWAP), not chopping. Not forcing chop.
+
+>>> ENTRY — Trade #1 — ROIV (Roivant Sciences) — 2026-09-08 ~10:23 ET <<<
+Setup: trend-follow EARLY entry (bull flag continuation). ROIV +18% on a catalyst,
+clean intraday UPTREND: higher-lows 38.41->39.5->40.3->40.89->40.99 holding above
+VWAP 40.46 for ~50min, coiling in a tight flag under the 41.35 intraday high.
+Relative value: cleanest liquid trender on the board (SEI/PHVS spreads too wide).
+Entry: fractional MARKET buy ~41.19 (ask), $21 notional (~0.51 sh). ref_id=c1574d9b-20bf-4af0-8207-78b62d4c66e4
+MANUAL STOP: 40.70 (below flag base + ~1xATR 0.48; risk ~$0.25, 1.19%).
+Target: 42.40 (measured move of the 40.30-41.35 flag) then TRAIL. RR ~2.5.
+Gates: above VWAP (41.17 vs 40.46) ✓, spread $0.04/0.10% ✓, ATR% 1.18% ✓,
+RR>=1.5 ✓, $21<=$25 ✓, long-only ✓. Fractional => NO resting stop => MANUAL,
+attended <=1-2min. Mgmt: trail to breakeven (~41.19) at +1R (~41.68), then under
+higher lows/1xATR; quick profit on stall; MARKET SELL instant it breaks 40.70;
+hard flat 15:50.
