@@ -1409,3 +1409,16 @@ Gates: above VWAP ✓, spread $0.03/0.03% ✓, ATR% 0.79% ✓, RR>=1.5 ✓, $25<
 long-only ✓. Fractional => NO resting stop => MANUAL stop, attended <=1-2min.
 Mgmt: trail to breakeven at +1R (~102.5), then under higher lows/1xATR; quick
 profit on stall; MARKET SELL instant it breaks 100.90; hard flat 15:50.
+
+>>> Trade #1 ENTRY ABORTED (NOT FILLED) — 2026-09-08 09:51 ET <<<
+On the fresh-quote/preview step before placing, INTC had already faded 101.72 ->
+101.08 (bid/ask 101.13/101.15), back BELOW VWAP 101.49. The VWAP reclaim did NOT
+hold — it was an intra-bar bounce off the lower-low (100.35), not a confirmed
+higher-low. Entering below VWAP would violate the above-VWAP rule + invalidated
+thesis. NO ORDER PLACED (order_checks empty; abort was discretionary on the failed
+trigger). Account still flat $100.00 — no capital committed.
+LESSON (log): don't write/commit to an entry on an unconfirmed intra-bar spike;
+require a COMPLETED green 5-min bar closing above VWAP off a higher-low before
+committing. The fresh-quote-before-place step correctly caught the failed reclaim
+= the sequence did its job. Re-arm INTC with the stricter trigger; keep watching
+the semis complex.
