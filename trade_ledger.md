@@ -1428,3 +1428,8 @@ higher-low trend = chop, don't force. ORCL faded 170.70->164.35 (weak, no long).
 Flat, $100.00. Stay armed INTC: need OR-high break >103.24 OR a completed green
 bar holding >VWAP off a higher-low. ~7min cadence; watch the semis complex for a
 cleaner leader.
+10:07 ET — INTC = dead chop: 40min sideways coil 100.76-101.86 pinned at VWAP
+(101.40) on DECLINING volume (2M->1M->0.9M). No trend, no trigger (never broke
+103.24, never built a clean higher-low push). Stop fixating on INTC. Flat, $100.00.
+Widen ~15min; next check do a fresh FMP most-active/gainers sweep for a name
+actually TRENDING (clean higher-lows above VWAP), not chopping. Not forcing chop.
