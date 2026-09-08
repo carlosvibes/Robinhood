@@ -1464,3 +1464,17 @@ STOP RAISED 40.50 -> 41.10 (locks ~+$0.06 min, ~1xATR below, under the 41.35
 breakout-retest). Now a guaranteed-green trade. Riding toward target 42.40 with a
 trailing stop; will trail up under higher-lows/1xATR and take quick profit into
 42.0-42.40 or on a momentum stall. 1-min attended monitoring (no resting stop).
+
+>>> CLOSED — Trade #1 — ROIV LONG — WIN — 2026-09-08 11:21 ET <<<
+EXIT: MARKET SELL 0.488110 sh @ avg 41.9313 (order 6aa027e3, $0 fees). Filled near
+the 42.0 target zone into strength (banked as momentum decelerated ~41.86->41.93).
+ENTRY 40.9743 -> EXIT 41.9313. Gross P&L = +$0.4671 (0.9570 x 0.488110). Net +$0.47.
+R MULTIPLE: +2.0R (risk was $0.23 to the 40.50 stop). Hold ~47 min (10:34->11:21).
+Account: $100.00 -> $100.47 (FIRST realized profit of the project).
+Verified FLAT (0 positions) post-exit.
+Grade: GOOD PROCESS. Right instrument (liquid large-cap via fractional, 0.10%
+spread), right thesis (semis/AI relative-strength + bull-flag continuation), early
+entry on the flag pullback, held through a scary VWAP retest without getting
+shaken (stop did its job), trailed the breakout, banked into strength near target
+on decelerating momentum rather than round-tripping. The fractional large-cap
+unlock produced Trade #1 on Day 1.
