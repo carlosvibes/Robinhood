@@ -154,6 +154,29 @@ Lesson:       (1) FRACTIONAL LARGE-CAPS WORK — the universe unlock produced a 
               target on decelerating momentum beat hoping for the last $0.25 to 42.40.
 Repeat of:    n/a (first trade).
 
+REFINEMENT RAISED (2026-09-08, PENDING CARLOS APPROVAL — do not apply yet):
+  Carlos asked, watching ROIV keep rising past our 41.9313 exit: "shouldn't we
+  have set a stop loss instead of selling directly?" Honest answer: ROIV was only
+  ~+$0.31/sh (~0.75%) higher at ~2:40pm and chopped to get there — a trailing stop
+  left below price would likely have been tagged on a pullback for LESS than we
+  banked, AND fractional positions have NO resting stop (a "trailing stop" is me
+  manually watching, can't set-and-walk). But his instinct points at a real upgrade:
+  SCALE-OUT. Sell a portion into strength (lock the guaranteed win), keep a RUNNER
+  behind a trailing manual-stop so a continuation is still captured; if it reverses,
+  most of the gain is already banked. Captures upside without betting the whole win
+  on the continuation. Costs: two sell orders (order-cap/PDT bookkeeping), a smaller
+  locked base, more attention per trade. Proposed only after we have more trades to
+  judge whether continuations are frequent enough to pay for it. Awaiting his
+  greenlight to add to the trend-follow playbook.
+
+EOD LESSON (2026-09-08): On a STRONG TREND DAY the movers run early and stay
+  extended all session — after the morning window, "the market is up big" does NOT
+  mean there's something to buy; it means everything liquid is already stretched
+  from VWAP and chasing = the worst RR. 5 afternoon scans found no clean
+  non-extended re-entry. Correct play was to bank the one clean morning trade and
+  stop. Ending green on 1 good trade > forcing a marginal 2nd. Do not confuse a
+  busy tape with opportunity.
+
 ---
 
 ## Weekly review

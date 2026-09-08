@@ -31,6 +31,7 @@ All times are US Eastern. All dollar figures to two decimals.
 | 2026-09-02 | $100.00 | $100.00 | $0.00 | 0.0% | 0 | Wed. RULE CHANGE: Carlos approved "Moderate" calibration midday (RR 1.5, ATR 0.04, vol 1.6x, RVOL 1.6). DPRO cleared ATR floor + triggered ORB but failed (2 closes below VWAP; a would-be entry = -1R). OABI = first arm-able long under new rules but broke down before triggering. ~1hr usage-limit gap (flat verified on resume). Flat verified 15:45 ET. |
 | 2026-09-03 | $100.00 | $100.00 | $0.00 | 0.0% | 0 | Thu. First full day on Moderate gates. Quiet AM (universe scan 0 all morning). PM movers evaluated under new gates — ALL failed >=1 hard rail: ABTC/BKKT spread (0.53%/0.36% vs 0.15% gate), DPRO day-high trigger failed + spread rewidened, SBET (finally a tight-$0.01-spread mover) failed ATR floor (0.034<0.04, late-day coil), BULL at $10 ceiling, UPB decliner. KEY FINDING: spread gate is the binding constraint on this sub-$10 universe. DPRO arm discipline held (rejected 6.4155 wick-chase). Flat verified 15:21 ET. |
 | 2026-09-04 | $100.00 | $100.00 | $0.00 | 0.0% | 0 | Fri. First day on widened-spread + trend-follow tactics. CHPT (day's mover, +8%) untradeable: too volatile at open (ATR~0.45>0.25 cap), then boxed by/above the $10 position cap. Universe RVOL scanner BUGGED all day (0 despite real movers). FMP-gainers cross-check: in-band names all 1.9-5% spreads (MTEX/KPLT/CURX). No tradeable in-band setup, triple-confirmed. ROOT CAUSE identified + FIXED: Carlos approved FRACTIONAL LARGE-CAP trading (starts Tue 9/8) — the $5-10 whole-share universe was the disease. Flat verified 15:34 ET. |
+| 2026-09-08 | $100.00 | $100.47 | +$0.47 | +0.47% | 1 | Tue. **FIRST WINNING TRADE.** Day 1 of fractional large-caps. INTC first attempt aborted at fresh-quote step (faded below VWAP before place — no order). Trade #1 ROIV long: fractional $25 MARKET buy on breakout, trailed manual stop 40.50→41.10→41.35, took profit 41.9313 into decelerating momentum near 42.40 target. +$0.47, +2.0R. Fractional mechanics/spread(~0.10%)/slippage(fav both ways) all verified. No PDT alert. 1 day trade used. Midday+PM scans found no clean non-extended Trade #2 (all liquid movers extended); ended green, did not force. Flat verified 15:45 ET. |
 
 ---
 
@@ -1501,3 +1502,30 @@ clean +2R winner. EOD wake 19:45 UTC.
 CRWV +15%, ROIV +20% past my exit, rest microcaps/leveraged ETFs). Strong trend day
 where movers ran early = nothing to enter without chasing. Flat, day +$0.47.
 Holding the win. One more scan ~2:40pm (momentum window); else EOD closes green.
+
+14:41 ET — Final Trade #2 scan (2:40 momentum window). FLAT confirmed (0 pos/0
+orders). FMP most-active + biggest-gainers: same picture — liquid names all
+extended (INTC +9.6%, CRWV +13%, SMR +16%, IREN +7%, ROIV +21% well past my exit),
+NVDA red -1.9%, everything else leveraged-ETF/sub-$1 microcap junk. Nothing pulling
+back to VWAP + reclaiming, nothing fresh starting a trend. ~45min to 15:25 cutoff =
+no runway for a marginal late entry. NO Trade #2 — not forcing it. Day ends green on
+the ROIV +2.0R win.
+
+>>> SESSION CLOSE — 2026-09-08 (Tue) 15:45 ET <<<
+FLATTEN VERIFICATION: get_equity_positions = [] (0 positions), get_equity_orders
+state=new = [] (0 open orders) on 609021910. Confirmed FLAT. No fractional to close.
+RESULT: 1 trade, 1 win, 0 losses. Trade #1 ROIV +$0.47 / +2.0R.
+Equity: $100.00 -> $100.47 (+0.47%). FIRST profitable day of the project.
+Day trades used: 1 (ROIV round-trip). PDT: 1/3 rolling — no alert triggered.
+Loss halts: none tripped (well positive). 6-order cap: used 2 (1 buy + 1 sell).
+KEY: Day 1 of fractional large-caps produced the first winner — validating the
+root-cause fix (the sub-$10 whole-share universe was the problem). Fractional
+mechanics, spread (~0.10% on ROIV), and slippage (filled at/better than quote both
+directions) all verified favorable and live. INTC abort earlier proved the
+fresh-quote-before-place gate works (prevented a bad fill on a faded VWAP pop).
+Strong trend day where movers ran early — no clean non-extended Trade #2 appeared
+across 5 afternoon scans (11:40, 12:04, 12:36, 13:34, 14:41 ET); correctly did NOT
+chase. Ended green on one clean trade — the right call over forcing activity.
+OPEN ITEM for Carlos: scale-out refinement proposed (sell part into strength, trail
+a runner) — awaiting his approval before adding to the playbook.
+Next: Wednesday 2026-09-09 pre-market wake scheduled 12:30 UTC.
