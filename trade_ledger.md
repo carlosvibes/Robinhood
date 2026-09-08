@@ -1457,3 +1457,10 @@ MANUAL STOP: 40.50 (no resting stop on fractional). Actual risk = (40.9743-40.50
 Trail plan: at +1R (~41.45) move manual stop to breakeven 40.97; then trail under
 higher lows / 1xATR. Quick profit if momentum stalls. MARKET SELL instant price
 trades <=40.50. HARD FLAT by 15:50. ATTENDED <=1-2min (I am the stop).
+
+11:08 ET — ROIV BREAKOUT + stop raised. Price 41.555 (bid 41.54), BROKE & holding
+>41.35 OR-high; cleared +1R (41.45). Unrealized ~+$0.28 (+1.2R). Per plan: MANUAL
+STOP RAISED 40.50 -> 41.10 (locks ~+$0.06 min, ~1xATR below, under the 41.35
+breakout-retest). Now a guaranteed-green trade. Riding toward target 42.40 with a
+trailing stop; will trail up under higher-lows/1xATR and take quick profit into
+42.0-42.40 or on a momentum stall. 1-min attended monitoring (no resting stop).
