@@ -1491,3 +1491,9 @@ higher-low reclaim toward 367.95; or a fresh name just starting to trend. Widen
 Nothing non-extended to enter without chasing. Flat, day +$0.47. Protecting the
 win; only an A+ pullback/fresh-breakout takes Trade #2. Widen ~30min, coast toward
 EOD; re-scan a couple times this afternoon.
+12:36 ET — Trade #2 scan: still no clean/fresh/non-extended liquid setup. Gainers =
+microcaps, leveraged ETFs (CRWG/BEG/LINT/NBIL 2x), or extended large-caps (SEI +16%
+wide-spread, INTC/CRWV/IONQ/ROIV all +9-19%). ROIV 41.70 (my win, not a fresh
+re-setup). Nothing to take without chasing. Flat, day +$0.47. Protecting the win;
+widen ~55min, re-scan the 2:30-3:00 momentum window; else close the day on the one
+clean +2R winner. EOD wake 19:45 UTC.
