@@ -1558,3 +1558,16 @@ ARM ASO watch: TRIGGER = pullback to 49.3-49.7 zone holding above VWAP 48.76, th
   target 50.25+ -> ~1.5-2R; likely A+ (day's cleanest liquid trend, earnings catalyst,
   primary idea). If it runs away with no pullback, let it go — no chase.
 Re-check ~10:06 ET.
+
+10:12 ET — ASO re-check + re-scan. ASO pulled back through 49.3-49.7 AND through VWAP
+  (49.06); 10:05 bar closed 48.725, now ~48.70 BELOW VWAP -> DEAD per long-only rule
+  (validated NOT chasing 50.10 — it's $1.40 lower). Demoted to watch (needs VWAP reclaim).
+Re-scan (10:11): board = microcaps/leveraged-ETFs/volatile-biotech. SIG fading off
+  99.68 high to ~97.6, still wide-spread — rolling over, PASS. Two fresh liquid names:
+  AEHR $101.31 (+11%) accelerating/parabolic, ~+5.7% above VWAP = too extended, PASS.
+  FSLY $23.94 (+11%) cleaner rising lows, made HOD 24.59 then pulled to 23.94, ~+2.3%
+  above VWAP — best pullback candidate but near HOD now.
+DECISION: no clean non-extended above-VWAP entry available. No chase, no forcing.
+  ARM: FSLY pullback to ~23.2-23.4 (VWAP/support) holding + reclaim; ASO reclaim of
+  VWAP 49.06. Re-check ~10:32 ET. Prime window to 11:30. No-trade is acceptable
+  (yesterday's +2R banked; no pressure).
