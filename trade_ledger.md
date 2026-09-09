@@ -1613,3 +1613,10 @@ DECISION: do NOT chase mid-range 653.58 (between VWAP 648 and HOD 657 = poor ~1.
   Distribution character on a red tape. NO entry (entering the drift = knife-catch,
   the ASO/FSLY mistake). WAIT for VWAP test to resolve: hold 648-650 + confirmed
   reclaim -> A+ entry; lose VWAP <648 -> dead/drop. Tight re-check ~12:00 ET.
+
+12:00 ET — META VWAP test resolved: HELD VWAP (648.5), bounced to 651.6 — but LIMP:
+  ~$2 bounce on DECLINING volume (208k->157k->113k->115k->99k), still under 654-658
+  resistance. Not a convincing reclaim; RR into resistance <1.5. Per rule "limp bounce
+  -> skip." NO entry. DROP META tight-watch (it had its shot; noon/midday low-volume).
+  Revert to normal pulse cadence (12:30/1:30/2:30/EOD 3:45). Morning hunt = NO TRADE,
+  correct on a red fade tape. FLAT $100.47, week green (yesterday +2R). No forcing.
