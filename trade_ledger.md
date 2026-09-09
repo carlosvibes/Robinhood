@@ -1529,3 +1529,16 @@ chase. Ended green on one clean trade — the right call over forcing activity.
 OPEN ITEM for Carlos: scale-out refinement proposed (sell part into strength, trail
 a runner) — awaiting his approval before adding to the playbook.
 Next: Wednesday 2026-09-09 pre-market wake scheduled 12:30 UTC.
+
+>>> SESSION OPEN — 2026-09-09 (Wed) 08:30 ET (pre-market) <<<
+BLOCKING CHECKS: STATUS ACTIVE ✓ | Broker reconciled: 0 positions, 0 open orders,
+matches ledger ✓ | Buying power $100.47 (cash) ✓ | Normal Wed, flatten 15:50 ✓.
+Two-tier sizing now live (STANDARD $25/$0.25; A+ $50/$0.50, RR>=2.0, all-4 criteria).
+PRE-MARKET SCAN: FMP gainers at 8:30 still shows YESTERDAY's board (ROIV 41.48/+18.75%,
+SEI, SMR, INTC-linked LINT all repeat) — not refreshed for today; FMP news feed
+access-denied (plan tier). No reliable fresh catalyst data pre-market.
+WATCHLIST (re-verify LIVE at the open, do NOT assume continuation): yesterday's
+semis/AI + nuclear-power complex (SEI, SMR/NuScale, ROIV, INTC) — watch for
+continuation vs exhaustion; most are EXTENDED after big runs, so only a clean
+pullback-reclaim or a FRESH gapper qualifies. No entries pre-market / first 15 min.
+Plan: wake ~9:50 ET (post opening-range) to hunt the prime window on live data.
