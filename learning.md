@@ -778,6 +778,63 @@ Status: PROPOSED 2026-09-04. GREEN items are low-risk to start using as research
 candidate inputs immediately (they don't touch rails). Awaiting Carlos's OK to
 wire them into the daily routine + a Changelog row if he wants them formalized.
 
+UPDATE 2026-09-09 (live feasibility check, WebSearch): (a) COPYING DAY TRADERS —
+confirmed AMBER->mostly dead end. alphaledger.ai is a trading-JOURNAL / analytics /
+signal-provider MARKETPLACE (traders track their own verified stats + sell signals),
+NOT a free real-time "what winning day-traders are buying now" mirror feed. Live
+"leaderboards" that exist (traderank.ai, nof1.ai) are AI/LLM trading CONTESTS,
+novelties. Reliable real-time copy-trading is paid/delayed/private; by the time a
+free board shows a trade the move is done. RECOMMENDATION: do NOT build on this.
+(b) CONGRESSIONAL/POLITICAL trades — FREE APIs confirmed (CongressInvests 100/day no
+key, Disclosed Capitol free tier + webhooks, congressstock.com). BUT STOCK Act
+filings post 30-45 days AFTER the trade -> THEME/sector context only, NOT an
+intraday trigger. (c) The real "get in early" layer = real-time NEWS catalysts via
+WebSearch (policy/political headlines, activist stakes, M&A, famous-person moves).
+
+## 2026-09-09 — PROPOSAL: "First-Leg Momentum" entry type + regime filter (Carlos directive: "get in early where the real money is, willing to take a little more risk")
+THE INTENT: Carlos wants to catch the FIRST leg of a move (the initial breakout),
+not only the lower-variance second-leg pullback-reclaim we trade now — accepting more
+risk for bigger reward.
+
+THE CRITICAL REFRAME (the teaching point): "more risk" = TWO different dials.
+  DIAL A = bigger $ risk per trade (raise the max LOSS). Dangerous; already stepped
+    to $0.50 on A+ (2026-09-08). Do NOT push further until more trades prove edge.
+  DIAL B = lower-probability / higher-variance ENTRIES at the SAME capped $ risk.
+    First-leg entries fail MORE OFTEN but each loss is still <=$0.25-0.50, and the
+    winners are bigger (you catch the whole move). THIS is the safe way to chase big
+    moves. Turn Dial B, not Dial A.
+
+PROPOSED RULE — "First-Leg Momentum" entry type (an ADD, not a replacement):
+- Trigger: enter the INITIAL confirmed breakout — opening-range-high break (after the
+  15-min OR is set), pre-market-high break, or a news-catalyst break — on a completed
+  bar closing above the level WITH volume >=1.6x the prior 6 bars.
+- Stop: under the breakout base / OR-low (structural), sized so $ loss stays within
+  the tier cap (STANDARD $0.25 / A+ $0.50). SAME dollar risk as now.
+- Target: measured move; accept RR>=1.5 (these are higher-variance so we don't demand
+  2.0, but size stays capped).
+- REGIME FILTER (non-negotiable): first-leg longs are taken AGGRESSIVELY only when the
+  broad tape is GREEN/risk-on (SPY/QQQ green, leaders holding above VWAP). On RED/
+  risk-off days (like 2026-09-09: SPY -0.57%, IWM -1.16%) first-leg longs get FADED
+  (proof: ASO/FSLY first legs both would have LOST) -> demand the safer second-leg or
+  STAND DOWN. This filter is what keeps the higher-variance style survivable.
+- Monitoring: fractional = no resting stop -> continuous <=1-2min attended, same as now.
+Everything else (long-only above VWAP, halts, 6-order cap, flat 15:50, no shorting,
+capped $ risk) UNCHANGED. This changes HOW/ WHEN we enter (variance), not the max loss.
+
+PROPOSED — real-time CATALYST scan layer: each session, WebSearch for political/policy
+headlines, activist 13D stakes, M&A, and trending-theme names as an EARLY candidate
+source (feeds the same gated execution). Low risk (candidate-gen only).
+
+HONEST CAPITAL NOTE (unchanged): on $100 with $25-50 positions, first-leg vs second-leg
+is ~2x the winner but still cents-to-a-few-dollars in absolute terms. The strategy
+upgrade compounds; the dollar outcomes need more capital to matter. Proving the
+first-leg edge on small size first is the right order.
+
+Status: PROPOSED 2026-09-09. The First-Leg entry type CHANGES trade variance/behavior
+-> needs Carlos's dated Changelog row before it goes live (he has signaled intent;
+awaiting sign-off on the specific rule above). The catalyst-scan layer is candidate-
+gen only and can start immediately if he says go.
+
 ## 2026-09-04 — PROPOSAL: the real unlock — FRACTIONAL SHARES on liquid large-caps (Carlos escalation)
 THE DISEASE (root cause of 7 sessions, 0 trades): the $10-max-position + whole-
 shares rails force our entire universe to $5-10 stocks. That slice is structurally
