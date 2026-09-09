@@ -1606,3 +1606,10 @@ DECISION: do NOT chase mid-range 653.58 (between VWAP 648 and HOD 657 = poor ~1.
   <655, target ~664 = ~2R) OR VWAP-retest-reclaim at 648-650; loss of VWAP 648 = dead.
   Re-check ~11:52 ET; 12:30 midday pulse also covers it. (Note: heading into midday
   low-volume window; META mega-cap so less affected but chop may persist.)
+
+11:52 ET — META resolution. Coil resolved DOWNWARD: failed 657.8 3x, DESCENDING highs
+  (657.86->654.9->654.65->653.5), drifting to 649.81 on declining volume, now TESTING
+  VWAP 648.70 from above (+0.17%). No reclaim bar yet (last bar closed near its low).
+  Distribution character on a red tape. NO entry (entering the drift = knife-catch,
+  the ASO/FSLY mistake). WAIT for VWAP test to resolve: hold 648-650 + confirmed
+  reclaim -> A+ entry; lose VWAP <648 -> dead/drop. Tight re-check ~12:00 ET.
