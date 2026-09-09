@@ -1582,3 +1582,18 @@ TAPE CHARACTER READ: today is a FADE / MEAN-REVERSION day, not a trend day — e
 DECISION: no trade. Leaning strongly toward a no-trade day (correct on this tape).
   One late-morning scan ~11:15 ET for any genuinely fresh setup; else coast to EOD.
   No pressure (yesterday +2R banked). Prime window ends 11:30.
+
+11:16 ET — Final prime scan. FLAT confirmed. Broad tape RED (SPY -0.57%, QQQ -0.47%,
+  IWM -1.16%; most sectors red, only Tech +0.6%). This is a risk-OFF day -> explains
+  the fade tape (rallies sold). FOUND THE ONE REAL CANDIDATE: META $653.58 (+6.4%,
+  catalyst) — mega-cap RELATIVE-STRENGTH LEADER bucking the red tape (dragging Tech
+  green). Structure: consolidated 641-648, BROKE OUT ~10:40 to HOD 657.54, now pulled
+  back to 653.58, HOLDING above VWAP 647.76 + breakout zone. The one name TRENDING
+  not fading today.
+DECISION: do NOT chase mid-range 653.58 (between VWAP 648 and HOD 657 = poor ~1.05RR;
+  on a red tape risks getting stopped on the very VWAP retest that's the better entry).
+  ARM META A+ setup: TRIGGER = pullback/retest of 648-650 (VWAP/breakout) that HOLDS
+  + confirmed reclaim bar -> entry ~649-650, stop <647 (under VWAP, ~$2.5-3 risk),
+  target 657+ -> ~2.5-3RR. Likely A+ (mega-cap leader, catalyst, day's primary/only
+  clean idea) -> up to $50/$0.50. Alt trigger: clean break+hold >657.54 with volume.
+  Tight re-check ~11:30 ET (META-specific; mega-cap so less midday-volume-sensitive).
