@@ -1036,3 +1036,36 @@ Practical: surface these angles PROACTIVELY in session ticks (e.g. "AMD lagging
 NVDA intraday + reclaiming VWAP = relative-strength long", or "congressional buy +
 sector catalyst on X"), not only when asked. Build the trade sample first (get to
 10-20 trades), then layer the deferred sophistication (pairs/stat-arb at Phase 2).
+
+## Session lesson — 2026-09-09 (Wed, 0 trades, red fade tape)
+
+The single most useful lesson of the day, validated with real observations:
+
+1. **Regime is the master filter.** Today was RED/risk-off (SPY -0.4/-0.6%, QQQ
+   -0.3/-0.5%, IWM -1.2%). On a red tape, morning gappers get SOLD — they pop then
+   pull THROUGH VWAP rather than bouncing off it. ASO (+12%), FSLY (+11%), SIG (+19%),
+   AEHR (+11%) ALL did exactly this. A long-only book cannot trade this without
+   catching knives. This directly justifies the green-tape regime filter attached to
+   the new First-Leg entry type — and it applies to second-leg entries too: on a
+   confirmed red fade day, the default is STAND DOWN, not hunt harder.
+
+2. **"Busy tape" ≠ "opportunity."** Plenty of movement today (SIG/AEHR/ODD/META all
+   +10-20%); zero clean long setups. Volume and volatility were fine — direction was
+   hostile. Don't confuse a lot of names moving with a tradeable day.
+
+3. **Passing the extension is a WIN, measurable.** Not chasing ASO at 50.10 (the HOD,
+   +2.75% above VWAP) saved ~$1.40/sh when it broke VWAP within the hour. FSLY same.
+   The no-chase rule paid in avoided losses, not just theory.
+
+4. **Relative-strength leaders can still fail on a red tape.** META (+6.7%, THE leader
+   bucking the tape) looked like the one long that could work — but even it coiled,
+   failed the 658 breakout 3x (descending highs), and gave only a limp low-volume VWAP
+   bounce. A leader in a hostile regime is a WATCH, not an automatic buy. Demand the
+   clean trigger; a limp bounce is a skip.
+
+5. **Process ran clean:** ~8 scans, tight re-checks on the one candidate, hourly
+   pulses after the cadence fix, everything logged/committed. 0 forced trades on a day
+   built to punish forcing. This is what a correct no-trade day looks like.
+
+Net through 2 sessions: 1 trade, 1 win (+$0.47, +2.0R), 0 losses, 0 forced trades.
+Expectancy still +$0.47 (n=1). Regime awareness is now an explicit, logged edge.

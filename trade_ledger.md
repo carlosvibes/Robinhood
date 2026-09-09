@@ -31,6 +31,7 @@ All times are US Eastern. All dollar figures to two decimals.
 | 2026-09-02 | $100.00 | $100.00 | $0.00 | 0.0% | 0 | Wed. RULE CHANGE: Carlos approved "Moderate" calibration midday (RR 1.5, ATR 0.04, vol 1.6x, RVOL 1.6). DPRO cleared ATR floor + triggered ORB but failed (2 closes below VWAP; a would-be entry = -1R). OABI = first arm-able long under new rules but broke down before triggering. ~1hr usage-limit gap (flat verified on resume). Flat verified 15:45 ET. |
 | 2026-09-03 | $100.00 | $100.00 | $0.00 | 0.0% | 0 | Thu. First full day on Moderate gates. Quiet AM (universe scan 0 all morning). PM movers evaluated under new gates — ALL failed >=1 hard rail: ABTC/BKKT spread (0.53%/0.36% vs 0.15% gate), DPRO day-high trigger failed + spread rewidened, SBET (finally a tight-$0.01-spread mover) failed ATR floor (0.034<0.04, late-day coil), BULL at $10 ceiling, UPB decliner. KEY FINDING: spread gate is the binding constraint on this sub-$10 universe. DPRO arm discipline held (rejected 6.4155 wick-chase). Flat verified 15:21 ET. |
 | 2026-09-04 | $100.00 | $100.00 | $0.00 | 0.0% | 0 | Fri. First day on widened-spread + trend-follow tactics. CHPT (day's mover, +8%) untradeable: too volatile at open (ATR~0.45>0.25 cap), then boxed by/above the $10 position cap. Universe RVOL scanner BUGGED all day (0 despite real movers). FMP-gainers cross-check: in-band names all 1.9-5% spreads (MTEX/KPLT/CURX). No tradeable in-band setup, triple-confirmed. ROOT CAUSE identified + FIXED: Carlos approved FRACTIONAL LARGE-CAP trading (starts Tue 9/8) — the $5-10 whole-share universe was the disease. Flat verified 15:34 ET. |
+| 2026-09-09 | $100.47 | $100.47 | $0.00 | 0.0% | 0 | Wed. NO-TRADE day — correct on a RED/risk-off tape (SPY -0.4/-0.6%, QQQ -0.3/-0.5%, IWM -1.2%). Fade/mean-reversion character: every morning mover (ASO +12%, FSLY +11%, SIG +19%, AEHR +11%) popped then pulled THROUGH VWAP — long-only can't play that. Discipline DODGED losses (passing ASO 50.10 saved ~$1.40/sh as it faded below VWAP; FSLY same). One real candidate = META (+6.7%, mega-cap rel-strength leader), but it coiled 652-658, failed the breakout 3x, gave only a limp VWAP bounce — no clean A+ entry, correctly skipped. ~8 scans, 0 forced trades. Flat verified 15:45 ET. RULE CHANGES today (Carlos): two-tier sizing already live; NEW: First-Leg Momentum entry type (log-only/paper first) + green-tape regime filter + real-time catalyst-scan layer. |
 | 2026-09-08 | $100.00 | $100.47 | +$0.47 | +0.47% | 1 | Tue. **FIRST WINNING TRADE.** Day 1 of fractional large-caps. INTC first attempt aborted at fresh-quote step (faded below VWAP before place — no order). Trade #1 ROIV long: fractional $25 MARKET buy on breakout, trailed manual stop 40.50→41.10→41.35, took profit 41.9313 into decelerating momentum near 42.40 target. +$0.47, +2.0R. Fractional mechanics/spread(~0.10%)/slippage(fav both ways) all verified. No PDT alert. 1 day trade used. Midday+PM scans found no clean non-extended Trade #2 (all liquid movers extended); ended green, did not force. Flat verified 15:45 ET. |
 
 ---
@@ -1620,3 +1621,28 @@ DECISION: do NOT chase mid-range 653.58 (between VWAP 648 and HOD 657 = poor ~1.
   -> skip." NO entry. DROP META tight-watch (it had its shot; noon/midday low-volume).
   Revert to normal pulse cadence (12:30/1:30/2:30/EOD 3:45). Morning hunt = NO TRADE,
   correct on a red fade tape. FLAT $100.47, week green (yesterday +2R). No forcing.
+
+>>> SESSION CLOSE — 2026-09-09 (Wed) 15:45 ET <<<
+FLATTEN VERIFICATION: get_equity_positions = [] (0), get_equity_orders state=new = []
+(0) on 609021910. Confirmed FLAT. No position to close (took no trades).
+RESULT: 0 trades. Equity unchanged $100.47 (+0.47% on the week). Day trades used: 0
+(still 1/3 rolling from Tue ROIV). Loss halts: n/a. 6-order cap: 0 used.
+WHY NO TRADE (correct): RED/risk-off tape all day (SPY -0.4/-0.6%, QQQ -0.3/-0.5%,
+IWM -1.2%; most sectors red). On a red tape rallies get SOLD -> fade/mean-reversion
+character: ASO/FSLY/SIG/AEHR all popped at the open then pulled THROUGH VWAP, dead as
+longs. Long-only cannot play a red fade tape without catching knives. The rails +
+tape-read kept us out (passing ASO 50.10 at the HOD saved ~$1.40/sh as it broke VWAP).
+ONE genuine candidate: META (+6.7%, mega-cap relative-strength leader bucking the
+tape) — but it coiled 652-658, rejected the 658 breakout 3x (descending highs), and
+gave only a limp low-volume VWAP bounce. No clean A+ entry; correctly skipped. ~8
+scans across the session, 0 forced trades.
+STRATEGY/RULE CHANGES today (all Carlos-approved, logged in learning.md Changelog):
+  - Two-tier conviction sizing (STANDARD $25/$0.25, A+ $50/$0.50 RR>=2.0) — live.
+  - First-Leg Momentum entry type — approved LOG-ONLY/paper first (validate before
+    real capital), green-tape regime filter mandatory.
+  - Real-time catalyst-scan candidate layer — active (candidate-gen only).
+  - Scale-out tactic — deferred to Phase 2. Copy-trader mirroring — rejected (no
+    viable free real-time source). Congressional feeds — delayed theme context only.
+CADENCE: tightened to ~hourly pulses after Carlos flagged the 2-bookend gap; will
+  carry forward. First-leg paper logging starts the next GREEN-tape day (none today).
+Next: Thursday 2026-09-10 pre-market wake scheduled 12:30 UTC.
