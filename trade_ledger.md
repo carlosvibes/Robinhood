@@ -1597,3 +1597,12 @@ DECISION: do NOT chase mid-range 653.58 (between VWAP 648 and HOD 657 = poor ~1.
   target 657+ -> ~2.5-3RR. Likely A+ (mega-cap leader, catalyst, day's primary/only
   clean idea) -> up to $50/$0.50. Alt trigger: clean break+hold >657.54 with volume.
   Tight re-check ~11:30 ET (META-specific; mega-cap so less midday-volume-sensitive).
+
+11:33 ET — META re-check. FLAT. META ~652.41, still ABOVE VWAP 648.43 (+0.6%), but
+  now COILING in a 652-658 range ~40min: tapped 657.54 & 657.86 twice, REJECTED both
+  (resistance); 652 holding support. Consolidation-under-resistance. Neither trigger
+  fired (no 648-650 VWAP retest; no 658 break-and-hold). Mid-chop entry = poor RR / noise
+  stop. NO entry. HOLD. Watch for resolution: clean break+HOLD >657.86 on volume (stop
+  <655, target ~664 = ~2R) OR VWAP-retest-reclaim at 648-650; loss of VWAP 648 = dead.
+  Re-check ~11:52 ET; 12:30 midday pulse also covers it. (Note: heading into midday
+  low-volume window; META mega-cap so less affected but chop may persist.)
