@@ -1571,3 +1571,14 @@ DECISION: no clean non-extended above-VWAP entry available. No chase, no forcing
   ARM: FSLY pullback to ~23.2-23.4 (VWAP/support) holding + reclaim; ASO reclaim of
   VWAP 49.06. Re-check ~10:32 ET. Prime window to 11:30. No-trade is acceptable
   (yesterday's +2R banked; no pressure).
+
+10:32 ET — FSLY/ASO re-check. BOTH watches DEAD (same failure): ran up early then
+  faded THROUGH VWAP. FSLY: HOD 24.59 -> faded to 22.77, now BELOW VWAP 23.42.
+  ASO: never reclaimed, drifting to 48.30, still below VWAP. Neither is a long.
+TAPE CHARACTER READ: today is a FADE / MEAN-REVERSION day, not a trend day — every
+  morning mover (ASO, FSLY, SIG, AEHR fading too) pops at the open then pulls THROUGH
+  VWAP rather than bouncing off it. This is hostile to our long-only pullback-
+  continuation approach; buying pullbacks = catching knives. STAND DOWN posture.
+DECISION: no trade. Leaning strongly toward a no-trade day (correct on this tape).
+  One late-morning scan ~11:15 ET for any genuinely fresh setup; else coast to EOD.
+  No pressure (yesterday +2R banked). Prime window ends 11:30.
