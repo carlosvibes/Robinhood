@@ -1542,3 +1542,19 @@ semis/AI + nuclear-power complex (SEI, SMR/NuScale, ROIV, INTC) — watch for
 continuation vs exhaustion; most are EXTENDED after big runs, so only a clean
 pullback-reclaim or a FRESH gapper qualifies. No entries pre-market / first 15 min.
 Plan: wake ~9:50 ET (post opening-range) to hunt the prime window on live data.
+
+09:52 ET — Prime-window hunt (live). FLAT $100.47. Board refreshed (today's movers).
+Filtered field (excl. microcaps/leveraged-ETFs):
+  ODD $15.20 (+16%): FADING off open 18.44->14.95, below VWAP. Falling knife — PASS.
+  SIG $98.29 (+19%, earnings): higher-lows but bid/ask $0.71 = 0.72% >> 0.35% gate.
+    Book too thin/wide — PASS (watch if spread tightens).
+  ASO $50.10 (+12%, earnings): CLEANEST — rising higher-lows (46.83->48.77->49.00),
+    new HOD 50.25, spread $0.11/0.22% OK, ATR $0.61/1.2%, book liquid (415 bid).
+    BUT price +2.75% above VWAP (48.76) at the HOD = EXTENDED. Only structural stop
+    under 49.00 = ~2.4% risk; 2:1 from here needs 52.50+ on an extended name = no.
+DECISION: NO entry now — buying the HOD is the extension-chase the rules forbid.
+ARM ASO watch: TRIGGER = pullback to 49.3-49.7 zone holding above VWAP 48.76, then a
+  confirmed reclaim bar. Entry ~49.5, stop ~48.85 (under VWAP/higher-low, ~1.3%),
+  target 50.25+ -> ~1.5-2R; likely A+ (day's cleanest liquid trend, earnings catalyst,
+  primary idea). If it runs away with no pullback, let it go — no chase.
+Re-check ~10:06 ET.
