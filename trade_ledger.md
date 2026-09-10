@@ -1668,3 +1668,12 @@ No entries pre-market / first 15 min. Plan: wake ~9:50 ET to read real regime + 
   RH +0.6% muted + 0.84% spread (untradeable), NOW +2.2% mild/not a leader, FMP
   gainers all microcap/sub-$1/leveraged-ETF junk. NO clean long. NO trade.
   Hold flat; hourly pulses; watch for a regime flip to green. Flat $100.47.
+
+14:31 ET — Pulse. Still RED (SPY -0.64%, QQQ -1.01%, IWM -1.09%, new lows late;
+  bear ETFs GDXD/ZSL on gainers). ONE genuine liquid leader surfaced: SWKS (Skyworks,
+  +10.9%, $84.81) — semiconductor grinding UP all afternoon (higher-lows/highs), HOD
+  85.46, real relative strength bucking the tape. BUT +3.9% above VWAP (81.63) =
+  EXTENDED, and it's 2:31pm (~54min to 15:25 last-entry). Late extended chase on a red
+  tape = the low-prob trade we've skipped all week. No clean VWAP-pullback-reclaim
+  entry ever offered. SKIP (prefer-skip-unless-very-clean + no-chase). Logged as the
+  day's one real leader for the record. FLAT $100.47. Coast to EOD.
