@@ -1646,3 +1646,17 @@ STRATEGY/RULE CHANGES today (all Carlos-approved, logged in learning.md Changelo
 CADENCE: tightened to ~hourly pulses after Carlos flagged the 2-bookend gap; will
   carry forward. First-leg paper logging starts the next GREEN-tape day (none today).
 Next: Thursday 2026-09-10 pre-market wake scheduled 12:30 UTC.
+
+>>> SESSION OPEN — 2026-09-10 (Thu) 08:31 ET (pre-market) <<<
+BLOCKING CHECKS: STATUS ACTIVE ✓ | FLAT: 0 positions, 0 open orders ✓ | Buying power
+~$100.47 ✓ | Normal Thu, flatten 15:50 ✓.
+REGIME (new discipline): pre-market leaning RED again — SPY -0.30%, QQQ -0.84% (tech
+soft), IWM -0.43% (pre-market, unreliable — confirm at open). Second risk-off lean in
+a row; if confirmed at open, demand clean 2nd-leg above-VWAP only or stand down (per
+9/9 lesson). First-leg paper-logging only triggers on a GREEN tape.
+CATALYST SCAN (new layer, WebSearch — leads to VERIFY live at open, not gospel):
+  RH (Q2 earnings + RH Estates launch — earnings gapper, best day-trade candidate if
+  liquid/clean), NOW (ServiceNow, raised AI ACV target — mega-cap), EWBC (MS upgrade),
+  PCAR (price-target raises — likely milder). FMP gainers stale pre-market; confirm all
+  at open with live quotes/structure.
+No entries pre-market / first 15 min. Plan: wake ~9:50 ET to read real regime + hunt.
