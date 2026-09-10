@@ -1660,3 +1660,11 @@ CATALYST SCAN (new layer, WebSearch — leads to VERIFY live at open, not gospel
   PCAR (price-target raises — likely milder). FMP gainers stale pre-market; confirm all
   at open with live quotes/structure.
 No entries pre-market / first 15 min. Plan: wake ~9:50 ET to read real regime + hunt.
+
+09:50 ET — Prime hunt. REGIME CONFIRMED RED (worse than 9/9): SPY -0.59%, QQQ -1.03%,
+  IWM -0.82%; inverse/bear ETFs leading gainers (SOXS +8.5%, GDXD, SKDD) = risk-off.
+  Per regime filter -> STAND DOWN (demand clean 2nd-leg above-VWAP only; NO first-leg
+  paper-logging, not a green tape). Catalyst watchlist verified live, none tradeable:
+  RH +0.6% muted + 0.84% spread (untradeable), NOW +2.2% mild/not a leader, FMP
+  gainers all microcap/sub-$1/leveraged-ETF junk. NO clean long. NO trade.
+  Hold flat; hourly pulses; watch for a regime flip to green. Flat $100.47.
