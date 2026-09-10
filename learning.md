@@ -1069,3 +1069,27 @@ The single most useful lesson of the day, validated with real observations:
 
 Net through 2 sessions: 1 trade, 1 win (+$0.47, +2.0R), 0 losses, 0 forced trades.
 Expectancy still +$0.47 (n=1). Regime awareness is now an explicit, logged edge.
+
+## Session lesson — 2026-09-10 (Thu, 0 trades, 2nd straight red day)
+
+1. **Regime-check-first worked as designed.** Leading the session with SPY/QQQ/IWM
+   flagged red at the open (QQQ -1%); the stand-down held all day and saved us from
+   fighting a second consecutive risk-off tape. This is the 9/9 lesson operationalized
+   into a first-step routine — keep it.
+2. **The catalyst-scan layer (new) functions but is only as good as the day.** WebSearch
+   surfaced RH/NOW/EWBC/PCAR pre-market; verified live, none were tradeable (RH muted
+   +0.6% w/ 0.84% spread; NOW mild). The layer widens the funnel top; it does not
+   manufacture setups on a hostile tape. Correct expectation.
+3. **First-leg paper-logging correctly stayed OFF.** Gated to green tapes; 0 signals on
+   a red day. The regime gate is doing its job — no capital AND no paper noise on days
+   the style shouldn't trade.
+4. **SWKS = the discipline test.** A genuine relative-strength semi leader (+11%,
+   grinding above VWAP) — but +3.9% above VWAP at 2:31pm. Evaluated it seriously
+   (pulled the chart) and skipped: late + extended + red tape = the low-probability
+   chase that's faded all week. Finding a leader is not the same as having an entry.
+5. **Two red days = two correct no-trade days.** For a long-only book this is regime,
+   not failure. Patience here is the edge. The infrastructure (catalyst scan, first-leg
+   paper validation, two-tier sizing, regime filter) is all staged for the green flip.
+
+Through 3 sessions: 1 trade, 1 win (+$0.47, +2.0R), 0 losses, 0 forced trades.
+Expectancy +$0.47 (n=1). Capital preserved across two hostile tapes.

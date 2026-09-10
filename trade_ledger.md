@@ -31,6 +31,7 @@ All times are US Eastern. All dollar figures to two decimals.
 | 2026-09-02 | $100.00 | $100.00 | $0.00 | 0.0% | 0 | Wed. RULE CHANGE: Carlos approved "Moderate" calibration midday (RR 1.5, ATR 0.04, vol 1.6x, RVOL 1.6). DPRO cleared ATR floor + triggered ORB but failed (2 closes below VWAP; a would-be entry = -1R). OABI = first arm-able long under new rules but broke down before triggering. ~1hr usage-limit gap (flat verified on resume). Flat verified 15:45 ET. |
 | 2026-09-03 | $100.00 | $100.00 | $0.00 | 0.0% | 0 | Thu. First full day on Moderate gates. Quiet AM (universe scan 0 all morning). PM movers evaluated under new gates — ALL failed >=1 hard rail: ABTC/BKKT spread (0.53%/0.36% vs 0.15% gate), DPRO day-high trigger failed + spread rewidened, SBET (finally a tight-$0.01-spread mover) failed ATR floor (0.034<0.04, late-day coil), BULL at $10 ceiling, UPB decliner. KEY FINDING: spread gate is the binding constraint on this sub-$10 universe. DPRO arm discipline held (rejected 6.4155 wick-chase). Flat verified 15:21 ET. |
 | 2026-09-04 | $100.00 | $100.00 | $0.00 | 0.0% | 0 | Fri. First day on widened-spread + trend-follow tactics. CHPT (day's mover, +8%) untradeable: too volatile at open (ATR~0.45>0.25 cap), then boxed by/above the $10 position cap. Universe RVOL scanner BUGGED all day (0 despite real movers). FMP-gainers cross-check: in-band names all 1.9-5% spreads (MTEX/KPLT/CURX). No tradeable in-band setup, triple-confirmed. ROOT CAUSE identified + FIXED: Carlos approved FRACTIONAL LARGE-CAP trading (starts Tue 9/8) — the $5-10 whole-share universe was the disease. Flat verified 15:34 ET. |
+| 2026-09-10 | $100.47 | $100.47 | $0.00 | 0.0% | 0 | Thu. NO-TRADE day — correct on a RED/risk-off tape (SPY -0.5/-0.6%, QQQ -0.7/-1.0%, IWM -0.9/-1.1% ALL DAY; bear/inverse ETFs led gainers). Regime-check-first worked: red confirmed at open -> stand down; never flipped green. Catalyst-scan layer (new) surfaced RH/NOW pre-market (RH muted +0.6% & 0.84% spread untradeable; NOW mild). Midday scans junk. ONE real leader = SWKS (+11%, semi, grinding above VWAP) but +3.9% above VWAP + 2:31pm/late = extended chase, correctly skipped. No first-leg paper signals (not a green tape). Flat verified 15:45 ET. |
 | 2026-09-09 | $100.47 | $100.47 | $0.00 | 0.0% | 0 | Wed. NO-TRADE day — correct on a RED/risk-off tape (SPY -0.4/-0.6%, QQQ -0.3/-0.5%, IWM -1.2%). Fade/mean-reversion character: every morning mover (ASO +12%, FSLY +11%, SIG +19%, AEHR +11%) popped then pulled THROUGH VWAP — long-only can't play that. Discipline DODGED losses (passing ASO 50.10 saved ~$1.40/sh as it faded below VWAP; FSLY same). One real candidate = META (+6.7%, mega-cap rel-strength leader), but it coiled 652-658, failed the breakout 3x, gave only a limp VWAP bounce — no clean A+ entry, correctly skipped. ~8 scans, 0 forced trades. Flat verified 15:45 ET. RULE CHANGES today (Carlos): two-tier sizing already live; NEW: First-Leg Momentum entry type (log-only/paper first) + green-tape regime filter + real-time catalyst-scan layer. |
 | 2026-09-08 | $100.00 | $100.47 | +$0.47 | +0.47% | 1 | Tue. **FIRST WINNING TRADE.** Day 1 of fractional large-caps. INTC first attempt aborted at fresh-quote step (faded below VWAP before place — no order). Trade #1 ROIV long: fractional $25 MARKET buy on breakout, trailed manual stop 40.50→41.10→41.35, took profit 41.9313 into decelerating momentum near 42.40 target. +$0.47, +2.0R. Fractional mechanics/spread(~0.10%)/slippage(fav both ways) all verified. No PDT alert. 1 day trade used. Midday+PM scans found no clean non-extended Trade #2 (all liquid movers extended); ended green, did not force. Flat verified 15:45 ET. |
 
@@ -1677,3 +1678,23 @@ No entries pre-market / first 15 min. Plan: wake ~9:50 ET to read real regime + 
   tape = the low-prob trade we've skipped all week. No clean VWAP-pullback-reclaim
   entry ever offered. SKIP (prefer-skip-unless-very-clean + no-chase). Logged as the
   day's one real leader for the record. FLAT $100.47. Coast to EOD.
+
+>>> SESSION CLOSE — 2026-09-10 (Thu) 15:45 ET <<<
+FLATTEN VERIFICATION: get_equity_positions = [] (0), get_equity_orders state=new = []
+(0) on 609021910. Confirmed FLAT. No position (took no trades).
+RESULT: 0 trades. Equity unchanged $100.47. Day trades used: 0 (still 1/3 rolling from
+Tue). Loss halts n/a. 6-order cap: 0.
+WHY NO TRADE (correct): SECOND straight RED/risk-off day, worse than 9/9 — SPY -0.5/
+-0.6%, QQQ -0.7/-1.0%, IWM -0.9/-1.1% ALL SESSION; bear/inverse ETFs (SOXS, GDXD, ZSL)
+led the gainers = confirmed risk-off. Regime-check-first (new discipline) flagged it at
+the open; tape never flipped green -> stand down held all day. Long-only can't fight this.
+NEW LAYERS EXERCISED: (1) catalyst-scan (WebSearch) surfaced RH/NOW/EWBC/PCAR pre-market
+- verified live, none tradeable (RH +0.6% muted + 0.84% spread; NOW mild +2.2%). Layer
+works as candidate-gen; the names just didn't set up. (2) First-leg paper-logging: 0
+signals - correctly gated OFF (not a green tape). ONE genuine leader: SWKS (+11%, semi,
+grinding above VWAP all afternoon) but +3.9% above VWAP + 2:31pm = late extended chase,
+skipped per no-chase / prefer-skip-unless-very-clean.
+PATTERN NOTE: 2 red days in a row = 2 correct no-trade days for a long-only book. This is
+regime, not a system failure. The moment the tape flips green, the new layers (catalyst
+scan + first-leg paper validation + two-tier sizing) are ready.
+Next: Friday 2026-09-11 pre-market wake scheduled 12:30 UTC (regime-check-first).
