@@ -1769,3 +1769,27 @@ $0.25 (=cap ✓; 58.64 is under the 58.72 higher-low). Target 61.00 -> +$0.44, R
 Trail plan: at +1R (~60.35) raise manual stop to breakeven 59.49; then trail under
 higher-lows / 1xATR. Quick profit into 60.5-61.0 or on momentum stall. MARKET SELL the
 instant it trades <=58.64. HARD FLAT 15:50. ATTENDED <=1-2min (I am the stop). Green tape.
+
+>>> CLOSED — Trade #2 — KR LONG — LOSS — 2026-09-11 10:40 ET <<<
+EXIT: MARKET SELL 0.294167 sh @ avg 58.8701 (order 6aa412d5, $0 fees). Verified FLAT (0 pos).
+ENTRY 59.4899 -> EXIT 58.8701. P&L = -$0.1823. R = -0.73R (risk was $0.25 to 58.64;
+cut early at the 59.08 double-bottom break per tightened plan, saved ~$0.07 vs full stop).
+Hold ~20 min (10:20->10:40). Account: $100.47 -> ~$100.29.
+FIRST LOSS OF THE PROJECT. Consecutive-loss streak: 1 (halt at 3). Day P&L -$0.18 (<< $1
+halt). Day trades used: 2 rolling (Tue ROIV + today KR) — still <3 PDT, no alert.
+WHAT HAPPENED: clean 2nd-leg entry on the KR earnings breakout, but the breakout FAILED
+— poked 59.49, rejected, then failed a 2nd push at 59.4 (lower high), broke the 59.10-59.12
+double-bottom. Cut at 58.87 (above the 58.64 stop) when structure broke rather than hoping.
+GRADE: GOOD PROCESS, bad outcome. Entry was rule-valid (green tape, above VWAP, 2:1, tight
+spread, confirmed reclaim). The tightened-stop management (cut on the double-bottom break, not
+the full stop) worked — held the loss to -0.73R. This is a normal losing trade; the setup
+just didn't follow through. No revenge re-entry on KR.
+LESSON SEED: even on a green tape, an earnings-gap ORB breakout can fail on the retest;
+the 2nd-leg entry near the range high (59.45) gave a wider stop / worse RR than a deeper
+VWAP-pullback entry would have. Prefer entries closer to VWAP support when possible.
+
+>>> PAPER SIGNAL #1 OUTCOME (KR first-leg ORB) <<<
+Hypothetical entry 59.10, target 61.20, stop 57.80. RESULT: FAILED to work — ran to 59.49
+(never near target), rejected, faded to 58.87. Did NOT hit the 57.80 stop, but never
+progressed toward target; managed like the live trade it would be ~breakeven-to-small-loss.
+MARK: first-leg ORB on KR = NO EDGE today (chop/fail). Validation data point #1: 0/1.
