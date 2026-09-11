@@ -1807,3 +1807,11 @@ DECISION: STAND DOWN on immediate entry. ARM SMCI: LIVE A+ entry ONLY on a clean
   break+HOLD >40.44 (breakout continuation) OR a pullback to VWAP ~39.4 that reclaims;
   stop under the flag/VWAP, target 41.5+, need RR>=2.0. Prime window ends 11:30; else
   midday. Re-check ~11:25 ET. Don't burn the last PDT day trade on a mediocre setup.
+
+11:40 ET — SMCI trigger check: FAILED to confirm. Bounced off VWAP (39.33) to 39.64 then
+  CHOPPED sideways 39.4-39.65 for ~15min, never reclaimed the 40.00 broken support.
+  Dead-cat bounce, not a 2nd-leg resumption -> NO trade (the 40.0 confirmation filter did
+  its job). Drop SMCI unless it decisively reclaims 40.0 later. Midday now.
+MORNING HUNT DONE: Trade #2 KR -$0.18 loss (managed, cut small); SMCI correctly passed;
+  protected the last PDT slot (still 2/3) + green week. FLAT ~$100.29. Green tape holds
+  (SPY ~+1%) but no clean A+ setup remaining. Coast on hourly pulses to EOD + WEEKLY REVIEW.
