@@ -1753,3 +1753,19 @@ Context: KR +4% earnings gapper, ORB'd then coiled 58.7-59.4 above VWAP, higher-
   Green tape + liquid + tight spread (0.10%) + 2:1. STANDARD $25/$0.25 (not A+: grocery
   name, modest +4%, not a high-momentum leader). Fractional=NO resting stop, I AM the
   stop, attended <=1-2min, MARKET SELL instant it breaks 58.60. Hard flat 15:50.
+
+PRE-ORDER UPDATE (10:19 ET): fresh quote 59.43 (bid 59.41/ask 59.45), drift +0.37%
+(<1% ✓), spread $0.04/0.067% ✓. KR now BREAKING the 59.40 range high (continuation
+confirming). Recomputed from live: entry ~59.45, stop 58.60 (under 58.72 higher-low),
+target 61.00 (measured move of 57.5-59.4 base), RR ~1.82, position ~$17.50 (0.294 sh)
+for $0.25 risk. Still STANDARD, still clean. Proceeding to review_equity_order.
+
+>>> FILLED — Trade #2 — KR LONG — 2026-09-11 10:20:19 ET <<<
+FILL: 0.294167 sh @ avg 59.4899 ($17.50 notional, $0 fees). Order 6aa40e23 filled.
+review_equity_order order_checks EMPTY (no PDT/halt/BP alert). Disclosure shown verbatim.
+Position: LONG 0.294167 KR @ 59.49. Account HOLDING (2nd live position of the project).
+MANUAL STOP: 58.64 (no resting stop on fractional). Risk = (59.4899-58.64)*0.294167 =
+$0.25 (=cap ✓; 58.64 is under the 58.72 higher-low). Target 61.00 -> +$0.44, RR ~1.8.
+Trail plan: at +1R (~60.35) raise manual stop to breakeven 59.49; then trail under
+higher-lows / 1xATR. Quick profit into 60.5-61.0 or on momentum stall. MARKET SELL the
+instant it trades <=58.64. HARD FLAT 15:50. ATTENDED <=1-2min (I am the stop). Green tape.
