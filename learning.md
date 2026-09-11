@@ -69,15 +69,16 @@ Update after every closed trade. Recompute the aggregates weekly.
 
 | Metric | Value |
 |---|---|
-| Total closed trades | 1 |
-| Win rate | 100% (1/1) — n=1, not significant |
+| Total closed trades | 2 |
+| Win rate | 50% (1/2) — n=2, not significant |
 | Average win ($) | +$0.47 |
-| Average loss ($) | — |
-| Average R multiple | +2.0R |
-| Expectancy per trade ($) | +$0.47 (n=1) |
-| Largest win / largest loss | +$0.47 / — |
-| Max drawdown from peak equity | ~$0.08 intratrade unrealized (Trade #1); $0 realized |
-| Current phase | 1 |
+| Average loss ($) | -$0.18 |
+| Average R multiple | +0.635R/trade (ROIV +2.0R, KR -0.73R) |
+| Expectancy per trade ($) | +$0.145 (n=2) = (0.5*0.47)+(0.5*-0.18). POSITIVE. |
+| Largest win / largest loss | +$0.47 (ROIV) / -$0.18 (KR) |
+| Max drawdown from peak equity | ~$0.18 realized (KR loss); peak $100.47 -> $100.29 |
+| Current phase | 1 (2/20 closed trades toward Phase 2 gate) |
+| Broker reconciliation | EXACT as of 2026-09-11 (get_pnl_trade_history: ROIV +0.47, KR -0.18) |
 
 Expectancy is the number that matters most:
 
@@ -94,7 +95,8 @@ A positive expectancy means the system makes money over enough repetitions. A hi
 | Opening Range Breakout | 0 | — | — | — | insufficient data |
 | Momentum / Bull Flag | 0 | — | — | — | insufficient data |
 | Breakout from Consolidation | 0 | — | — | — | insufficient data |
-| VWAP Reclaim | 0 | — | — | — | insufficient data |
+| VWAP Reclaim | 1 | 0% (0/1) | -0.73R | -$0.18 | KR 9/11 failed the breakout retest; n=1 |
+| Momentum/Bull Flag (ROIV 9/8) | 1 | 100% (1/1) | +2.0R | +$0.47 | ROIV win; n=1 |
 
 Also worth cutting the data by whether price was above VWAP at entry, since that's a filter the system applies to every trade and its value should be measurable.
 
@@ -1093,3 +1095,29 @@ Expectancy still +$0.47 (n=1). Regime awareness is now an explicit, logged edge.
 
 Through 3 sessions: 1 trade, 1 win (+$0.47, +2.0R), 0 losses, 0 forced trades.
 Expectancy +$0.47 (n=1). Capital preserved across two hostile tapes.
+
+## Session lesson — 2026-09-11 (Fri, 1 trade: KR -$0.18 loss; first green tape of the week)
+
+1. **First loss = normal, and the risk framework held.** KR was a rule-valid 2nd-leg
+   entry on a green tape; the earnings breakout just failed the retest. Cutting on the
+   double-bottom break (58.87) held it to -0.73R instead of the full -1R. Losing trades
+   are the cost of doing business; a -0.73R loss on a failed setup is a GOOD loss.
+2. **Entry location matters (the KR lesson).** I entered near the range-high (59.45) as
+   the breakout confirmed, which forced a wider stop and thinner RR (~1.8). A deeper
+   2nd-leg entry closer to VWAP support would have given a tighter stop and better RR.
+   RULE GOING FORWARD: prefer VWAP-proximate entries over range-high chases.
+3. **The confirmation filter earned its keep (SMCI).** I refused to chase SMCI's VWAP
+   bounce and required a 40.0 reclaim; it never reclaimed and broke down $0.60 lower.
+   Requiring confirmation before spending the last PDT slot = correct, validated.
+4. **First-leg paper-logging works as designed.** Paper signal #1 (KR ORB) FAILED (0/1)
+   — logged with no capital at risk. This is exactly why we validate before going live:
+   an earnings-gap ORB can fail on the retest even on a green tape. Keep building the
+   sample.
+5. **Regime filter = the week's MVP.** Two red days (Wed/Thu) correctly no-traded; the
+   two trades both came on non-red tapes. Aligning activity to regime is the single
+   biggest driver of not-losing-money so far.
+
+WEEK SUMMARY (see trade_ledger.md WEEKLY REVIEW): 2 closed trades, 50% win, +$0.29 net
+(+0.29%), expectancy +$0.145/trade (POSITIVE, n=2). Equity $100.00 -> $100.29. Phase 1,
+2/20 trades toward the Phase 2 gate. Process clean: 0 forced, 0 revenge, exact broker
+reconciliation. The system makes money on green tapes and protects capital on red ones.

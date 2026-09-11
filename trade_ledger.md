@@ -31,6 +31,7 @@ All times are US Eastern. All dollar figures to two decimals.
 | 2026-09-02 | $100.00 | $100.00 | $0.00 | 0.0% | 0 | Wed. RULE CHANGE: Carlos approved "Moderate" calibration midday (RR 1.5, ATR 0.04, vol 1.6x, RVOL 1.6). DPRO cleared ATR floor + triggered ORB but failed (2 closes below VWAP; a would-be entry = -1R). OABI = first arm-able long under new rules but broke down before triggering. ~1hr usage-limit gap (flat verified on resume). Flat verified 15:45 ET. |
 | 2026-09-03 | $100.00 | $100.00 | $0.00 | 0.0% | 0 | Thu. First full day on Moderate gates. Quiet AM (universe scan 0 all morning). PM movers evaluated under new gates — ALL failed >=1 hard rail: ABTC/BKKT spread (0.53%/0.36% vs 0.15% gate), DPRO day-high trigger failed + spread rewidened, SBET (finally a tight-$0.01-spread mover) failed ATR floor (0.034<0.04, late-day coil), BULL at $10 ceiling, UPB decliner. KEY FINDING: spread gate is the binding constraint on this sub-$10 universe. DPRO arm discipline held (rejected 6.4155 wick-chase). Flat verified 15:21 ET. |
 | 2026-09-04 | $100.00 | $100.00 | $0.00 | 0.0% | 0 | Fri. First day on widened-spread + trend-follow tactics. CHPT (day's mover, +8%) untradeable: too volatile at open (ATR~0.45>0.25 cap), then boxed by/above the $10 position cap. Universe RVOL scanner BUGGED all day (0 despite real movers). FMP-gainers cross-check: in-band names all 1.9-5% spreads (MTEX/KPLT/CURX). No tradeable in-band setup, triple-confirmed. ROOT CAUSE identified + FIXED: Carlos approved FRACTIONAL LARGE-CAP trading (starts Tue 9/8) — the $5-10 whole-share universe was the disease. Flat verified 15:34 ET. |
+| 2026-09-11 | $100.47 | $100.29 | -$0.18 | -0.18% | 1 | Fri. GREEN tape at last (SPY +1%, QQQ +1%, first risk-on of the week). Trade #2 KR LONG (2nd-leg VWAP-reclaim on earnings gapper) — breakout failed the retest, cut on double-bottom break at 58.87 for -$0.18 (-0.73R, < full stop). First loss of project; good process. SMCI watched (semis leader) but failed the 40.0 confirmation filter -> passed (validated: it broke down $0.60 lower). First-leg paper signal #1 (KR ORB) logged, FAILED (0/1). PDT 2/3. Broker realized-PnL cross-check EXACT (ROIV +0.47, KR -0.18). Flat verified 15:45 ET. |
 | 2026-09-10 | $100.47 | $100.47 | $0.00 | 0.0% | 0 | Thu. NO-TRADE day — correct on a RED/risk-off tape (SPY -0.5/-0.6%, QQQ -0.7/-1.0%, IWM -0.9/-1.1% ALL DAY; bear/inverse ETFs led gainers). Regime-check-first worked: red confirmed at open -> stand down; never flipped green. Catalyst-scan layer (new) surfaced RH/NOW pre-market (RH muted +0.6% & 0.84% spread untradeable; NOW mild). Midday scans junk. ONE real leader = SWKS (+11%, semi, grinding above VWAP) but +3.9% above VWAP + 2:31pm/late = extended chase, correctly skipped. No first-leg paper signals (not a green tape). Flat verified 15:45 ET. |
 | 2026-09-09 | $100.47 | $100.47 | $0.00 | 0.0% | 0 | Wed. NO-TRADE day — correct on a RED/risk-off tape (SPY -0.4/-0.6%, QQQ -0.3/-0.5%, IWM -1.2%). Fade/mean-reversion character: every morning mover (ASO +12%, FSLY +11%, SIG +19%, AEHR +11%) popped then pulled THROUGH VWAP — long-only can't play that. Discipline DODGED losses (passing ASO 50.10 saved ~$1.40/sh as it faded below VWAP; FSLY same). One real candidate = META (+6.7%, mega-cap rel-strength leader), but it coiled 652-658, failed the breakout 3x, gave only a limp VWAP bounce — no clean A+ entry, correctly skipped. ~8 scans, 0 forced trades. Flat verified 15:45 ET. RULE CHANGES today (Carlos): two-tier sizing already live; NEW: First-Leg Momentum entry type (log-only/paper first) + green-tape regime filter + real-time catalyst-scan layer. |
 | 2026-09-08 | $100.00 | $100.47 | +$0.47 | +0.47% | 1 | Tue. **FIRST WINNING TRADE.** Day 1 of fractional large-caps. INTC first attempt aborted at fresh-quote step (faded below VWAP before place — no order). Trade #1 ROIV long: fractional $25 MARKET buy on breakout, trailed manual stop 40.50→41.10→41.35, took profit 41.9313 into decelerating momentum near 42.40 target. +$0.47, +2.0R. Fractional mechanics/spread(~0.10%)/slippage(fav both ways) all verified. No PDT alert. 1 day trade used. Midday+PM scans found no clean non-extended Trade #2 (all liquid movers extended); ended green, did not force. Flat verified 15:45 ET. |
@@ -1815,3 +1816,44 @@ DECISION: STAND DOWN on immediate entry. ARM SMCI: LIVE A+ entry ONLY on a clean
 MORNING HUNT DONE: Trade #2 KR -$0.18 loss (managed, cut small); SMCI correctly passed;
   protected the last PDT slot (still 2/3) + green week. FLAT ~$100.29. Green tape holds
   (SPY ~+1%) but no clean A+ setup remaining. Coast on hourly pulses to EOD + WEEKLY REVIEW.
+
+>>> SESSION CLOSE — 2026-09-11 (Fri) 15:45 ET <<<
+FLATTEN VERIFICATION: get_equity_positions = [] (0), get_equity_orders state=new = [] (0).
+Confirmed FLAT. No position (Trade #2 KR already closed 10:40 ET).
+RESULT: 1 trade (KR), 1 loss -$0.18 (-0.73R). Equity $100.47 -> $100.29 (-0.18%).
+Day trades used: KR round-trip = 2nd rolling PDT (Tue ROIV + Fri KR). Consecutive-loss
+streak: 1 (halt at 3). Daily loss -$0.18 (<< $1 halt).
+BROKER CROSS-CHECK (get_pnl_trade_history, week): ROIV sell +0.47, KR sell -0.18. Net
++$0.29. get_portfolio value $100.29. Ledger reconciles EXACTLY to broker. ✓
+SESSION NARRATIVE: first GREEN tape of the week; took the clean 2nd-leg KR trade (valid
+by process), it failed the breakout retest, cut small (-0.73R via tightened stop). Then
+disciplined: no revenge, watched SMCI but it failed the 40.0 confirmation (validated —
+broke down after), stood down rest of day preserving the last PDT slot. First-leg paper
+signal #1 (KR ORB) FAILED (validation data 0/1). No forcing.
+
+>>> WEEKLY REVIEW — Week of 2026-09-08 (Mon-Fri) <<<
+Equity: $100.00 (Mon pre-market, effectively 9/8 open) -> $100.29 FRIDAY CLOSE. +$0.29 (+0.29%).
+Trades: 2 closed. Win rate 50% (1W/1L). ROIV +$0.47/+2.0R (Tue), KR -$0.18/-0.73R (Fri).
+  Avg win +$0.47, avg loss -$0.18. Avg R +0.635R/trade.
+  EXPECTANCY = (0.5*0.47)+(0.5*-0.18) = +$0.145/trade. POSITIVE. (n=2, tiny sample.)
+No-trade days: Wed 9/9 + Thu 9/10 (both RED/risk-off — correctly stood down; long-only
+  can't fight a red fade tape). 2 trades in 4 sessions (Tue was pre-week; this Mon-Fri:
+  Wed/Thu no-trade, Fri 1 trade; ROIV was Tue 9/8).
+WHAT WORKED:
+  - Fractional large-cap unlock (Carlos 9/4) = the whole reason we trade at all. ROIV win.
+  - REGIME FILTER (added after 9/9): regime-check-first correctly kept us flat through
+    two red days, protecting the book. Biggest process win of the week.
+  - Risk mgmt on the loss: cut KR at -0.73R (< full -1R stop) on structure break.
+  - Broker reconciliation exact; discipline held (0 forced trades, 0 revenge trades).
+WHAT DIDN'T:
+  - KR: entered near the range-high (59.45) on a breakout that failed the retest -> wider
+    stop, worse RR. LESSON: prefer 2nd-leg entries closer to VWAP support.
+  - First-leg ORB (KR paper) failed -> 0/1; need more paper data before trusting first-leg.
+NEW THIS WEEK (Carlos-approved, all logged in Changelog): two-tier conviction sizing;
+  First-Leg Momentum (log-only/paper); real-time catalyst scan; green-tape regime filter.
+  Scale-out deferred to Phase 2; copy-trader mirroring rejected.
+PHASE GATE: Phase 2 (shorting) needs 20 closed trades + positive expectancy + Carlos.
+  At 2 closed trades. NOT close — keep building the sample on longs.
+NEXT WEEK FOCUS: on green tapes, hunt clean 2nd-leg VWAP-reclaims (entries near VWAP, not
+  range-highs); keep paper-logging first-leg signals to validate; stand down on red tapes.
+Next: Monday 2026-09-14 pre-market wake scheduled 12:30 UTC.
