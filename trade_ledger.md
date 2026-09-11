@@ -1793,3 +1793,17 @@ Hypothetical entry 59.10, target 61.20, stop 57.80. RESULT: FAILED to work — r
 (never near target), rejected, faded to 58.87. Did NOT hit the 57.80 stop, but never
 progressed toward target; managed like the live trade it would be ~breakeven-to-small-loss.
 MARK: first-leg ORB on KR = NO EDGE today (chop/fail). Validation data point #1: 0/1.
+
+11:07 ET — Resume hunt (post-KR-loss). FLAT ~$100.29. Regime STILL GREEN (SPY +0.96%,
+  QQQ +1.02%, IWM +0.61%). Tech-hardware/AI complex leading (DELL/SMCI/NTAP/MRNA all up,
+  inferred from their 2x ETFs topping the board). NO revenge on KR.
+  SMCI $39.93 (+6.8%): leader, consolidating tight flag under 40.44 HOD, ~+1.2% above
+    VWAP — constructive but mid-flag/soft NOW, not a clean trigger.
+  DELL $560.75 (+10.7%): leader but TOO EXTENDED to chase.
+  NTAP +6.5%, MRNA +8% — also extended/need structure.
+CONSTRAINTS: just took a loss (streak 1); PDT 2/3 (a 3rd round-trip maxes the rolling
+  window) -> bar for a new trade is HIGH, A+ only. Neither clean-triggered right now.
+DECISION: STAND DOWN on immediate entry. ARM SMCI: LIVE A+ entry ONLY on a clean
+  break+HOLD >40.44 (breakout continuation) OR a pullback to VWAP ~39.4 that reclaims;
+  stop under the flag/VWAP, target 41.5+, need RR>=2.0. Prime window ends 11:30; else
+  midday. Re-check ~11:25 ET. Don't burn the last PDT day trade on a mediocre setup.
