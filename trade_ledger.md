@@ -1698,3 +1698,16 @@ PATTERN NOTE: 2 red days in a row = 2 correct no-trade days for a long-only book
 regime, not a system failure. The moment the tape flips green, the new layers (catalyst
 scan + first-leg paper validation + two-tier sizing) are ready.
 Next: Friday 2026-09-11 pre-market wake scheduled 12:30 UTC (regime-check-first).
+
+>>> SESSION OPEN — 2026-09-11 (Fri) 08:31 ET (pre-market) <<<
+BLOCKING CHECKS: STATUS ACTIVE ✓ | FLAT: 0 positions ✓ | BP ~$100.47 ✓ | Normal Fri,
+flatten 15:50 ✓.
+REGIME: pre-market GREEN (FIRST green in 3 days!) — SPY +0.47%, QQQ +0.53%, IWM +0.47%
+(pre-market; confirm at open). Broad risk-on lean, tech + small caps leading. IF green
+holds at open -> HUNT normally + FIRST-LEG PAPER-LOGGING ENABLED (the style's day).
+CATALYST SCAN (WebSearch): broad strength; KR (Kroger) Q2 earnings pre-bell = watch as
+a potential gapper. Prior leaders (SWKS, META) could resume if green holds. Verify all
+live at open.
+Note: Friday = weekend-squaring risk into the afternoon; take morning setups, be wary late.
+No entries pre-market / first 15 min. Plan: wake ~9:50 ET — confirm GREEN, hunt, and
+paper-log any clean first-leg breakout. Friday is also WEEKLY REVIEW at EOD.
