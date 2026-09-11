@@ -1730,3 +1730,26 @@ NOTE:      HPE also a first-leg (+9.6%) but vertical/extended (~+3.5% above VWAP
            clean entry, not logging. WATCH KR for a 2nd-leg pullback-to-VWAP(58)-reclaim =
            potential LIVE entry.
 FLAT $100.47 (paper signal = no capital deployed).
+
+### Trade #2 — KR — 2026-09-11
+
+**Status**: OPEN
+
+--- ENTRY PLAN (written before the confirming quote, before the order) ---
+Time planned:         10:16 ET
+Strategy:             VWAP Reclaim (2nd-leg pullback-reclaim) on an earnings gapper
+Phase:                1 (fractional large-cap)
+Analysis price:       $59.21
+Setup trigger level:  $58.72 higher-low held VWAP 58.37; 10:10 bar reclaimed to 59.21
+Planned entry:        ~$59.21 (fractional $24 dollar-market)
+Position value:       ~$24 (STANDARD tier)
+Stop price:           $58.60 (under the 58.72 higher-low, just above VWAP) — MANUAL (fractional)
+Target price:         $60.50 (continuation / measured move above 59.40 range high)
+Risk ($):             ~$0.25 (0.405 sh x $0.61/sh)
+Reward:risk:          ~2.1 : 1
+% of equity at risk:  ~0.25%
+Regime:               GREEN (SPY +0.98%, QQQ +1.04%) — tailwind
+Context: KR +4% earnings gapper, ORB'd then coiled 58.7-59.4 above VWAP, higher-lows.
+  Green tape + liquid + tight spread (0.10%) + 2:1. STANDARD $25/$0.25 (not A+: grocery
+  name, modest +4%, not a high-momentum leader). Fractional=NO resting stop, I AM the
+  stop, attended <=1-2min, MARKET SELL instant it breaks 58.60. Hard flat 15:50.
