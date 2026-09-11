@@ -1711,3 +1711,22 @@ live at open.
 Note: Friday = weekend-squaring risk into the afternoon; take morning setups, be wary late.
 No entries pre-market / first 15 min. Plan: wake ~9:50 ET — confirm GREEN, hunt, and
 paper-log any clean first-leg breakout. Friday is also WEEKLY REVIEW at EOD.
+
+09:50 ET — Prime hunt. REGIME CONFIRMED GREEN (first this week): SPY +0.98%, QQQ +1.04%,
+  IWM +0.78%, tech leading = risk-ON. Hunt + first-leg PAPER-LOGGING enabled.
+
+>>> FIRST-LEG PAPER SIGNAL #1 (NO CAPITAL — validation only) <<<
+Time:      2026-09-11 09:50 ET
+Ticker:    KR (Kroger) — Q2 earnings gapper, +4% on day
+Regime:    GREEN (SPY +0.98%, QQQ +1.04%)
+Trigger:   Opening-range breakout — consolidated 57.5-58.0 (9:35-9:40 bars), then 9:45
+           bar CLOSED 58.98 (new HOD, broke OR-high 58.35) on rising volume (145k), price
+           now 59.24, holding ABOVE VWAP 57.82. Spread $0.06/0.10% (tight), liquid.
+Hyp entry: 59.10 (breakout confirmation)
+Hyp stop:  57.80 (just under VWAP / consolidation) -> risk $1.30/sh (2.2%)
+Hyp target:61.20 (measured continuation) -> reward $2.10 -> RR ~1.6
+OUTCOME:   [TRACK on later pulses — did it continue to target, stop, or chop?]
+NOTE:      HPE also a first-leg (+9.6%) but vertical/extended (~+3.5% above VWAP) — past a
+           clean entry, not logging. WATCH KR for a 2nd-leg pullback-to-VWAP(58)-reclaim =
+           potential LIVE entry.
+FLAT $100.47 (paper signal = no capital deployed).
