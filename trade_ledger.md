@@ -1897,3 +1897,27 @@ KEY FINDING: energy RS thesis CORRECT, but energy majors (XOM/CVX/OXY) FAIL the 
 DECISION: NO trade. Won't override the ATR floor to force a slow grind on a red broad
   tape. Energy read validated but untradeable for our style. Stand down. Protect the
   +$0.29 week. FLAT ~$100.29. Likely a no-trade day; fall to hourly pulses + EOD.
+
+### Trade #3 — S (SentinelOne) — 2026-09-14
+
+**Status**: OPEN
+
+--- ENTRY PLAN (written before the confirming quote, before the order) ---
+Time planned:         13:46 ET
+Strategy:             VWAP Reclaim / high-base rising-low continuation (cybersecurity sector catalyst)
+Phase:                1 (fractional large-cap)
+Analysis price:       $22.92
+Setup trigger level:  rising higher-lows in a high base (22.58->22.66->22.76->22.86->22.88),
+                      pressing the 22.97 range-high; above VWAP (~22.78). Sector-wide cyber
+                      rally (CRWD/ZS/S/QLYS/RPD/NTSK all +15%, likely M&A) = strong catalyst.
+Planned entry:        ~$22.92 (fractional $25 dollar-market; enter at support-proximate, not chasing the break — KR lesson)
+Position value:       ~$25 (STANDARD tier; measured — late-day + last PDT slot)
+Stop price:           $22.80 (under the rising-low base / 2hr support) — MANUAL (fractional)
+Target price:         $23.30 (measured move of the 22.58-22.97 base above the range high)
+Risk ($):             ~$0.13 (1.09 sh x $0.12/sh; well under $0.25 cap — tight stop)
+Reward:risk:          ~3.2 : 1
+% of equity at risk:  ~0.13%
+Regime:               Broad tape recovered to near-flat (SPY -0.22%, QQQ -0.35%); CYBER = strong GREEN sector (aligned).
+Context: PDT 2/3 -> this is the 3rd/last day-trade in the rolling window; review_equity_order
+  must show NO PDT block or I do NOT place. Fractional = NO resting stop, I AM the stop,
+  attended <=1-2min, MARKET SELL instant it breaks 22.80. Hard flat 15:50.
