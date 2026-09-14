@@ -1933,3 +1933,25 @@ VWAP 22.32 (price well above). Trail plan: at +1R (~23.13) raise manual stop to 
 22.96; then trail under higher-lows/1xATR. Quick profit into 23.3+ or on a range-high
 rejection/stall. MARKET SELL instant it trades <=22.80. HARD FLAT 15:50. ATTENDED <=1-2min.
 Cyber sector catalyst (CRWD/ZS/S all +15%), tape recovered near-flat.
+
+>>> CLOSED — Trade #3 — S (SentinelOne) LONG — LOSS(scratch) — 2026-09-14 14:06 ET <<<
+EXIT: MARKET SELL 1.088968 sh @ avg 22.9312 (order 6aa837b1, $0 fees). Verified FLAT (0 pos).
+ENTRY 22.9575 -> EXIT 22.9312. P&L = -$0.0286. R = -0.17R (risk was $0.17 to 22.80; cut
+EARLY at ~breakeven when the breakout failed 2x + rolled to the base low, per KR lesson).
+Hold ~18 min. Account: ~$100.29 -> ~$100.26. Day trades: S round-trip = 3rd rolling PDT
+(ROIV 9/8 + KR 9/11 + S 9/14) -> PDT window now MAXED, no more day trades today.
+Consecutive-loss streak (today): 1.
+WHAT HAPPENED: clean A+ entry (cyber sector catalyst, rising-low base, above VWAP, entered
+NEAR support per KR lesson) — but the breakout FAILED: poked 23.045 rejected, poked 22.99
+rejected, rolled to the 22.88 base low. Cut at 22.93 (near breakeven) rather than riding to
+the stop. EXCELLENT damage control (-0.17R vs -1R).
+GRADE: GOOD PROCESS, unlucky outcome. Entry was rule-valid and better-located than KR (near
+support, not range-high). The failure was the MOVE stalling, not the entry.
+LESSON SEED: TWO failed-breakout losses in a row (KR, S), both small. Common thread: both
+were BREAKOUT-CONTINUATION entries on names/sectors ALREADY up big (KR +4% earnings gap; S
++16% sector move). An already-extended sector move's "clean base" breakout is LOWER-
+PROBABILITY than a fresh pullback-flag (cf. ROIV, the win, which was a pullback-flag that
+then ran). REFINEMENT to test: favor pullback-reclaim entries over base-breakout-continuation
+on already-extended (>+8-10% on day) names; or demand the breakout show real volume expansion
+before entering. Keep as a lesson, not yet a rule. Damage control (cut failed breakouts near
+breakeven) is WORKING — 2 losses totaling just -$0.21.
