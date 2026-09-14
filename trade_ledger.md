@@ -1872,3 +1872,16 @@ LEAN: STAND DOWN (long-only can't fight a red semis-selloff tape; this week's le
   2nd-leg long even on a red broad tape).
 No entries pre-market / first 15 min. Plan: wake ~9:50 ET to confirm regime + hunt (or
 stand down). First-leg paper-log only if GREEN (unlikely today).
+
+09:50 ET — Prime hunt. REGIME CONFIRMED RED (SPY -0.51%, QQQ -1.21%, semis selloff;
+  inverse-semis ETFs SOXS/SMCZ/DAMD/TSXD dominate gainers). ENERGY THESIS VALIDATED:
+  XLE +1.0%, XOM +1.4%, CVX +0.95%, OXY +1.8% — green on a red tape (oil spike RS).
+  (Cybersecurity CRWD/PANW/OKTA also green = 2nd RS pocket.)
+  BUT the energy majors aren't tradeable yet: XOM 168.38 popped to 169.45 then faded
+  BELOW VWAP 168.81, chopping; OXY ~62.6 flat AT VWAP, tiny range. Green-on-day but NOT
+  trending intraday + low volatility (majors ~1%/day = hard quick 2:1). No clean 2nd-leg.
+DECISION: NO entry. Energy RS is real but no clean triggered above-VWAP setup + red broad
+  tape + PDT 2/3 tight -> don't force. ARM energy watch (XOM/OXY/CVX): take a clean
+  above-VWAP higher-low reclaim/uptrend with real range if it develops (valid long even
+  on red broad tape — sector tailwind). Else no-trade day is fine. Re-check ~10:15 ET.
+  NO first-leg paper-log (not green tape). FLAT ~$100.29.
