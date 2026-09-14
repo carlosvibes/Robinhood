@@ -1921,3 +1921,15 @@ Regime:               Broad tape recovered to near-flat (SPY -0.22%, QQQ -0.35%)
 Context: PDT 2/3 -> this is the 3rd/last day-trade in the rolling window; review_equity_order
   must show NO PDT block or I do NOT place. Fractional = NO resting stop, I AM the stop,
   attended <=1-2min, MARKET SELL instant it breaks 22.80. Hard flat 15:50.
+
+>>> FILLED — Trade #3 — S (SentinelOne) LONG — 2026-09-14 13:48:44 ET <<<
+FILL: 1.088968 sh @ avg 22.9575 ($25.00 notional, $0 fees). Order 6aa8337b filled.
+review_equity_order order_checks EMPTY (NO PDT block despite 3rd rolling day trade — PDT
+not enforced, consistent w/ platform note #16; halt/BP clear). Disclosure shown verbatim.
+Position: LONG 1.088968 S @ 22.9575. Account HOLDING (3rd live position of project).
+MANUAL STOP: 22.80 (no resting stop on fractional). Risk = (22.9575-22.80)*1.088968 =
+$0.17 (<=$0.25 ✓; under the rising-low base / 2hr support). Target 23.30 -> +$0.37, RR ~2.2.
+VWAP 22.32 (price well above). Trail plan: at +1R (~23.13) raise manual stop to breakeven
+22.96; then trail under higher-lows/1xATR. Quick profit into 23.3+ or on a range-high
+rejection/stall. MARKET SELL instant it trades <=22.80. HARD FLAT 15:50. ATTENDED <=1-2min.
+Cyber sector catalyst (CRWD/ZS/S all +15%), tape recovered near-flat.
