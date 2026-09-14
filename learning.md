@@ -69,16 +69,16 @@ Update after every closed trade. Recompute the aggregates weekly.
 
 | Metric | Value |
 |---|---|
-| Total closed trades | 2 |
-| Win rate | 50% (1/2) — n=2, not significant |
+| Total closed trades | 3 |
+| Win rate | 33% (1/3) — n=3, not significant |
 | Average win ($) | +$0.47 |
-| Average loss ($) | -$0.18 |
-| Average R multiple | +0.635R/trade (ROIV +2.0R, KR -0.73R) |
-| Expectancy per trade ($) | +$0.145 (n=2) = (0.5*0.47)+(0.5*-0.18). POSITIVE. |
+| Average loss ($) | -$0.105 (KR -0.18, S -0.03) |
+| Average R multiple | +0.367R/trade (ROIV +2.0R, KR -0.73R, S -0.17R) |
+| Expectancy per trade ($) | +$0.087 (n=3) = net +$0.26 / 3. POSITIVE. (0.333*0.47)-(0.667*0.105). |
 | Largest win / largest loss | +$0.47 (ROIV) / -$0.18 (KR) |
-| Max drawdown from peak equity | ~$0.18 realized (KR loss); peak $100.47 -> $100.29 |
-| Current phase | 1 (2/20 closed trades toward Phase 2 gate) |
-| Broker reconciliation | EXACT as of 2026-09-11 (get_pnl_trade_history: ROIV +0.47, KR -0.18) |
+| Max drawdown from peak equity | ~$0.21 realized (KR+S); peak $100.47 -> $100.26 |
+| Current phase | 1 (3/20 closed trades toward Phase 2 gate) |
+| Broker reconciliation | EXACT as of 2026-09-14 (get_pnl_trade_history: ROIV +0.47, KR -0.18, S -0.03) |
 
 Expectancy is the number that matters most:
 
@@ -1121,3 +1121,34 @@ WEEK SUMMARY (see trade_ledger.md WEEKLY REVIEW): 2 closed trades, 50% win, +$0.
 (+0.29%), expectancy +$0.145/trade (POSITIVE, n=2). Equity $100.00 -> $100.29. Phase 1,
 2/20 trades toward the Phase 2 gate. Process clean: 0 forced, 0 revenge, exact broker
 reconciliation. The system makes money on green tapes and protects capital on red ones.
+
+## Session lesson — 2026-09-14 (Mon, 1 trade: S -$0.03 scratch loss; mixed tape, cyber catalyst)
+
+1. **Sector relative-strength reads are correct — but the VEHICLE must pass the ATR% floor.**
+   AM broad tape was red; the energy sector was genuinely strong (oil spike, XOM/OXY/CVX green
+   against a red tape). The RS *thesis* was right. But the majors moved at ~0.2% ATR% — below
+   the 0.3% day-trading floor — so there was no way to express it intraday. A correct sector
+   read on a too-slow name is NOT a trade. Lesson: pair the RS read with a high-beta/liquid
+   proxy that actually moves, or stand down. (Stood down — correct.)
+2. **SECOND failed-breakout loss in a row, and the pattern is now visible.** KR (Fri) and S
+   (Mon) were both breakout-CONTINUATION entries on names/sectors already up big (KR +4%
+   earnings gap; S +16% sector move). Both failed. The one WIN (ROIV) was a pullback-flag that
+   then ran. REFINEMENT TO TEST (not yet a rule — needs Carlos + more data before it becomes a
+   rail): on already-EXTENDED movers (>+8-10% on day), favor pullback-reclaim entries over
+   base-breakout-continuation, OR require real volume expansion on the breakout bar before
+   entering. This is the single most actionable pattern in the book so far.
+3. **Entry LOCATION improved (KR lesson applied), even though outcome was a loss.** S was
+   entered near rising-low support (22.96), not chasing the range-high — a better-located entry
+   than KR. The stop was tight ($0.16/sh) and RR strong (~3:1). The failure was the MOVE
+   stalling, not the entry. Process improved; keep it.
+4. **Damage control remains the system's strongest muscle.** Cut S at ~breakeven (-0.17R) when
+   the breakout rejected twice and rolled to the base low, rather than riding to the -1R stop.
+   Two losses now total just -$0.21 combined. Cutting failed breakouts fast is working.
+5. **A mixed/recovering tape is tradeable IF a real sector catalyst appears.** Broad tape
+   opened red but recovered to near-flat midday, and cyber caught an M&A bid (CRWD/ZS/S/QLYS
+   all +15%). That sector-specific green light justified one measured STANDARD-tier attempt.
+   Not every red-open day is a stand-down day — check for sector rotation.
+
+RUNNING (see trade_ledger.md): 3 closed trades, 33% win (1W/2L), net +$0.26, expectancy
++$0.087/trade (POSITIVE, n=3). Equity $100.00 -> $100.26. Phase 1, 3/20 toward Phase 2 gate.
+PDT maxed 3/3 today (ROIV 9/8 rolls off after today -> ~2 slots Tuesday). Broker recon EXACT.

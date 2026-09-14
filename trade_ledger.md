@@ -31,6 +31,7 @@ All times are US Eastern. All dollar figures to two decimals.
 | 2026-09-02 | $100.00 | $100.00 | $0.00 | 0.0% | 0 | Wed. RULE CHANGE: Carlos approved "Moderate" calibration midday (RR 1.5, ATR 0.04, vol 1.6x, RVOL 1.6). DPRO cleared ATR floor + triggered ORB but failed (2 closes below VWAP; a would-be entry = -1R). OABI = first arm-able long under new rules but broke down before triggering. ~1hr usage-limit gap (flat verified on resume). Flat verified 15:45 ET. |
 | 2026-09-03 | $100.00 | $100.00 | $0.00 | 0.0% | 0 | Thu. First full day on Moderate gates. Quiet AM (universe scan 0 all morning). PM movers evaluated under new gates — ALL failed >=1 hard rail: ABTC/BKKT spread (0.53%/0.36% vs 0.15% gate), DPRO day-high trigger failed + spread rewidened, SBET (finally a tight-$0.01-spread mover) failed ATR floor (0.034<0.04, late-day coil), BULL at $10 ceiling, UPB decliner. KEY FINDING: spread gate is the binding constraint on this sub-$10 universe. DPRO arm discipline held (rejected 6.4155 wick-chase). Flat verified 15:21 ET. |
 | 2026-09-04 | $100.00 | $100.00 | $0.00 | 0.0% | 0 | Fri. First day on widened-spread + trend-follow tactics. CHPT (day's mover, +8%) untradeable: too volatile at open (ATR~0.45>0.25 cap), then boxed by/above the $10 position cap. Universe RVOL scanner BUGGED all day (0 despite real movers). FMP-gainers cross-check: in-band names all 1.9-5% spreads (MTEX/KPLT/CURX). No tradeable in-band setup, triple-confirmed. ROOT CAUSE identified + FIXED: Carlos approved FRACTIONAL LARGE-CAP trading (starts Tue 9/8) — the $5-10 whole-share universe was the disease. Flat verified 15:34 ET. |
+| 2026-09-14 | $100.29 | $100.26 | -$0.03 | -0.03% | 1 | Mon. Broad tape opened RED (SPY -0.5%/QQQ -0.7% AM), recovered to near-flat midday. Trade #3 S (SentinelOne) LONG — cyber-sector M&A catalyst (CRWD/ZS/S all +15%), rising-low high base above VWAP, entered NEAR support (KR lesson applied) — breakout FAILED (rejected 23.04 & 22.99, rolled to base low), cut EARLY at 22.93 for -$0.03 (-0.17R; excellent damage control). AM: energy RS thesis correct (XOM/OXY/CVX green on oil spike vs red tape) but majors FAILED ATR% floor (~0.2%<0.3%, too slow) — no tradeable vehicle, stood down. First-leg paper: none (no clean green tape until midday). PDT now MAXED 3/3 (ROIV 9/8 rolls off after today). Broker realized-PnL cross-check EXACT (S -0.03). Flat verified 14:06 & 15:47 ET. |
 | 2026-09-11 | $100.47 | $100.29 | -$0.18 | -0.18% | 1 | Fri. GREEN tape at last (SPY +1%, QQQ +1%, first risk-on of the week). Trade #2 KR LONG (2nd-leg VWAP-reclaim on earnings gapper) — breakout failed the retest, cut on double-bottom break at 58.87 for -$0.18 (-0.73R, < full stop). First loss of project; good process. SMCI watched (semis leader) but failed the 40.0 confirmation filter -> passed (validated: it broke down $0.60 lower). First-leg paper signal #1 (KR ORB) logged, FAILED (0/1). PDT 2/3. Broker realized-PnL cross-check EXACT (ROIV +0.47, KR -0.18). Flat verified 15:45 ET. |
 | 2026-09-10 | $100.47 | $100.47 | $0.00 | 0.0% | 0 | Thu. NO-TRADE day — correct on a RED/risk-off tape (SPY -0.5/-0.6%, QQQ -0.7/-1.0%, IWM -0.9/-1.1% ALL DAY; bear/inverse ETFs led gainers). Regime-check-first worked: red confirmed at open -> stand down; never flipped green. Catalyst-scan layer (new) surfaced RH/NOW pre-market (RH muted +0.6% & 0.84% spread untradeable; NOW mild). Midday scans junk. ONE real leader = SWKS (+11%, semi, grinding above VWAP) but +3.9% above VWAP + 2:31pm/late = extended chase, correctly skipped. No first-leg paper signals (not a green tape). Flat verified 15:45 ET. |
 | 2026-09-09 | $100.47 | $100.47 | $0.00 | 0.0% | 0 | Wed. NO-TRADE day — correct on a RED/risk-off tape (SPY -0.4/-0.6%, QQQ -0.3/-0.5%, IWM -1.2%). Fade/mean-reversion character: every morning mover (ASO +12%, FSLY +11%, SIG +19%, AEHR +11%) popped then pulled THROUGH VWAP — long-only can't play that. Discipline DODGED losses (passing ASO 50.10 saved ~$1.40/sh as it faded below VWAP; FSLY same). One real candidate = META (+6.7%, mega-cap rel-strength leader), but it coiled 652-658, failed the breakout 3x, gave only a limp VWAP bounce — no clean A+ entry, correctly skipped. ~8 scans, 0 forced trades. Flat verified 15:45 ET. RULE CHANGES today (Carlos): two-tier sizing already live; NEW: First-Leg Momentum entry type (log-only/paper first) + green-tape regime filter + real-time catalyst-scan layer. |
@@ -1955,3 +1956,37 @@ then ran). REFINEMENT to test: favor pullback-reclaim entries over base-breakout
 on already-extended (>+8-10% on day) names; or demand the breakout show real volume expansion
 before entering. Keep as a lesson, not yet a rule. Damage control (cut failed breakouts near
 breakeven) is WORKING — 2 losses totaling just -$0.21.
+
+>>> SESSION CLOSE — 2026-09-14 (Mon) 15:47 ET <<<
+FLATTEN VERIFICATION: get_equity_positions = [] (0), get_equity_orders state=new = [] (0).
+Confirmed FLAT. No position (Trade #3 S already closed 14:06 ET).
+RESULT: 1 trade (S), 1 loss -$0.03 (-0.17R, scratch). Equity $100.29 -> $100.26 (-0.03%).
+Day trades used: S round-trip = 3rd rolling PDT (Tue 9/8 ROIV + Fri 9/11 KR + Mon 9/14 S)
+  -> PDT window now MAXED. Tue 9/8 ROIV rolls off after today, so Tuesday 9/15 opens with
+  1 slot back (KR 9/11 + S 9/14 remain in the rolling 5-business-day window). Consecutive-
+  loss streak: 1 (halt at 3). Daily loss -$0.03 (<< $1 halt). Weekly (fresh, wk of 9/14):
+  -$0.03 (<< $2.50 halt).
+BROKER CROSS-CHECK (get_pnl_trade_history, week): S sell -0.03, KR sell -0.18 (9/11),
+  ROIV sell +0.47 (9/8). get_portfolio total_value = $100.26, cash $100.26. Ledger
+  reconciles EXACTLY to broker. ✓
+SESSION NARRATIVE: NOT a no-trade day. Broad tape opened red; correctly stood down on the
+  AM energy idea (RS thesis right — oil spike, XOM/OXY/CVX green vs red tape — but majors
+  failed the ATR% volatility floor, ~0.2% < 0.3%; no high-beta liquid energy vehicle to
+  express it). Tape recovered to near-flat midday and the cybersecurity sector caught an
+  M&A bid (CRWD/ZS/S/QLYS all +15%) = genuine sector catalyst. Took S: rule-valid entry,
+  better-located than KR (near rising-low support, not chasing range-high). Breakout stalled
+  (rejected twice, rolled to base low); cut at ~breakeven (-0.17R) per the KR damage-control
+  lesson. Good process, unlucky outcome.
+KEY LESSONS TODAY:
+  1. Sector-relative-strength thinking WORKS (energy right, cyber right) but the VEHICLE must
+     pass the ATR% floor — a correct sector read on a too-slow name (energy majors) is not a
+     trade. Need a high-beta liquid proxy or stand down.
+  2. SECOND failed-breakout loss in a row (KR, S), both on already-EXTENDED movers (KR +4%
+     earnings gap, S +16% sector move). Refinement to test (not yet a rule): on already-
+     extended (>+8-10%) names favor pullback-reclaim entries over base-breakout-continuation,
+     or demand real volume expansion on the break before entering. cf. ROIV (the win) = a
+     pullback-flag that then ran.
+  3. Damage control is the strength of the system so far: 2 losses total just -$0.21; both cut
+     well inside the -1R stop on structure break.
+Next: Tuesday 2026-09-15 pre-market wake scheduled 12:30 UTC (regime-check-first). PDT: 1 slot
+  frees up (ROIV 9/8 rolls off) -> ~2 day-trades available Tuesday. Re-read learning.md Changelog.
