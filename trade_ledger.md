@@ -1885,3 +1885,15 @@ DECISION: NO entry. Energy RS is real but no clean triggered above-VWAP setup + 
   above-VWAP higher-low reclaim/uptrend with real range if it develops (valid long even
   on red broad tape — sector tailwind). Else no-trade day is fine. Re-check ~10:15 ET.
   NO first-leg paper-log (not green tape). FLAT ~$100.29.
+
+10:15 ET — Energy watch re-check. Regime still RED (SPY -0.49%, QQQ -1.04%). OXY is the
+  cleanest energy RS: +2.2%, higher-lows (62.42->62.48->62.54->62.62) above VWAP ~62.6,
+  pushing HOD 62.87 — structurally a valid 2nd-leg. BUT ATR% ~0.2% (range 62.40-62.87 =
+  $0.47 all morning) is BELOW our 0.3% floor -> energy MAJORS move too slowly to reach an
+  intraday 2:1 before fading. XOM below VWAP (weak), CVX chopping sideways.
+KEY FINDING: energy RS thesis CORRECT, but energy majors (XOM/CVX/OXY) FAIL the ATR%
+  volatility floor = unsuitable intraday day-trade vehicles (too slow). No clean high-beta
+  LIQUID energy name available (fast energy movers = $2 microcap junk, e.g. TPET). 
+DECISION: NO trade. Won't override the ATR floor to force a slow grind on a red broad
+  tape. Energy read validated but untradeable for our style. Stand down. Protect the
+  +$0.29 week. FLAT ~$100.29. Likely a no-trade day; fall to hourly pulses + EOD.
