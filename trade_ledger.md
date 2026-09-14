@@ -1857,3 +1857,18 @@ PHASE GATE: Phase 2 (shorting) needs 20 closed trades + positive expectancy + Ca
 NEXT WEEK FOCUS: on green tapes, hunt clean 2nd-leg VWAP-reclaims (entries near VWAP, not
   range-highs); keep paper-logging first-leg signals to validate; stand down on red tapes.
 Next: Monday 2026-09-14 pre-market wake scheduled 12:30 UTC.
+
+>>> SESSION OPEN — 2026-09-14 (Mon) 08:31 ET (pre-market) <<<
+BLOCKING CHECKS: STATUS ACTIVE ✓ | FLAT: 0 positions ✓ | BP ~$100.29 ✓ | Normal Mon,
+flatten 15:50 ✓. NEW WEEK: weekly loss halt reset ($2.50 fresh). PDT 2/3 (Tue 9/8 ROIV
+rolls off after Mon 9/15 — tight early week).
+REGIME: pre-market RED / RISK-OFF — SPY -0.65%, QQQ -1.58% (sharp tech/semis-led
+selloff), IWM -0.46%. Catalyst (WebSearch): semiconductor/AI selloff + surging OIL
+(Middle East tensions) + Fed-path uncertainty. Friday's tech leaders (DELL/SMCI/NTAP/
+MRNA/META) likely REVERSING -> no chasing those longs.
+LEAN: STAND DOWN (long-only can't fight a red semis-selloff tape; this week's lesson).
+  Confirm at open. NUANCE: oil spike -> ENERGY may be today's relative-strength pocket;
+  worth a scan if broad tape stays red (a clean above-VWAP energy leader = a possible
+  2nd-leg long even on a red broad tape).
+No entries pre-market / first 15 min. Plan: wake ~9:50 ET to confirm regime + hunt (or
+stand down). First-leg paper-log only if GREEN (unlikely today).
