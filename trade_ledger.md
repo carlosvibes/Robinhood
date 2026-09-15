@@ -2015,3 +2015,15 @@ PLAN: 09:30-09:45 record OR + real regime read (SPY/QQQ/IWM). GREEN + clean pull
   -> take one measured STANDARD entry ($25/$0.25 risk); A+ ($50/$0.50) only if textbook-clean
   primary idea. NEUTRAL/RED -> demand 2nd-leg-above-VWAP only or STAND DOWN. Fractional =
   MANUAL STOP (attended, MARKET SELL on break). Flat 15:50. First-leg signals PAPER-LOG only.
+
+--- PULSE 09:51 ET (open+20min) — REGIME RED, STAND DOWN ---
+REAL REGIME: SPY 759.23 (-0.22%), QQQ 708.60 (-0.08%), IWM 285.38 (-0.62%). RED-leaning /
+  risk-off, small caps weak. NOT a green tape -> first-leg longs OFF; demand clean 2nd-leg
+  above-VWAP only or stand down.
+CYBER DAY-2 (watchlist) all FADING Monday's gains, confirming the extended-mover exhaustion
+  thesis: ZS 188.85 (-1.5%), RPD 12.24 (-4.3%), RBRK 98.75 (-1.4%), SAIL 19.77 (-0.5%),
+  TENB 35.20 (+0.3% flat), QLYS 175.16 (+1.3% but $2.68/1.5% SPREAD = untradeable). Nothing
+  reclaiming above VWAP; several fail the spread gate. No fresh clean non-extended gapper.
+DECISION: STAND DOWN. Red tape + fading theme = no edge. 9/14 lesson validated in real time
+  (do not chase Day-2 extended movers — they faded). Re-check ~11:00 ET; flip to hunting only
+  if tape turns green AND a clean pullback-reclaim above VWAP appears.
