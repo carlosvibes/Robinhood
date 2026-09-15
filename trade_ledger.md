@@ -1990,3 +1990,28 @@ KEY LESSONS TODAY:
      well inside the -1R stop on structure break.
 Next: Tuesday 2026-09-15 pre-market wake scheduled 12:30 UTC (regime-check-first). PDT: 1 slot
   frees up (ROIV 9/8 rolls off) -> ~2 day-trades available Tuesday. Re-read learning.md Changelog.
+
+>>> SESSION OPEN — 2026-09-15 (Tue) 08:38 ET (pre-market) <<<
+BLOCKING CHECKS: STATUS ACTIVE ✓ | Account 609021910 agentic_allowed=true ✓ (527546030
+  false — never trade) | FLAT: 0 positions, 0 open orders ✓ | BP $100.26 ✓ | NASDAQ full
+  day 09:30-16:00 ET, flatten 15:50 ✓ | clock 12:38 UTC = 08:38 ET matches pre-market ✓.
+PDT: ROIV 9/8 rolls off today -> ~2 day-trades available (KR 9/11 + S 9/14 remain in the
+  rolling 5-business-day window). Track manually.
+PRE-MARKET REGIME (indicative only; real read at open): SPY 760.20 (-0.09% vs 760.88 close),
+  QQQ 708.73 (-0.06%), IWM 286.76 (-0.14%). FLAT-to-slightly-RED. No risk-on gap. NEUTRAL —
+  wait for the open to confirm color before hunting.
+THEME: Cybersecurity M&A wave = the tape's dominant story, but it's DAY 2. Monday's gainers
+  board (ZS +16%, RPD +24%, QLYS +15%, TENB +16%, SAIL +15%, RBRK +16%, NTSK +16%, plus 2x
+  cyber ETFs CRWL/OKTG/PANG/NETG all +25%ish) is already EXTENDED. Per 9/14 lesson: do NOT
+  chase a fresh base-breakout on an already-extended (>+8-10%) mover. The higher-probability
+  Day-2 play is a PULLBACK-RECLAIM above VWAP, not a continuation-breakout chase.
+WATCHLIST (watch at open, act only if tape GREEN + clean pullback-reclaim above VWAP + ATR%
+  >=0.3% + spread tight):
+  - ZS, QLYS, TENB, RPD, SAIL, RBRK — cyber leaders; want a Day-2 morning pullback that holds
+    above VWAP and reclaims, NOT a gap-and-go chase. Liquid, penny-tight spreads.
+  - Watch for a FRESH catalyst mover (news/earnings gapper) that isn't already 2 days extended
+    — preferred over the tired cyber names if one appears clean.
+PLAN: 09:30-09:45 record OR + real regime read (SPY/QQQ/IWM). GREEN + clean pullback-reclaim
+  -> take one measured STANDARD entry ($25/$0.25 risk); A+ ($50/$0.50) only if textbook-clean
+  primary idea. NEUTRAL/RED -> demand 2nd-leg-above-VWAP only or STAND DOWN. Fractional =
+  MANUAL STOP (attended, MARKET SELL on break). Flat 15:50. First-leg signals PAPER-LOG only.
