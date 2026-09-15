@@ -2027,3 +2027,16 @@ CYBER DAY-2 (watchlist) all FADING Monday's gains, confirming the extended-mover
 DECISION: STAND DOWN. Red tape + fading theme = no edge. 9/14 lesson validated in real time
   (do not chase Day-2 extended movers — they faded). Re-check ~11:00 ET; flip to hunting only
   if tape turns green AND a clean pullback-reclaim above VWAP appears.
+
+--- PULSE 11:00 ET — REGIME RED & DETERIORATING, STAND DOWN ---
+REGIME: SPY 756.87 (-0.53%), QQQ 704.96 (-0.60%), IWM 284.43 (-0.95%). RED and WORSENING
+  vs the 09:51 read (-0.22/-0.08/-0.62). Risk-off deepening; inverse ETFs (SQQQ, SOXS) bid,
+  crypto (IBIT -4%, ETHA -5.4%) + tech (SOFI -3.7%, ORCL -1.1%) broadly red.
+MOST-ACTIVE: no clean fresh long catalyst for our style. Big % movers are all sub-$6 low-
+  float junk (VEEA +150%, RETO +79%, BNGO +31%) — fail float/spread/universe filters. Large
+  caps mixed/red (NVDA +0.6%, INTC +1.2% the only green of note; not clean setups).
+DECISION: STAND DOWN. Third red no-trade-type day of the pattern (cf. 9/9, 9/10). Prime
+  window closes 11:30 ET into low-volume midday. Long-only above-VWAP has no edge on a
+  deteriorating risk-off tape. Protect capital. Re-check ~13:00 ET (in case of an afternoon
+  green reversal + clean setup), then 15:35 pre-flatten check. Already FLAT — no flatten trade
+  needed; will confirm flat + EOD writeup at close.
