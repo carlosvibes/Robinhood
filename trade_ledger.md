@@ -2040,3 +2040,9 @@ DECISION: STAND DOWN. Third red no-trade-type day of the pattern (cf. 9/9, 9/10)
   deteriorating risk-off tape. Protect capital. Re-check ~13:00 ET (in case of an afternoon
   green reversal + clean setup), then 15:35 pre-flatten check. Already FLAT — no flatten trade
   needed; will confirm flat + EOD writeup at close.
+
+--- PULSE 13:00 ET (afternoon) — STILL RED, no reversal, STAND DOWN ---
+REGIME: SPY 757.71 (-0.42%), QQQ 705.35 (-0.54%), IWM 285.49 (-0.58%). Shallow bounce off
+  the 11:00 lows but STILL solidly red — NOT a green reversal, doesn't clear the risk-on bar.
+  Low-volume afternoon. No fresh clean catalyst long. Continuing to stand down. Next: 15:35
+  ET pre-flatten check + EOD writeup (already flat, no flatten trade needed).
