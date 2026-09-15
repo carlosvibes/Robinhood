@@ -1153,3 +1153,29 @@ reconciliation. The system makes money on green tapes and protects capital on re
 RUNNING (see trade_ledger.md): 3 closed trades, 33% win (1W/2L), net +$0.26, expectancy
 +$0.087/trade (POSITIVE, n=3). Equity $100.00 -> $100.26. Phase 1, 3/20 toward Phase 2 gate.
 PDT maxed 3/3 today (ROIV 9/8 rolls off after today -> ~2 slots Tuesday). Broker recon EXACT.
+
+## Session lesson — 2026-09-15 (Tue, 0 trades, RED risk-off day; short paper-log begins)
+
+1. **The 9/14 extended-mover lesson was validated in REAL TIME.** The cyber M&A leaders that
+   ran +15-24% Monday (ZS, RPD, RBRK, QLYS) all FADED Tuesday — ZS -1.5%, RPD -4.3%, RBRK -1.4%.
+   Had we chased any of them at the open on a Day-2 "continuation," we'd be red. The refinement
+   ("don't chase already-extended movers; they fade") is now backed by an out-of-sample day. It
+   is close to graduating from lesson to rule — one more clean instance and I'll propose it.
+2. **Fourth disciplined red no-trade day (9/9, 9/10, 9/15 + the 9/1 risk-off).** The regime
+   filter keeps doing its job: red/risk-off tape + no clean above-VWAP long = stand down. Not
+   losing on a red tape IS the win. Capital $100.26 intact.
+3. **Short paper-log launched (Carlos-approved, zero capital) — and the first signal is a clean
+   WIN with a structural insight.** CAKE trend-day-down (-8.6%), below VWAP all session; a
+   below-VWAP continuation short would have paid ~+3.1R. THE INSIGHT: the short setup aligns
+   with exactly the RED tape our long-only rules force us to sit out. On red trend-days, longs
+   have no edge but shorts have a tailwind. THIS is the real argument for a Phase-2 short module:
+   it would let us make money on the ~40% of days we currently just survive. Building the sample.
+4. **Swing thesis =/= intraday setup (the CAKE/META teaching case).** Carlos flagged CAKE as
+   "doing great this past year" — yet it fell 8.6% *today*. A great long-term hold can be a
+   falling knife intraday; we trade what price is doing NOW, not the annual narrative. META
+   (+0.8% green on a red tape) was the mirror — a real intraday RS long candidate. The sharpened
+   news/RS scan is built to catch both.
+
+RUNNING (see trade_ledger.md): 3 closed trades (unchanged — no trade today), 33% win (1W/2L),
+net +$0.26, expectancy +$0.087/trade (POSITIVE, n=3). Equity $100.26. Phase 1, 3/20 toward the
+Phase 2 gate. Short paper-log: 1 signal, 1 win (1/1). PDT: ROIV 9/8 rolled off -> 2 slots for Wed.

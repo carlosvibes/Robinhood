@@ -31,6 +31,7 @@ All times are US Eastern. All dollar figures to two decimals.
 | 2026-09-02 | $100.00 | $100.00 | $0.00 | 0.0% | 0 | Wed. RULE CHANGE: Carlos approved "Moderate" calibration midday (RR 1.5, ATR 0.04, vol 1.6x, RVOL 1.6). DPRO cleared ATR floor + triggered ORB but failed (2 closes below VWAP; a would-be entry = -1R). OABI = first arm-able long under new rules but broke down before triggering. ~1hr usage-limit gap (flat verified on resume). Flat verified 15:45 ET. |
 | 2026-09-03 | $100.00 | $100.00 | $0.00 | 0.0% | 0 | Thu. First full day on Moderate gates. Quiet AM (universe scan 0 all morning). PM movers evaluated under new gates — ALL failed >=1 hard rail: ABTC/BKKT spread (0.53%/0.36% vs 0.15% gate), DPRO day-high trigger failed + spread rewidened, SBET (finally a tight-$0.01-spread mover) failed ATR floor (0.034<0.04, late-day coil), BULL at $10 ceiling, UPB decliner. KEY FINDING: spread gate is the binding constraint on this sub-$10 universe. DPRO arm discipline held (rejected 6.4155 wick-chase). Flat verified 15:21 ET. |
 | 2026-09-04 | $100.00 | $100.00 | $0.00 | 0.0% | 0 | Fri. First day on widened-spread + trend-follow tactics. CHPT (day's mover, +8%) untradeable: too volatile at open (ATR~0.45>0.25 cap), then boxed by/above the $10 position cap. Universe RVOL scanner BUGGED all day (0 despite real movers). FMP-gainers cross-check: in-band names all 1.9-5% spreads (MTEX/KPLT/CURX). No tradeable in-band setup, triple-confirmed. ROOT CAUSE identified + FIXED: Carlos approved FRACTIONAL LARGE-CAP trading (starts Tue 9/8) — the $5-10 whole-share universe was the disease. Flat verified 15:34 ET. |
+| 2026-09-15 | $100.26 | $100.26 | $0.00 | 0.0% | 0 | Tue. RED no-trade day (SPY -0.53%/QQQ -0.73%/IWM -0.79%, red & near lows all session). Stood down at 09:51/11:00/13:00 — cyber Day-2 leaders (ZS/RPD/RBRK) FADED Monday's gains, validating the 9/14 extended-mover lesson in real time (chasing them would have lost). No clean long on a risk-off tape. Carlos approved (AskUserQuestion) SHORT PAPER-LOG + sharpened news/RS scan + A+ tier activation — NO live rail change (live shorting still gated: 20 trades + positive expectancy + Carlos; at 3). Short Paper #1: CAKE trend-day-down below-VWAP short = hypothetical WIN ~+3.1R. Capital protected. Flat verified 15:35 ET. |
 | 2026-09-14 | $100.29 | $100.26 | -$0.03 | -0.03% | 1 | Mon. Broad tape opened RED (SPY -0.5%/QQQ -0.7% AM), recovered to near-flat midday. Trade #3 S (SentinelOne) LONG — cyber-sector M&A catalyst (CRWD/ZS/S all +15%), rising-low high base above VWAP, entered NEAR support (KR lesson applied) — breakout FAILED (rejected 23.04 & 22.99, rolled to base low), cut EARLY at 22.93 for -$0.03 (-0.17R; excellent damage control). AM: energy RS thesis correct (XOM/OXY/CVX green on oil spike vs red tape) but majors FAILED ATR% floor (~0.2%<0.3%, too slow) — no tradeable vehicle, stood down. First-leg paper: none (no clean green tape until midday). PDT now MAXED 3/3 (ROIV 9/8 rolls off after today). Broker realized-PnL cross-check EXACT (S -0.03). Flat verified 14:06 & 15:47 ET. |
 | 2026-09-11 | $100.47 | $100.29 | -$0.18 | -0.18% | 1 | Fri. GREEN tape at last (SPY +1%, QQQ +1%, first risk-on of the week). Trade #2 KR LONG (2nd-leg VWAP-reclaim on earnings gapper) — breakout failed the retest, cut on double-bottom break at 58.87 for -$0.18 (-0.73R, < full stop). First loss of project; good process. SMCI watched (semis leader) but failed the 40.0 confirmation filter -> passed (validated: it broke down $0.60 lower). First-leg paper signal #1 (KR ORB) logged, FAILED (0/1). PDT 2/3. Broker realized-PnL cross-check EXACT (ROIV +0.47, KR -0.18). Flat verified 15:45 ET. |
 | 2026-09-10 | $100.47 | $100.47 | $0.00 | 0.0% | 0 | Thu. NO-TRADE day — correct on a RED/risk-off tape (SPY -0.5/-0.6%, QQQ -0.7/-1.0%, IWM -0.9/-1.1% ALL DAY; bear/inverse ETFs led gainers). Regime-check-first worked: red confirmed at open -> stand down; never flipped green. Catalyst-scan layer (new) surfaced RH/NOW pre-market (RH muted +0.6% & 0.84% spread untradeable; NOW mild). Midday scans junk. ONE real leader = SWKS (+11%, semi, grinding above VWAP) but +3.9% above VWAP + 2:31pm/late = extended chase, correctly skipped. No first-leg paper signals (not a green tape). Flat verified 15:45 ET. |
@@ -2046,3 +2047,40 @@ REGIME: SPY 757.71 (-0.42%), QQQ 705.35 (-0.54%), IWM 285.49 (-0.58%). Shallow b
   the 11:00 lows but STILL solidly red — NOT a green reversal, doesn't clear the risk-on bar.
   Low-volume afternoon. No fresh clean catalyst long. Continuing to stand down. Next: 15:35
   ET pre-flatten check + EOD writeup (already flat, no flatten trade needed).
+
+>>> SESSION CLOSE — 2026-09-15 (Tue) 15:35 ET <<<
+FLATTEN VERIFICATION: get_equity_positions = [] (0), get_equity_orders state=new = [] (0).
+Confirmed FLAT all day (0 trades taken). get_portfolio total_value $100.26, cash $100.26.
+RESULT: 0 trades. Equity $100.26 -> $100.26 (0.0%). No P&L. Consecutive-loss streak: 0.
+  Daily/weekly loss halts untouched. PDT: ROIV 9/8 has now rolled off the rolling 5-day
+  window -> 2 day-trade slots open going into Wed (KR 9/11 + S 9/14 still counting).
+REGIME NARRATIVE: RED / risk-off all session. SPY -0.22% (open) -> -0.53% (11:00) -> -0.53%
+  (close), QQQ to -0.73%, IWM to -0.79%; closed near lows. The dominant cyber M&A theme was
+  Monday's move — Day 2 it FADED (ZS -1.5%, RPD -4.3%, RBRK -1.4%), a real-time validation of
+  the 9/14 "don't chase already-extended movers" lesson. No clean long above VWAP appeared on
+  a risk-off tape. Correctly stood down 3x. 4th disciplined red no-trade day of the pattern
+  (cf. 9/9, 9/10). NOT a failure — capital preserved while the tape bled.
+STRATEGY CHANGE TODAY (Carlos, logged in learning.md Changelog 2026-09-15): declined live
+  shorting (20-trade gate unmet at 3; unbounded/squeeze risk on manual-stop; red-tape squeeze
+  trap). APPROVED: (1) short-setup PAPER-LOG (zero capital), (2) sharpened daily news/RS scan
+  both directions, (3) A+ tier ($50/$0.50) activation on genuinely clean setups (unused so far).
+
+--- SHORT PAPER SIGNAL #1 — CAKE (Cheesecake Factory) — 2026-09-15 (LOG-ONLY, ZERO CAPITAL) ---
+Setup:            Trend-day-down / below-VWAP continuation SHORT (mirror of our 2nd-leg long).
+Catalyst:         CAKE gapped/opened weak and DISTRIBUTED all day (news-driven; -8.6% on day).
+Regime:           RED tape (SPY/QQQ/IWM all red) = ALIGNED for a short (the short filter is the
+                  mirror of the long green-tape filter: shorts want a red/risk-off tape).
+Structure:        Open 104.98, 15-min OR 101.77-104.98. Broke OR-low 101.77 at 13:50 ET-UTC,
+                  never reclaimed VWAP the rest of the day. Bounce to ~100.5 (10:30 ET) rejected
+                  at declining VWAP.
+Paper entry:      ~$100.00 (10:30 ET, breaking back below the round number as the VWAP bounce
+                  failed). ATR% very high (~9% range on day) — well above the 0.3% floor. ✓
+Paper stop:       $100.80 (above the bounce high / above VWAP) -> risk $0.80/sh.
+Paper target:     $97.50 (measured continuation) -> reward ~$2.50/sh. RR ~3.1:1.
+VWAP (close):     97.88 (price closed 96.14, well below — trend intact).
+HYPOTHETICAL OUTCOME: WIN. Price ran to 95.73 low, closed ~96.14. Target 97.50 HIT (exceeded).
+  At target: +$2.50/sh = +3.1R. A trail-to-close exit ~96.5 = +$3.50/sh = +4.4R.
+PAPER SHORT RECORD: 1 signal, 1 win (1/1). NOTE (validation insight): the short setup ALIGNS
+  with the exact red tape our long-only rules force us to sit out. This is the structural case
+  for a short module — on red trend-days, longs stand down but shorts have a tailwind. Keep
+  logging; need ~5-10 signals + the 20-trade gate before any live-capital short.
