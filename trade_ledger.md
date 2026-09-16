@@ -2117,3 +2117,15 @@ META (primary long candidate): 678.14, +1.18% on day BUT currently BELOW VWAP (6
   rule = NO entry here. WAIT for META to reclaim 679.37 and hold a higher low above it.
 DECISION: No trade yet. Green tape != forced trade. Watch META for a clean VWAP reclaim. Next
   check ~10:15 ET (tighter than hourly — actively hunting, META near a setup).
+
+--- PULSE 10:15 ET — META reclaimed VWAP but RR<1.5 from here, no entry ---
+REGIME: SPY 759.65 (+0.30%), QQQ 709.65 (+0.72%) — still GREEN.
+META: 680.96, above VWAP (679.57) since ~09:50 reclaim; coiling tight 678-682 for ~25min.
+  GEOMETRY CHECK (why no trade): a coil-breakout entry ~682.3 needs its stop UNDER VWAP
+  (~677.9-679.2) = risk $3.1-4.4/sh; measured target ~685-686 = reward ~$3/sh -> RR ~1:1,
+  FAILS the 1.5 floor (and 2.0 for A+). A $680 mega-cap in a $4 coil doesn't give the geometry
+  from here. BETTER ENTRY = a pullback TO VWAP (~679.5) that holds/bounces -> tight $2 stop +
+  $5 target to 685 = ~2.5:1 (would justify A+). Chasing the coil-high worsens RR = the exact
+  mistake the rails prevent.
+DECISION: No trade. Setup not there yet (RR gate). Watch META for a VWAP pullback-bounce. Next
+  check ~10:35 ET. Still flat.
