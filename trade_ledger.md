@@ -2139,3 +2139,15 @@ META: 679.28, right AT VWAP (679.56). Chopped 678-682 for ~40min then drifted DO
 DECISION: No trade. Thesis weakening the longer it chops. One more look ~11:10 ET: a decisive
   VWAP loss -> off the long list (possible paper-short); a clean bounce -> take it; no clean
   trigger by ~11:30 (prime window close) -> stand down (won't force a midday chop). Still flat.
+
+--- PULSE 11:10 ET — META dead coil at VWAP, STAND DOWN (prime window closing) ---
+REGIME: SPY 760.77 (+0.45%), QQQ 711.26 (+0.95%) — GREEN & strengthening. Healthy tape.
+META: 679.24, pinned 678-680 at VWAP (679.53) for ~80min on DECLINING volume. Front-loaded its
+  whole move at the open (+1.7% to 685), dead since. Outcome = STILL CHOPPING: no clean bounce,
+  no decisive breakdown. Not a long (no trigger, RR<1.5) and not a short (not breaking down).
+DECISION: STAND DOWN on META. Entering a dead coil at VWAP = the "force it" trap; no edge. No
+  other clean liquid candidate emerged (gainers board = junk + SWKS fading). Prime window closes
+  11:30 -> midday default no-new-entries. TODAY'S DISCIPLINE POINT: a GREEN tape does NOT mean
+  force a trade — the one clean candidate (META) chopped and gave no valid RR setup. A no-trade
+  day on a green tape is still correct if no setup clears the gates. Afternoon re-check 13:00 ET
+  (selective re-entry only on a genuine fresh setup); else EOD. Still FLAT $100.26.
