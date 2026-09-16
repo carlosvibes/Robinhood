@@ -2151,3 +2151,16 @@ DECISION: STAND DOWN on META. Entering a dead coil at VWAP = the "force it" trap
   force a trade — the one clean candidate (META) chopped and gave no valid RR setup. A no-trade
   day on a green tape is still correct if no setup clears the gates. Afternoon re-check 13:00 ET
   (selective re-entry only on a genuine fresh setup); else EOD. Still FLAT $100.26.
+
+--- PULSE 13:00 ET (afternoon) — no clean setup, STAND DOWN for the day ---
+REGIME: SPY 759.61 (+0.29%), QQQ 709.75 (+0.74%), IWM 286.52 (+0.48%) — GREEN & healthy all day.
+META: 676.49, FADED below VWAP (off the 679 coil) -> off the long list. Not a clean short either
+  (orderly ~1% pullback on a GREEN tape != our red-tape/breakdown short thesis; no paper-short).
+GAINERS: overwhelmingly sub-$6 low-float junk (DLXY +900%, MEDS +365%, RETO +272%, QCLS +217%)
+  — fail float/spread/universe. A few thin small-caps (BLSM +18% $26, HCWC +36% $14, LUXE +25%
+  $9) don't fit the clean-liquid-large-cap profile + midday low-vol. Nothing clean.
+DECISION: STAND DOWN for the day = NO-TRADE day on a GREEN tape. KEY DATA POINT: a green tape is
+  NECESSARY but not SUFFICIENT — our style (clean liquid large-cap pullback-reclaim above VWAP,
+  RR>=1.5) still needs a name that actually sets up. Today the one candidate (META) front-loaded
+  its move at the open then chopped/faded; no valid-RR trigger ever formed. Correct to not force.
+  Capital protected $100.26. Go to 15:35 EOD writeup (already flat). PDT slots untouched (2 open).
