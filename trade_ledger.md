@@ -2084,3 +2084,24 @@ PAPER SHORT RECORD: 1 signal, 1 win (1/1). NOTE (validation insight): the short 
   with the exact red tape our long-only rules force us to sit out. This is the structural case
   for a short module — on red trend-days, longs stand down but shorts have a tailwind. Keep
   logging; need ~5-10 signals + the 20-trade gate before any live-capital short.
+
+>>> SESSION OPEN — 2026-09-16 (Wed) 08:39 ET (pre-market) <<<
+BLOCKING CHECKS: STATUS ACTIVE ✓ | Account 609021910 agentic_allowed=true ✓ (527546030 false
+  — never trade) | FLAT: 0 positions, 0 open orders ✓ | BP $100.26 ✓ | full day, flatten 15:50.
+PDT: 2 day-trade slots open (ROIV 9/8 rolled off; KR 9/11 + S 9/14 still counting). Track manually.
+PRE-MARKET REGIME (indicative; real read at open): SPY 759.48 (+0.28% vs 757.39), QQQ 707.75
+  (+0.46%), IWM 285.55 (+0.14%). GREEN LEAN — first risk-on tilt in days, bounce after 2 red
+  sessions. If the open confirms green -> HUNT (first tradeable tape of the week).
+NEWS/RS WATCHLIST:
+  - META $676 (+0.87% pre) — recurring RS mega-cap, NOT extended (steady grind). Cleanest long
+    candidate on a green open: want a pullback-reclaim above VWAP. Potential A+ if textbook-clean.
+  - SWKS $90.60 (+0.67% pre) — real semi leader BUT up +13.5% Tue = Day-2 EXTENDED. Pullback-
+    reclaim ONLY, never chase (9/14+9/15 lesson).
+  - Fresh Day-1 catalyst movers at the open preferred over extended names. Gainers board otherwise
+    sub-$6 low-float junk (RETO/VEEA/MEDS) — filtered out.
+SHORT PAPER-LOG: if any name breaks down on a catalyst below VWAP, log it (zero capital) to keep
+  building the short sample (1/1 so far: CAKE).
+PLAN: 09:30-09:45 OR + real regime read. GREEN + clean pullback-reclaim above VWAP (ATR%>=0.3%,
+  tight spread, RR>=1.5; A+ RR>=2.0) -> take one measured entry, ACTIVELY consider A+ ($50/$0.50)
+  if it's the clean primary idea. RED/neutral -> 2nd-leg-above-VWAP only or stand down. Fractional
+  = MANUAL STOP (attended, MARKET SELL on break). Flat 15:50.
