@@ -2105,3 +2105,15 @@ PLAN: 09:30-09:45 OR + real regime read. GREEN + clean pullback-reclaim above VW
   tight spread, RR>=1.5; A+ RR>=2.0) -> take one measured entry, ACTIVELY consider A+ ($50/$0.50)
   if it's the clean primary idea. RED/neutral -> 2nd-leg-above-VWAP only or stand down. Fractional
   = MANUAL STOP (attended, MARKET SELL on break). Flat 15:50.
+
+--- PULSE 09:50 ET — GREEN tape confirmed, HUNTING; META not ready (below VWAP), no entry ---
+REGIME: SPY 759.99 (+0.34%), QQQ 709.78 (+0.74%, tech leading), IWM 286.66 (+0.53%). GREEN /
+  risk-on — first tradeable tape of the week. Hunt ON.
+SWKS: 88.48 (-1.7%) — Day-2 FADE of Tuesday's +13.5% pop. Off the long watchlist (correctly not
+  chased); potential paper-short if it breaks down below VWAP.
+META (primary long candidate): 678.14, +1.18% on day BUT currently BELOW VWAP (679.37). OR is
+  huge (674.29-685.31, ~$11). Opened hot to 685, faded to 674, chopping under VWAP. ATR(14,5m)
+  2.94 = ATR% 0.43% (>0.3% floor ✓, vehicle fine) — but LOCATION not ready. Long-only-above-VWAP
+  rule = NO entry here. WAIT for META to reclaim 679.37 and hold a higher low above it.
+DECISION: No trade yet. Green tape != forced trade. Watch META for a clean VWAP reclaim. Next
+  check ~10:15 ET (tighter than hourly — actively hunting, META near a setup).
