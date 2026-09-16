@@ -1179,3 +1179,32 @@ PDT maxed 3/3 today (ROIV 9/8 rolls off after today -> ~2 slots Tuesday). Broker
 RUNNING (see trade_ledger.md): 3 closed trades (unchanged — no trade today), 33% win (1W/2L),
 net +$0.26, expectancy +$0.087/trade (POSITIVE, n=3). Equity $100.26. Phase 1, 3/20 toward the
 Phase 2 gate. Short paper-log: 1 signal, 1 win (1/1). PDT: ROIV 9/8 rolled off -> 2 slots for Wed.
+
+## Session lesson — 2026-09-16 (Wed, 0 trades, GREEN-open->RED-close reversal day)
+
+1. **GREEN TAPE IS NECESSARY BUT NOT SUFFICIENT.** The week's first risk-on open finally gave a
+   tradeable regime — but our style also needs a clean liquid large-cap that actually SETS UP
+   (pullback-reclaim above VWAP, RR>=1.5). The one candidate (META) never did. A no-trade day on
+   a green tape is a legitimate outcome; the regime is the gate to START hunting, not a trade signal.
+2. **The AM-green -> PM-red REVERSAL vindicated patience.** SPY went +0.34% (AM) to -0.68% (close);
+   QQQ +0.95% to -0.22%; IWM +0.53% to -0.94%. A bull-trap day. A chased morning META long would
+   have been underwater into the close. Today the "reward" for discipline was an avoided loss, not
+   a realized gain — which is exactly what most of this week's edge has been.
+3. **Front-loaded-at-open != pullback setup.** META spent its whole move in the first 5 minutes
+   (+1.7% to 685), then coiled dead at VWAP on declining volume for ~80min, then faded. Distinguish
+   "consolidating to continue" (ascending higher-lows, holding VWAP with conviction, steady/rising
+   volume) from "done for the day" (dead sideways coil AT VWAP, fading volume). META was the latter
+   by ~10:30 — the tell was the declining volume in the coil. Add to the entry checklist: a valid
+   pullback-continuation needs the coil to hold ABOVE VWAP with higher-lows, not sit exactly on it.
+4. **Discipline in BOTH directions.** Didn't force a long (no RR), and didn't force a paper-short
+   either (META's orderly fade on a mixed tape isn't a clean red-tape/breakdown short). Not every
+   move is a signal. A+ tier still unused — correctly, since nothing qualified.
+
+CANDID NOTE (for the record & Carlos): we've now gone several sessions (9/15 red, 9/16 green-trap)
+without a live fill. The binding constraints are (a) hostile/choppy tapes and (b) a setup standard
+I won't lower on a $100 account — NOT fear. When a clean liquid large-cap gives a real above-VWAP
+pullback-reclaim with RR>=1.5 on a green tape, the A+ size is armed and I'll take it decisively.
+
+RUNNING (see trade_ledger.md): 3 closed trades (unchanged), 33% win (1W/2L), net +$0.26,
+expectancy +$0.087/trade (POSITIVE, n=3). Equity $100.26. Phase 1, 3/20 toward the Phase 2 gate.
+Short paper-log: 1 signal, 1 win (1/1). PDT: 2 slots open for Thursday.

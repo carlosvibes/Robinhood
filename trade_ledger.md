@@ -31,6 +31,7 @@ All times are US Eastern. All dollar figures to two decimals.
 | 2026-09-02 | $100.00 | $100.00 | $0.00 | 0.0% | 0 | Wed. RULE CHANGE: Carlos approved "Moderate" calibration midday (RR 1.5, ATR 0.04, vol 1.6x, RVOL 1.6). DPRO cleared ATR floor + triggered ORB but failed (2 closes below VWAP; a would-be entry = -1R). OABI = first arm-able long under new rules but broke down before triggering. ~1hr usage-limit gap (flat verified on resume). Flat verified 15:45 ET. |
 | 2026-09-03 | $100.00 | $100.00 | $0.00 | 0.0% | 0 | Thu. First full day on Moderate gates. Quiet AM (universe scan 0 all morning). PM movers evaluated under new gates — ALL failed >=1 hard rail: ABTC/BKKT spread (0.53%/0.36% vs 0.15% gate), DPRO day-high trigger failed + spread rewidened, SBET (finally a tight-$0.01-spread mover) failed ATR floor (0.034<0.04, late-day coil), BULL at $10 ceiling, UPB decliner. KEY FINDING: spread gate is the binding constraint on this sub-$10 universe. DPRO arm discipline held (rejected 6.4155 wick-chase). Flat verified 15:21 ET. |
 | 2026-09-04 | $100.00 | $100.00 | $0.00 | 0.0% | 0 | Fri. First day on widened-spread + trend-follow tactics. CHPT (day's mover, +8%) untradeable: too volatile at open (ATR~0.45>0.25 cap), then boxed by/above the $10 position cap. Universe RVOL scanner BUGGED all day (0 despite real movers). FMP-gainers cross-check: in-band names all 1.9-5% spreads (MTEX/KPLT/CURX). No tradeable in-band setup, triple-confirmed. ROOT CAUSE identified + FIXED: Carlos approved FRACTIONAL LARGE-CAP trading (starts Tue 9/8) — the $5-10 whole-share universe was the disease. Flat verified 15:34 ET. |
+| 2026-09-16 | $100.26 | $100.26 | $0.00 | 0.0% | 0 | Wed. GREEN open that REVERSED to a RED close (SPY +0.34% AM -> -0.68% close; QQQ +0.95% -> -0.22%; IWM +0.53% -> -0.94%). NO-TRADE day. META (the one clean liquid candidate) front-loaded its whole move at the open (+1.7% to 685), chopped dead at VWAP ~80min, then faded below it — never gave a valid-RR (>=1.5) setup. Gainers board = sub-$6 low-float junk. Stood down 5x (09:50/10:15/10:35/11:10/13:00). LESSON: green tape is NECESSARY but NOT SUFFICIENT — and today's AM-green/PM-red reversal shows why not forcing a morning long was correct (bull-trap day). A+ tier still unused (no qualifier). Short paper-log 1/1 (no new signal). Capital protected $100.26. Flat verified 15:35 ET. |
 | 2026-09-15 | $100.26 | $100.26 | $0.00 | 0.0% | 0 | Tue. RED no-trade day (SPY -0.53%/QQQ -0.73%/IWM -0.79%, red & near lows all session). Stood down at 09:51/11:00/13:00 — cyber Day-2 leaders (ZS/RPD/RBRK) FADED Monday's gains, validating the 9/14 extended-mover lesson in real time (chasing them would have lost). No clean long on a risk-off tape. Carlos approved (AskUserQuestion) SHORT PAPER-LOG + sharpened news/RS scan + A+ tier activation — NO live rail change (live shorting still gated: 20 trades + positive expectancy + Carlos; at 3). Short Paper #1: CAKE trend-day-down below-VWAP short = hypothetical WIN ~+3.1R. Capital protected. Flat verified 15:35 ET. |
 | 2026-09-14 | $100.29 | $100.26 | -$0.03 | -0.03% | 1 | Mon. Broad tape opened RED (SPY -0.5%/QQQ -0.7% AM), recovered to near-flat midday. Trade #3 S (SentinelOne) LONG — cyber-sector M&A catalyst (CRWD/ZS/S all +15%), rising-low high base above VWAP, entered NEAR support (KR lesson applied) — breakout FAILED (rejected 23.04 & 22.99, rolled to base low), cut EARLY at 22.93 for -$0.03 (-0.17R; excellent damage control). AM: energy RS thesis correct (XOM/OXY/CVX green on oil spike vs red tape) but majors FAILED ATR% floor (~0.2%<0.3%, too slow) — no tradeable vehicle, stood down. First-leg paper: none (no clean green tape until midday). PDT now MAXED 3/3 (ROIV 9/8 rolls off after today). Broker realized-PnL cross-check EXACT (S -0.03). Flat verified 14:06 & 15:47 ET. |
 | 2026-09-11 | $100.47 | $100.29 | -$0.18 | -0.18% | 1 | Fri. GREEN tape at last (SPY +1%, QQQ +1%, first risk-on of the week). Trade #2 KR LONG (2nd-leg VWAP-reclaim on earnings gapper) — breakout failed the retest, cut on double-bottom break at 58.87 for -$0.18 (-0.73R, < full stop). First loss of project; good process. SMCI watched (semis leader) but failed the 40.0 confirmation filter -> passed (validated: it broke down $0.60 lower). First-leg paper signal #1 (KR ORB) logged, FAILED (0/1). PDT 2/3. Broker realized-PnL cross-check EXACT (ROIV +0.47, KR -0.18). Flat verified 15:45 ET. |
@@ -2164,3 +2165,30 @@ DECISION: STAND DOWN for the day = NO-TRADE day on a GREEN tape. KEY DATA POINT:
   RR>=1.5) still needs a name that actually sets up. Today the one candidate (META) front-loaded
   its move at the open then chopped/faded; no valid-RR trigger ever formed. Correct to not force.
   Capital protected $100.26. Go to 15:35 EOD writeup (already flat). PDT slots untouched (2 open).
+
+>>> SESSION CLOSE — 2026-09-16 (Wed) 15:35 ET <<<
+FLATTEN VERIFICATION: get_equity_positions = [] (0), get_equity_orders state=new = [] (0).
+Confirmed FLAT all day (0 trades). get_portfolio total_value $100.26, cash $100.26.
+RESULT: 0 trades. Equity $100.26 -> $100.26 (0.0%). Consecutive-loss streak: 0. All halts
+  untouched. PDT: 2 day-trade slots still open (KR 9/11 + S 9/14 counting; nothing used today).
+REGIME NARRATIVE: The tape opened GREEN (first risk-on lean in days: SPY +0.34%, QQQ +0.95%,
+  IWM +0.53% by ~11:00) then REVERSED to a RED close (SPY -0.68%, QQQ -0.22%, IWM -0.94%). A
+  bull-trap day. META was the single clean liquid long candidate: it front-loaded its entire
+  move at the open (+1.7% to 685.31), then coiled dead at VWAP (679.5) for ~80min on declining
+  volume, then faded below VWAP into the reversal. It NEVER offered a valid-RR (>=1.5) entry —
+  the coil-breakout was ~1:1, and no clean pullback-bounce ever confirmed. Everything else on
+  the gainers board was sub-$6 low-float junk (fails float/spread/universe). Stood down 5x.
+KEY LESSONS TODAY:
+  1. GREEN TAPE IS NECESSARY BUT NOT SUFFICIENT. Our style needs a green tape AND a clean liquid
+     large-cap that actually sets up (pullback-reclaim above VWAP, RR>=1.5). Today gave the first
+     without the second. A no-trade day on a green tape is a legitimate, correct outcome.
+  2. The AM-green -> PM-red REVERSAL vindicated not forcing a morning long. What looked risk-on
+     was a bull trap; a chased META long would have been underwater into the close. Patience paid
+     even though the "reward" was avoided loss, not realized gain.
+  3. A stock front-loading its whole move at the open then going dead is NOT a pullback setup —
+     it's exhausted. Distinguish "consolidating to continue" (higher lows, holding VWAP with
+     conviction) from "done for the day" (dead coil at VWAP, declining volume). META was the latter.
+STANDING: A+ tier ($50/$0.50) still unused — correct, no setup qualified. Short paper-log 1/1
+  (CAKE); no new signal today (META's orderly fade on a mixed tape isn't a clean short).
+Next: Thursday 2026-09-17 pre-market wake 12:30 UTC (regime-check-first; re-read Changelog incl.
+  the 9/15 short-paper-log/news/A+ row; 2 PDT slots open).
