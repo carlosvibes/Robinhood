@@ -2129,3 +2129,13 @@ META: 680.96, above VWAP (679.57) since ~09:50 reclaim; coiling tight 678-682 fo
   mistake the rails prevent.
 DECISION: No trade. Setup not there yet (RR gate). Watch META for a VWAP pullback-bounce. Next
   check ~10:35 ET. Still flat.
+
+--- PULSE 10:35 ET — META stalling at VWAP, no bounce, no entry ---
+REGIME: SPY 759.23 (+0.24%), QQQ 709.42 (+0.69%) — still green (SPY drifting slightly).
+META: 679.28, right AT VWAP (679.56). Chopped 678-682 for ~40min then drifted DOWN to VWAP;
+  14:30 bar wicked to 677.26 (below VWAP) and recovered. Momentum STALLING after the strong
+  open — no clean pullback-BOUNCE (needs a confirmed higher-low + reclaim push, not a preemptive
+  buy at VWAP while it drifts lower). RR from here still ~1.3 to the range high. NO trigger.
+DECISION: No trade. Thesis weakening the longer it chops. One more look ~11:10 ET: a decisive
+  VWAP loss -> off the long list (possible paper-short); a clean bounce -> take it; no clean
+  trigger by ~11:30 (prime window close) -> stand down (won't force a midday chop). Still flat.
