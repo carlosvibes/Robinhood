@@ -2210,3 +2210,14 @@ DISCIPLINE FOR A BIG GAP: do NOT chase the vertical open. A +1.3-1.7% gap is str
   primary. Fractional MANUAL STOP (attended, MARKET SELL on break). Flat 15:50.
 PLAN: 09:30-09:45 OR + real regime read. Then hunt NVDA (primary) / META for a pullback-reclaim.
   Take the clean one decisively (finally deploy A+ if it qualifies). No setup -> no trade.
+
+--- PULSE 09:50 ET — strong GREEN held; NVDA (primary) at VWAP forming, no trigger yet ---
+REGIME: SPY 761.39 (+0.97%), QQQ 714.80 (+1.43%), IWM 287.39 (+1.22%) — strong RISK-ON, gap held.
+NVDA (PRIMARY, RS leader +1.87%): 217.90, right AT VWAP (217.89). OR 217.15-218.70. Opened
+  218.4, dipped to 217.15, recovered, now first-pullback to VWAP. ATR(14,5m) 1.00 = ATR% 0.46%
+  (>floor ✓). Classic gap-up first-pullback-to-VWAP FORMING but NO confirmed trigger yet (sitting
+  on VWAP, no higher-low bounce printed). Potential geometry: bounce entry ~218 / stop <217.1 (OR
+  low) ~$0.9 risk / target ~219.8 = ~2:1 -> A+ candidate IF it triggers clean.
+META: 671.62 (-0.25%) — RED, lagging the tape. Off the list. NVDA is the clear leader.
+DECISION: No entry yet. Wait for NVDA to print a higher-low bounce off VWAP + push (micro-
+  consolidation break ~218.4). Next check ~10:10 ET (tight — strong tape, primary at VWAP). Flat.
