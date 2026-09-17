@@ -2255,3 +2255,17 @@ NVDA 219.75 (+2.7%), grinding tight new highs (HOD 219.87), VWAP 218.58 (~$1.2 b
   pullback to VWAP -> no low-risk entry. Won't chase. Regime strong green (SPY +1.04%, QQQ +1.69%).
   Strongest names often don't pull back; accepting a possible no-fill day. Next check ~11:05 ET
   (prime window close 11:30); if no VWAP pullback by then -> midday/EOD cadence. Flat.
+
+--- PULSE 11:05 ET — NVDA pulled back but RR still <1.5; accept NO-FILL, prime window closing ---
+REGIME: SPY 760.72 (+0.88%), QQQ 714.97 (+1.45%) — still strong green.
+NVDA: 219.28. Peaked 219.87 (10:30), pulled back to a higher-low ~218.9 (just above VWAP 218.70),
+  now turning up. A pullback-reclaim IS present BUT geometry fails: entry ~219.3 / stop <218.55
+  (VWAP+shelf) = risk ~$0.75; nearest structural target = HOD 219.87 = reward ~$0.57 -> RR ~0.76.
+  Beyond-HOD target = projected/invented. NVDA coiling too tight at highs for a VWAP stop to give
+  1.5:1. PASS (structure-based target says no; won't reverse-engineer).
+DECISION: Accept NO-FILL. Watched NVDA ~75min: one clean high-RR entry (218 VWAP bounce, 09:50-55)
+  missed on cadence; every entry since sub-1.5 RR. Correct to not force. Prime window closing ->
+  relax to afternoon/EOD. Regime still strong but watch for an afternoon fade (cf. Wed reversal).
+PROCESS NOTE: the day's real lesson is the CADENCE gap on fast leaders (missed the 218 fill by
+  ~3min between pulses), not the no-fills after. Consider near-continuous watching when a primary
+  candidate is AT VWAP forming the trigger. Flat $100.26. Next: 13:00 ET afternoon check.
