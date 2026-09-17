@@ -2236,3 +2236,16 @@ CADENCE LESSON (real cost): on a FAST RS leader on a strong tape, the first-pull
   near-continuously) through that window. Logged for process improvement.
 PLAN: watch NVDA for a SECOND pullback toward VWAP (218.24) / a higher-low (~218.5-218.7) that holds
   -> better entry (stop <218.1, target ~220 = RR ~3). Tighter next check ~10:22 ET. Still FLAT.
+
+--- PULSE 10:23 ET — NVDA high-tight flag at HOD, no VWAP pullback, RR<1.5, NO trade ---
+REGIME: SPY 761.88 (+1.04%), QQQ 716.08 (+1.61%) — strong green, strengthening.
+NVDA: 219.64 (+2.7%), consolidating tight at HOD (219.2-219.65) since the run; VWAP 218.37 (never
+  returned). Available setup = high-tight-flag BREAKOUT at HOD, NOT a VWAP pullback. Honest RR:
+  entry ~219.65, stop <219.15 (flag low) = risk ~$0.49; flag measured-move target ~220.1 = reward
+  ~$0.45 -> RR ~0.9 (<1.5). A bigger target would be INVENTED (reverse-engineered to pass the gate)
+  = the "grade your own exam" trap the skill warns against. FAILS.
+NO TRADE: won't force a marginal HOD chase to make up for missing the clean 218 VWAP-bounce entry.
+  That's the "I missed it so I'll take a worse version" emotional trade — exactly what blows up
+  small accounts. Missed winner = free; bad entry != free.
+PLAN: NVDA stays the name. A pullback to VWAP (~218.4) = real high-RR 2nd entry -> take decisively
+  (A+). If it just grinds up in flags, let it go. Tight watch ~10:37 ET. Flat.
