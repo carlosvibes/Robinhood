@@ -2192,3 +2192,21 @@ STANDING: A+ tier ($50/$0.50) still unused — correct, no setup qualified. Shor
   (CAKE); no new signal today (META's orderly fade on a mixed tape isn't a clean short).
 Next: Thursday 2026-09-17 pre-market wake 12:30 UTC (regime-check-first; re-read Changelog incl.
   the 9/15 short-paper-log/news/A+ row; 2 PDT slots open).
+
+>>> SESSION OPEN — 2026-09-17 (Thu) 08:33 ET (pre-market) <<<
+BLOCKING CHECKS: STATUS ACTIVE ✓ | 609021910 agentic_allowed=true ✓ (527546030 false — never
+  trade) | FLAT: 0 positions, 0 open orders ✓ | BP $100.26 ✓ | full day, flatten 15:50.
+PDT: 2 day-trade slots open (KR 9/11 + S 9/14 still counting; nothing used Tue/Wed).
+PRE-MARKET REGIME: SPY 763.71 (+1.28% vs 754.05), QQQ 716.40 (+1.66%, tech leading), IWM 288.00
+  (+1.44%). STRONG RISK-ON GAP-UP — biggest of the week, broad participation. Overnight catalyst.
+NEWS/RS WATCHLIST:
+  - NVDA $218.39 (+2.1% pre) — tech/semi RS LEADER, clean liquid mega-cap. PRIMARY candidate.
+  - META $682.42 (+1.35% pre) — recovered from Wed's fade, ~in line with tape. Secondary.
+  - Gainers board = sub-$6 low-float junk again (DLXY/MEDS/SNYR) — filtered out.
+DISCIPLINE FOR A BIG GAP: do NOT chase the vertical open. A +1.3-1.7% gap is strong but gap-ups
+  fade (cf. Wed's smaller green faded to red). Record the 15-min OR, then WAIT for the first
+  clean PULLBACK-RECLAIM above VWAP with HIGHER-LOWS + steady/rising volume (NOT a front-loaded
+  dead coil — the 9/16 META lesson). RR>=1.5 required; A+ ($50/$0.50) if RR>=2.0 & textbook-clean
+  primary. Fractional MANUAL STOP (attended, MARKET SELL on break). Flat 15:50.
+PLAN: 09:30-09:45 OR + real regime read. Then hunt NVDA (primary) / META for a pullback-reclaim.
+  Take the clean one decisively (finally deploy A+ if it qualifies). No setup -> no trade.
