@@ -2269,3 +2269,15 @@ DECISION: Accept NO-FILL. Watched NVDA ~75min: one clean high-RR entry (218 VWAP
 PROCESS NOTE: the day's real lesson is the CADENCE gap on fast leaders (missed the 218 fill by
   ~3min between pulses), not the no-fills after. Consider near-continuous watching when a primary
   candidate is AT VWAP forming the trigger. Flat $100.26. Next: 13:00 ET afternoon check.
+
+--- PULSE 13:00 ET (afternoon) — NVDA dead coil at VWAP, no trade; tape strong & HELD ---
+REGIME: SPY 762.63 (+1.14%), QQQ 717.03 (+1.75%), IWM 286.90 (+1.05%) — strong green, HELD all
+  day (notably NO fade, unlike Wed's reversal). Semis leading (SOXL +11%, SMCI +11%, INTC +10%).
+NVDA: 218.85 -> pinned 218.7-219.0 (a $0.30 range) ON VWAP (218.77) for ~1hr on DECLINING volume
+  (160-325k vs 900k+ AM). Textbook front-loaded-then-dead midday coil (same as Wed META). No
+  higher-low bounce, no thrust -> NO valid entry. Confirmed the pass by checking structure.
+OTHER: INTC +10% / SMCI +11% = fresh semis catalysts but already EXTENDED + midday low-vol -> not
+  chasing. No clean non-extended liquid large-cap setup.
+DECISION: No midday entry (11:30-14:00 default no-new-entries). Accept likely no-fill day. Tape
+  held strong = good sign the risk-on is real, but our one clean setup (NVDA 218 AM) passed and
+  nothing since clears the gates. One selective afternoon-window look ~14:15 ET, then EOD. Flat.
