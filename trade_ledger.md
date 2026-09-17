@@ -2281,3 +2281,14 @@ OTHER: INTC +10% / SMCI +11% = fresh semis catalysts but already EXTENDED + midd
 DECISION: No midday entry (11:30-14:00 default no-new-entries). Accept likely no-fill day. Tape
   held strong = good sign the risk-on is real, but our one clean setup (NVDA 218 AM) passed and
   nothing since clears the gates. One selective afternoon-window look ~14:15 ET, then EOD. Flat.
+
+--- PULSE 14:15 ET — NVDA resumed grind (no clean 2nd entry); STAND DOWN for the day ---
+REGIME: SPY 762.78 (+1.16%), QQQ 716.47 (+1.67%) — strong green, HELD all day (no fade). Great tape.
+NVDA: 219.46, lifted off the midday coil, grinding back toward HOD 219.87 in a rising channel above
+  VWAP (218.81). But it's a SLOW GRIND, not a sharp pullback-bounce — no VWAP retest; only entry =
+  another HOD-breakout chase w/ borderline RR, and it's 95min to flatten. No clean high-RR setup.
+DECISION: STAND DOWN for the day. FINAL: no trade. NVDA was the correct leader; gave ONE clean
+  high-RR entry (218 VWAP bounce, 09:50-55) missed on cadence; then dead-coiled midday and
+  slow-grinds — never a 2nd clean entry. Won't chase a grind into the close. Strong held tape made
+  the missed fill sting, but 0 bad trades + 0 forced trades = process intact. Go to 15:35 EOD.
+  Flat $100.26. PDT 2 slots unused.
