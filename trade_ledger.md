@@ -2249,3 +2249,9 @@ NO TRADE: won't force a marginal HOD chase to make up for missing the clean 218 
   small accounts. Missed winner = free; bad entry != free.
 PLAN: NVDA stays the name. A pullback to VWAP (~218.4) = real high-RR 2nd entry -> take decisively
   (A+). If it just grinds up in flags, let it go. Tight watch ~10:37 ET. Flat.
+
+--- PULSE 10:37 ET — NVDA still trending up, no VWAP pullback, no entry (unchanged) ---
+NVDA 219.75 (+2.7%), grinding tight new highs (HOD 219.87), VWAP 218.58 (~$1.2 below). No
+  pullback to VWAP -> no low-risk entry. Won't chase. Regime strong green (SPY +1.04%, QQQ +1.69%).
+  Strongest names often don't pull back; accepting a possible no-fill day. Next check ~11:05 ET
+  (prime window close 11:30); if no VWAP pullback by then -> midday/EOD cadence. Flat.
