@@ -2221,3 +2221,18 @@ NVDA (PRIMARY, RS leader +1.87%): 217.90, right AT VWAP (217.89). OR 217.15-218.
 META: 671.62 (-0.25%) — RED, lagging the tape. Off the list. NVDA is the clear leader.
 DECISION: No entry yet. Wait for NVDA to print a higher-low bounce off VWAP + push (micro-
   consolidation break ~218.4). Next check ~10:10 ET (tight — strong tape, primary at VWAP). Flat.
+
+--- PULSE 10:11 ET — NVDA TRIGGERED & RAN (missed on cadence); NO CHASE ---
+REGIME: SPY 760.32 (+0.83%), QQQ 714.74 (+1.42%) — still strong green.
+NVDA: 219.32, +2.5% on day, at HOD. VWAP 218.24. WHAT HAPPENED: the higher-low bounce off VWAP
+  triggered in the 13:50 bar (09:50-09:55 ET; low 217.71, closed 218.65) — entry was ~218.0-218.3.
+  It then stair-stepped higher-lows (218.45->218.50->218.71) and ran to 219.32 (+$1.4 off VWAP).
+  The clean entry formed in the ~3min WINDOW BETWEEN my 09:50 and 10:11 pulses.
+NO CHASE: entering 219.32 at HOD after a $1.4 run = poor location; stop <218.5 (risk ~$0.8) to a
+  realistic 220.5 target (reward ~$1.2) = RR ~1.4 < 1.5 floor. Buying the top of the move. PASS.
+CADENCE LESSON (real cost): on a FAST RS leader on a strong tape, the first-pullback-to-VWAP entry
+  can trigger AND run within a single 5-min bar. ~20-min pulses are too slow to catch it live. Fix:
+  when a primary candidate is sitting AT VWAP forming the trigger, tighten to ~5-10min (or watch
+  near-continuously) through that window. Logged for process improvement.
+PLAN: watch NVDA for a SECOND pullback toward VWAP (218.24) / a higher-low (~218.5-218.7) that holds
+  -> better entry (stop <218.1, target ~220 = RR ~3). Tighter next check ~10:22 ET. Still FLAT.
