@@ -1208,3 +1208,39 @@ pullback-reclaim with RR>=1.5 on a green tape, the A+ size is armed and I'll tak
 RUNNING (see trade_ledger.md): 3 closed trades (unchanged), 33% win (1W/2L), net +$0.26,
 expectancy +$0.087/trade (POSITIVE, n=3). Equity $100.26. Phase 1, 3/20 toward the Phase 2 gate.
 Short paper-log: 1 signal, 1 win (1/1). PDT: 2 slots open for Thursday.
+
+## Session lesson — 2026-09-17 (Thu, 0 trades, STRONG green tape; a MISSED FILL on cadence)
+
+This one is different from the week's other no-trade days, and the difference matters.
+
+1. **The setup selection was RIGHT; the execution missed.** Best tape of the week (SPY +1.17%,
+   QQQ +1.75%, held into the close, no fade). I correctly ID'd NVDA as the clean liquid RS leader
+   pre-market, correctly waited for the gap-up first-pullback-to-VWAP rather than chasing the open,
+   and the entry set up exactly as planned (~218 VWAP bounce, ~09:50-55). It then ran to 219.87 HOD
+   / closed 219.75 — a ~+$1.7/sh, ~+2R would-be winner (and a legit A+ by profile).
+2. **The miss was CADENCE.** The 218 entry triggered AND ran within ONE 5-min bar, in the ~15-20min
+   gap between my 09:50 and 10:11 scheduled pulses. On a fast RS leader on a strong tape, the clean
+   first-pullback entry is a ~3-5min window. Scheduled ~15-20min pulses are structurally too coarse
+   to catch it live. THIS is the single thing that cost us a clean winner this week — not tape, not
+   fear, not the setup bar.
+3. **No-chase discipline held perfectly on the way down.** After the miss, every entry I evaluated
+   (HOD flag break RR~0.9; midday dead-coil at VWAP; afternoon slow-grind) failed the >=1.5 RR gate
+   on honest structure targets, and I passed on ALL of them. Refused to reverse-engineer a target or
+   revenge-chase. 0 bad trades, 0 forced trades. That half of the process is working.
+4. **Strong-tape RS grinders often give ONLY ONE clean pullback (near the open).** After the first
+   pullback they either grind up (no low-risk re-entry) or dead-coil. So being LIVE for that first
+   pullback matters far more than the count of later checks.
+
+### PROPOSAL (NOT ACTIVE as a rail change — flagged for Carlos) — 2026-09-17
+**Tighter monitoring cadence at the trigger moment.** When a pre-identified PRIMARY candidate is
+sitting AT VWAP forming its first-pullback trigger on a green tape, switch to near-continuous
+~1-2min watching through that ~15-30min window (the same cadence used while holding a position), to
+catch the fill live rather than ~15min later. This LOOSENS NO RISK RAIL — it is strictly more
+diligence (all entry gates unchanged: above VWAP, RR>=1.5, ATR% floor, spread, sizing, manual stop).
+It only increases the number of monitoring wake-ups during that window. I am applying it on my side
+going forward because it strengthens (never weakens) discipline; flagged here for your awareness and
+in case you'd rather cap the wake frequency. If you want it formalized, it becomes a dated Changelog row.
+
+RUNNING (see trade_ledger.md): 3 closed trades (UNCHANGED — no trade today), 33% win (1W/2L), net
++$0.26, expectancy +$0.087/trade (POSITIVE, n=3). Equity $100.26. Phase 1, 3/20 toward Phase 2 gate.
+Short paper-log 1/1. A+ tier still unused. PDT 2 slots open for Friday.
