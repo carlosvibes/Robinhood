@@ -2326,3 +2326,22 @@ STANDING: A+ tier ($50/$0.50) still unused (no qualifying fill). Short paper-log
   short signal (nothing broke down on this strong tape).
 Next: Friday 2026-09-18 pre-market wake 12:30 UTC (regime-check-first; re-read Changelog; 2 PDT
   slots; weekly loss halt resets Monday; apply tighter-cadence-at-VWAP-trigger if a primary sets up).
+
+>>> SESSION OPEN — 2026-09-18 (Fri) 08:39 ET (pre-market) <<<
+BLOCKING CHECKS: STATUS ACTIVE ✓ | 609021910 agentic_allowed=true ✓ (527546030 false — never
+  trade) | FLAT: 0 positions, 0 open orders ✓ | BP $100.26 ✓ | full day, flatten 15:50.
+PDT: 2 slots open (KR 9/11 + S 9/14 counting; roll off next week). Nothing used Tue-Thu.
+PRE-MARKET REGIME: SPY 760.50 (-0.28% vs 762.60), QQQ 718.07 (+0.16%), IWM 284.52 (-0.32%).
+  MIXED / flat-to-slightly-red — a consolidation/pause after Thu's strong +1.2-1.7% run. Note:
+  3rd-Friday MONTHLY OPEX (triple-witching) = often choppy/pinning action. Lower conviction.
+WATCHLIST:
+  - NVDA $219.36 (flat pre) — still the mega-cap leader; watch for a continuation pullback-reclaim
+    IF the tape turns green (apply the 9/17 tight-cadence fix at the VWAP-trigger this time).
+  - SDGR +26% / GNRC +18% / VICR +18% (Thu closes) — real liquid catalysts BUT Day-2 EXTENDED ->
+    only a fresh pullback-reclaim, never a chase (9/14/15 lesson).
+  - Gainers board otherwise sub-$6 junk (AEMD/PAAI/DTSS) — filtered out.
+PLAN: 09:30-09:45 OR + real regime read. GREEN + clean liquid pullback-reclaim above VWAP
+  (ATR%>=0.3%, tight spread, RR>=1.5; A+ RR>=2.0) -> TAKE decisively, tight ~1-2min cadence
+  through the trigger window (don't miss the fill like NVDA Thu). MIXED/RED/choppy-opex -> demand
+  clean 2nd-leg above-VWAP or STAND DOWN; PAPER-LOG clean shorts. Fractional MANUAL STOP. Flat 15:50.
+  EOD: also do the WEEKLY REVIEW (week of 9/15).
