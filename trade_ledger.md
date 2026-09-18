@@ -2356,3 +2356,11 @@ NVDA: 219.47 (+0.06%, flat), above VWAP (218.86), poked new HOD 220.07 but just 
   Not AT a clean VWAP trigger (chopping above it) -> tight-cadence watch not warranted yet.
 DECISION: No trade. Mixed-red divergent opex tape + no compelling RS leader (NVDA flat). Cautious.
   SDGR/GNRC/VICR Day-2 extended, not chased. Next check ~11:00 ET. EOD = also WEEKLY REVIEW. Flat.
+
+--- PULSE 11:00 ET — tape drifting weaker, still mixed-red, no setup, STAND DOWN ---
+REGIME: SPY 759.83 (-0.36%), QQQ 717.41 (+0.07% flat), IWM 283.01 (-0.85%). Did NOT firm to green
+  — drifting weaker; broad market + small caps red, mega-cap tech flat. Persistent divergent/red
+  opex tape, no RS leader. NVDA 219.25 (flat, ~VWAP), not leading.
+DECISION: No trade. Mixed-red opex tape + no clean RS leader = stand down (won't force opex chop).
+  Prime window closing 11:30 -> midday no-new-entries. Likely a no-trade day. Next: 13:00 ET check,
+  then 15:35 EOD + WEEKLY REVIEW (week of 9/15). Flat $100.26, PDT 2 slots unused.
