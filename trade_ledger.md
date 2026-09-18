@@ -31,6 +31,7 @@ All times are US Eastern. All dollar figures to two decimals.
 | 2026-09-02 | $100.00 | $100.00 | $0.00 | 0.0% | 0 | Wed. RULE CHANGE: Carlos approved "Moderate" calibration midday (RR 1.5, ATR 0.04, vol 1.6x, RVOL 1.6). DPRO cleared ATR floor + triggered ORB but failed (2 closes below VWAP; a would-be entry = -1R). OABI = first arm-able long under new rules but broke down before triggering. ~1hr usage-limit gap (flat verified on resume). Flat verified 15:45 ET. |
 | 2026-09-03 | $100.00 | $100.00 | $0.00 | 0.0% | 0 | Thu. First full day on Moderate gates. Quiet AM (universe scan 0 all morning). PM movers evaluated under new gates — ALL failed >=1 hard rail: ABTC/BKKT spread (0.53%/0.36% vs 0.15% gate), DPRO day-high trigger failed + spread rewidened, SBET (finally a tight-$0.01-spread mover) failed ATR floor (0.034<0.04, late-day coil), BULL at $10 ceiling, UPB decliner. KEY FINDING: spread gate is the binding constraint on this sub-$10 universe. DPRO arm discipline held (rejected 6.4155 wick-chase). Flat verified 15:21 ET. |
 | 2026-09-04 | $100.00 | $100.00 | $0.00 | 0.0% | 0 | Fri. First day on widened-spread + trend-follow tactics. CHPT (day's mover, +8%) untradeable: too volatile at open (ATR~0.45>0.25 cap), then boxed by/above the $10 position cap. Universe RVOL scanner BUGGED all day (0 despite real movers). FMP-gainers cross-check: in-band names all 1.9-5% spreads (MTEX/KPLT/CURX). No tradeable in-band setup, triple-confirmed. ROOT CAUSE identified + FIXED: Carlos approved FRACTIONAL LARGE-CAP trading (starts Tue 9/8) — the $5-10 whole-share universe was the disease. Flat verified 15:34 ET. |
+| 2026-09-18 | $100.26 | $100.26 | $0.00 | 0.0% | 0 | Fri. MIXED/choppy OPEX (triple-witching) tape; small caps red all day (IWM -0.65%), SPY ~flat once you adjust for the SPY quarterly EX-DIVIDEND today (adj prev 760.71 vs 762.60 raw close — the raw ~-0.4% overstated weakness), QQQ closed +0.29% (mega-cap tech firmed late). NO-TRADE day: no clean RS-leader long (NVDA flat/not leading all day), only-crypto strength (MSTR +14%/IBIT +6%/MARA +11% — not traded). NFLX -4.5% short-check DECLINED (that was an OVERNIGHT gap; intraday it based ABOVE VWAP, not a clean breakdown — short-playbook refinement). A+ still unused. Broker cross-check: 0 new realized trades this week. Flat verified 15:35 ET. |
 | 2026-09-17 | $100.26 | $100.26 | $0.00 | 0.0% | 0 | Thu. STRONG green tape, HELD all day (SPY +1.17%/QQQ +1.75%/IWM +0.64%; no fade). NO-TRADE day — but for a DIFFERENT reason than the red days: NVDA (RS leader, +2.7%) gave ONE clean high-RR entry (the 218 VWAP first-pullback bounce ~09:50-55 ET) that TRIGGERED and RAN within a single 5-min bar and was MISSED in the ~15-20min gap between scheduled pulses. It ran to 219.87 HOD / closed 219.75 (a would-be ~+$1.7/sh, ~+2R winner). Every entry after was sub-1.5 RR (HOD chase or dead midday coil) and correctly PASSED — no chase, 0 bad trades. Lesson = EXECUTION/CADENCE, not setup selection. Process proposal logged: near-continuous ~1-2min watching when a primary candidate is AT VWAP forming the trigger. A+ tier still unused. Flat verified 15:35 ET. |
 | 2026-09-16 | $100.26 | $100.26 | $0.00 | 0.0% | 0 | Wed. GREEN open that REVERSED to a RED close (SPY +0.34% AM -> -0.68% close; QQQ +0.95% -> -0.22%; IWM +0.53% -> -0.94%). NO-TRADE day. META (the one clean liquid candidate) front-loaded its whole move at the open (+1.7% to 685), chopped dead at VWAP ~80min, then faded below it — never gave a valid-RR (>=1.5) setup. Gainers board = sub-$6 low-float junk. Stood down 5x (09:50/10:15/10:35/11:10/13:00). LESSON: green tape is NECESSARY but NOT SUFFICIENT — and today's AM-green/PM-red reversal shows why not forcing a morning long was correct (bull-trap day). A+ tier still unused (no qualifier). Short paper-log 1/1 (no new signal). Capital protected $100.26. Flat verified 15:35 ET. |
 | 2026-09-15 | $100.26 | $100.26 | $0.00 | 0.0% | 0 | Tue. RED no-trade day (SPY -0.53%/QQQ -0.73%/IWM -0.79%, red & near lows all session). Stood down at 09:51/11:00/13:00 — cyber Day-2 leaders (ZS/RPD/RBRK) FADED Monday's gains, validating the 9/14 extended-mover lesson in real time (chasing them would have lost). No clean long on a risk-off tape. Carlos approved (AskUserQuestion) SHORT PAPER-LOG + sharpened news/RS scan + A+ tier activation — NO live rail change (live shorting still gated: 20 trades + positive expectancy + Carlos; at 3). Short Paper #1: CAKE trend-day-down below-VWAP short = hypothetical WIN ~+3.1R. Capital protected. Flat verified 15:35 ET. |
@@ -2376,3 +2377,45 @@ NFLX PAPER-SHORT CHECK -> DECLINED (correctly): NFLX -4.5% BUT that was an OVERN
   highs) like CAKE (trended down below VWAP all session), NOT a gap-then-base-above-VWAP like NFLX.
 DECISION: No trade (no long, no paper-short). No-trade day on a mixed-red opex tape. Go to 15:35
   EOD + WEEKLY REVIEW (week of 9/15). Flat $100.26, PDT 2 slots unused.
+
+>>> SESSION CLOSE — 2026-09-18 (Fri) 15:35 ET <<<
+FLATTEN VERIFICATION: get_equity_positions = [] (0), get_equity_orders state=new = [] (0).
+Confirmed FLAT all day (0 trades). get_portfolio total_value $100.26, cash $100.26.
+RESULT: 0 trades. Equity $100.26 -> $100.26 (0.0%). Streak 0. Halts untouched. PDT 2 slots unused.
+REGIME: choppy divergent OPEX Friday. SPY ~flat (ex-div adjusted; raw -0.4% overstated it), QQQ
+  +0.29% (firmed late), IWM -0.65% (small caps red all day). No RS leader for us; crypto led
+  (MSTR/IBIT/MARA — not tradeable for our style). NVDA flat/chopping. NFLX -4.5% = overnight gap,
+  based above VWAP intraday -> short-check declined. No clean long, no clean short. Correct pass.
+BROKER CROSS-CHECK (get_pnl_trade_history, week): only S sell 9/14 (-0.03). 0 new realized trades
+  this week. get_portfolio $100.26. Ledger reconciles EXACTLY. ✓
+
+>>> WEEKLY REVIEW — Week of 2026-09-15 (Tue-Fri; Mon 9/14 was prior week's close) <<<
+Equity: $100.26 START of week -> $100.26 FRIDAY CLOSE. 0.00% (flat). 0 trades taken all week.
+REGIME TALLY (why 0 fills): Tue 9/15 RED risk-off (cyber Day-2 names FADED — validated the 9/14
+  extended-mover lesson out-of-sample); Wed 9/16 GREEN-open -> RED-close BULL TRAP (patience
+  avoided a loss); Thu 9/17 STRONG green that HELD — the ONE clean high-RR setup of the week
+  (NVDA 218 VWAP first-pullback bounce, ~+2R) triggered & ran within a single 5-min bar and was
+  MISSED in the ~15-20min gap between scheduled pulses; Fri 9/18 MIXED/choppy OPEX, no RS leader.
+THEMES:
+  1. DISCIPLINE HELD ALL WEEK: 0 bad trades, 0 forced trades, 0 chases. Every no-trade call was
+     rule-correct (red tapes, a bull trap, choppy opex). The setup-selection + no-chase machinery
+     is working exactly as designed.
+  2. THE WEEK'S ONLY REAL COST WAS EXECUTION, NOT JUDGMENT: the NVDA Thu miss was a cadence gap
+     (~15-20min pulses too coarse for a fast RS leader whose clean entry forms in one 5-min bar).
+     FIX applied: near-continuous ~1-2min watching when a PRIMARY candidate is AT VWAP forming
+     its trigger on a green tape (loosens no risk rail; strictly more diligence).
+  3. SHORT PAPER-LOG launched + refined: CAKE (9/15) = 1/1 hypothetical win (trended down below
+     VWAP all day). NFLX (9/18) DECLINED = the refinement: require an INTRADAY breakdown below
+     VWAP (lower highs), not merely "down big on the day" from an overnight gap.
+  4. A+ TIER still UNUSED — correctly; no textbook-clean primary setup gave a valid fill.
+LIFETIME (unchanged this week): 3 closed trades, 1W/2L, net +$0.26, expectancy +$0.087/trade
+  (POSITIVE, n=3). Phase 1, 3/20 toward the Phase 2 gate. Short paper-log 1/1.
+HONEST ASSESSMENT: a frustrating ZERO-FILL week, but the cause is (a) hostile/choppy tapes and
+  (b) one fixable cadence miss — NOT fear, NOT a broken system, NOT the setup bar being wrong. The
+  account is exactly where it started ($100.26), fully intact, expectancy still positive. The job
+  this week was capital preservation + process refinement; both were achieved.
+NEXT-WEEK FOCUS: (1) be LIVE (tight cadence) for the first clean pullback on a green-tape RS
+  leader — that's the trade we keep missing/passing; (2) keep building the short paper sample
+  toward 5-10 signals; (3) deploy A+ ($50/$0.50) decisively when a textbook primary setup appears.
+Next: Monday 2026-09-21 pre-market wake 12:30 UTC (weekly loss halt resets Mon; PDT frees up as
+  KR 9/11 / S 9/14 roll off; apply the tight-cadence-at-VWAP-trigger fix).

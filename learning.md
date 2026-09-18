@@ -1244,3 +1244,22 @@ in case you'd rather cap the wake frequency. If you want it formalized, it becom
 RUNNING (see trade_ledger.md): 3 closed trades (UNCHANGED — no trade today), 33% win (1W/2L), net
 +$0.26, expectancy +$0.087/trade (POSITIVE, n=3). Equity $100.26. Phase 1, 3/20 toward Phase 2 gate.
 Short paper-log 1/1. A+ tier still unused. PDT 2 slots open for Friday.
+
+## Session lesson — 2026-09-18 (Fri, 0 trades, mixed/choppy OPEX tape) + WEEK-of-9/15 WRAP
+
+Session: choppy divergent monthly-opex tape, small caps red (IWM -0.65%), SPY ~flat (its raw
+-0.4% was partly the SPY quarterly EX-DIVIDEND — adj prev 760.71 vs 762.60 close; don't read the
+raw index change as pure weakness on a quarterly-div Friday), QQQ +0.29% late. No RS leader for us;
+crypto led (not traded). NFLX -4.5% short-check DECLINED — refinement: a clean short needs an
+INTRADAY breakdown BELOW VWAP with lower highs (like CAKE), NOT just "down big on the day" from an
+overnight gap that then bases above VWAP (like NFLX). No long, no short, correct pass.
+
+WEEK-of-9/15 WRAP (full detail in trade_ledger.md WEEKLY REVIEW): 0 trades taken; equity flat
+$100.26 all week. Regime: Tue RED, Wed green-trap, Thu strong-green (missed the one clean NVDA
+entry on cadence), Fri mixed-opex. The week's verdict: discipline HELD (0 bad/forced/chased
+trades — every pass rule-correct); the only real cost was the Thu NVDA execution/cadence miss,
+now fixed (tight ~1-2min watching at a primary's VWAP trigger); short paper-log started (CAKE 1/1)
++ refined (NFLX decline). A+ unused. This was a capital-preservation + process-refinement week,
+both achieved — NOT a fear/broken-system week. Lifetime UNCHANGED: 3 closed, 1W/2L, +$0.26,
+expectancy +$0.087 (POSITIVE). NEXT WEEK: be LIVE for the first clean green-tape RS-leader pullback;
+build the short sample; deploy A+ on a textbook setup.
