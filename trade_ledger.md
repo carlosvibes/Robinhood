@@ -2345,3 +2345,14 @@ PLAN: 09:30-09:45 OR + real regime read. GREEN + clean liquid pullback-reclaim a
   through the trigger window (don't miss the fill like NVDA Thu). MIXED/RED/choppy-opex -> demand
   clean 2nd-leg above-VWAP or STAND DOWN; PAPER-LOG clean shorts. Fractional MANUAL STOP. Flat 15:50.
   EOD: also do the WEEKLY REVIEW (week of 9/15).
+
+--- PULSE 09:50 ET — MIXED/RED divergent tape, no clean setup, no trade ---
+REGIME: SPY 760.27 (-0.31%), QQQ 718.15 (+0.17%), IWM 283.56 (-0.66%). MIXED-to-RED / divergent —
+  broad market + small caps red, only mega-cap tech (QQQ) barely green. Choppy OPEX Friday. Not
+  clean risk-on -> demand a clean above-VWAP mega-cap RS setup or STAND DOWN.
+NVDA: 219.47 (+0.06%, flat), above VWAP (218.86), poked new HOD 220.07 but just CHOPPING 219-220,
+  NOT leading with conviction today (vs +2.7% Thu). Big opex open volume (13.8M first bar). A
+  pullback-reclaim here = same tight-range/marginal-RR problem + red broad backdrop = low conviction.
+  Not AT a clean VWAP trigger (chopping above it) -> tight-cadence watch not warranted yet.
+DECISION: No trade. Mixed-red divergent opex tape + no compelling RS leader (NVDA flat). Cautious.
+  SDGR/GNRC/VICR Day-2 extended, not chased. Next check ~11:00 ET. EOD = also WEEKLY REVIEW. Flat.
