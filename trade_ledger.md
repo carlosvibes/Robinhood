@@ -2364,3 +2364,15 @@ REGIME: SPY 759.83 (-0.36%), QQQ 717.41 (+0.07% flat), IWM 283.01 (-0.85%). Did 
 DECISION: No trade. Mixed-red opex tape + no clean RS leader = stand down (won't force opex chop).
   Prime window closing 11:30 -> midday no-new-entries. Likely a no-trade day. Next: 13:00 ET check,
   then 15:35 EOD + WEEKLY REVIEW (week of 9/15). Flat $100.26, PDT 2 slots unused.
+
+--- PULSE 13:00 ET (afternoon) — no long, NFLX short-check DECLINED, STAND DOWN ---
+REGIME: SPY 759.25 (-0.44%), QQQ 716.63 (-0.04% flat), IWM 283.06 (-0.83%). Persistent mixed-red /
+  weak divergent opex tape all day. Only strength = CRYPTO (MSTR +14%, IBIT +6%, MARA +11%, CONL
+  +24%) — we don't trade crypto/proxies. NVDA 219.69 (flat, not leading).
+NFLX PAPER-SHORT CHECK -> DECLINED (correctly): NFLX -4.5% BUT that was an OVERNIGHT GAP (prev close
+  75.31 -> open 71.27). INTRADAY it dipped to 70.11 then BASED and ground UP all day, HOLDING ABOVE
+  VWAP (71.44), now 71.92. Not a clean below-VWAP breakdown -> NOT a short. DISCIPLINE POINT for the
+  short playbook: "down big on the DAY" != short; require an INTRADAY breakdown (below VWAP, lower
+  highs) like CAKE (trended down below VWAP all session), NOT a gap-then-base-above-VWAP like NFLX.
+DECISION: No trade (no long, no paper-short). No-trade day on a mixed-red opex tape. Go to 15:35
+  EOD + WEEKLY REVIEW (week of 9/15). Flat $100.26, PDT 2 slots unused.
