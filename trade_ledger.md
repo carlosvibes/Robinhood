@@ -2482,3 +2482,13 @@ RECURRING PATTERN (2nd time: NVDA Thu 9/17, META today): a correctly-identified 
   catch the bounce. This is a real structural constraint to raise with Carlos (EOD).
 DECISION: no chase at 710. Watch for a 2nd pullback to VWAP (705) + bounce = another entry;
   else stand down (midday now). Flat $100.26. Next check ~11:35 ET.
+
+--- PULSE 13:00 ET (afternoon) — leaders ran all day (META +9.5%), no pullback, STAND DOWN ---
+REGIME: SPY 772.48 (+1.42%), QQQ 738.98 (+2.53%), IWM 285.73 (+0.57%) — strongest tape of the
+  stretch, trending up all day. META 729.10 (+9.5%!) ran from 715 -> 729 with NO pullback (pure
+  trend day); the missed ~707 VWAP-bounce would've been a large winner. AMD 610.5 still extended.
+DECISION: No afternoon entry — everything extended/trending, no clean pullback. No-trade day.
+  This is the sharpest case yet of the EXECUTION BOTTLENECK: strongest tape, biggest leader move
+  (META +9.5%), and we caught NONE — missed the one early clean entry on the check-gap + a
+  pullback-only method can't board a runaway trend. NOT indiscipline; a real method/architecture
+  gap. -> EOD proposals for Carlos. Flat $100.26, PDT 2 slots unused. Go to 15:35 EOD.
