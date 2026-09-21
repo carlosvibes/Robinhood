@@ -2449,3 +2449,11 @@ NVDA (PRIMARY): 224.57 (+1.03%), above VWAP (223.21), driving UP off the open to
 CADENCE FIX ENGAGED: primary is in its setup window -> switching to tight ~6min checks NOW to catch
   the first-pullback-to-VWAP reclaim LIVE (don't repeat the Thu miss). Enter only on a confirmed
   higher-low bounce above VWAP, RR>=1.5, ATR% re-verified. A+ $50/$0.50 if RR>=2.0 & clean. Flat.
+
+--- PULSE 10:10 ET — NVDA LOST VWAP (off list); tape strong green, hunt the real leader ---
+REGIME: SPY 767.56 (+0.77%), QQQ 732.66 (+1.66%) — strong green, strengthening.
+NVDA: 222.84, ROLLED OVER from 224.9 HOD and sliced DOWN through VWAP (223.50) -> now BELOW VWAP,
+  only +0.26% on day = LAGGING the tape (QQQ +1.66%). Failed continuation, NOT a bullish pullback-
+  reclaim. Long-only-above-VWAP -> NVDA OFF the long list. Not a short either (weak-into-green-tape
+  != our red-tape/breakdown short thesis). ATR% firmed to ~0.30% but moot now (below VWAP).
+PIVOT: strong green tape but NVDA isn't leading -> find the ACTUAL RS leader. Scanning most-active.
