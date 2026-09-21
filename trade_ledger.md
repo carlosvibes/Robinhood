@@ -2468,3 +2468,17 @@ STATE: strong green tape, clear leadership, BUT the leaders are extended (chase 
 PLAN: watch AMD & META for a PULLBACK toward VWAP (AMD ~598 / META ~702) that HOLDS with a
   higher-low reclaim -> that's the real low-risk entry (tight stop, room to run). Fractional sizing
   works on high-priced names (0.04-0.07 sh keeps risk capped). Next check ~10:24 ET. Flat $100.26.
+
+--- PULSE 11:23 ET — META TRIGGERED & RAN, missed on cadence AGAIN; no chase ---
+META did exactly the predicted setup: pulled to VWAP (low 706.10 @ 15:00Z), higher-lows 707.29->
+  707.75 holding above VWAP (705.18), then pushed to new HOD 713.69 (15:15Z bar). The clean
+  bounce entry (~707-708) triggered in the ~10min GAP between my 11:13 and 11:23 checks and ran
+  ~+$6. Now 710.23 (~$5 above VWAP), extended post-bounce -> NO chase.
+RECURRING PATTERN (2nd time: NVDA Thu 9/17, META today): a correctly-identified pullback-to-VWAP
+  entry triggers AND runs within ONE 5-min bar, missed even at ~6-10min "tight" cadence. The
+  scheduled-wake architecture can't reliably catch a 1-bar trigger; truly continuous ~1-2min
+  watching at the exact VWAP-touch moment is needed, which the wake cadence makes hard. ALSO:
+  fractional orders are MARKET-only (platform note #4) so I CAN'T rest a limit at VWAP to auto-
+  catch the bounce. This is a real structural constraint to raise with Carlos (EOD).
+DECISION: no chase at 710. Watch for a 2nd pullback to VWAP (705) + bounce = another entry;
+  else stand down (midday now). Flat $100.26. Next check ~11:35 ET.
