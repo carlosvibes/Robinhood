@@ -2457,3 +2457,14 @@ NVDA: 222.84, ROLLED OVER from 224.9 HOD and sliced DOWN through VWAP (223.50) -
   reclaim. Long-only-above-VWAP -> NVDA OFF the long list. Not a short either (weak-into-green-tape
   != our red-tape/breakdown short thesis). ATR% firmed to ~0.30% but moot now (below VWAP).
 PIVOT: strong green tape but NVDA isn't leading -> find the ACTUAL RS leader. Scanning most-active.
+
+--- PULSE 10:12 ET — real leaders (AMD/META) too extended above VWAP, NO chase, watch for pullback ---
+LEADERS (semis/AI + META ripping on a catalyst): AMD 611.6 (+9.3%) but VWAP 597.7 = $14/2.3% ABOVE
+  VWAP; META 713.1 (+7.3%) but VWAP 701.9 = $11/1.6% ABOVE VWAP; INTC +9.9%; SMCI/SOXL semis strong.
+  All EXTENDED gap-and-go — entering now = chasing the top with an $11-14 stop distance = terrible
+  RR. NOT touchable (documented extended-mover mistake).
+STATE: strong green tape, clear leadership, BUT the leaders are extended (chase zone) and the one
+  non-extended clean primary (NVDA) failed (lost VWAP). NO clean entry right now. NO trade.
+PLAN: watch AMD & META for a PULLBACK toward VWAP (AMD ~598 / META ~702) that HOLDS with a
+  higher-low reclaim -> that's the real low-risk entry (tight stop, room to run). Fractional sizing
+  works on high-priced names (0.04-0.07 sh keeps risk capped). Next check ~10:24 ET. Flat $100.26.
