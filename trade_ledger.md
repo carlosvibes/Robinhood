@@ -2439,3 +2439,13 @@ PLAN: 09:30-09:45 OR + real regime read. GREEN confirmed + a clean liquid pullba
   so I catch the fill LIVE (don't repeat the NVDA Thu miss). A+ $50/$0.50 if RR>=2.0 & textbook-clean
   primary. STANDARD $25/$0.25 otherwise. Fractional MANUAL STOP (attended, MARKET SELL on break).
   Flat 15:50.
+
+--- PULSE 09:49 ET — GREEN confirmed; NVDA driving up off open, awaiting first pullback (TIGHT WATCH) ---
+REGIME: SPY 766.96 (+0.69%), QQQ 731.31 (+1.47%, tech leading), IWM 285.32 (+0.43%). STRONG risk-on.
+NVDA (PRIMARY): 224.57 (+1.03%), above VWAP (223.21), driving UP off the open to new HOD (initial
+  drive, like Thu). NOT giving a pullback yet -> NO chase at HOD. OR low 221.56. ATR(14,5m) 0.637 =
+  ATR% 0.28% (JUST under 0.3% floor — early, re-verify at trigger). Pullback-to-VWAP geometry
+  (entry ~223.3 / stop ~222.8 under a higher-low / target 225.5+) = potential ~4:1 A+.
+CADENCE FIX ENGAGED: primary is in its setup window -> switching to tight ~6min checks NOW to catch
+  the first-pullback-to-VWAP reclaim LIVE (don't repeat the Thu miss). Enter only on a confirmed
+  higher-low bounce above VWAP, RR>=1.5, ATR% re-verified. A+ $50/$0.50 if RR>=2.0 & clean. Flat.
