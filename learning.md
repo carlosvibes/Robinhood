@@ -1263,3 +1263,47 @@ now fixed (tight ~1-2min watching at a primary's VWAP trigger); short paper-log 
 both achieved — NOT a fear/broken-system week. Lifetime UNCHANGED: 3 closed, 1W/2L, +$0.26,
 expectancy +$0.087 (POSITIVE). NEXT WEEK: be LIVE for the first clean green-tape RS-leader pullback;
 build the short sample; deploy A+ on a textbook setup.
+
+## Session lesson — 2026-09-21 (Mon, 0 trades, STRONGEST tape of the stretch; execution bottleneck laid bare)
+
+Today is the day the pattern stopped being "discipline win" and became "method/execution problem."
+Strongest tape of the whole stretch (QQQ +3.03%, semis/AI catalyst, META +9.5%, AMD +9%, INTC +10%)
+and we made ZERO. Sequence: NVDA (pre-planned primary) failed (lost VWAP, lagged); the real leaders
+(AMD/META) gapped & held $9-14 above VWAP all morning (extended, correctly not chased); META's ONE
+clean VWAP-bounce (~707) triggered & ran to 713 in the ~10min gap between checks (MISSED — 2nd time
+after NVDA 9/17); then META trended to 729 with no 2nd pullback. A pullback-only method + scheduled-
+wake cadence cannot board a runaway trend day. This is NOT nerve or indiscipline — it is two concrete,
+fixable constraints:
+  1. CADENCE: a clean VWAP-bounce forms & extends within ONE 5-min bar; 6-10min scheduled checks miss it.
+  2. METHOD: we only take pullback-reclaims; on gap-and-hold/trend days the leader never returns to VWAP,
+     so we structurally can't participate. Fractional = MARKET-only, so no resting limit at VWAP either.
+Lifetime UNCHANGED: 3 closed, 1W/2L, +$0.26, expectancy +$0.087 (POSITIVE). Account $100.26, fully intact.
+
+### PROPOSED — NOT ACTIVE (needs Carlos's dated Changelog approval; do NOT self-activate) — 2026-09-21
+**Fixing trend-day participation (the execution bottleneck).** Three options, not mutually exclusive:
+
+(a) CONTINUOUS-MONITOR-AT-TRIGGER (operational; loosens NO risk rail; I can apply immediately if OK'd,
+    or even without a rail change since it's pure diligence): once a pre-identified PRIMARY candidate is
+    within ~0.3% of VWAP forming a first-pullback bounce on a green tape, self-schedule ~1-2min back-to-
+    back checks through that ~15-30min window (same cadence used while holding) to catch the fill live.
+    Cost: more wake cycles during that window. Downside: none to risk; only compute cost. Recommended: YES.
+
+(b) CAPPED BREAKOUT / OR-HIGH ENTRY (NEW ENTRY TYPE; higher-variance; propose PAPER-LOG first ~5-10 signals
+    like we did with first-leg momentum & shorts). For a clean liquid RS-leader on a GREEN tape that
+    gaps-and-holds (never pulls back): enter on a COMPLETED 5-min close above the opening-range high (or a
+    tight micro-consolidation high) with volume >=1.6x the prior 6 bars; stop under the consolidation low /
+    OR-low; SAME $ risk caps ($0.25 STANDARD / $0.50 A+); require RR>=1.5 to a measured target. Lets us
+    board trend days without a pullback. Downside: breakouts fail more often than pullbacks (lower hit-rate);
+    that's why PAPER-LOG first to measure expectancy before risking capital. Recommended: PAPER-LOG, then decide.
+
+(c) ACCEPT-2ND-PULLBACK ONLY: keep pullback-only but formally take the later, lower-RR re-entries after the
+    first bounce runs. Simplest, no new rule, but it accepts worse entries and still misses pure-trend days.
+    Recommended: fallback only.
+
+MY RECOMMENDATION: approve (a) now (it's just tighter watching, breaks no rail) + start (b) as a PAPER-LOG
+to validate a breakout entry for trend days. (c) is a weak consolation. Carlos decides; a dated Changelog
+row activates whatever he picks. Rails otherwise unchanged.
+
+RUNNING (see trade_ledger.md): 3 closed trades (UNCHANGED — no trade today), 33% win (1W/2L), net +$0.26,
+expectancy +$0.087/trade (POSITIVE, n=3). Equity $100.26. Phase 1, 3/20 toward the Phase 2 gate. Short
+paper-log 1/1. A+ tier still unused. PDT: 2 slots open for Tuesday (weekly halt fresh).

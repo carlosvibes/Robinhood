@@ -31,6 +31,7 @@ All times are US Eastern. All dollar figures to two decimals.
 | 2026-09-02 | $100.00 | $100.00 | $0.00 | 0.0% | 0 | Wed. RULE CHANGE: Carlos approved "Moderate" calibration midday (RR 1.5, ATR 0.04, vol 1.6x, RVOL 1.6). DPRO cleared ATR floor + triggered ORB but failed (2 closes below VWAP; a would-be entry = -1R). OABI = first arm-able long under new rules but broke down before triggering. ~1hr usage-limit gap (flat verified on resume). Flat verified 15:45 ET. |
 | 2026-09-03 | $100.00 | $100.00 | $0.00 | 0.0% | 0 | Thu. First full day on Moderate gates. Quiet AM (universe scan 0 all morning). PM movers evaluated under new gates — ALL failed >=1 hard rail: ABTC/BKKT spread (0.53%/0.36% vs 0.15% gate), DPRO day-high trigger failed + spread rewidened, SBET (finally a tight-$0.01-spread mover) failed ATR floor (0.034<0.04, late-day coil), BULL at $10 ceiling, UPB decliner. KEY FINDING: spread gate is the binding constraint on this sub-$10 universe. DPRO arm discipline held (rejected 6.4155 wick-chase). Flat verified 15:21 ET. |
 | 2026-09-04 | $100.00 | $100.00 | $0.00 | 0.0% | 0 | Fri. First day on widened-spread + trend-follow tactics. CHPT (day's mover, +8%) untradeable: too volatile at open (ATR~0.45>0.25 cap), then boxed by/above the $10 position cap. Universe RVOL scanner BUGGED all day (0 despite real movers). FMP-gainers cross-check: in-band names all 1.9-5% spreads (MTEX/KPLT/CURX). No tradeable in-band setup, triple-confirmed. ROOT CAUSE identified + FIXED: Carlos approved FRACTIONAL LARGE-CAP trading (starts Tue 9/8) — the $5-10 whole-share universe was the disease. Flat verified 15:34 ET. |
+| 2026-09-21 | $100.26 | $100.26 | $0.00 | 0.0% | 0 | Mon. STRONGEST tape of the stretch — big risk-on TREND day (SPY +1.68%, QQQ +3.03%, IWM +0.72%; semis/AI catalyst: AMD +9%, META +9.5%, INTC +10%). NO-TRADE day, 0 fills — and this was NOT a clean "correct pass"; it was the EXECUTION BOTTLENECK. NVDA (pre-planned primary) FAILED (lost VWAP, lagged +0.3%). Real leaders AMD/META gapped & held $9-14 above VWAP (no chase). META's ONE clean VWAP-bounce (~707->713) triggered & ran in the ~10min check-gap (missed on cadence — 2nd time after NVDA 9/17), then trended to 729 (+9.5%) with no 2nd pullback. Pullback-only method + scheduled-wake cadence caught NOTHING on a runaway trend. EOD PROPOSALS logged for Carlos (continuous-monitor / capped-breakout-paperlog / 2nd-pullback). A+ unused. Flat verified 15:35 ET. |
 | 2026-09-18 | $100.26 | $100.26 | $0.00 | 0.0% | 0 | Fri. MIXED/choppy OPEX (triple-witching) tape; small caps red all day (IWM -0.65%), SPY ~flat once you adjust for the SPY quarterly EX-DIVIDEND today (adj prev 760.71 vs 762.60 raw close — the raw ~-0.4% overstated weakness), QQQ closed +0.29% (mega-cap tech firmed late). NO-TRADE day: no clean RS-leader long (NVDA flat/not leading all day), only-crypto strength (MSTR +14%/IBIT +6%/MARA +11% — not traded). NFLX -4.5% short-check DECLINED (that was an OVERNIGHT gap; intraday it based ABOVE VWAP, not a clean breakdown — short-playbook refinement). A+ still unused. Broker cross-check: 0 new realized trades this week. Flat verified 15:35 ET. |
 | 2026-09-17 | $100.26 | $100.26 | $0.00 | 0.0% | 0 | Thu. STRONG green tape, HELD all day (SPY +1.17%/QQQ +1.75%/IWM +0.64%; no fade). NO-TRADE day — but for a DIFFERENT reason than the red days: NVDA (RS leader, +2.7%) gave ONE clean high-RR entry (the 218 VWAP first-pullback bounce ~09:50-55 ET) that TRIGGERED and RAN within a single 5-min bar and was MISSED in the ~15-20min gap between scheduled pulses. It ran to 219.87 HOD / closed 219.75 (a would-be ~+$1.7/sh, ~+2R winner). Every entry after was sub-1.5 RR (HOD chase or dead midday coil) and correctly PASSED — no chase, 0 bad trades. Lesson = EXECUTION/CADENCE, not setup selection. Process proposal logged: near-continuous ~1-2min watching when a primary candidate is AT VWAP forming the trigger. A+ tier still unused. Flat verified 15:35 ET. |
 | 2026-09-16 | $100.26 | $100.26 | $0.00 | 0.0% | 0 | Wed. GREEN open that REVERSED to a RED close (SPY +0.34% AM -> -0.68% close; QQQ +0.95% -> -0.22%; IWM +0.53% -> -0.94%). NO-TRADE day. META (the one clean liquid candidate) front-loaded its whole move at the open (+1.7% to 685), chopped dead at VWAP ~80min, then faded below it — never gave a valid-RR (>=1.5) setup. Gainers board = sub-$6 low-float junk. Stood down 5x (09:50/10:15/10:35/11:10/13:00). LESSON: green tape is NECESSARY but NOT SUFFICIENT — and today's AM-green/PM-red reversal shows why not forcing a morning long was correct (bull-trap day). A+ tier still unused (no qualifier). Short paper-log 1/1 (no new signal). Capital protected $100.26. Flat verified 15:35 ET. |
@@ -2492,3 +2493,28 @@ DECISION: No afternoon entry — everything extended/trending, no clean pullback
   (META +9.5%), and we caught NONE — missed the one early clean entry on the check-gap + a
   pullback-only method can't board a runaway trend. NOT indiscipline; a real method/architecture
   gap. -> EOD proposals for Carlos. Flat $100.26, PDT 2 slots unused. Go to 15:35 EOD.
+
+>>> SESSION CLOSE — 2026-09-21 (Mon) 15:35 ET <<<
+FLATTEN VERIFICATION: get_equity_positions = [] (0), get_equity_orders state=new = [] (0).
+Confirmed FLAT all day (0 trades). get_portfolio total_value $100.26, cash $100.26.
+RESULT: 0 trades. Equity $100.26 -> $100.26 (0.0%). Streak 0. Halts untouched. PDT 2 slots unused.
+REGIME: STRONGEST tape of the stretch — big risk-on trend day, closed near highs (SPY +1.68%,
+  QQQ +3.03%, IWM +0.72%). Semis/AI + META catalyst (AMD +9%, META +9.5%, INTC +10%, SMCI, SOXL).
+THE MISS (honest, and the key point): this was NOT a correct no-trade pass — it was the execution
+  bottleneck costing us a great day. Sequence: (1) NVDA (pre-planned primary) drove up then LOST
+  VWAP by 10:10 = failed/lagged. (2) The actual leaders (AMD/META) gapped & held $9-14 ABOVE VWAP
+  all morning = extended, correctly not chased. (3) META's ONE clean pullback-to-VWAP-bounce
+  (~707 off a higher-low above VWAP 705) triggered ~15:05-15:15Z and ran to 713 -> missed in the
+  ~10min gap between my 11:13 and 11:23 checks (2nd such miss after NVDA Thu 9/17). (4) No 2nd
+  pullback — META trended to 729 (+9.5%) into the close. Pullback-only long method + scheduled-
+  wake cadence = zero participation on a runaway trend day.
+ROOT CAUSE (two real constraints, not discipline/nerve):
+  1. CADENCE: a clean VWAP-bounce entry forms & extends within ONE 5-min bar; ~6-10min scheduled
+     checks miss it. Truly continuous ~1-2min watching at the exact VWAP-touch is needed.
+  2. METHOD: we ONLY enter pullback-reclaims. On gap-and-hold / runaway-trend days the leader
+     never pulls back to VWAP, so we structurally can't participate. And fractional=MARKET-only
+     (platform note #4) means no resting limit at VWAP to auto-catch a bounce.
+See learning.md for the 3-option PROPOSAL to Carlos (continuous-monitor / capped-breakout-paperlog
+  / accept-2nd-pullback). Nothing self-activated — needs his dated Changelog row.
+Next: Tuesday 2026-09-22 pre-market wake 12:30 UTC (regime-check-first; if Carlos approved any
+  proposal, apply it; else same rules). Weekly halt fresh; PDT room open.
