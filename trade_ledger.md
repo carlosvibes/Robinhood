@@ -2419,3 +2419,23 @@ NEXT-WEEK FOCUS: (1) be LIVE (tight cadence) for the first clean pullback on a g
   toward 5-10 signals; (3) deploy A+ ($50/$0.50) decisively when a textbook primary setup appears.
 Next: Monday 2026-09-21 pre-market wake 12:30 UTC (weekly loss halt resets Mon; PDT frees up as
   KR 9/11 / S 9/14 roll off; apply the tight-cadence-at-VWAP-trigger fix).
+
+>>> SESSION OPEN — 2026-09-21 (Mon) 08:33 ET (pre-market) <<<
+NEW WEEK. BLOCKING CHECKS: STATUS ACTIVE ✓ | 609021910 agentic_allowed=true ✓ (527546030 false —
+  never trade) | FLAT: 0 positions, 0 open orders ✓ | BP $100.26 ✓ | full day, flatten 15:50.
+RESETS: weekly loss halt fresh ($2.50). PDT: KR 9/11 & S 9/14 roll off through this week -> more
+  day-trade room; track manually.
+PRE-MARKET REGIME: SPY 766.55 (+0.64% vs 761.69), QQQ 728.10 (+1.03%, tech leading), IWM 286.21
+  (+0.74%). SOLID RISK-ON GAP-UP, broad participation. Crypto ripping over the weekend (MSTR/COIN/
+  SOL 2x ETFs +25-33%) = broad risk appetite. Genuine green tape setting up.
+WATCHLIST:
+  - NVDA $223.69 (+0.64% pre) — gapped up, still the mega-cap RS leader. PRIMARY. Want a clean
+    first-pullback-to-VWAP reclaim after the open.
+  - Watch for other clean liquid RS leaders / fresh non-extended catalyst movers at the open.
+  - Gainers board = crypto 2x/leveraged ETFs (EXCLUDED — no leveraged/inverse) + sub-$6 junk. Skip.
+PLAN: 09:30-09:45 OR + real regime read. GREEN confirmed + a clean liquid pullback-reclaim above
+  VWAP (higher-lows, ATR%>=0.3%, tight spread, RR>=1.5) -> TAKE decisively. **APPLY 9/17 CADENCE
+  FIX**: when the primary is AT VWAP forming its trigger, switch to near-continuous ~1-2min checks
+  so I catch the fill LIVE (don't repeat the NVDA Thu miss). A+ $50/$0.50 if RR>=2.0 & textbook-clean
+  primary. STANDARD $25/$0.25 otherwise. Fractional MANUAL STOP (attended, MARKET SELL on break).
+  Flat 15:50.
