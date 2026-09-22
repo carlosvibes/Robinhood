@@ -2537,3 +2537,25 @@ PLAN: 09:30-09:45 OR + real regime read. GREEN + clean liquid pullback-reclaim a
   VWAP forming a bounce, switch to CONTINUOUS ~1-2min checks (catch the fill live — the 9/17+9/21
   lesson). A+ $50/$0.50 if RR>=2.0 & clean primary. NEUTRAL/RED -> 2nd-leg-above-VWAP or STAND
   DOWN + PAPER-LOG shorts. Fractional MANUAL STOP. Flat 15:50.
+
+--- PULSE 09:53 ET — mild-GREEN digestion tape, no tradeable-risk setup, no entry ---
+Time:      2026-09-22 09:53 ET
+FLAT confirmed (0 positions) ✓ | BP ~$100.26.
+REGIME (real, ~09:52): SPY 774.20 (+0.09%), QQQ 744.96 (+0.47%), IWM 287.88 (+0.81%).
+  Broad mild-green, risk-on breadth with small caps (IWM) leading -> GREEN, hunt allowed.
+  Digestion day after Mon's +3% QQQ run; no single mega-cap driving.
+MEGA-CAPS: NVDA 227.41 (+0.01% — dead flat, no catch-up yet); META 745.4 (+0.56% tracking tape,
+  not a fresh RS catalyst); AMD 615.4 (-0.02%, digesting). None screaming.
+SCAN: biggest-gainers board = junk microcaps/penny (CWD/OPENZ/QNME) + Day-1 catalyst BINARY gaps
+  (VKTX +34% biotech, ONON +13%, CPRI +12%) = extended-mover AVOIDS (9/14 lesson). No fresh
+  non-extended LIQUID catalyst leader.
+ORCL — the one liquid RS name (+2.1%, most-active): ran 151.18->153.60 (09:35 bar), FADED to
+  151.26, now 151.69 BELOW VWAP 151.95. Structure is WHIPPY — the 09:35 bar alone ranged $4.02
+  (149.58-153.60). Two rails block it: (1) price below VWAP = no long; (2) $2-4 bar ranges make
+  the $0.25 standard-risk / defined-manual-stop model unworkable (any tight stop gets whipsawed).
+  UNTRADEABLE-BY-RISK-MODEL this morning despite RS. Watch only IF it reclaims 152.00+ and holds
+  a higher low above VWAP with calmer bars.
+DECISION: STAND DOWN. Green tape but no clean, tradeable above-VWAP pullback-reclaim with
+  definable risk. ORCL at the VWAP trigger -> continuous-watch (short recheck, not wait to 11:00).
+  A+ still unused. No short paper signal (green tape, no clean intraday breakdown).
+NEXT: tight ORCL-watch recheck ~10:08 ET; broader hunt pulse ~11:00 ET.
