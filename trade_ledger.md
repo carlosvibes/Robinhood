@@ -2518,3 +2518,22 @@ See learning.md for the 3-option PROPOSAL to Carlos (continuous-monitor / capped
   / accept-2nd-pullback). Nothing self-activated — needs his dated Changelog row.
 Next: Tuesday 2026-09-22 pre-market wake 12:30 UTC (regime-check-first; if Carlos approved any
   proposal, apply it; else same rules). Weekly halt fresh; PDT room open.
+
+>>> SESSION OPEN — 2026-09-22 (Tue) 08:37 ET (pre-market) <<<
+BLOCKING CHECKS: STATUS ACTIVE ✓ | 609021910 agentic_allowed=true ✓ (527546030 false — never
+  trade) | FLAT: 0 positions ✓ | BP ~$100.26 (confirm at OR) | full day, flatten 15:50.
+PROPOSAL STATUS: NO new dated Changelog approval for the 9/21 proposals -> they stay PROPOSED/
+  INACTIVE. Run SAME rules (pullback-reclaim only; NO live breakout entry). Apply option (a)
+  continuous-watch-at-trigger (pure diligence, breaks no rail).
+PDT: 2+ slots open (KR 9/11 / S 9/14 rolling off). Weekly halt fresh.
+PRE-MARKET REGIME: SPY 774.19 (+0.09% vs 773.50), QQQ 741.00 (-0.06%), IWM 287.50 (+0.67%).
+  FLAT / consolidating after Mon's big +3% QQQ run — digestion day likely; small caps (IWM)
+  firmer, mega-cap tech pausing. NEUTRAL — wait for the open.
+WATCHLIST: mega-cap tech/semis leaders from Mon (NVDA lagged +0.3% Mon -> possible catch-up;
+  AMD/META extended Mon -> only a clean pullback-reclaim, not a chase). Scan for fresh non-
+  extended catalyst movers at the open. Crypto still a theme but not traded (leveraged/proxy).
+PLAN: 09:30-09:45 OR + real regime read. GREEN + clean liquid pullback-reclaim above VWAP
+  (higher-lows, ATR%>=0.3%, tight spread, RR>=1.5) -> TAKE; the MOMENT a primary is ~0.3% from
+  VWAP forming a bounce, switch to CONTINUOUS ~1-2min checks (catch the fill live — the 9/17+9/21
+  lesson). A+ $50/$0.50 if RR>=2.0 & clean primary. NEUTRAL/RED -> 2nd-leg-above-VWAP or STAND
+  DOWN + PAPER-LOG shorts. Fractional MANUAL STOP. Flat 15:50.
