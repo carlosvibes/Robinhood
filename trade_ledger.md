@@ -2609,3 +2609,22 @@ SHORT PAPER: no clean signal (mixed/chopping tape, no liquid red-tape below-VWAP
 DECISION: STAND DOWN. WATCH NVDA into the afternoon — if it pulls back to ~228.3 VWAP + bounces
   on a higher low, or breaks the coil with EXPANDING range on a firming tape, it's a candidate.
   A+ unused. Next pulse ~14:15 ET (afternoon setup watch + EOD prep). Flat 15:50 anchor stands.
+
+--- PULSE 14:18 ET — tape FIRMED back green; NVDA still low-ATR grind, no entry ---
+Time:      2026-09-22 14:18 ET
+FLAT confirmed (0 positions) ✓ | BP ~$100.26.
+REGIME firmed from midday chop: SPY 773.97 (+0.06%), QQQ 746.50 (+0.68%, firming to intraday
+  highs), IWM 287.83 (+0.79%, recovered toward AM highs). Mild-green, mega-cap tech + small caps
+  both back green. Not the PM-red reversal I was watching for — it held.
+NVDA 229.40 (+0.89%, day's best RS, marginal new HOD). BUT structure UNCHANGED from 12:47: still
+  a LOW-ATR GRIND — 13:30-14:10 5-min bars range only $0.15-0.35 (~0.1%, under 0.3% floor), now
+  near HOD well ABOVE VWAP. No pullback-to-VWAP bounce, no expanding-range momentum break.
+  Entering 229.40 = chasing a slow grind near highs, not a definable-risk pullback-reclaim.
+  PASS holds (same low-ATR-coil logic).
+META context (Carlos asked "META skyrocketing, why not buy?"): NO — META gapped +2.2% at the OPEN
+  (730->757.27 HOD in the first 5min), then round-tripped it; by ~12:56 ET it was 741.92 (+0.09%,
+  ~flat) and fading. The "skyrocket" was the premarket/opening bar, already given back. Not a buy
+  now — and that open-gap is exactly the gap-and-go case the 9/21 proposal (b) capped-breakout
+  entry would address (still INACTIVE, needs Carlos's dated approval). Offered to activate.
+DECISION: STAND DOWN. Green tape but no clean tradeable setup (NVDA low-ATR grind is the whole
+  story). ~1hr runway; no-new-position after ~15:20. A+ unused. Final look ~15:10 ET then EOD.
