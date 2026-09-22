@@ -2559,3 +2559,16 @@ DECISION: STAND DOWN. Green tape but no clean, tradeable above-VWAP pullback-rec
   definable risk. ORCL at the VWAP trigger -> continuous-watch (short recheck, not wait to 11:00).
   A+ still unused. No short paper signal (green tape, no clean intraday breakdown).
 NEXT: tight ORCL-watch recheck ~10:08 ET; broader hunt pulse ~11:00 ET.
+
+--- PULSE 10:11 ET — ORCL-watch: reclaim FAILED, stand down holds, no entry ---
+Time:      2026-09-22 10:11 ET
+FLAT confirmed (0 positions) ✓.
+ORCL: touched 151.975 on the 13:50 bar (weak reclaim attempt), then REJECTED VWAP and rolled
+  over — 13:55 C 151.71, 14:00 C 151.005 (broke down), 14:05 C 150.73; now 150.82, well below
+  rising VWAP, lower-highs/lower-lows. The whippy reclaim was a fade, not a base. NOT chasing it
+  was correct (would have been a losing long). No entry.
+  NOT a short-paper signal either: green tape + ORCL still net +1.5% on day (vs 148.56) = mean-
+  reversion pullback from a spike, not a clean red-tape below-VWAP trend-down. Note only.
+REGIME still mild-GREEN: SPY 774.15 (+0.08%), QQQ 745.34 (+0.52%), IWM 288.40 (+0.99% — leading
+  further). Digestion continues; no single liquid non-extended RS leader has set up.
+DECISION: STAND DOWN holds. A+ unused. Next broad hunt pulse ~11:00 ET.
