@@ -2572,3 +2572,21 @@ ORCL: touched 151.975 on the 13:50 bar (weak reclaim attempt), then REJECTED VWA
 REGIME still mild-GREEN: SPY 774.15 (+0.08%), QQQ 745.34 (+0.52%), IWM 288.40 (+0.99% — leading
   further). Digestion continues; no single liquid non-extended RS leader has set up.
 DECISION: STAND DOWN holds. A+ unused. Next broad hunt pulse ~11:00 ET.
+
+--- PULSE 11:04 ET — breadth NARROWING (AM-green fading), stand down, no trade ---
+Time:      2026-09-22 11:04 ET
+FLAT confirmed (0 positions) ✓ | BP ~$100.26.
+REGIME shift: SPY 773.64 (+0.02%, back to flat from +0.09%), QQQ 744.78 (+0.45%, holding — mega-
+  cap tech carrying), IWM 286.45 (+0.30%, FADED from +0.99% — small caps gave back 2/3 of the
+  lead). Breadth NARROWING: mega-cap-tech-only strength while broad market/small caps roll over.
+  This is the early shape of the 9/16 AM-green->PM-red bull-trap; a weakening tape, NOT a hunt
+  green-light. Do NOT force a long here.
+ORCL: ROUND-TRIPPED the entire move — 153.60 HOD -> 148.92 now (+0.24% on day, ~flat). The
+  09:53/10:11 fade read was exactly right; a chased long anywhere up there is deep red now.
+NVDA 228.39 (+0.44%, minor catch-up finally), META 748.48 (+0.98%, leading but extended). Gainers
+  board still all junk microcaps + stale Day-1 binary gaps (VKTX +26% fading, ONON +12%, CPRI
+  +10%). NO fresh liquid non-extended RS leader.
+SHORT PAPER: no clean signal — indices still barely green, ORCL is mean-reverting off a spike on
+  a green tape (not a red-tape trend-down below-VWAP short). Note only.
+DECISION: STAND DOWN. Narrowing breadth + no clean setup = patience. A+ unused. Watch for PM-red
+  reversal (stay flat / paper-log shorts if it turns). Next pulse ~12:45 ET.
