@@ -2590,3 +2590,22 @@ SHORT PAPER: no clean signal — indices still barely green, ORCL is mean-revert
   a green tape (not a red-tape trend-down below-VWAP short). Note only.
 DECISION: STAND DOWN. Narrowing breadth + no clean setup = patience. A+ unused. Watch for PM-red
   reversal (stay flat / paper-log shorts if it turns). Next pulse ~12:45 ET.
+
+--- PULSE 12:47 ET — divergent midday chop, NVDA best RS but no clean entry, stand down ---
+Time:      2026-09-22 12:47 ET
+FLAT confirmed (0 positions) ✓ | BP ~$100.26.
+REGIME: divergent midday chop — SPY 773.09 (-0.05%, slightly RED), QQQ 744.73 (+0.44%, mega-cap
+  tech holding), IWM 286.82 (+0.43%, still soft vs +0.99% AM). No confirmed PM-red reversal, no
+  clean green trend — narrowing-breadth sideways chop (lowest-quality window). Semis bid (SOXL
+  +4%, NVDA leading).
+NVDA (best liquid RS today): 228.84 (+0.64%), grinding steadily up, holding ~$0.45-0.55 ABOVE
+  rising VWAP (228.31). BUT it's a LOW-ATR MIDDAY COIL — 5-min bars range only $0.15-0.30 (~0.1%,
+  under the 0.3% floor) and price is EXTENDED above VWAP, not pulling back to it. No clean
+  pullback-reclaim with definable risk + RR>=1.5. Entering 228.8 w/ VWAP 228.31 = ~$0.50 stop
+  into a momentum-less grind. Dead-midday-coil = correct PASS (per prior lessons).
+META 743.35 (+0.28%, faded from +0.98% — giving back, no longer leading). Gainers board unchanged
+  (junk + stale Day-1 gaps). NO fresh liquid non-extended leader.
+SHORT PAPER: no clean signal (mixed/chopping tape, no liquid red-tape below-VWAP trend-down).
+DECISION: STAND DOWN. WATCH NVDA into the afternoon — if it pulls back to ~228.3 VWAP + bounces
+  on a higher low, or breaks the coil with EXPANDING range on a firming tape, it's a candidate.
+  A+ unused. Next pulse ~14:15 ET (afternoon setup watch + EOD prep). Flat 15:50 anchor stands.
