@@ -1307,3 +1307,25 @@ row activates whatever he picks. Rails otherwise unchanged.
 RUNNING (see trade_ledger.md): 3 closed trades (UNCHANGED — no trade today), 33% win (1W/2L), net +$0.26,
 expectancy +$0.087/trade (POSITIVE, n=3). Equity $100.26. Phase 1, 3/20 toward the Phase 2 gate. Short
 paper-log 1/1. A+ tier still unused. PDT: 2 slots open for Tuesday (weekly halt fresh).
+
+## Session lesson — 2026-09-22 (Tue, 0 trades, mild-green digestion/chop day)
+TAPE: digestion after Mon's +3% QQQ run. Opened green (IWM +0.8% leading), narrowed midday (IWM->+0.30%,
+  SPY briefly red ~11:00-12:45 — I flagged 9/16 bull-trap risk), then firmed back green PM and held
+  (close SPY +0.08% / QQQ +0.72% / IWM +0.63%). No clean trend; low-quality chop.
+WHY NO TRADE — and why it was NOT a nerve/cadence miss (unlike 9/17, 9/21):
+  1. ORCL (only liquid RS mover): ran 151.2->153.6 then ROUND-TRIPPED to flat in whippy ~$4 5-min bars.
+     Blocked by below-VWAP-after-fade + the $2-4 ranges being unworkable for a $0.25 manual-stop. No-chase
+     validated twice intraday (a long up there was deep red within the hour). Lesson reinforced: a wide-range
+     spike-and-fade is NOT a tradeable pullback vehicle at our risk size, however good the RS looks.
+  2. META (Carlos asked "skyrocketing, why not buy?"): the whole move was the OPENING gap +2.2% (730->757.27
+     in the FIRST 5-min bar), fully round-tripped to ~flat (741.9) by midday. Answered him with the live tape;
+     it was gap-and-fade, not a buy. IMPORTANT: this is the SAME structural gap as 9/21 (gap-and-go opens our
+     pullback-only method can't board) — it is NOT a new problem to solve, it's proposal(b) still awaiting
+     Carlos's dated Changelog approval. Do not keep re-diagnosing it; it's a decision in his court.
+  3. NVDA (best RS all day, +0.9%, marginal new HOD): LOW-ATR grind ALL SESSION — 5min bars ~0.1% range,
+     under the 0.3% floor, above VWAP with no pullback and no expanding-range break. Correct pass. New note:
+     a mega-cap can lead on RS yet give ZERO entry all day if its intraday range stays under the ATR floor;
+     "best relative strength" != "tradeable." Don't force a grind near HOD just because it's the leader.
+NET: patience protected capital on a chop day; the two longs on offer were structurally un-takeable under
+  current rules and the third had no entry-quality pullback. Genuine progress is gated on Carlos's proposal(b)
+  decision, not on trying harder. A+ unused (no clean primary). 3/20 to Phase 2 gate; expectancy still +.
