@@ -2674,3 +2674,36 @@ PLAN: 09:30-09:45 OR + real regime read. GREEN + clean liquid pullback-reclaim a
   ATR%>=0.3%, tight spread, RR>=1.5) -> TAKE STD $25/$0.25 (Module A continuous-watch at the trigger);
   A+ $50/$0.50 if RR>=2.0 clean primary. RED/choppy -> 2nd-leg-above-VWAP or STAND DOWN + paper-log
   shorts. Run Modules B/C/D paper-logs regardless of tape. Fractional MANUAL STOP. Flat 15:50.
+
+--- PULSE 09:51 ET — RED/risk-off open, STAND DOWN live; Strategy v2 paper-logs opened ---
+Time:      2026-09-23 09:51 ET
+FLAT confirmed (0 positions) ✓ | BP ~$100.26.
+REGIME: RED/risk-off open (worse than premarket) — SPY 771.16 (-0.29%), QQQ 743.71 (-0.50%),
+  IWM 284.19 (-1.05%, small caps notably weak). Regime-check-first -> NO live long hunt; demand
+  2nd-leg-above-VWAP or STAND DOWN. LIVE DECISION: STAND DOWN (no live long on a red tape).
+MEGA-CAPS: NVDA 227.98 (-0.39%), AMD 615.56 (-1.32%), ORCL 146.90 (-1.54%, multi-day slide from
+  153). STANDOUT: META 757.65 (+2.86% GREEN on a RED tape) = strong RS leader. Also PLTR strong
+  (its 2x ETFs PLTU/PLTG/PTIR all +8% = PLTR green on red tape) — 2nd RS leader.
+
+STRATEGY v2 PAPER-LOG (zero capital — building samples):
+[MODULE B #1] META — capped breakout / OR-high. 15-min OR (09:30-09:45) high = 751.88; the 09:45
+  bar CLOSED 756.47 ABOVE it (new HOD 756.66), vol ~599k. Hypothetical entry 756.5, stop under
+  the consolidation/OR structure ~747.5 (too wide for our $ cap at full share, but paper measures
+  the SIGNAL). KEY TEST: this is a Module B breakout on a RED broad tape — regime filter would
+  FADE it for live. Logging to measure whether RS-leader breakouts pay when the tape is red.
+  Outcome: TBD (track to EOD).
+[MODULE C #1] ORCL — divergence (price vs consensus). Price $146.90 vs analyst MEAN target
+  $244.47 (36 Buy/8 Hold/1 Sell; high 400/low 110; ratings updated 2026-09-10, ~2wk stale). Price
+  ~40% BELOW consensus AND in a multi-day downtrend below VWAP on a red tape. Read: momentum (down)
+  vs stale bullish consensus (up) = falling-knife divergence. Near-term lean = DOWN (momentum beats
+  stale consensus); a LONG mean-reversion only triggers if ORCL stabilizes + reclaims VWAP on a
+  green tape. Logged as a WARNING against catching the knife. Outcome: TBD.
+[SHORT PAPER #2 — WATCH, not fired] ORCL — below VWAP (147.11) on a red tape, multi-day breakdown,
+  but currently CHOPPING VWAP (146.4-147.6) after gapping down; opening-range low 145.80. Clean
+  short trigger = 5-min CLOSE < 145.80. NOT fired yet (holding above). Watch into next pulse.
+[MODULE D] Read-throughs: gold miners selling off (inverse ETFs GDXD/JDST/DUST top gainers) — no
+  clean liquid equity vehicle for us. PLTR-strength read-through = watch PLTR complex; META strength
+  = watch its ad/AI peers. No fired signal.
+GAINERS BOARD: junk microcaps + leveraged ETFs; no fresh liquid non-extended catalyst leader.
+DECISION: STAND DOWN live (red tape). Paper-logs opened (META Module B, ORCL Module C + short
+  watch). A+ unused. Next pulse ~11:00 ET (re-check regime; track paper signals; ORCL short trigger).
