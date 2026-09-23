@@ -2729,3 +2729,25 @@ PAPER-LOG TRACKING:
 DECISION: STAND DOWN live (red tape, no clean setup). Paper-logs building real lessons already:
   (1) red-tape breakouts fade [Module B], (2) shorting into a far-below-consensus name gets
   squeezed [Module C + short paper]. A+ unused. Next pulse ~12:45 ET.
+
+--- PULSE 12:47 ET — RED deepened further, stand down; META Module B stopped (key nuance logged) ---
+Time:      2026-09-23 12:47 ET
+FLAT confirmed (0 positions) ✓ | BP ~$100.26.
+REGIME: RED deepened again — SPY 767.95 (-0.70%), QQQ 739.96 (-1.00%), IWM 282.84 (-1.52%). Clean
+  risk-off day. LIVE DECISION: STAND DOWN (no green reversal, no clean setup).
+PAPER-LOG RESOLUTIONS:
+[MODULE B #1] META — STOPPED, ~-1R (CLOSED signal). Full path: entry (hypo) 756.5 (09:45 OR-high
+  break) -> ran to 763.90 HOD (+7.4pts, ~+0.8R) in the first ~10min -> then REVERSED hard, hit the
+  747.5 stop on the 14:10-14:15Z bars (low 741.50). Net -1R on a fixed stop. KEY NUANCE: the
+  breakout DID pop first (+7.4pts) before failing — a trailing stop / quick-profit exit (our 9/3
+  tactic) would have SALVAGED a small win; held to a measured-move fixed stop it's a loss. LESSON:
+  red-tape RS-leader breakouts are WHIPPY — pop-then-fail; if ever live, take quick profit / trail
+  tight, do NOT hold for the full target. Reinforces the regime filter (breakouts want a green tape).
+[SHORT PAPER #2] ORCL — CLOSED, LOSS ~-1R (stopped 146.40 earlier; bounced to 147.15 now).
+[MODULE C #1] ORCL divergence — price settled ~147.15, still ~40% below the $244 consensus;
+  intraday bounce validated the "don't chase the breakdown short" warning.
+SCORECARD (Strategy v2, day 1, ALL PAPER / zero capital): Module B 0/1 (-1R, red-tape breakout
+  failed but popped first); Short paper 1W/1L (ORCL loss); Module C 1 warning (validated). Both
+  aggressive red-tape signals lost — precisely why we paper-log before risking capital.
+DECISION: STAND DOWN live (risk-off, capital protected). A+ unused. Next: ~15:10 ET final look +
+  EOD close. Flat 15:50 anchor.
