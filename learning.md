@@ -1384,3 +1384,27 @@ WHY NO TRADE — and why it was NOT a nerve/cadence miss (unlike 9/17, 9/21):
 NET: patience protected capital on a chop day; the two longs on offer were structurally un-takeable under
   current rules and the third had no entry-quality pullback. Genuine progress is gated on Carlos's proposal(b)
   decision, not on trying harder. A+ unused (no clean primary). 3/20 to Phase 2 gate; expectancy still +.
+
+## Session lesson — 2026-09-23 (Wed, 0 live trades, RED risk-off day; Strategy v2 DAY 1 paper-logs)
+TAPE: RED risk-off all day (close SPY -0.69% / QQQ -0.84% / IWM -1.63%, small caps weakest). Correct
+  live stand-down. First day running the v2 modules (all PAPER, zero capital) — and it immediately paid
+  for itself in lessons:
+1. **Red-tape breakouts POP THEN FAIL (Module B).** META was a real RS leader (green +1.6% on a red tape)
+   and its OR-high breakout (entry 756.5) ran +7.4pts to 763.90 — then fully reversed to the 747.5 stop
+   (-1R). The signal wasn't worthless (it popped), but on a red tape it round-tripped fast. TWO takeaways:
+   (a) the regime filter is right to want a GREEN tape for breakouts; (b) IF a breakout is ever taken live,
+   it must be managed with quick-profit/trailing, NOT held to a fixed measured-move target.
+2. **First breakdown short on a far-below-consensus name gets SQUEEZED; the 2nd-leg is the trade (short
+   paper + Module C).** ORCL fired a breakdown short at 145.67, squeezed to 147.4 (stopped -1R), THEN
+   resumed down to a new LOD 144.58 by EOD. The thesis was correct; the first entry was too early. Module C
+   flagged the squeeze risk in advance (price ~$145 vs $244 analyst consensus = crowd wildly long =
+   bounce fuel). REFINEMENT for the short playbook: prefer the 2ND-LEG entry (short the FAILED bounce back
+   below VWAP), not the first knife-break, especially when consensus is far above price.
+3. **Module C divergence works best as a FILTER, not a standalone signal.** "Price far from consensus"
+   didn't say "go long" or "go short" by itself — it said "expect a violent counter-move first." Its value
+   this day was warning the short entry would squeeze. Keep logging it as a context/timing filter layered
+   on momentum, not a direction call on its own.
+NET: zero capital risked, both aggressive red-tape entries lost on the FIRST attempt, and the corrective
+  refinements (green-tape filter for breakouts; 2nd-leg for shorts; divergence-as-filter) are already
+  visible after ONE day — the entire point of paper-first. Live method unchanged (pullback-reclaim only,
+  none available on a red tape). Still 3/20 to Phase 2; expectancy + (n=3). A+ unused.
