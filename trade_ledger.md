@@ -2707,3 +2707,25 @@ STRATEGY v2 PAPER-LOG (zero capital — building samples):
 GAINERS BOARD: junk microcaps + leveraged ETFs; no fresh liquid non-extended catalyst leader.
 DECISION: STAND DOWN live (red tape). Paper-logs opened (META Module B, ORCL Module C + short
   watch). A+ unused. Next pulse ~11:00 ET (re-check regime; track paper signals; ORCL short trigger).
+
+--- PULSE 11:00 ET — RED deepened, stand down live; paper signals tracked (2 lessons already) ---
+Time:      2026-09-23 11:00 ET
+FLAT confirmed (0 positions) ✓ | BP ~$100.26.
+REGIME: RED deepened — SPY 770.16 (-0.42%), QQQ 742.32 (-0.69%), IWM 283.36 (-1.34%). Risk-off
+  holding. LIVE DECISION: STAND DOWN (no live long; no green reversal).
+PAPER-LOG TRACKING:
+[MODULE B #1] META — FADING/underwater. Entry (hypo) 756.5 on the 09:45 OR-high break; now 750.73
+  (still +1.9% on day but the breakout entry is ~-5.8pts, ~-0.6R, OPEN). EARLY LESSON: a Module B
+  breakout on a RED broad tape is NOT holding — supports the regime filter (fade breakouts on red
+  tapes). Track to EOD (stop ~747.5).
+[SHORT PAPER #2] ORCL — FIRED & LOST. 5-min close < 145.80 trigger hit on the 14:15Z bar (close
+  145.67) -> short entry ~145.67; bottomed 145.53 (next bar) then REVERSED hard up to 147.36. Stop
+  ~146.40 = stopped out. Hypothetical LOSS ~-0.73pt (~-1R). Short paper-log now 1W/1L (CAKE win
+  9/15, ORCL loss 9/23).
+[MODULE C #1] ORCL divergence — VALIDATED AS A WARNING. Price was ~40% below bullish consensus
+  ($147 vs $244 mean target); it bounced off the 145.5 lows exactly as mean-reversion-vs-stale-
+  bearish-momentum would predict. Cross-confirms: the divergence flagged "don't chase the
+  breakdown short" — and the short indeed got squeezed. Good inter-module confirmation.
+DECISION: STAND DOWN live (red tape, no clean setup). Paper-logs building real lessons already:
+  (1) red-tape breakouts fade [Module B], (2) shorting into a far-below-consensus name gets
+  squeezed [Module C + short paper]. A+ unused. Next pulse ~12:45 ET.
