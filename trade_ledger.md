@@ -2657,3 +2657,20 @@ KEY TAKEAWAY: Today was NOT a nerve/discipline miss (unlike 9/17 NVDA / 9/21 MET
   which is Carlos's call. A+ tier still unused (no clean primary).
 NEXT: Wed 2026-09-23 pre-market wake ~08:35 ET / 12:35 UTC (blocking checks -> regime-check-first ->
   hunt/manage -> EOD). Re-grep learning.md Changelog at open for any Carlos approval of proposal(b).
+
+>>> SESSION OPEN — 2026-09-23 (Wed) 08:36 ET (pre-market) <<<
+BLOCKING CHECKS: STATUS ACTIVE ✓ | 609021910 agentic_allowed=true ✓ (527546030 false — never trade)
+  | FLAT: 0 positions ✓ | BP ~$100.26 | full day, flatten 15:50.
+STRATEGY v2 NOW ACTIVE (Changelog 2026-09-22, Carlos-approved): Module A continuous-monitor-at-trigger
+  LIVE (operational); Modules B (capped breakout/OR-high), C (divergence price-vs-positioning), D
+  (complementary/read-through) = PAPER-LOG (build 5-10 samples, zero capital); Module E swing/multi-day
+  = NOT live (spec pending Carlos sign-off + paper sample) — paper-log candidates + simulate daily
+  stop-raises only. Discipline held: two-tier sizing only (no size increase), NO live shorting (gated,
+  3 trades), long-only above VWAP live, fractional=MARKET-only manual-stop, public data only.
+PRE-MARKET REGIME (08:36 ET, vs 9/22 close SPY 773.38 / QQQ 747.46 / IWM 287.21): SPY 772.84 (-0.07%),
+  QQQ 745.77 (-0.23%), IWM 285.83 (-0.48%). Modestly RED, small caps weakest — mild risk-off lean.
+  NEUTRAL-to-cautious; wait for the open.
+PLAN: 09:30-09:45 OR + real regime read. GREEN + clean liquid pullback-reclaim above VWAP (higher-lows,
+  ATR%>=0.3%, tight spread, RR>=1.5) -> TAKE STD $25/$0.25 (Module A continuous-watch at the trigger);
+  A+ $50/$0.50 if RR>=2.0 clean primary. RED/choppy -> 2nd-leg-above-VWAP or STAND DOWN + paper-log
+  shorts. Run Modules B/C/D paper-logs regardless of tape. Fractional MANUAL STOP. Flat 15:50.
