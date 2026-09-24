@@ -2776,3 +2776,22 @@ KEY TAKEAWAY: day 1 of v2 produced real, cheap lessons — both aggressive red-t
   2nd-leg entry for shorts) are already visible. Zero capital risked. Discipline fully intact.
 NEXT: Thu 2026-09-24 pre-market wake ~08:35 ET / 12:35 UTC (blocking checks -> regime-check-first ->
   v2 toolkit, paper-first -> EOD). Re-grep learning.md Changelog at open.
+
+>>> SESSION OPEN — 2026-09-24 (Thu) 08:36 ET (pre-market) <<<
+BLOCKING CHECKS: STATUS ACTIVE ✓ | 609021910 agentic_allowed=true + option_level_2 ✓ (527546030
+  false — never trade) | FLAT: 0 equity + 0 option positions ✓ | BP ~$100.26 | full day, flatten
+  day-trades 15:50 (swing exempt if whole-share+resting stop).
+TOOLKIT LIVE TODAY (Changelog 2026-09-24): equity pullback-reclaim (A) + Module A continuous-watch;
+  OPTIONS (long calls/puts, defined-risk, $15 max premium, 1 at a time, 3-20 DTE, review first,
+  FIRST 2-3 signals PAPER then live); Module E swing (whole-share+resting stop). PAPER-LOG: B
+  breakout (green-only), C divergence (filter), D read-through, short paper (2nd-leg), F EMA-stack
+  9/21/50, G GEX-proxy levels.
+PRE-MARKET REGIME (08:36 ET vs 9/23 close SPY 767.81 / QQQ 741.21 / IWM 281.92): SPY 763.32
+  (-0.58%), QQQ 733.22 (-1.08%, tech leading down), IWM 280.67 (-0.44%). RED for a 3rd straight
+  day, risk-off. NEW: a red tape now offers a long-PUT path (defined-risk downside) on a clean
+  breakdown — no longer only stand-down.
+PLAN: 09:30-09:45 OR + real regime. If RED holds + a clean liquid breakdown below VWAP (Module C
+  divergence as filter, Module F EMA 50>21>9 = put bias) -> PAPER a long PUT (review_option_order
+  to verify spread/greeks; it's paper signal #1 of the first 2-3). If tape flips GREEN + clean
+  pullback-reclaim above VWAP -> equity STD $25/$0.25 or a long CALL (paper first). Else STAND
+  DOWN + paper-log. Liquid underlyings only (SPY/QQQ/mega-caps). No 0DTE. Flat day-trades 15:50.
