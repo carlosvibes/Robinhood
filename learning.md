@@ -1489,3 +1489,23 @@ PROPOSED RISK SPEC (defined-risk, tiny, paper-first):
 STATUS: awaiting (a) Carlos completing the L3 application, and (b) his dated sign-off on this spec. Until
 both, NO options activity (not even paper — need the chain access first). Swing (Module E) + divergence/
 breakout paper-logs continue in parallel.
+
+## Session lesson — 2026-09-24 (Thu, 0 trades; ACCOUNT FUNDED +$400 -> $500.26; scaled rulebook live)
+The month-long binding constraint — capital — was materially lifted today. Findings that made the case,
+now on the record:
+1. **Options affordability is a hard function of account size.** At $100 the $15 premium cap bought only
+   a delta-0.17 lottery ticket; a real delta-0.3-0.5 contract cost $33-51 = 33-51% of the account (proven
+   live on ORCL puts AND SOFI calls). At $500 the ~$50/contract cap (10% of E) affords a real contract on
+   cheaper/mid names. So options were never a strategy problem — purely a size problem. Same for shares.
+2. **The reads were right all along; the stake couldn't monetize them.** META printed +4.28% today (green
+   RS leader on a soft tape, 3 days running) = a textbook call we simply couldn't afford at $100. ORCL's
+   multi-day breakdown thesis was correct; only the 1st-entry timing (knife vs 2nd-leg) tripped us. Funding
+   converts correct reads into actual P&L.
+3. **Whole-share + resting broker stops** (unlocked by size) retire the fractional MANUAL-stop babysitting
+   and close the cadence/execution gap that cost us NVDA 9/17 & META 9/21. This is arguably a bigger edge
+   than the extra buying power itself.
+DISCIPLINE HELD on a charged day: refused a forced end-of-day "celebration" trade on a flat/choppy tape.
+The rule for the funded era is unchanged in spirit — bigger size, SAME % risk framework; defined-risk +
+resting stops; take clean setups, never force. "Get this bread but ideally don't lose" = positive
+expectancy over many small controlled bets, not one hero swing. Still 3/20 to the Phase-2 (shorting) gate;
+puts are the sanctioned defined-risk downside meanwhile. First real deployment on the scaled toolkit: Fri.
