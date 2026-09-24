@@ -2857,3 +2857,16 @@ DIRECTION PAPER TRACKS: ORCL 138.95 (bounced 135.10->139, now only -3.9% on day)
 LIVE: no clean equity pullback-reclaim on the midday reversal (META extended, nothing else clean).
   STAND DOWN. A+ unused. Do NOT buy lotto options.
 NEXT: ~15:10 ET final look + EOD close.
+
+--- ACCOUNT FUNDED — 2026-09-24 (Thu) ---
+Carlos deposited +$400. get_portfolio (609021910): total_value $500.26, cash $500.26, buying_power
+  $500.26 ($400 shows pending-deposit but BP is live). New equity baseline E = $500.26.
+SCALED RULEBOOK now ACTIVE at E=$500.26 (see learning.md Changelog 2026-09-24): STANDARD ~$125/risk
+  ~$2.50; A+ ~$250/risk ~$5; OPTIONS premium cap ~$50/contract (1 at a time, defined-risk long, no
+  0DTE) — now AFFORDABLE on cheaper/mid names; WHOLE-SHARE + RESTING broker stop replaces manual
+  protocol where it fits; SWING live (whole-share+resting GTC stop, <=2, <=25% E, raise daily);
+  scale-outs/trailing unlocked; halts daily ~$5 / weekly ~$12.50; PDT 3/5-days -> favor swing +
+  multi-day options; max 2-3 concurrent, no correlated stacking.
+DISCIPLINE HELD: deploy on the next CLEAN setup, NOT a celebratory forced trade. Options still finish
+  the first-2-3 paper mechanics checks before going live (now with affordable strikes). Full scaled
+  toolkit runs from here; likely first real deployment on a clean Fri 9/25 setup.
