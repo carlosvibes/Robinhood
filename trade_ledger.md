@@ -2820,3 +2820,26 @@ DECISION: STAND DOWN live (red tape, no affordable option, no clean long). Optio
   finding is significant -> flag to Carlos (options need a bigger account or cheaper underlyings).
   A+ unused. Next pulse ~11:00 ET (track ORCL direction; watch META RS; scan cheaper underlyings
   to see if ANY liquid name has a <$15 non-lotto contract).
+
+--- PULSE 11:00 ET — options affordability VERDICT (decisive); still flat, red tape ---
+Time:      2026-09-24 11:00 ET
+FLAT confirmed (0 equity, 0 options) ✓ | BP ~$100.26.
+REGIME: RED holding — SPY 764.40 (-0.44%), QQQ 735.92 (-0.71%), IWM 279.93 (-0.70%).
+ORCL: bounced 135.10 -> 136.92 (still -5.3% on day). Direction-only put track (hypo 130p @ $3.60)
+  PAUSED on the bounce — the "first breakdown bounces" pattern AGAIN (see 9/23). Multi-day trend
+  still down; a 2nd-leg (failed-bounce) put would be the entry (but unbuyable, see below).
+META: 767.70 (+3.17%!) — GREEN and ACCELERATING on a red tape, 3rd straight day of huge RS. The
+  standout momentum name of the week; a call thesis — but a $768 underlying's calls are far beyond
+  our cap/account. Noting the missed RS repeatedly.
+OPTIONS AFFORDABILITY VERDICT (the key deliverable): tested SOFI ($16.28, one of the CHEAPEST
+  liquid optionable names), 2026-10-09 calls: 16.5(ATM, d0.47)=$51/contract; 17(d0.35)=$33;
+  18(d0.17)=$14; 19(d0.09)=$7. So $15 buys ONLY a delta-0.17 lottery ticket (13% win chance). A
+  REAL directional contract (delta 0.30-0.50) = $33-51 = 2-3x the $15 cap and 33-51% of the whole
+  $100 account on ONE trade. CONCLUSION: at $100, options are either (a) far-OTM lottos = negative
+  EV = gambling, or (b) account-threatening size. The $15 cap correctly forbids (b); (a) is not
+  worth doing. **Options are effectively gated behind a larger account** — same capital ceiling as
+  everything else, now proven from the options side with hard numbers. DECISION: do NOT buy lotto
+  options; keep the options module PAPER/direction-only until the account is funded larger (or
+  Carlos explicitly raises the risk cap, accepting large single-trade %). Flag to Carlos.
+DECISION: STAND DOWN live (red tape; no affordable option; no clean equity long). A+ unused.
+  Next pulse ~12:45 ET. Flat 15:50.
