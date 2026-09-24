@@ -2843,3 +2843,17 @@ OPTIONS AFFORDABILITY VERDICT (the key deliverable): tested SOFI ($16.28, one of
   Carlos explicitly raises the risk cap, accepting large single-trade %). Flag to Carlos.
 DECISION: STAND DOWN live (red tape; no affordable option; no clean equity long). A+ unused.
   Next pulse ~12:45 ET. Flat 15:50.
+
+--- PULSE 12:49 ET — intraday REVERSAL toward green; ORCL bounce (put would lose), META rips ---
+Time:      2026-09-24 12:49 ET
+FLAT confirmed (0 equity, 0 options) ✓.
+REGIME: reversing from red toward flat/green — SPY 768.38 (+0.07%), QQQ 741.39 (+0.02%), IWM
+  281.46 (-0.16%). The red morning got bought back midday.
+DIRECTION PAPER TRACKS: ORCL 138.95 (bounced 135.10->139, now only -3.9% on day) — an open-chasing
+  put is UNDERWATER; 3rd confirmation of "first breakdown squeezes, wait for the 2nd-leg" (hypo 130p
+  moved against us). META 769.65 (+3.43%, new highs) — persistent RS leader ALL day; the clear
+  (unaffordable) call that would have paid big. Recurring theme: our reads are right, the stake
+  can't monetize them.
+LIVE: no clean equity pullback-reclaim on the midday reversal (META extended, nothing else clean).
+  STAND DOWN. A+ unused. Do NOT buy lotto options.
+NEXT: ~15:10 ET final look + EOD close.
