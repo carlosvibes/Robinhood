@@ -1408,3 +1408,31 @@ NET: zero capital risked, both aggressive red-tape entries lost on the FIRST att
   refinements (green-tape filter for breakouts; 2nd-leg for shorts; divergence-as-filter) are already
   visible after ONE day — the entire point of paper-first. Live method unchanged (pullback-reclaim only,
   none available on a red tape). Still 3/20 to Phase 2; expectancy + (n=3). A+ unused.
+
+### PROPOSED — NOT ACTIVE (needs Carlos's dated Changelog approval + options enablement) — 2026-09-24
+**Options module (the "more $-per-trade from a small stake" lever — Carlos chose "lean into new modules").**
+WHY: at $100, shares can't produce meaningful $ (a good $25 stock trade nets ~$0.50). A cheap option can
+move 50-100%+ on the same underlying move, so options are the one instrument that makes a small stake's
+returns material. They cut BOTH ways — a long option can go to ZERO fast — so discipline matters MORE here,
+not less. Enablement: account 609021910 has NO options level yet; Carlos must complete the L3 application
+(limited-margin qualifies) at the upgrade link, then I re-fetch get_accounts to confirm.
+PROPOSED RISK SPEC (defined-risk, tiny, paper-first):
+1. DEFINED-RISK ONLY: long calls/puts or debit (vertical) spreads. NEVER naked/short/undefined-risk options.
+   Max loss = premium paid, always known before entry.
+2. SIZE: max premium-at-risk per trade = $15 (treat the whole premium as the risk, since a long option can
+   expire worthless). Max ONE options position open at a time. That's ~15% of the account on one trade —
+   aggressive by design, but the loss is capped and known.
+3. UNDERLYINGS: only highly-liquid names/ETFs with penny-tight OPTION spreads (SPY/QQQ/mega-caps). Illiquid
+   option chains = wide spreads that eat the edge.
+4. EXPIRY: NOT 0DTE (that's a coin-flip / gambler's ruin). Use ~3-20 DTE so the thesis has time to work.
+5. DIRECTION comes from the existing reads: green tape + RS leader / breakout -> calls; clean breakdown or
+   bearish divergence -> puts (puts are how we express "short" WITHOUT the unlimited-risk shorting that's
+   still Phase-2-gated — a long put's max loss is the premium, so it does NOT violate the no-shorting rail).
+6. VALIDATION: paper-log the FIRST 2-3 to confirm mechanics (fills, spread, greeks) via review_option_order,
+   THEN go live small. Keep it to 2-3 — not an endless paper phase (Carlos wants results).
+7. HALTS: an options loss counts toward the daily/weekly $ halts like any trade; after a full-premium loss,
+   reassess before the next. All other rails (regime-check-first, public data only, flat by 15:50 for
+   day-trades unless a defined multi-day thesis, never trade 527546030) UNCHANGED.
+STATUS: awaiting (a) Carlos completing the L3 application, and (b) his dated sign-off on this spec. Until
+both, NO options activity (not even paper — need the chain access first). Swing (Module E) + divergence/
+breakout paper-logs continue in parallel.
