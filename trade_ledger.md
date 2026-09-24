@@ -2795,3 +2795,28 @@ PLAN: 09:30-09:45 OR + real regime. If RED holds + a clean liquid breakdown belo
   to verify spread/greeks; it's paper signal #1 of the first 2-3). If tape flips GREEN + clean
   pullback-reclaim above VWAP -> equity STD $25/$0.25 or a long CALL (paper first). Else STAND
   DOWN + paper-log. Liquid underlyings only (SPY/QQQ/mega-caps). No 0DTE. Flat day-trades 15:50.
+
+--- PULSE 09:52 ET — RED open; ORCL crash = clean put thesis, but $15 cap/$100 account CAN'T BUY IT ---
+Time:      2026-09-24 09:52 ET
+FLAT confirmed (0 equity, 0 options) ✓ | BP ~$100.26.
+REGIME: RED (3rd day) — SPY 765.12 (-0.35%), QQQ 736.82 (-0.59%), IWM 280.57 (-0.48%). NVDA
+  222.65 (-1.27%, semis lead down). META 757.56 (+1.81%, GREEN on red = persistent RS, 3rd day).
+STANDOUT: ORCL 135.10 (-6.5%) — multi-day breakdown turned ROUT (153 on 9/22 -> 135 now). Opened
+  137.4, held 137-139 ~15min, then broke to new LOD 135.4 -> clean bearish continuation, below
+  VWAP, EMA stack down (Module F put bias), ~45% below $244 analyst consensus (Module C: momentum
+  crushing stale bullish consensus — the thesis playing out in real time).
+
+[OPTIONS PAPER SIGNAL #1 — the mechanics test] ORCL long PUT thesis (bearish continuation). Priced
+  the 2026-10-09 (~15 DTE) put chain, spot ~135: 135p(ATM) mark $5.85=$585/contract; 130p $3.60=
+  $360; 125p $1.99=$199; 120p(OTM) $1.02=$102. IVs ~52%. **KEY FINDING: EVERY meaningful ORCL put
+  costs MORE than the entire $100 account; the $15 premium cap buys NOTHING here.** To fit $15 I'd
+  need a ~$0.15 contract = either 0DTE (BANNED) or a near-zero-delta far-OTM lottery ticket (bad
+  EV). CONCLUSION: on a $135 underlying, the options module is UNBUYABLE at this account size. This
+  is the capital ceiling reasserting itself inside options — the exact thing paper-first exists to
+  surface. NO live option (can't afford + paper phase). 
+  DIRECTION-ONLY TRACK (to still validate Module C/put direction): hypothetical 130p @ $3.60,
+  thesis ORCL continues lower; track mark to see if direction was right (sizing aside).
+DECISION: STAND DOWN live (red tape, no affordable option, no clean long). Options-affordability
+  finding is significant -> flag to Carlos (options need a bigger account or cheaper underlyings).
+  A+ unused. Next pulse ~11:00 ET (track ORCL direction; watch META RS; scan cheaper underlyings
+  to see if ANY liquid name has a <$15 non-lotto contract).
