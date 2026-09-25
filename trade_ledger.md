@@ -2913,3 +2913,23 @@ PLAN: 09:30-09:45 OR + real regime. GREEN confirmed + clean liquid pullback-recl
   A+ ~$250 if RR>=2.0 clean primary. Watchlist: META (huge RS but +4.3% Thu = extended, want a
   pullback not a chase), NVDA, fresh non-extended catalyst movers (scan FMP). RED/chop -> 2nd-leg or
   stand down + paper-log. Bigger size, SAME % risk; take the clean setup, don't force. Flat 15:50.
+
+--- PULSE 09:51 ET — GREEN confirmed; no clean setup YET, watching leaders (no force) ---
+Time:      2026-09-25 09:51 ET
+FLAT confirmed (0 equity, 0 options) ✓ | BP $500.26.
+REGIME: GREEN, tech-led — SPY 769.39 (+0.29%), QQQ 744.04 (+0.40%), IWM 281.68 (+0.01% flat).
+  Long backdrop confirmed (first green day after 3 red).
+LEADERS: AMD 635.32 (+0.96%, RS leader, semis strong) — but $635/sh not whole-shareable at $500
+  (1 sh > account) -> CALL or fractional only. META 759.89 (-2.28%, REVERSED after Thu +4.28% rip
+  -> pulling back; watch VWAP reclaim = mean-reversion long vs failed-leader roll). NVDA 224.77
+  (+0.08% flat). ORCL 139.67 (+0.09%, stabilized post-crash).
+WHOLE-SHARE TIERING @ $500 (finding): 1 share fits for names <= ~$250 (NVDA ~$225 = A+-sized 1-sh,
+  ORCL ~$140 = ~std 1-sh -> whole-share + resting stop works). AMD/META too expensive -> options
+  (~$50 cap) or fractional-manual-stop. Sub-$125 names give true standard whole-share sizing.
+GAINERS: junk microcaps + leveraged ETFs; AKAM +9% (real but extended Day-1 gap = no chase). No
+  fresh non-extended liquid leader.
+DECISION: GREEN but NO clean pullback-reclaim formed yet (first 20min, OR just set, leaders haven't
+  pulled back). Do NOT force a first-day entry. WATCH AMD (RS, via call/fractional on a VWAP
+  pullback), NVDA (whole-share if it leads), META (reclaim?). Module A continuous-watch once one is
+  ~0.3% from VWAP forming a bounce. Next recheck ~10:12 ET. PDT: spend day-trade slots on the
+  cleanest setups only (3/5-day cap).
