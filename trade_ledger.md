@@ -2945,3 +2945,12 @@ LEADERS: AMD 634.10 (+0.77%, still best RS but drifting, no pullback-reclaim str
 DECISION: NO clean pullback-reclaim; green faded to chop. STAND DOWN (no forced day-1 trade). Watch
   AMD for a pullback-reclaim (call/fractional); META for a failed-bounce put; whole-share NVDA if it
   turns and leads. Module A continuous-watch if one sets up. PDT slots preserved. Next pulse ~11:15.
+
+--- PULSE 11:19 ET — low-conviction green chop, still no clean setup, stand down ---
+Time:      2026-09-25 11:19 ET | FLAT (0 equity, 0 options) ✓.
+REGIME: chopped back to modest green — SPY 768.66 (+0.19%), QQQ 742.67 (+0.21%), IWM 281.44 (flat).
+  Oscillating around flat all AM = choppy rangebound, no clean trend.
+LEADERS: AMD 631.36 (+0.33%, faded from +0.96%). NVDA 224.26 (flat). META 751.59 (-3.34%, still
+  grinding lower post-run; no failed-bounce trigger for a clean put yet). No clean pullback-reclaim.
+DECISION: STAND DOWN (chop, no clean setup ~2.5h in — a setup-availability problem, not a tools
+  problem; correct not to force on day 1 of the funded account). PDT slots preserved. Next ~12:45.
