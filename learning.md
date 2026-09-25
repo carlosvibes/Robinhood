@@ -1509,3 +1509,22 @@ The rule for the funded era is unchanged in spirit — bigger size, SAME % risk 
 resting stops; take clean setups, never force. "Get this bread but ideally don't lose" = positive
 expectancy over many small controlled bets, not one hero swing. Still 3/20 to the Phase-2 (shorting) gate;
 puts are the sanctioned defined-risk downside meanwhile. First real deployment on the scaled toolkit: Fri.
+
+## Session lesson — 2026-09-25 (Fri, 0 trades; FIRST day on the scaled/funded toolkit, E~$500)
+First live day with the funded account + full toolkit (whole-share+resting stops, affordable options,
+swing). Result: no-trade — and the lesson is about WHY, honestly:
+1. **Funding fixed SIZE, not SETUP AVAILABILITY.** We can finally afford real options and whole-share
+   positions with resting stops, but a choppy green-ish day with uncooperative leaders still produced
+   zero clean pullback-reclaims. More capital doesn't manufacture a clean pitch — the tape still has to
+   give one. Expect no-trade days to persist; they're now "waiting for quality," not "can't afford it."
+2. **Held the post-funding discipline.** The classic mistake is forcing a trade on day 1 to "use" the
+   new money; refused it (green index tape but no liquid RS-leader setup). PDT 0/3 preserved for real
+   setups. This is exactly the counterweight role — bigger tools must not loosen the trigger.
+3. **Vehicle-by-price tiering (new, practical):** at $500, whole-share + resting stop fits names <=~$250
+   (NVDA/ORCL tier); pricier leaders (AMD ~$630, META ~$750) route to options (~$50 cap) or fractional.
+   So the toolkit auto-selects the instrument by underlying price.
+4. **META watch:** rifled +4.3% Thu then bled ~-3.3% Fri — a big two-day round trip. No clean put
+   trigger intraday (steady grind, not a failed-bounce), consistent with the "don't chase the knife"
+   rule. If it keeps rolling, a failed-bounce-below-VWAP put is the setup, not chasing the drop.
+NET: capital protected at $500.26; the machine is armed and correct; we just need the tape to hand us a
+   clean setup. Same patience, bigger dollars when it comes. 3/20 to Phase-2; expectancy + (n=3).
