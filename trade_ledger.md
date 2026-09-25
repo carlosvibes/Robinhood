@@ -2933,3 +2933,15 @@ DECISION: GREEN but NO clean pullback-reclaim formed yet (first 20min, OR just s
   pullback), NVDA (whole-share if it leads), META (reclaim?). Module A continuous-watch once one is
   ~0.3% from VWAP forming a bounce. Next recheck ~10:12 ET. PDT: spend day-trade slots on the
   cleanest setups only (3/5-day cap).
+
+--- PULSE 10:16 ET — green open FADED to flat/chop; no clean setup, stand down (no force) ---
+Time:      2026-09-25 10:16 ET
+FLAT confirmed (0 equity, 0 options) ✓.
+REGIME: green open FADED — SPY 767.16 (~flat, gave back +0.29%), QQQ 741.24 (~flat, gave back
+  +0.40%), IWM 280.98 (-0.24% red). AM-green-fade again; not a clean trend, chop developing.
+LEADERS: AMD 634.10 (+0.77%, still best RS but drifting, no pullback-reclaim structure). NVDA
+  224.13 (-0.20% red). META 754.07 (-3.03% — rolling over hard post-run; potential 2nd-leg PUT but
+  already -3% = no knife-chase, wait for a failed bounce). ORCL 138.58 (-0.69% drifting).
+DECISION: NO clean pullback-reclaim; green faded to chop. STAND DOWN (no forced day-1 trade). Watch
+  AMD for a pullback-reclaim (call/fractional); META for a failed-bounce put; whole-share NVDA if it
+  turns and leads. Module A continuous-watch if one sets up. PDT slots preserved. Next pulse ~11:15.
