@@ -2954,3 +2954,13 @@ LEADERS: AMD 631.36 (+0.33%, faded from +0.96%). NVDA 224.26 (flat). META 751.59
   grinding lower post-run; no failed-bounce trigger for a clean put yet). No clean pullback-reclaim.
 DECISION: STAND DOWN (chop, no clean setup ~2.5h in — a setup-availability problem, not a tools
   problem; correct not to force on day 1 of the funded account). PDT slots preserved. Next ~12:45.
+
+--- PULSE 12:51 ET — index green firmed, but leaders won't cooperate; no clean setup, stand down ---
+Time:      2026-09-25 12:51 ET | FLAT (0 equity, 0 options) ✓.
+REGIME: best of the day — SPY 770.62 (+0.45%), QQQ 744.34 (+0.44%), IWM 282.37 (+0.25%), steady PM
+  grind-up. BUT tradeable leaders NOT participating: AMD 627.73 (-0.24%, lost leadership), NVDA
+  224.86 (+0.12% flat), META 749.80 (-3.57%, still bleeding, no failed-bounce put trigger).
+GAINERS: all junk microcaps + leveraged ETFs; no fresh liquid non-extended mover.
+DECISION: STAND DOWN — green index tape but NO clean liquid RS-leader pullback-reclaim + no fresh
+  mover. First scaled-toolkit day likely closes no-trade: an honest setup-availability shortfall,
+  not a discipline or tools failure. PDT slots preserved (0 used). Next: ~15:10 final look + EOD.
