@@ -2894,3 +2894,22 @@ NEXT: Fri 2026-09-24... -> Fri 2026-09-25 pre-market wake ~08:35 ET / 12:35 UTC 
   the scaled toolkit (E~$500): equity whole-share+resting-stop, options live (after paper-2-3),
   swing live, Module A continuous-watch, B-retest/C/D/F/G paper. Deploy on the FIRST clean setup —
   bigger size, SAME % risk. Regime-check-first. NO equity shorting; puts = defined-risk downside.
+
+>>> SESSION OPEN — 2026-09-25 (Fri) 08:36 ET (pre-market) — FIRST scaled-toolkit day (E~$500) <<<
+BLOCKING CHECKS: STATUS ACTIVE ✓ | 609021910 agentic_allowed=true + option_level_2 ✓ (527546030
+  false — never trade) | FLAT: 0 equity + 0 options ✓ | equity/BP $500.26 ($400 still pending-settle,
+  BP live) | full day, flatten day-trades 15:50 (swing/options exempt w/ resting stop + thesis).
+SCALED TOOLKIT LIVE (Changelog 2026-09-24): equity whole-share + RESTING broker stop, STD ~$125/risk
+  ~$2.50, A+ ~$250/$5; OPTIONS ~$50 cap defined-risk long calls/puts (1 at a time, 3-20 DTE, no 0DTE,
+  review first; finish paper-2-3 mechanics then live); SWING live (whole-share+resting GTC stop);
+  scale-outs/trailing unlocked; halts ~$5 daily/~$12.50 weekly; PDT 3/5-days; Module A continuous-
+  watch; B-retest/C/D/F/G paper. Max 2-3 concurrent, no correlated stacking.
+PRE-MARKET REGIME (08:36 ET vs 9/24 close SPY 767.18 / QQQ 741.10 / IWM 281.66): SPY 769.94 (+0.36%),
+  QQQ 745.17 (+0.55%), IWM 282.42 (+0.27%). GREEN across the board — first green lean after 3 red
+  days; risk-on bounce setting up. Best long/call backdrop in a week. Confirm at the open.
+PLAN: 09:30-09:45 OR + real regime. GREEN confirmed + clean liquid pullback-reclaim above VWAP ->
+  TAKE the FIRST clean one: equity STD ~$125 whole-share + RESTING stop (Module A continuous-watch),
+  or a long CALL on an RS leader/breakout (paper mechanics if it's options signal #2-3, else live).
+  A+ ~$250 if RR>=2.0 clean primary. Watchlist: META (huge RS but +4.3% Thu = extended, want a
+  pullback not a chase), NVDA, fresh non-extended catalyst movers (scan FMP). RED/chop -> 2nd-leg or
+  stand down + paper-log. Bigger size, SAME % risk; take the clean setup, don't force. Flat 15:50.
