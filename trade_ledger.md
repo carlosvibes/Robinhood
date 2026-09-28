@@ -3044,3 +3044,44 @@ PUT SIDE: QQQ/META/AMD already extended DOWN off the open -> chasing puts now = 
 DECISION: STAND DOWN (no long, no chase-put on a risk-off day). Watch for a failed-bounce put setup
   (QQQ or a leader) into ~11:15 ET; if clean, review_option_order to validate mechanics (options
   paper #2) +/- live. PDT preserved (0 used). Capital protected.
+
+--- PULSE 10:49 ET — NVDA FAILED-BOUNCE+SHELF-BREAK put setup APPEARED — but priced OUT of the $50 cap (options paper #2) ---
+Time:      2026-09-28 10:49 ET | FLAT (0 equity, 0 options) ✓ | BP $500.26 | PDT 0/3.
+REGIME: RED, still soft — SPY 764.22 (-0.92%), QQQ 732.22 (-1.65%), IWM 279.63 (-0.83%). Risk-off
+  intact; tech leads down.
+SETUP (valid): NVDA — the tape's LAST green leader (+1.73%, faded from +3.2% at open) — finally gave
+  the trigger I was waiting for. Intraday structure (5-min): topped 233.21 @ ~09:40, faded all AM,
+  held a 230.5 shelf 10:00-10:35, then at 10:30 the bar tagged VWAP (high 231.67 vs VWAP 231.71) and
+  REJECTED, and the 10:40 bar BROKE the shelf (low 229.90) on rising volume (1.1M vs ~800k). That is a
+  textbook FAILED-BOUNCE-TO-VWAP + support break on the leader — NOT a knife-chase (NVDA is still green,
+  ~$1.5 below shelf, not flushed like META/AMD/ORCL which are -3.4% to -4.7% and un-chaseable).
+INSTRUMENT CHECK (review-grade quotes captured — options paper mechanics #2): NVDA 10/16 puts (18 DTE)
+  vs the $50 premium cap (10% of E=$500):
+    227.5p (near-ATM) mark $5.65 = $565/ct, delta -0.44, IV 32.0%, theta -0.166, OI 2,225
+    225p              mark $4.60 = $460/ct, delta -0.38, IV 32.3%, OI 14,902 (spread 4.55/4.65, tight)
+    220p              mark $3.03 = $303/ct, delta -0.28, OI 48,509
+    215p              mark $1.95 = $195/ct, delta -0.19
+    210p              mark $1.26 = $126/ct, delta -0.13
+    200p              mark $0.59 = $59/ct,  delta -0.06 (needs NVDA -12.6% to $200 by 10/16 to matter)
+  Liquidity/spreads are EXCELLENT (penny-wide, deep OI) — mechanics are clean. BUT a near-money NVDA
+  put is $300-565 = 6-11x my $50 cap. The ONLY contract that fits ($50) is the 200p delta-0.06 lotto.
+VERDICT: NO LIVE TRADE — and NOT because the setup is bad. The AFFORDABILITY WALL, re-confirmed on a
+  high-priced underlying: at E=$500 with a $50 (10%E) options cap, a meaningful (delta ~0.35-0.50)
+  near-money put on a mega-cap leader ($200-730 stock) is impossible — $50 forces a delta-0.05-0.10
+  far-OTM lotto. Buying the 200p just to "be in the trade" = buying a lottery ticket = exactly what
+  discipline forbids. Declined. (Same wall seen 9/24 at $100 w/ $15 cap; now proven to persist at $500
+  on high-priced names — it's a function of UNDERLYING PRICE, not just account size.)
+  Also: no equity route for downside today — long-only-above-VWAP is off (nothing's cleanly above VWAP
+  with strength on a risk-off tape) and equity SHORTING is Phase-2 gated. Inverse/leveraged ETFs (e.g.
+  SQQQ) would express downside via a LONG whole-share w/ resting stop, but they are NOT a sanctioned
+  instrument in the current rulebook -> that's a Changelog-gated change for Carlos, not an improvise.
+STRUCTURAL FINDING for Carlos (rulebook-relevant, flagged in chat): on risk-off days the tradeable edge
+  is downside on mega-cap leaders, but the $50 options cap prices that out. Options to fix (his call):
+  (a) raise the options premium cap (e.g. to ~$150-200) so near-money puts on $200+ names are reachable;
+  (b) sanction a cheap liquid downside vehicle (inverse ETF like SQQQ as a long, OR keep puts to
+  cheaper high-beta underlyings ~<$80 where $50 buys real delta); (c) accept we mostly sit out risk-off
+  days until a long-side reclaim. No rail changed without his dated approval.
+DECISION: STAND DOWN. Capital protected ($500.26, PDT 0/3). Options paper mechanics #2 logged (real
+  greeks/spreads/liquidity captured; verdict = affordability, not mechanics). Next: ~12:45 ET pulse —
+  re-check for either a LONG-side reclaim (NVDA back above VWAP + tape green) or a cheaper/affordable
+  downside expression; else EOD close + 9/28 account row + Tue 9/29 pre-market wake.
