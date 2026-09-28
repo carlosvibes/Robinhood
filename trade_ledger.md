@@ -2984,3 +2984,20 @@ NEW LEARNINGS: whole-share+resting-stop works cleanly for <=$250 names (NVDA/ORC
 NEXT: Mon 2026-09-28 pre-market wake ~08:35 ET / 12:35 UTC — full scaled toolkit, regime-check-first,
   take the first clean setup. Weekly halt resets Mon. 3 closed trades lifetime (unchanged), expectancy
   still + (n=3); Phase-2 shorting gate at 3/20.
+
+>>> SESSION OPEN — 2026-09-28 (Mon) 08:37 ET (pre-market) — scaled toolkit, new week <<<
+BLOCKING CHECKS: STATUS ACTIVE ✓ | 609021910 agentic_allowed=true + option_level_2 ✓ (527546030
+  false — never trade) | FLAT: equity_value $0 + options_value $0 (portfolio) ✓ | equity/BP $500.26
+  ($400 still pending-settle, BP live) | weekly halt RESET (new week) | flatten day-trades 15:50.
+SCALED TOOLKIT LIVE: equity whole-share+RESTING stop (STD ~$125/risk ~$2.50, A+ ~$250/$5); options
+  ~$50 cap defined-risk long calls/puts (1 at a time, 3-20 DTE, no 0DTE, review first); SWING live;
+  scale-outs/trailing; Module A continuous-watch; B-retest/C/D/F/G paper; PDT 3/5-days (fresh Mon).
+PRE-MARKET REGIME (08:37 ET vs Fri 9/25 close SPY 771.35 / QQQ 744.50 / IWM 281.97): SPY 768.73
+  (-0.34%), QQQ 740.06 (-0.60%), IWM 280.59 (-0.49%). RED across the board — risk-off open shaping
+  up after Fri's mild green. NEUTRAL-to-cautious; confirm at the open.
+PLAN: 09:30-09:45 OR + real regime. GREEN + clean liquid pullback-reclaim above VWAP -> take first
+  clean one (whole-share+resting stop <=$250, or long CALL, Module A continuous-watch). RED + clean
+  breakdown below VWAP / META failed-bounce -> long PUT (defined-risk). Else STAND DOWN + paper-log.
+  Take the first CLEAN setup, don't force. Flat day-trades 15:50.
+NOTE: session container had rebuilt to a stale Wed-9/23 state at the open; recovered by resetting to
+  the authoritative remote tip (funding + Fri work intact) before writing this block.
