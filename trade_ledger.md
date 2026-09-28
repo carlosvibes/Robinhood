@@ -3001,3 +3001,19 @@ PLAN: 09:30-09:45 OR + real regime. GREEN + clean liquid pullback-reclaim above 
   Take the first CLEAN setup, don't force. Flat day-trades 15:50.
 NOTE: session container had rebuilt to a stale Wed-9/23 state at the open; recovered by resetting to
   the authoritative remote tip (funding + Fri work intact) before writing this block.
+
+--- PULSE 09:51 ET — RED open, but NVDA is a strong RS leader (watch pullback, don't chase) ---
+Time:      2026-09-28 09:51 ET | FLAT (0 equity, 0 options) ✓ | BP $500.26.
+REGIME: RED/risk-off — SPY 767.97 (-0.44%), QQQ 737.68 (-0.92% tech-led down), IWM 279.74 (-0.79%).
+  No live long on the broad tape; demand 2nd-leg/RS or stand down; puts available on clean breakdowns.
+STANDOUT: NVDA 232.20 (+3.17%) — GREEN & LEADING on a red tape (gap-up on catalyst, closed 225 Fri).
+  Structure: gapped up, holding TIGHT above rising VWAP (231.9), consolidating 231.6-233.2 near HOD
+  = constructive but EXTENDED, no pullback-reclaim yet. 15-min OR high 233.21. Do NOT chase the +3%
+  gap / red-tape breakout (9/23 lesson). CLEAN ENTRY = pullback to ~VWAP 232 + bounce on a higher
+  low -> then 1 whole share (~$232, A+-sized, <=$250) + RESTING stop ~$1.5-2 under, or a CALL.
+BREAKDOWNS (put candidates, knife-risk): META 722.90 (-3.83%, multi-day breakdown continues), AMD
+  610.57 (-3.18%), ORCL 133.77 (-2.43%, new lows). Watch for a failed-bounce 2nd-leg, don't chase.
+GAINERS: junk microcaps + biotech binaries (IMMP/KOD) + inverse gold ETFs (risk-off tell). No fresh
+  liquid non-extended equity leader besides NVDA.
+DECISION: STAND DOWN live for now (NVDA extended, no pullback-reclaim; tape red). NVDA = PRIMARY
+  watch via Module A continuous-watch for a VWAP pullback. Tight recheck ~10:10 ET. PDT fresh Mon.
