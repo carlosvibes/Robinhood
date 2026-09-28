@@ -3115,7 +3115,7 @@ PIVOT -> LONG side. NVDA is the affordable in-budget vehicle (1 whole share $232
 
 ### Trade #4 — NVDA — 2026-09-28
 
-**Status**: OPEN
+**Status**: CLOSED — LOSS −$0.50 (−0.89R)
 
 --- ENTRY PLAN (written before the confirming quote, before the order) ---
 Time planned:         12:43 ET
@@ -3152,3 +3152,36 @@ TRAIL PLAN: at 232.35 (spike high, ~+1R... actually +2.3R) raise stop to breakev
   If tape fades back red and NVDA loses VWAP -> the 230.50 stop handles it (or exit early on a clean VWAP
   loss + weak tape). Manage at ~13:10 ET pulse. HARD FLAT by 15:50 if not stopped/targeted (intraday) —
   UNLESS holding as a swing (resting stop protects overnight) to preserve a day-trade, decided at EOD.
+
+>>> CLOSED — Trade #4 — NVDA LONG — LOSS — 2026-09-28 13:06:32 ET <<<
+EXIT: MARKET SELL 1 sh @ 230.5557 (order 6aba9e98, $0 fees). Cancelled the resting stop 6aba996d first
+  (accepted, share freed 1/1) then market-sold. Verified FLAT (get_equity_positions = []).
+ENTRY 231.06 -> EXIT 230.5557. P&L = -$0.50. R = -0.89R (risk was $0.56 to the 230.50 stop). Hold ~22 min.
+  Day trades: NVDA round-trip = 1st rolling PDT this week (PDT 1/3 used). Consecutive-loss streak: 1.
+WHY EXITED EARLY (didn't wait for the 230.50 stop): by 13:04 NVDA had lost SESSION VWAP (230.72 vs VWAP
+  231.10, open-anchored) AND the tape was FADING (QQQ -0.86% -> -0.98%/-1.00%, the midday reversal rolling
+  back over), with NVDA printing consecutive 5-min lower-lows (231.79 spike -> 230.95 -> 230.93 -> 230.77).
+  That trips the LONG-ONLY-ABOVE-VWAP rail + thesis invalidation (the "above-VWAP reversal leader continues
+  up" premise was gone). Exited at market 230.556 rather than hope for a bounce.
+VALIDATION: correct call — NVDA did NOT bounce; it sat at 230.55 (right at the 230.50 stop level) through the
+  exit. Early exit saved ~$0.06 vs the stop (230.556 vs ~230.50) but more importantly was RULE-CORRECT and
+  removed hope-based risk. No whipsaw (price kept going my planned-stop direction).
+GRADE: GOOD PROCESS, losing outcome. Entry was rule-valid (above-VWAP pullback-hold on the leader, tiny
+  0.11%E risk, RR 2.3+). The MOVE failed: the broad midday V-reversal (QQQ -1.65% -> -0.58%) did not hold —
+  it faded back toward the lows within ~40 min, dragging NVDA back under VWAP. A reversal-continuation long
+  is only as good as the reversal; this one stalled. Damage control worked (−0.89R, ~1R, cut on the rule).
+LESSONS:
+  1. FIRST live whole-share + RESTING BROKER STOP trade executed cleanly end-to-end (buy fill 231.06, GTC
+     stop placed+confirmed at 230.50, managed, cancelled-stop-then-sold). The scaled-toolkit mechanics WORK.
+     This alone is progress — the execution machinery is proven live, not just on paper.
+  2. NUANCE on entering mid-reversal: I entered on a VWAP-pullback-hold while the INDEX was already
+     consolidating/ticking down off its recovery high (QQQ -0.58% -> -0.86% as I entered). Entering a
+     continuation-long into a STALLING tape (vs an extending one) is lower-probability. REFINEMENT to test:
+     for a reversal-continuation long, require the INDEX (QQQ) to still be making higher-highs / holding its
+     reclaim at entry — not already pulling back. If the index has stalled, wait for it to resume up first.
+  3. A V-reversal off deep lows on a risk-off day is fragile — it round-tripped. On such days, a failed
+     reversal is common; keep size tiny (did: 0.11%E) and cut fast on VWAP loss (did). No revenge trade.
+  4. VWAP tool nuance: get_equity_technical_indicators VWAP is anchored to the start_time you pass, NOT the
+     session open. For a true intraday session VWAP, ALWAYS anchor start_time to 13:30Z (09:30 ET open).
+     (Caught this mid-trade — the 15:45Z/16:20Z anchors gave misleading 230.85/231.38 values; the real
+     open-anchored VWAP was 231.10.)
