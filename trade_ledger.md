@@ -3112,3 +3112,43 @@ PIVOT -> LONG side. NVDA is the affordable in-budget vehicle (1 whole share $232
   VWAP ~231 that holds -> 1 share, resting stop ~230.4, target HOD-break, RR~2.5+; or (b) clean HOD break
   + retest hold. Armed ~12:40 ET pulse for the pullback (tightened cadence — the ledger's #1 miss is fast
   entries on wide gaps). If reversal fades back red = bull-trap, stand down. No forced trade.
+
+### Trade #4 — NVDA — 2026-09-28
+
+**Status**: OPEN
+
+--- ENTRY PLAN (written before the confirming quote, before the order) ---
+Time planned:         12:43 ET
+Strategy:             VWAP-pullback-hold on the intraday reversal leader (long-only-above-VWAP). NVDA led
+                      the midday V-reversal off the AM risk-off lows (reclaimed VWAP, +3.2% at the 232.35
+                      spike), then pulled back to VWAP and held a higher-low (230.95) above it.
+Phase:                Scaled toolkit E~$500 — FIRST live WHOLE-SHARE trade w/ a RESTING broker stop (the
+                      scaled-rulebook upgrade replacing the manual-stop protocol).
+Analysis price:       $231.08 (right at VWAP 230.85, holding above)
+Setup trigger:        Pullback to VWAP that holds; NVDA above VWAP + leading tape + higher-low intact.
+Planned entry:        ~$231.10 (1 whole share, marketable limit 231.55 to cap slippage)
+Position value:       ~$231 (46% of equity by notional — but sized by RISK, see below; whole-share min)
+Stop price:           $230.50 RESTING stop_market GTC (below VWAP 230.85 + below 230.95 swing low)
+Target price:         232.35 (spike high, first scale/decision) -> 233.21 (HOD) -> extension/trail
+Risk ($):             ~$0.56/share (231.06 entry - 230.50 stop)
+Reward:risk:          ~2.3:1 to 232.35 spike; ~3.9:1 to 233.21 HOD
+% of equity at risk:  ~0.11% ($0.56 on $500) — tiny, defined
+Regime:               Reversal day — AM risk-off (QQQ -1.65% @10:49) V-recovered (QQQ -0.58% @12:28) then
+                      consolidated (QQQ -0.86% @12:41). NVDA the RS leader +2.8%. Above-VWAP long valid;
+                      yellow flag = tape consolidating (not extending), bull-trap risk if it fades red.
+Context: Carlos "figure it out, keep moving" (no cap raise). This is the in-budget answer: whole-share
+  leader + resting stop, no rule change. PDT 0/3 -> this is day-trade #1 if closed today (or hold w/ the
+  resting stop into a swing to save the day-trade if thesis holds EOD). Took a small defined-risk bet on a
+  valid setup rather than waiting weeks for "perfect" — the +EV math: 0.45win*2.3 - 0.55*1 = +0.49R.
+
+>>> FILLED — Trade #4 — NVDA LONG — 2026-09-28 12:44:05 ET <<<
+FILL: 1 sh @ $231.06 ($0 fees, order 6aba9955). Favorable slippage (filled on the bid vs 231.09 ask).
+review_equity_order order_checks EMPTY (no PDT/BP/halt alert). Disclosure shown verbatim.
+RESTING STOP: stop_market SELL 1 sh @ stop 230.50, GTC, order 6aba996d — state CONFIRMED (protection LIVE,
+  no manual babysitting; this is the scaled-rulebook whole-share upgrade working as designed).
+Position: LONG 1 NVDA @ 231.06. Risk to 230.50 = $0.56 (0.11%E). Target 232.35 -> 233.21.
+TRAIL PLAN: at 232.35 (spike high, ~+1R... actually +2.3R) raise stop to breakeven 231.10; on a HOD-break
+  to 233+ trail under the rising 5-min lows / VWAP; take profit into 233.2+ stall or range-high rejection.
+  If tape fades back red and NVDA loses VWAP -> the 230.50 stop handles it (or exit early on a clean VWAP
+  loss + weak tape). Manage at ~13:10 ET pulse. HARD FLAT by 15:50 if not stopped/targeted (intraday) —
+  UNLESS holding as a swing (resting stop protects overnight) to preserve a day-trade, decided at EOD.
