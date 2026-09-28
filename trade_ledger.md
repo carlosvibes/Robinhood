@@ -3085,3 +3085,30 @@ DECISION: STAND DOWN. Capital protected ($500.26, PDT 0/3). Options paper mechan
   greeks/spreads/liquidity captured; verdict = affordability, not mechanics). Next: ~12:45 ET pulse —
   re-check for either a LONG-side reclaim (NVDA back above VWAP + tape green) or a cheaper/affordable
   downside expression; else EOD close + 9/28 account row + Tue 9/29 pre-market wake.
+
+--- 12:30 ET — CARLOS DIRECTIVE + AFFORDABILITY RESOLVED (no cap change) + TAPE REVERSED GREEN ---
+CARLOS (chat): "this is for you to figure out — i funded you 5x what you had, we need to keep moving."
+  => Ruling: NO options-cap raise, NO new instrument sanctioned, NO more capital. Solve downside/upside
+  WITHIN the existing $500 rulebook. Accepted.
+RESOLUTION (both routes already IN-rulebook, zero rail change needed):
+  - DOWNSIDE via puts: stop waiting on mega-caps ($200-730 = priced out at $50). Keep puts to CHEAPER
+    liquid high-beta names (~<$80) where $50 buys REAL near-money delta (~0.35-0.50). e.g. SOFI $16 near-
+    money put ~$0.40-0.60 = affordable. This is the sanctioned options module as-is, just better
+    underlying selection.
+  - LONG/UPSIDE: whole-share leaders <=~$250 get a RESTING broker stop (scaled-rulebook feature). NVDA at
+    $232 = 1 affordable whole share w/ resting stop. No cap issue on the long side at all.
+  - INVERSE ETF (SQQQ) stays PARKED (not sanctioned) — didn't need it.
+DOWNSIDE HUNT (12:27): scanned liquid <$80 high-beta decliners. SOFI -2.47% $16.17 = best affordability,
+  BUT structure killed it: SOFI made LOD 15.93 @11:25, based, and was BOUNCING back THROUGH VWAP (16.07)
+  to 16.17 = a recovery, not a fresh breakdown. A put there = shorting into a bounce. NO entry. (AFRM
+  -3.1% $69 borderline-affordable; INTC -5.4% $116 flushed+pricey; RIOT/RIVN cheap but crypto/EV bounce
+  risk. None gave a clean below-VWAP failed-bounce.)
+TAPE REVERSAL (12:28): sharp V-recovery off the AM lows -> SPY -0.28% (from -0.92%), QQQ -0.58% (from
+  -1.65%, +1.07% off lows), IWM -0.23%. NVDA RECLAIMED VWAP (231.07), now 232.30 = +3.21%, LEADING the
+  bounce. The morning downside edge is GONE. KEY VALIDATION: had I chased ANY put an hour ago (NVDA lotto
+  or SOFI) it would now be underwater — the stand-down was correct, in real time.
+PIVOT -> LONG side. NVDA is the affordable in-budget vehicle (1 whole share $232 + resting stop). But at
+  232.30 it's ~0.5% above VWAP w/ HOD 233.21 right overhead = poor RR to chase. WAIT for (a) pullback to
+  VWAP ~231 that holds -> 1 share, resting stop ~230.4, target HOD-break, RR~2.5+; or (b) clean HOD break
+  + retest hold. Armed ~12:40 ET pulse for the pullback (tightened cadence — the ledger's #1 miss is fast
+  entries on wide gaps). If reversal fades back red = bull-trap, stand down. No forced trade.
