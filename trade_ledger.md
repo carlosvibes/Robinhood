@@ -3017,3 +3017,15 @@ GAINERS: junk microcaps + biotech binaries (IMMP/KOD) + inverse gold ETFs (risk-
   liquid non-extended equity leader besides NVDA.
 DECISION: STAND DOWN live for now (NVDA extended, no pullback-reclaim; tape red). NVDA = PRIMARY
   watch via Module A continuous-watch for a VWAP pullback. Tight recheck ~10:10 ET. PDT fresh Mon.
+
+--- PULSE 10:25 ET — NVDA lost VWAP on a worsening red tape; NO entry (not a clean reclaim) ---
+Time:      2026-09-28 10:25 ET | FLAT (0 equity, 0 options) ✓.
+REGIME: RED, worsening — SPY 767.77 (-0.46%), QQQ 737.27 (-0.97%), IWM 280.70 (-0.45%).
+NVDA: 231.34 (+2.8%, faded from +3.6%/233). Pulled back and LOST VWAP (dipped 230.50, bounced to
+  231.3) — now just BELOW VWAP 231.74. Potential higher-low (230.50) forming, but NOT a clean
+  reclaim yet + it's fading WITH the weak tape (leader starting to give). Long-only-above-VWAP -> no
+  entry here. VALID trigger only if it decisively RECLAIMS 231.74+ with a higher low AND the tape
+  stops making new lows. Chasing it as "the only candidate" = forcing; declined.
+DECISION: NO entry. Tight NVDA reclaim-watch (Module A) ~10:40 ET; enter only on a clean reclaim +
+  stabilizing tape. Else stand down. META/AMD/ORCL still bleeding (put candidates, knife-risk, no
+  failed-bounce trigger). PDT preserved.
