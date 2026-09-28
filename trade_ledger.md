@@ -3029,3 +3029,18 @@ NVDA: 231.34 (+2.8%, faded from +3.6%/233). Pulled back and LOST VWAP (dipped 23
 DECISION: NO entry. Tight NVDA reclaim-watch (Module A) ~10:40 ET; enter only on a clean reclaim +
   stabilizing tape. Else stand down. META/AMD/ORCL still bleeding (put candidates, knife-risk, no
   failed-bounce trigger). PDT preserved.
+
+--- PULSE 10:42 ET — NVDA reclaim FAILED, risk-off worsening; no long, no chase-put, stand down ---
+Time:      2026-09-28 10:42 ET | FLAT (0 equity, 0 options) ✓.
+REGIME: RED worsening — SPY 766.15 (-0.67%), QQQ 734.63 (-1.33%!), IWM 279.88 (-0.74%). Clean
+  risk-off, tech-led selloff accelerating.
+NVDA: 230.80, still BELOW VWAP (231.69) — never reclaimed; grinding under VWAP 14:00-14:35 and
+  rolling over with the tape (233 HOD -> 230.8). RS-leader FADING with the tape = the "leader gives
+  up" scenario. Long FAILS both conditions (no reclaim + tape making new lows). NO long — correctly
+  not chased. (Whole-share NVDA long here on a -1.3% QQQ tape = catching a fader; declined.)
+PUT SIDE: QQQ/META/AMD already extended DOWN off the open -> chasing puts now = knife-chase (same
+  lesson). Clean put = a FAILED BOUNCE (rally to VWAP that rejects), not chasing the flush. No such
+  trigger yet. No clean put entry.
+DECISION: STAND DOWN (no long, no chase-put on a risk-off day). Watch for a failed-bounce put setup
+  (QQQ or a leader) into ~11:15 ET; if clean, review_option_order to validate mechanics (options
+  paper #2) +/- live. PDT preserved (0 used). Capital protected.
