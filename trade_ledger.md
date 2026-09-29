@@ -3281,3 +3281,14 @@ DECISION: STAND DOWN. No clean long (tape red, CCL below VWAP), no clean put yet
   Watch CCL for a failed-bounce-below-VWAP put (affordable, review_option_order first) into ~12:30; else keep
   standing down. Capital protected, PDT preserved (2 avail). [git: local commits pending push — GitHub
   credential service 503 outage; will flush when it recovers.]
+
+--- PULSE 12:31 ET — choppy fade, CCL whipsawing around VWAP, no edge, STAND DOWN ---
+Time:      2026-09-29 12:31 ET | FLAT ✓ | PDT 0 used today | day P&L $0.
+REGIME: soft red drift — SPY 763.34 (-0.30%), QQQ 736.90 (+0.05% flat), IWM 277.88 (-0.76%). Low-conviction
+  choppy fade day (Mon-like). No clean trend.
+CCL: 24.90, oscillating AROUND VWAP (24.79) in a 24.63-24.96 range — repeatedly loses VWAP then reclaims
+  (15:20 dip 24.63 -> 15:30 reclaim -> 16:05 dip 24.645 -> 16:20 reclaim 24.95). Pure WHIPSAW = no edge.
+  Neither a clean long (keeps losing VWAP) nor a clean put (keeps reclaiming). The failed-bounce put I was
+  watching for never set up cleanly — it just chops. STAY OUT (chop chews up both sides).
+DECISION: STAND DOWN. No clean long, no clean put, no affordable leader. Choppy no-setup day. Capital
+  protected, PDT preserved (2 avail), day flat. Watch ~14:00; likely EOD close ~15:35 if the chop persists.
