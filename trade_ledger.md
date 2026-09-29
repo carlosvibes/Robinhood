@@ -3228,3 +3228,26 @@ KEY TAKEAWAYS:
 NEXT: Tue 2026-09-29 pre-market wake ~08:35 ET / 12:35 UTC — regime-check-first, full scaled toolkit,
   re-read learning.md Changelog. PDT: 2 day-trades available (NVDA 9/28 in the window). A+ tier still
   unused. Options still want the first 2-3 paper mechanics done before going fully live (paper #2 done today).
+
+
+>>> SESSION OPEN — 2026-09-29 (Tue) 08:36 ET (pre-market) <<<
+FLAT verified (0 equity, 0 options), acct 609021910 agentic+L2, cash $499.76, STATUS ACTIVE. Mon closed
+  RED (SPY 765.61/QQQ 736.53/IWM 280.02). Pre-market Tue mildly GREEN (+0.16/+0.35/+0.25%) = bounce bid.
+  Plan: hunt a clean RS-leader long on a green tape that HOLDS + makes higher-highs (9/28 lesson); downside
+  puts only on cheaper <$80 names. A+ tier unused; 2 day-trades available.
+
+--- PULSE 09:53 ET (open+23min) — weak/indecisive open, RS leader unaffordable, STAND DOWN ---
+Time:      2026-09-29 09:53 ET | FLAT ✓ | PDT 0 used today (2 avail).
+REGIME: pre-market green FADED to ~flat/mixed at the open — SPY 765.36 (-0.03%), QQQ 737.99 (+0.20%),
+  IWM 280.05 (flat). NOT a clean green trend, NOT making higher-highs. The 9/28 gate (index HH before a
+  continuation long) is NOT met. Weak, indecisive tape.
+LEADERS: AMD +2.03% ($620.21) = clear RS leader BUT unaffordable (whole-share out at $620, calls priced out
+  of $50 cap) — same mega-cap wall on the long side. NVDA +0.79% ($230.67), META +0.76% ($721) = mild, and
+  NVDA/META also pricey for calls. FMP gainers = junk (sub-$5 lottos, lev-ETFs, crypto-ETFs, SPACs).
+AFFORDABLE MOVER: CCL (Carnival) +11.5% ($24.68) — liquid, whole-shareable, optionable, real catalyst
+  (earnings pop). BUT +11% open GAP = chase risk (extended-gap lesson). Not a buy at the spike; WATCH for a
+  pullback-reclaim above VWAP. (STAA +9.5% $22.85 secondary watch.)
+DECISION: NO TRADE at the open. Weak tape (fails index-HH gate) + RS leader unaffordable + affordable mover
+  is an unproven gap. STAND DOWN, watch. Re-assess ~10:30: (a) does the index firm green + make HHs -> hunt
+  an affordable leader; (b) CCL — first pullback-reclaim above VWAP = affordable whole-share long candidate
+  (resting stop). No force. Capital protected. PDT preserved.
