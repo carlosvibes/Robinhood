@@ -3264,3 +3264,20 @@ CCL (24.905, +12.5%): holding ABOVE VWAP (24.78) the whole session — construct
 DECISION: STAND DOWN. No clean trigger; won't force a mid-coil entry or spend a day-trade on a B-setup.
   Tighten to ~11:12 pulse to catch CCL's HOD-break-hold or VWAP-bounce if it forms; else keep standing down.
   Capital protected, PDT preserved (2 avail).
+
+--- PULSE 11:24 ET — bounce FADED red again, CCL lost VWAP (coil resolved DOWN), STAND DOWN ---
+Time:      2026-09-29 11:24 ET | FLAT ✓ | PDT 0 used today.
+REGIME: the narrow tech-green FADED — SPY 762.78 (-0.37%, rolled red), QQQ 736.61 (+0.01%, lost its +0.45%
+  green), IWM 277.82 (-0.78%). Tape rolling over / risk-off drift AGAIN (same as Mon: AM bounce fades).
+CCL: 24.685, now BELOW VWAP (24.79) — the 1hr coil (24.65-25.16) resolved DOWNWARD with the fading tape
+  (15:05-15:15Z bars: 24.775->24.775->24.725, lower closes under VWAP). Long thesis DEAD (long-only-above-
+  VWAP). VALIDATES declining the mid-coil entry at 10:52 — a 24.90 long would be underwater into its stop now.
+  The coil broke the WRONG way for longs.
+POSSIBLE DOWNSIDE (not taken): CCL = failed +12% gap losing VWAP into a weak tape = a put thesis, and CCL is
+  cheap ($24 -> affordable near-money put). BUT it just lost VWAP on the FIRST break — chasing the first
+  breakdown = the squeeze trap. Clean put entry = a failed-BOUNCE back to VWAP ~24.79 that rejects, OR a
+  clear lower-high downtrend under VWAP. Not present yet.
+DECISION: STAND DOWN. No clean long (tape red, CCL below VWAP), no clean put yet (first-break chase avoided).
+  Watch CCL for a failed-bounce-below-VWAP put (affordable, review_option_order first) into ~12:30; else keep
+  standing down. Capital protected, PDT preserved (2 avail). [git: local commits pending push — GitHub
+  credential service 503 outage; will flush when it recovers.]
