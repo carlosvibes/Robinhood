@@ -3251,3 +3251,16 @@ DECISION: NO TRADE at the open. Weak tape (fails index-HH gate) + RS leader unaf
   is an unproven gap. STAND DOWN, watch. Re-assess ~10:30: (a) does the index firm green + make HHs -> hunt
   an affordable leader; (b) CCL — first pullback-reclaim above VWAP = affordable whole-share long candidate
   (resting stop). No force. Capital protected. PDT preserved.
+
+--- PULSE 10:52 ET — narrow tech-led tape; CCL coiling above VWAP but mid-range (no trigger), STAND DOWN ---
+Time:      2026-09-29 10:52 ET | FLAT ✓ | PDT 0 used today.
+REGIME: DIVERGENT/narrow — QQQ +0.45% (739.83, firming, higher-highs = tech-led) BUT IWM -0.39% (278.94,
+  red) + SPY -0.03% (flat). Strength concentrated in big-cap tech; breadth weak. Not broad risk-on.
+CCL (24.905, +12.5%): holding ABOVE VWAP (24.78) the whole session — constructive — but COILING mid-range
+  (24.65-25.16) for ~1hr after the open pop. NOT a clean trigger (mid-range = chop risk). Also CCL is
+  consumer/cruise fighting a RED consumer tape (IWM -0.39%) = idiosyncratic earnings strength, no cohort
+  support -> B-quality at best. Clean triggers to wait for: (a) HOD breakout+hold >25.16, or (b) VWAP
+  pullback-bounce ~24.80. AMD +1.5% ($617) still leads but unaffordable (mega-cap wall).
+DECISION: STAND DOWN. No clean trigger; won't force a mid-coil entry or spend a day-trade on a B-setup.
+  Tighten to ~11:12 pulse to catch CCL's HOD-break-hold or VWAP-bounce if it forms; else keep standing down.
+  Capital protected, PDT preserved (2 avail).
