@@ -31,6 +31,7 @@ All times are US Eastern. All dollar figures to two decimals.
 | 2026-09-02 | $100.00 | $100.00 | $0.00 | 0.0% | 0 | Wed. RULE CHANGE: Carlos approved "Moderate" calibration midday (RR 1.5, ATR 0.04, vol 1.6x, RVOL 1.6). DPRO cleared ATR floor + triggered ORB but failed (2 closes below VWAP; a would-be entry = -1R). OABI = first arm-able long under new rules but broke down before triggering. ~1hr usage-limit gap (flat verified on resume). Flat verified 15:45 ET. |
 | 2026-09-03 | $100.00 | $100.00 | $0.00 | 0.0% | 0 | Thu. First full day on Moderate gates. Quiet AM (universe scan 0 all morning). PM movers evaluated under new gates — ALL failed >=1 hard rail: ABTC/BKKT spread (0.53%/0.36% vs 0.15% gate), DPRO day-high trigger failed + spread rewidened, SBET (finally a tight-$0.01-spread mover) failed ATR floor (0.034<0.04, late-day coil), BULL at $10 ceiling, UPB decliner. KEY FINDING: spread gate is the binding constraint on this sub-$10 universe. DPRO arm discipline held (rejected 6.4155 wick-chase). Flat verified 15:21 ET. |
 | 2026-09-04 | $100.00 | $100.00 | $0.00 | 0.0% | 0 | Fri. First day on widened-spread + trend-follow tactics. CHPT (day's mover, +8%) untradeable: too volatile at open (ATR~0.45>0.25 cap), then boxed by/above the $10 position cap. Universe RVOL scanner BUGGED all day (0 despite real movers). FMP-gainers cross-check: in-band names all 1.9-5% spreads (MTEX/KPLT/CURX). No tradeable in-band setup, triple-confirmed. ROOT CAUSE identified + FIXED: Carlos approved FRACTIONAL LARGE-CAP trading (starts Tue 9/8) — the $5-10 whole-share universe was the disease. Flat verified 15:34 ET. |
+| 2026-09-29 | $499.76 | $499.76 | $0.00 | 0.0% | 0 | Tue. Mon-like BOUNCE-THEN-FADE chop. Pre-mkt green (+0.2-0.35%) faded to a weak open; QQQ briefly +0.45% (narrow tech-led) but IWM red all day; tape drifted soft-red/flat (close SPY -0.13%/QQQ +0.24%/IWM -0.40%), never made index higher-highs = long-continuation gate never met. CCL (+11-12% earnings gap) = the only affordable liquid mover — coiled above VWAP then WHIPSAWED around it all session (no clean HOD-break >25.16, no clean failed-bounce) = no edge, correctly never chased (a 10:52 mid-coil long would've stopped when the coil broke down ~11:24). AMD RS leader but unaffordable ($617, mega-cap wall). NO-TRADE, capital + PDT (2 avail) preserved. GitHub credential-service 503 outage all session delayed ledger pushes (commits safe locally). Flat verified 15:38 ET. |
 | 2026-09-28 | $500.26 | $499.76 | -$0.50 | -0.10% | 1 | Mon. **FIRST LIVE WHOLE-SHARE + RESTING-STOP TRADE** (scaled toolkit proven live end-to-end). Risk-off AM (QQQ -1.65% @10:49) staged a midday V-reversal (QQQ -0.58% @12:28) that then FADED back (QQQ -0.85% close-ish). Trade #4 NVDA long 231.06 (VWAP-pullback-hold on the reversal leader, 1 whole share, GTC resting stop 230.50) -> the reversal round-tripped, NVDA lost session VWAP on the fading tape -> cut on the rule @230.556 = -$0.50 (-0.89R). Damage control worked. AM options paper #2: NVDA failed-bounce PUT setup was valid but a near-money put = $300-565 vs $50 cap (priced out on mega-caps) -> declined the lotto; affordability RESOLVED in-rulebook (cheaper <$80 names for puts, whole-share leaders for longs — Carlos "figure it out, no cap raise"). Correctly did NOT chase AM puts (would've been underwater on the bounce). PDT 1/3 used. Halts fine (day -$0.50 << $5). Flat verified 14:17 ET (cash $499.76, reconciles exactly). |
 | 2026-09-25 | $500.26 | $500.26 | $0.00 | 0.0% | 0 | Fri. FIRST day on the scaled toolkit (E~$500). GREEN premarket ended the 3-red-day streak, but the open faded to chop then a modest-green PM grind (close SPY +0.45%/QQQ +0.43%/IWM +0.23%). NO-TRADE, 0 realized, capital protected. Honest read: a setup-availability shortfall, NOT tools/discipline — the full arsenal (whole-share+resting stops, options ~$50 cap, swing) was armed but no liquid RS-leader ever gave a clean pullback-reclaim (AMD lost leadership, NVDA flat, META bled -3.3% post-run w/ no failed-bounce put trigger; gainers = junk). Held the line: no forced day-1 trade to "use" the funding. PDT 0/3 used. Whole-share tiering learned (<=$250 names whole-shareable at $500). Flat verified 15:11 ET (broker 0 realized). |
 | 2026-09-24 | $100.26 → $500.26 | $500.26 | $0.00 (trading) | 0.0% | 0 | Thu. **ACCOUNT FUNDED +$400 → $500.26** (deposit, not P&L). RED open (SPY/QQQ/IWM ~-0.5%) REVERSED toward flat midday, closed ~flat (SPY -0.07%/QQQ -0.12%/IWM -0.16%). NO-TRADE (0 realized) — no clean setup + refused a forced celebratory trade at the close. SCALED RULEBOOK went live at E=$500 (std ~$125/risk ~$2.50, A+ ~$250/$5, options ~$50-cap now affordable, whole-share+resting stops replace manual protocol, swing live, halts ~$5/$12.50). Options paper finding earlier: $15 cap on $100 bought only lottos — now cleared at $500. META ripped +4.28% (persistent RS 3 days, the unaffordable-at-$100 call); ORCL -3.5% (breakdown 135→bounce→139, 2nd-leg lesson x3). Flat verified 15:11 ET. Full toolkit hunts Fri 9/25. |
@@ -3292,3 +3293,37 @@ CCL: 24.90, oscillating AROUND VWAP (24.79) in a 24.63-24.96 range — repeatedl
   watching for never set up cleanly — it just chops. STAY OUT (chop chews up both sides).
 DECISION: STAND DOWN. No clean long, no clean put, no affordable leader. Choppy no-setup day. Capital
   protected, PDT preserved (2 avail), day flat. Watch ~14:00; likely EOD close ~15:35 if the chop persists.
+
+--- PULSE 14:02 ET — no late-day trend, still soft-red chop; no change, hold to EOD ---
+SPY 763.48 (-0.28%), QQQ 736.78 (+0.03% flat), IWM 278.09 (-0.69%). Same directionless drift; no clean
+  setup. FLAT. Left the last hour open for a possible trend; else EOD close.
+
+>>> SESSION CLOSE — 2026-09-29 (Tue) 15:38 ET <<<
+FLATTEN VERIFICATION: get_equity_positions = [] (0), get_option_positions nonzero = [] (0). Confirmed FLAT.
+  (Portfolio cash $499.76 as of 14:02; unchanged — no trades.)
+RESULT: 0 trades, $0.00. Equity $499.76 -> $499.76 (0.0%). PDT 0 used today (2 day-trades still available;
+  NVDA 9/28 remains in the rolling window until ~Mon 10/6). Consecutive-loss streak: still 1 (no new trade).
+  Daily P&L $0 (halt ~$5). Weekly (wk of 9/28): -$0.50 (halt ~$12.50). STATUS stays ACTIVE.
+FINAL TAPE: SPY 764.60 (-0.13%), QQQ 738.32 (+0.24%), IWM 278.90 (-0.40%) — firmed slightly into the close
+  but never trended; mixed/soft all day.
+SESSION NARRATIVE: A Monday-like BOUNCE-THEN-FADE chop day. Pre-market opened green (+0.2-0.35%) but faded to
+  a weak/indecisive open; QQQ briefly firmed +0.45% (narrow, tech-led) while IWM stayed red all session — no
+  broad risk-on, no index higher-highs, so the long-continuation gate was never met. The only affordable
+  liquid mover was CCL (+11-12% earnings gap); it coiled tightly above VWAP after the open pop, then
+  whipsawed around VWAP for the rest of the day (never a clean HOD-break >25.16, never a clean failed-bounce)
+  = a no-edge chop that would have chewed up both a long and a put. Correctly never chased it — a mid-coil
+  long at 10:52 (~24.90) would have stopped out when the coil resolved DOWN ~11:24. AMD was the RS leader
+  (+1.5-2%) but unaffordable at $617 (the mega-cap wall on the long side too). NO-TRADE, capital and both
+  day-trades preserved.
+KEY TAKEAWAYS:
+  1. Two clean stand-down days in a row (Mon after the -$0.50 NVDA cut; Tue no-trade). Both correct: no
+     forced trades into chop, no revenge trade. Discipline intact; account essentially flat at ~$500.
+  2. RECURRING CONSTRAINT reconfirmed: on narrow/mixed tapes the RS leaders are the unaffordable mega-caps
+     (AMD $617, etc.), and the affordable movers (CCL $24) are lower-quality/idiosyncratic. The edge is real
+     but thin at $500 — most days genuinely have no clean, affordable, rule-valid setup. This is the honest
+     state of the strategy at this capital, not a discipline failure.
+  3. INFRA: GitHub credential service 503'd all session; ledger commits (Tue open pulse, 10:52, 11:24, 12:31,
+     + this close) are safe locally and will flush when it recovers. No data lost.
+NEXT: Wed 2026-09-30 pre-market wake ~08:35 ET / 12:35 UTC — regime-check-first, full scaled toolkit,
+  re-read learning.md Changelog + STATUS line. PDT 2 day-trades avail. A+ tier still UNUSED. Options paper
+  mechanics: #2 done (9/28 NVDA puts); still want #3 before options go fully live.
