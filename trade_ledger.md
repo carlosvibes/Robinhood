@@ -3374,3 +3374,18 @@ TARGET/MGMT:          No hard target — HOLD toward the analyst range / thesis;
                       (major negative catalyst / breakdown through the stop). This is an OVERNIGHT HOLD,
                       NOT a day-trade -> 0 PDT used, and it is NOT flattened at 15:50. Do not add w/o Carlos.
 Position value:       ~$69.17 (~14% of E). Remaining buying power ~$430 for day-trades/options.
+
+>>> SESSION (day-trade side) — 2026-09-30 (Wed) — GREEN tape, quantum theme leading <<<
+--- PULSE 09:57 ET — green open HELD + extending; QUANTUM theme hot (new thematic scan hit) ---
+REGIME: GREEN and holding — SPY 767.30 (+0.41%), QQQ 742.25 (+0.59%, extending above pre-mkt), IWM 279.38
+  (+0.13%). First cooperating tape in days (green + higher-highs = 9/28 continuation gate met).
+THEMATIC SCAN (new 9/30 pillar working): QUANTUM group leads broadly — IONQ +5.0% ($46, leader), QBTS
+  +2.8% ($16.9), RGTI +2.9% ($16.2), QUBT +2.1% ($8.6). All affordable/liquid. (vs NVDA +1.5%, PLTR +1.8%,
+  AMD -0.75% RED, TSLA -1.7% RED — quantum clearly the RS theme.)
+IONQ structure @9:57: opened 44.20 -> 46.27 HOD, pulled back + BASED 45.0-45.5 (above VWAP 45.32), resuming
+  up to 46.12 = ABOVE VWAP but extended into HOD = a CHASE (sub-1.5 RR from here). NOT entered.
+DECISION: primary = IONQ; do NOT chase into HOD. Watch for a clean trigger: (a) break + hold >46.27, or
+  (b) VWAP pullback ~45.3 + bounce -> whole shares + resting stop, or an affordable call. UBER hold untouched.
+INFRA: git credential-service push outage (since Tue) + a transient auto-mode CLASSIFIER outage ~9:56-10:00
+  ET that briefly blocked all action tools (scheduling/orders/push); read quotes worked throughout. Classifier
+  recovered ~10:00; IONQ trigger-watch scheduled ~10:09 ET.
