@@ -3400,3 +3400,11 @@ IONQ: after I (correctly) didn't chase the +5% into its 46.27 HOD at 9:57, it BR
   chased at +5% into HOD); the post-blow-off pullback is low-probability.
 DECISION: STAND DOWN on IONQ. Keep the quantum theme on watch for a cleaner base-and-go (tight consolidation
   above VWAP allowing a tight stop). UBER hold untouched. Resume ~10:40 cadence.
+
+--- PULSE 10:44 ET — IONQ lost VWAP + quantum cooling; stand-down re-validated, no setup ---
+IONQ 45.51, now BELOW VWAP (45.95) — faded 47.33 -> 45.51, full round-trip of the blow-off. Quantum cooling:
+  QBTS +2.6% (off +3.5%), RGTI +2.4% (off +3.3%), IONQ +3.6% (off +5%). Tape still green (SPY +0.51/QQQ +0.68%).
+  A 10:10 VWAP-"pullback" long would be underwater now = stand-down VALIDATED (again). Long-only-above-VWAP:
+  IONQ now below VWAP = no long. UBER 69.08 (~-$0.09 vs entry, far above $64 stop) — fine.
+DECISION: STAND DOWN. Quantum spike was one-and-done; no clean affordable RS leader with a definable entry.
+  Widen cadence (~12:00) — green tape could still give an afternoon setup; else EOD. Capital + PDT preserved.
