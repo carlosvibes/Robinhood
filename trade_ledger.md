@@ -3351,3 +3351,26 @@ SOCIAL CLIP (the "$2M/yr, secret black-line probability indicator, $5k->$18k in 
   a strategy per standing rule (do not act on unverified social calls). Decoded = VWAP/pivot trend-following
   (which we already do) + far-OTM 0DTE lottos (which our rules BAN) + cherry-picked wins / course-funnel
   marketing. Adopt nothing; the sound kernel we already run with stops and no 0DTE.
+
+### Trade #5 — UBER — 2026-09-30 (MODULE H — buy-and-hold, FIRST position hold)
+
+**Status**: OPEN
+
+--- ENTRY (Module H buy-and-hold; Carlos-approved 1 share, executed at the open) ---
+Time:                 2026-09-30 09:34 ET (regular hours).
+Strategy:             Module H buy-and-hold — fundamental value + catalyst, longer horizon (weeks+).
+Thesis:               UBER cheap (PE ~15, near 52wk low 65.41, -31% from 52wk high 101.30), profitable,
+                      analysts 46B/8H/1S mean target $101 (+46%) = big analyst-vs-price divergence;
+                      catalysts robotaxi/AV expansion + Costco delivery. Risks: downtrend/knife,
+                      common-carrier + antitrust overhangs, AV also a competitive threat.
+FILL:                 BUY 1 share @ $69.1699 ($0 fees, order 6abd0fd6, filled below the 69.22 ask).
+                      review_equity_order order_checks EMPTY (no PDT/BP/halt). Disclosure shown verbatim.
+                      Pre-buy sanity: UBER ~$69.2 at the open, flat/no gap (proceed criteria met).
+RESTING STOP:         stop_market SELL 1 @ stop 64.00, GTC, order 6abd0fe5 — state CONFIRMED (survives
+                      overnight; catastrophic floor below the 52wk low). Risk = 69.17-64.00 = $5.17/sh
+                      (~1.03% E). NOT lowered ever; trail UP over time as the thesis/price develops.
+TARGET/MGMT:          No hard target — HOLD toward the analyst range / thesis; reassess on news (earnings,
+                      regulatory, AV). Trail the GTC stop up as it works. Hard-exit on a thesis break
+                      (major negative catalyst / breakdown through the stop). This is an OVERNIGHT HOLD,
+                      NOT a day-trade -> 0 PDT used, and it is NOT flattened at 15:50. Do not add w/o Carlos.
+Position value:       ~$69.17 (~14% of E). Remaining buying power ~$430 for day-trades/options.
