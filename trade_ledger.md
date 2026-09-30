@@ -3389,3 +3389,14 @@ DECISION: primary = IONQ; do NOT chase into HOD. Watch for a clean trigger: (a) 
 INFRA: git credential-service push outage (since Tue) + a transient auto-mode CLASSIFIER outage ~9:56-10:00
   ET that briefly blocked all action tools (scheduling/orders/push); read quotes worked throughout. Classifier
   recovered ~10:00; IONQ trigger-watch scheduled ~10:09 ET.
+
+--- PULSE 10:10 ET — IONQ broke out & ran WITHOUT us, then blow-off reversed; no clean re-entry, STAND DOWN ---
+Tape STRONGER: SPY +0.55%, QQQ +0.75% (green extending). Quantum still leads: QBTS +3.5%, RGTI +3.3%, IONQ +4.85%.
+IONQ: after I (correctly) didn't chase the +5% into its 46.27 HOD at 9:57, it BROKE OUT 9:55 and ran vertically
+  45.5 -> 47.33 HOD by 10:05, THEN blow-off REVERSED (10:05 bar 47.33 high -> 46.28 close, near low) and pulled
+  back to 46.04 = sitting on VWAP (~45.96). VOLATILITY BIND: 5-min bars ~$1 wide -> a tight stop (RR~2.0 to the
+  47.3 HOD) gets wicked on noise; a noise-safe stop (~45.0) drops RR to ~1.2 (<1.5). Near-money IONQ CALL priced
+  out of the $50 cap (high IV). => no clean risk-definable entry. The breakout was the move (correctly not
+  chased at +5% into HOD); the post-blow-off pullback is low-probability.
+DECISION: STAND DOWN on IONQ. Keep the quantum theme on watch for a cleaner base-and-go (tight consolidation
+  above VWAP allowing a tight stop). UBER hold untouched. Resume ~10:40 cadence.
