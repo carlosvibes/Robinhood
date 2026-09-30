@@ -3327,3 +3327,27 @@ KEY TAKEAWAYS:
 NEXT: Wed 2026-09-30 pre-market wake ~08:35 ET / 12:35 UTC — regime-check-first, full scaled toolkit,
   re-read learning.md Changelog + STATUS line. PDT 2 day-trades avail. A+ tier still UNUSED. Options paper
   mechanics: #2 done (9/28 NVDA puts); still want #3 before options go fully live.
+
+>>> STRATEGY EXPANSION + UBER BUY-AND-HOLD — 2026-09-30 (Wed) pre-market (Carlos directive) <<<
+Carlos approved a new pillar (logged to learning.md Changelog 2026-09-30): (1) News/catalyst + political-
+  disclosure + THEMATIC-trend monitoring (robotaxi/AV, quantum, water, actuators/robotics, AI infra) as an
+  idea-generation layer, public-data-only, still gated; (2) MODULE H buy-and-hold position (whole shares +
+  resting GTC floor stop, small, overnight = no PDT burn); (3) more puts/options usage within the existing
+  defined-risk spec (no risk expansion).
+UBER RESEARCH (pre-mkt 9/30): $69.39, near 52wk LOW ($65.41), -31% from 52wk HIGH ($101.30 Oct'25). PE ~15
+  (cheap for UBER), profitable, mkt cap $142B. Analysts 46 Buy / 8 Hold / 1 Sell, mean target $101.35 (+46%),
+  low $70 / high $150 — big analyst-vs-price DIVERGENCE (Module C context: bullish bets vs falling price).
+  Catalysts: Sept'26 robotaxi/AV expansion (Spain L4 permit, Europe), Costco delivery ~600 warehouses;
+  politicians reportedly bought $6M+ UBER in 2026 (RH feed: 1 Rep BUY Jul, 1 Dem SELL x3 — mixed/stale, weak
+  signal, NOT the thesis). RISKS: clear downtrend (knife), $40M arbitration/rider-safety, common-carrier
+  reclassification risk, S.Korea antitrust (Delivery Hero); AV also a competitive THREAT (Waymo/Tesla).
+DECISION (Carlos: "decide if it's worth it, max 1 share"): WORTH A 1-SHARE STARTER. Cheap/profitable value +
+  real catalysts + huge analyst upside; downside capped tiny by a GTC floor. PLAN: BUY 1 share UBER at the
+  9:30 OPEN (marketable limit, regular hours — not thin pre-mkt), then place a RESTING GTC stop ~$64.00
+  (below the 52wk low 65.41) = risk ~$5.4/sh ~1.1% E. It's an overnight HOLD (Module H) so it does NOT burn a
+  PDT day-trade. Target: hold toward the analyst range / thesis; reassess on news; scale only if it bases +
+  Carlos OKs. Log the fill when it happens.
+SOCIAL CLIP (the "$2M/yr, secret black-line probability indicator, $5k->$18k in 10-15min" video): REJECTED as
+  a strategy per standing rule (do not act on unverified social calls). Decoded = VWAP/pivot trend-following
+  (which we already do) + far-OTM 0DTE lottos (which our rules BAN) + cherry-picked wins / course-funnel
+  marketing. Adopt nothing; the sound kernel we already run with stops and no 0DTE.
