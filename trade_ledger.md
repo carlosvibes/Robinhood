@@ -31,6 +31,7 @@ All times are US Eastern. All dollar figures to two decimals.
 | 2026-09-02 | $100.00 | $100.00 | $0.00 | 0.0% | 0 | Wed. RULE CHANGE: Carlos approved "Moderate" calibration midday (RR 1.5, ATR 0.04, vol 1.6x, RVOL 1.6). DPRO cleared ATR floor + triggered ORB but failed (2 closes below VWAP; a would-be entry = -1R). OABI = first arm-able long under new rules but broke down before triggering. ~1hr usage-limit gap (flat verified on resume). Flat verified 15:45 ET. |
 | 2026-09-03 | $100.00 | $100.00 | $0.00 | 0.0% | 0 | Thu. First full day on Moderate gates. Quiet AM (universe scan 0 all morning). PM movers evaluated under new gates — ALL failed >=1 hard rail: ABTC/BKKT spread (0.53%/0.36% vs 0.15% gate), DPRO day-high trigger failed + spread rewidened, SBET (finally a tight-$0.01-spread mover) failed ATR floor (0.034<0.04, late-day coil), BULL at $10 ceiling, UPB decliner. KEY FINDING: spread gate is the binding constraint on this sub-$10 universe. DPRO arm discipline held (rejected 6.4155 wick-chase). Flat verified 15:21 ET. |
 | 2026-09-04 | $100.00 | $100.00 | $0.00 | 0.0% | 0 | Fri. First day on widened-spread + trend-follow tactics. CHPT (day's mover, +8%) untradeable: too volatile at open (ATR~0.45>0.25 cap), then boxed by/above the $10 position cap. Universe RVOL scanner BUGGED all day (0 despite real movers). FMP-gainers cross-check: in-band names all 1.9-5% spreads (MTEX/KPLT/CURX). No tradeable in-band setup, triple-confirmed. ROOT CAUSE identified + FIXED: Carlos approved FRACTIONAL LARGE-CAP trading (starts Tue 9/8) — the $5-10 whole-share universe was the disease. Flat verified 15:34 ET. |
+| 2026-09-30 | $499.76 | $499.54 | -$0.22 | -0.04% | 0 | Wed. GREEN tape all day (SPY +0.27%/QQQ +0.79%/IWM +0.04% close; QQQ hit session highs midday). **ESTABLISHED first MODULE H buy-and-hold: UBER 1 sh @69.17 + GTC $64 stop (Carlos-approved, carried OVERNIGHT — OPEN, not a closed trade).** Day P&L = UBER unrealized -$0.22 (68.95 close). Day-trade side: 0 trades. Quantum theme spiked at the open (thematic scan caught it: IONQ +5% -> ran 45.5->47.33 then blow-off round-tripped BELOW VWAP by 10:44) — correctly NOT chased (found it already +5% into HOD = chase; $1-wide bars break tight-stop RR; near-money call priced out of $50 cap); it fully reversed so a chase would be red. Rest of gainers = unaffordable ($552 UTHR, $156 ROG) or micro-cap biotech junk. Capital + PDT (2 avail) preserved. LESSON: run the THEMATIC basket scan FIRST at the bell (not after mega-cap/FMP sweep) — I found quantum ~25min late (already extended); earlier scan may catch a theme leader near VWAP pre-spike. Breakout/first-leg entry-type still paper-only (proposed graduation pending Carlos). Infra: GitHub push credential outage + a transient classifier outage midday. Flat-except-UBER verified 15:36 ET. |
 | 2026-09-29 | $499.76 | $499.76 | $0.00 | 0.0% | 0 | Tue. Mon-like BOUNCE-THEN-FADE chop. Pre-mkt green (+0.2-0.35%) faded to a weak open; QQQ briefly +0.45% (narrow tech-led) but IWM red all day; tape drifted soft-red/flat (close SPY -0.13%/QQQ +0.24%/IWM -0.40%), never made index higher-highs = long-continuation gate never met. CCL (+11-12% earnings gap) = the only affordable liquid mover — coiled above VWAP then WHIPSAWED around it all session (no clean HOD-break >25.16, no clean failed-bounce) = no edge, correctly never chased (a 10:52 mid-coil long would've stopped when the coil broke down ~11:24). AMD RS leader but unaffordable ($617, mega-cap wall). NO-TRADE, capital + PDT (2 avail) preserved. GitHub credential-service 503 outage all session delayed ledger pushes (commits safe locally). Flat verified 15:38 ET. |
 | 2026-09-28 | $500.26 | $499.76 | -$0.50 | -0.10% | 1 | Mon. **FIRST LIVE WHOLE-SHARE + RESTING-STOP TRADE** (scaled toolkit proven live end-to-end). Risk-off AM (QQQ -1.65% @10:49) staged a midday V-reversal (QQQ -0.58% @12:28) that then FADED back (QQQ -0.85% close-ish). Trade #4 NVDA long 231.06 (VWAP-pullback-hold on the reversal leader, 1 whole share, GTC resting stop 230.50) -> the reversal round-tripped, NVDA lost session VWAP on the fading tape -> cut on the rule @230.556 = -$0.50 (-0.89R). Damage control worked. AM options paper #2: NVDA failed-bounce PUT setup was valid but a near-money put = $300-565 vs $50 cap (priced out on mega-caps) -> declined the lotto; affordability RESOLVED in-rulebook (cheaper <$80 names for puts, whole-share leaders for longs — Carlos "figure it out, no cap raise"). Correctly did NOT chase AM puts (would've been underwater on the bounce). PDT 1/3 used. Halts fine (day -$0.50 << $5). Flat verified 14:17 ET (cash $499.76, reconciles exactly). |
 | 2026-09-25 | $500.26 | $500.26 | $0.00 | 0.0% | 0 | Fri. FIRST day on the scaled toolkit (E~$500). GREEN premarket ended the 3-red-day streak, but the open faded to chop then a modest-green PM grind (close SPY +0.45%/QQQ +0.43%/IWM +0.23%). NO-TRADE, 0 realized, capital protected. Honest read: a setup-availability shortfall, NOT tools/discipline — the full arsenal (whole-share+resting stops, options ~$50 cap, swing) was armed but no liquid RS-leader ever gave a clean pullback-reclaim (AMD lost leadership, NVDA flat, META bled -3.3% post-run w/ no failed-bounce put trigger; gainers = junk). Held the line: no forced day-1 trade to "use" the funding. PDT 0/3 used. Whole-share tiering learned (<=$250 names whole-shareable at $500). Flat verified 15:11 ET (broker 0 realized). |
@@ -3408,3 +3409,40 @@ IONQ 45.51, now BELOW VWAP (45.95) — faded 47.33 -> 45.51, full round-trip of 
   IONQ now below VWAP = no long. UBER 69.08 (~-$0.09 vs entry, far above $64 stop) — fine.
 DECISION: STAND DOWN. Quantum spike was one-and-done; no clean affordable RS leader with a definable entry.
   Widen cadence (~12:00) — green tape could still give an afternoon setup; else EOD. Capital + PDT preserved.
+
+--- PULSE 12:02 ET — green tape holding, but no clean affordable day-trade; stand down to EOD ---
+SPY +0.61%, QQQ +0.88% (session highs), IWM +0.21%. UBER 68.97 (fine). Quantum dead (IONQ +1.3%, below VWAP).
+FMP gainers = junk/biotech gappers or unaffordable ($552 UTHR, $156 ROG); no clean liquid affordable RS setup.
+STAND DOWN — watched a green tape all day, it didn't hand a clean affordable day-trade (quantum spiked+died;
+  rest priced out/junk). Honest state at $500. To EOD.
+
+>>> SESSION CLOSE — 2026-09-30 (Wed) 15:36 ET <<<
+POSITIONS: UBER 1 sh @69.17 avg, HELD (shares_held_for_sells=1 = its GTC stop is holding them). GTC stop
+  6abd0fe5 @64.00 = CONFIRMED/active. 0 options. UBER close 68.95 -> unrealized -$0.22.
+PORTFOLIO: total_value $499.54 (cash $430.59 + UBER equity $68.95). vs Starting $499.76 -> day -$0.22 (-0.04%).
+RESULT: 0 day-trades (PDT 2 still avail). 1 OPEN Module H hold (UBER) carried overnight — NOT a closed trade,
+  NOT flattened (correct; it's a multi-week hold w/ GTC floor). Halts: day -$0.22 (<<$5); weekly (wk of 9/28)
+  -$0.72 (<<$12.50). STATUS ACTIVE.
+FINAL TAPE: SPY 766.27 (+0.27%), QQQ 743.74 (+0.79%), IWM 279.11 (+0.04%) — green close, tech-led.
+SESSION NARRATIVE: A GREEN, risk-on day (quarter-end). The day's real accomplishment = ESTABLISHED the first
+  Module H buy-and-hold (UBER 1 sh @69.17 + GTC $64 stop, executed cleanly at the open). Day-trade side: the
+  new thematic scan CAUGHT the quantum theme (IONQ/QBTS/RGTI) early — a genuine sector RS move — but IONQ was
+  already +5% into its HOD when found, ran vertically to 47.33, then blow-off round-tripped below VWAP. Correctly
+  not chased (chase = red now; too volatile to risk-define; call priced out of $50 cap). No other clean
+  affordable leader (gainers = unaffordable mega/biotech or micro-junk). NO day-trade; capital + both day-trades
+  preserved.
+KEY TAKEAWAYS:
+  1. New thematic-scan pillar WORKS — it surfaced quantum while it led. The gap was SEQUENCING: I ran it ~25min
+     into the session (after the mega-cap/FMP sweep), by which point IONQ was already extended. FIX (operational,
+     adopted): run the thematic basket scan FIRST at the bell, parallel to the index read, to catch a theme
+     leader near VWAP pre-spike.
+  2. RECURRING STRUCTURAL GAP: our pullback/reclaim, anti-chase, tight-RR method structurally MISSES gap-and-go
+     momentum runners (IONQ today; NVDA 9/17, leaders 9/21). The sanctioned fix would be graduating the
+     "first-leg/capped-breakout" entry type from paper to live (small, defined-risk) — PROPOSED to Carlos, PENDING
+     his approval (not adopted; it's a rulebook change). Until then we only play pullbacks and will keep passing
+     on clean vertical breakouts.
+  3. UBER hold behaving as designed (tiny -$0.22, GTC floor intact). Module H working.
+NEXT: Thu 2026-10-01 pre-market wake ~08:35 ET / 12:35 UTC — STATUS/rails re-read, confirm flat-except-UBER,
+  MANAGE UBER (trail GTC stop UP only if it has risen meaningfully, never down; reassess on news), regime-check-
+  first, THEMATIC scan FIRST then movers, clean setups only, reserve 2 day-trades, A+ tier still unused. Flush
+  pending git commits when the credential service is back.
