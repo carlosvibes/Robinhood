@@ -3446,3 +3446,18 @@ NEXT: Thu 2026-10-01 pre-market wake ~08:35 ET / 12:35 UTC — STATUS/rails re-r
   MANAGE UBER (trail GTC stop UP only if it has risen meaningfully, never down; reassess on news), regime-check-
   first, THEMATIC scan FIRST then movers, clean setups only, reserve 2 day-trades, A+ tier still unused. Flush
   pending git commits when the credential service is back.
+
+>>> SESSION OPEN — 2026-10-01 (Thu) 08:36 ET (pre-market) <<<
+FLAT except UBER Module H hold (1 sh @69.17, GTC $64 stop CONFIRMED). STATUS ACTIVE. Wed closed 68.51 (faded
+  late). Pre-mkt Thu green (SPY +0.44/QQQ +0.61/IWM +0.48%). UBER -0.5% pre-mkt -> no stop trail.
+
+--- PULSE 09:51 ET (open) — pre-mkt green FADED again; weak/flat tape, no clean setup, STAND DOWN ---
+REGIME: SPY 763.01 (+0.05%), QQQ 740.74 (+0.13%), IWM 276.58 (-0.47% RED) — pre-mkt green evaporated at the
+  bell (recurring pattern). Weak/indecisive, not a clean trend.
+UBER: 68.14 (-1.5% vs 69.17 entry, weakest yet) but $4+ above the $64 stop. Multi-week hold; don't trail a
+  loser -> stop stays $64. Monitor thesis.
+THEMATIC: quantum DEAD today (IONQ -0.5%/QBTS -0.7%/RGTI -1%). NEW cluster = IT-services/AI on an ACN earnings
+  catalyst: ACN +22% ($224), CTSH +10% ($63), CNXC +10% ($27), SNPS/FICO/VICR +9%. Affordable+liquid = CTSH,
+  CNXC — but +10% earnings GAPS (chase risk at open).
+DECISION: STAND DOWN at open. Weak tape (IWM red) + gap-up chase risk, no clean affordable above-VWAP setup.
+  WATCH CTSH ($63) for a pullback-reclaim above VWAP if the tape firms green. No chase. UBER untouched.
