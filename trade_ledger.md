@@ -3559,3 +3559,14 @@ KEY: front-running any of these mid-coil (10:45) would be a loser now. Disciplin
 UBER: 67.40 (-2.5% vs 69.17 entry, -0.7% on day), still $3.40 above the $64 stop -> hold, no trail, no action.
 DECISION: STAND DOWN. Setups failed, tape softening, midday (volume dries up) approaching. No clean setup.
 PLAN: wider cadence -> midday pulse ~13:00 ET, then EOD close ~15:35 ET. Reserve day-trades (3 avail).
+
+--- PULSE 13:00 ET (midday) — tape green/quiet, quantum fully faded; STAND DOWN, go to EOD ---
+REGIME: SPY 769.50 (+0.72%), QQQ 749.66 (+1.03%), IWM 281.69 (+0.96%) — stabilized mid-range off the highs,
+  still solidly green but midday-quiet (low volume).
+QUANTUM (today's thesis, now resolved = gap-and-fade): QBTS 16.37 (RED -1.2% on day), RGTI 15.58 (RED -0.3%),
+  IONQ 44.66 (+1.5% but chopping mid-range, well below its 45.335 trigger). No breakout setups remain; all
+  failed their OR-highs and faded. No fresh affordable mover (AM gainers were penny junk; mega-caps priced out).
+UBER: 68.015 (+0.2% on day; -1.67% vs 69.17 entry), recovered from the 67.40 AM low, above $64 stop -> hold.
+DECISION: STAND DOWN. Midday chop + failed setups = no-trade. 0 day-trades. Breakout module live today but
+  gave 0 clean triggers (correct no-trade, not a miss). Skipping an extra afternoon pulse on a dead tape to
+  conserve context; EOD close already scheduled ~15:35 ET. Reserve day-trades (3 avail). UBER untouched.
