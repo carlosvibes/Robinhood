@@ -3545,3 +3545,17 @@ DECISION: STAND DOWN — coils are constructive but the breakout TRIGGER hasn't 
 UBER: 67.79 (-2.0% vs 69.17 entry, -0.1% on day), well above $64 stop -> hold, no trail.
 PLAN: watch IONQ for a clean break of 45.335 (or QBTS 17.00 / RGTI 16.09). Tighter cadence -> next pulse ~11:15
   ET to catch a potential break near the trigger (vs the between-pulse misses of 9/17, 9/21). No chase if extended.
+
+--- PULSE 11:16 ET — quantum coils RESOLVED DOWN (stand-down vindicated); tape fading from highs; STAND DOWN ---
+REGIME: SPY 768.32 (+0.57%, off the +1.05% high), QQQ 749.13 (+0.96%), IWM 281.39 (+0.85%) — still green but
+  FADING from the morning highs (familiar midday softening, milder today).
+QUANTUM — all FAILED the coil to the DOWNSIDE (not up), confirming why we wait for the break AT the trigger:
+  - IONQ: tagged 45.32 (14:50, right at the 45.335 trigger) but NEVER closed above it, then rolled -> 44.72,
+    44.58, 44.42; now 44.34, BELOW VWAP (44.76). A breakout/anticipatory entry = red. Clean pass.
+  - QBTS: broke the coil DOWN on heavy vol (15:10 bar 359k) -> 16.47, red on the day.
+  - RGTI: rolled over 15.81/15.77/15.70; now 15.71, fading.
+KEY: front-running any of these mid-coil (10:45) would be a loser now. Discipline (enter only on the confirmed
+  break AT the trigger) worked exactly as designed. Live breakout count still 0/~3-5 — cleanly, correctly.
+UBER: 67.40 (-2.5% vs 69.17 entry, -0.7% on day), still $3.40 above the $64 stop -> hold, no trail, no action.
+DECISION: STAND DOWN. Setups failed, tape softening, midday (volume dries up) approaching. No clean setup.
+PLAN: wider cadence -> midday pulse ~13:00 ET, then EOD close ~15:35 ET. Reserve day-trades (3 avail).
