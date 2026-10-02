@@ -3514,3 +3514,19 @@ PLAN: no entries in the first 15 min — record the 09:30-09:45 opening range fo
   OR-high/pre-mkt-high ABOVE VWAP on vol >=1.6x prior-6-bar avg, entry AT the trigger (NOT extended), resting
   GTC stop under the base, RR>=1.5 -> take it at HALF size. If it gaps and runs away (extended) = STAND DOWN,
   log the pass. Manage UBER (no trail unless it rallies well above entry). Reserve day-trades (3 avail).
+
+--- PULSE 09:51 ET (post-open) — tape GREEN & HELD, but quantum names digesting; STAND DOWN, watch ---
+REGIME: SPY 771.21 (+0.95%), QQQ 751.76 (+1.31%), IWM 282.69 (+1.31%) — strong risk-on gap HELD ~20min past
+  the bell (NOT the recurring fade). Genuine green tape = breakout longs are permitted IF a clean trigger forms.
+WATCHLIST (5m opening-range read): all three quantum names gapped up, printed HOD in the FIRST 5m bar, then
+  faded/based BELOW it on DECLINING volume (the "already went" pattern):
+  - IONQ: OR-high 45.34 (1st bar), now 44.63 — below OR-high, fading; vol flat/falling.
+  - QBTS: OR-high 17.00 (1st bar), now 16.80 — basing mid-range below OR-high.
+  - RGTI: OR-high 16.09 (1st bar), now 15.95 (~pre-mkt high) — below OR-high; vol 456k->158k->190k (contracting).
+BREAKOUT TRIGGER CHECK: NO name has a completed 5m close above its OR-high on vol >=1.6x prior-6-bar avg
+  (volume is CONTRACTING, not expanding). Entry now = buying mid-range chop / chasing a move that already
+  happened in the 1st bar -> NOT the clean break the module requires. STAND DOWN. Live breakout trade count
+  still 0/~3-5 probationary. Discipline over eagerness: a green tape is necessary, not sufficient.
+UBER: 67.86 (~flat vs 67.88 close, below 69.17 entry), well above $64 stop -> hold, no trail, no action.
+PLAN: WATCH for a tightening consolidation that then breaks the OR-high on expanding volume, OR a clean
+  VWAP pullback-reclaim, on RGTI/QBTS/IONQ. Next pulse ~10:45 ET. Reserve day-trades (3 avail).
