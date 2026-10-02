@@ -3494,3 +3494,23 @@ NEXT: Fri 2026-10-02 pre-market wake ~08:35 ET / 12:35 UTC — STATUS/rails re-r
   GTC $64 stop, MANAGE UBER (trail stop UP only if it rises meaningfully, never down; reassess on news),
   regime-check-first, THEMATIC scan FIRST then movers, clean setups only, reserve day-trades, A+ tier unused.
   Flush pending git commits when the credential service is back.
+>>> SESSION OPEN — 2026-10-02 (Fri) 08:38 ET (pre-market) <<<
+STATUS ACTIVE. Broker reconciles to ledger: FLAT except UBER Module H (1 sh @69.17, GTC $64 stop order
+  6abd0fe5 state=confirmed/active), no options, cash $430.59, total ~$498.9. Account 609021910 (agentic,
+  option_level_2) confirmed; NEVER 527546030. Market = normal Fri 09:30-16:00 ET, flatten 15:50.
+RULEBOOK NOTE: breakout/first-leg momentum entry is now LIVE (approved 2026-10-02) at PROBATIONARY HALF size
+  (max risk ~$1.25/trade, 0.25%E; position <=~$125) for the first ~3-5 live breakouts.
+PRE-MKT TAPE: strongly RISK-ON gap-up — SPY +0.92% (771.0), QQQ +1.17% (750.7), IWM +1.69% (283.7, small caps
+  leading). Bigger than the recent "green-then-fade" opens — but that fade pattern has burned us all week, so
+  demand POST-OPEN confirmation (no pre-mkt entries; tape must HOLD green after the bell).
+THEMATIC (pre-mkt, non-reg last vs prior close): QUANTUM waking — IONQ 44.93 (+2.1%), QBTS 16.85 (+1.8%),
+  RGTI 15.95 (+2.1%). SEMIS/AI strong — NVDA 235.9 (+2.2%), MU +3%, SOXL +3.9%, PLTR 192.9 (+1.5%),
+  TSLA 357.4 (+0.9%). UBER 68.27 (+0.6%).
+WATCHLIST (breakout candidates, affordable at probationary half-size): RGTI (~$16), QBTS (~$17), IONQ (~$45)
+  — the cheap high-ATR quantum names the breakout module targets; whole-shareable at 1-2 shares with ~$1.25
+  risk. NVDA/PLTR too pricey for the ~$125 half-size position cap (1 share > cap). UBER = hold, not a day-trade.
+PLAN: no entries in the first 15 min — record the 09:30-09:45 opening range for RGTI/QBTS/IONQ. Then, IF the
+  tape is still green AND a name gives a completed-5m-bar break (PREFERRED: break-then-RETEST-hold) above its
+  OR-high/pre-mkt-high ABOVE VWAP on vol >=1.6x prior-6-bar avg, entry AT the trigger (NOT extended), resting
+  GTC stop under the base, RR>=1.5 -> take it at HALF size. If it gaps and runs away (extended) = STAND DOWN,
+  log the pass. Manage UBER (no trail unless it rallies well above entry). Reserve day-trades (3 avail).
