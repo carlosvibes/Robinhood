@@ -3530,3 +3530,18 @@ BREAKOUT TRIGGER CHECK: NO name has a completed 5m close above its OR-high on vo
 UBER: 67.86 (~flat vs 67.88 close, below 69.17 entry), well above $64 stop -> hold, no trail, no action.
 PLAN: WATCH for a tightening consolidation that then breaks the OR-high on expanding volume, OR a clean
   VWAP pullback-reclaim, on RGTI/QBTS/IONQ. Next pulse ~10:45 ET. Reserve day-trades (3 avail).
+
+--- PULSE 10:45 ET — tape firmer-green; quantum names COILING under OR-highs, no trigger yet; STAND DOWN ---
+REGIME: SPY 772.01 (+1.05%), QQQ 753.48 (+1.54%), IWM 283.14 (+1.48%) — risk-on, firm, holding. Green confirmed.
+STRUCTURE (5m, through 10:40 ET): all three coiling just UNDER their first-bar OR-highs on a strong tape —
+  constructive but NO completed 5m close above the level on vol >=1.6x (volume DECLINING into the coils):
+  - IONQ (primary): ground back to ~45.02, highs 45.17->45.25 approaching day/OR-high 45.335; ABOVE VWAP
+    (44.76), ATR(5m) 0.28. Coiling under 45.335. IF a 5m closes > 45.335 on vol expansion -> tradeable half-size
+    (~1-2 sh, stop under coil ~44.65, ~$0.75-1.25 risk, RR>=1.5). Not there yet (0.75% below, vol fading).
+  - QBTS: capped 16.80-16.91 all hour, never reclaimed 17.00 OR-high. No trigger.
+  - RGTI: poked 16.09-16.105 twice, no 5m CLOSE above 16.09; range-bound 15.90-16.09. No trigger.
+DECISION: STAND DOWN — coils are constructive but the breakout TRIGGER hasn't fired; entering mid-coil =
+  front-running, against the spec (enter AT the completed break, not in anticipation). Live breakout count 0.
+UBER: 67.79 (-2.0% vs 69.17 entry, -0.1% on day), well above $64 stop -> hold, no trail.
+PLAN: watch IONQ for a clean break of 45.335 (or QBTS 17.00 / RGTI 16.09). Tighter cadence -> next pulse ~11:15
+  ET to catch a potential break near the trigger (vs the between-pulse misses of 9/17, 9/21). No chase if extended.
