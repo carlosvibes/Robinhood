@@ -3617,3 +3617,17 @@ PLAN: no pre-mkt entries; record 09:30-09:45 opening range for WOLF/IMOS (+ quan
   completed-5m break above its OR-high above VWAP on volume, entry AT the trigger (not extended) -> probationary
   HALF size (stop >=1x ATR under base, RR>=1.5, full protocol, resting GTC stop after fill, flat 15:50). If it
   gaps-and-runs = stand down. Manage UBER (no trail, below entry). Reserve day-trades (3 avail).
+
+--- PULSE 09:51 ET (post-open) — semis gappers FAILED; UBER turned green; STAND DOWN (day-trades) ---
+REGIME: SPY 770.52 (+0.11%), QQQ 752.00 (+0.32%), IWM 280.56 (-0.34%) — mixed/choppy, no clean trend.
+SEMIS BREAKOUT CANDIDATES — both GAPPED-AND-REVERSED hard (no long setup; no-chase vindicated AGAIN):
+  - WOLF: pre-mkt +13% ($35) -> opened 34.12, sold off immediately (1st bar 34.64H->32.91C), now 32.52
+    (-7.8% vs 35.28 prior close), BELOW VWAP & opening-range low, falling. Chasing the gap = ~-8%. No long.
+  - IMOS: opened 80.50 -> 78.37 (-5.9%), tiny volume (2.5-11k), spread 78.03/79.34 (~$1.31 = untradeable).
+  No completed OR-high break on either; both failed. STAND DOWN. Live breakout count still 0.
+UBER (Module H): **69.555 (+2.12% on the day vs 68.11; now +0.56% ABOVE the 69.17 entry — FIRST time green).**
+  Multi-week hold working. Only marginally above entry -> NOT "meaningfully above," so the $64 catastrophic-floor
+  stop STAYS (trailing a <1% gain would convert the hold into a swing and risk a noise shakeout). Reassess a
+  stop-trail if it extends to ~+3-4% above entry (~$71-72). Held, no action this pulse.
+DECISION: STAND DOWN on day-trades (candidates failed, tape choppy). 0 trades, PDT preserved (3 avail).
+PLAN: midday pulse ~11:30 ET (watch UBER's move + any fresh clean setup), EOD close ~15:35 ET.
