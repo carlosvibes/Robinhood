@@ -3598,3 +3598,22 @@ NEXT: Mon 2026-10-05 pre-market wake ~08:35 ET / 12:35 UTC — STATUS/rails + le
   live probationary-half + A+ concentration), confirm flat-except-UBER + $64 stop, manage UBER (trail up only),
   regime-check-first, THEMATIC scan FIRST then movers, clean setups only. SIZING: standard for ordinary-clean,
   A+ concentration on a genuine A+, breakout stays probationary half until its sample proves out.
+
+>>> SESSION OPEN — 2026-10-05 (Mon) 08:38 ET (pre-market) <<<
+STATUS ACTIVE. Broker reconciles: FLAT except UBER Module H (1 sh @69.17, GTC $64 stop order 6abd0fe5
+  state=confirmed/active), no options, cash $430.59, total ~$498.57. Account 609021910 (agentic, option_level_2)
+  confirmed; NEVER 527546030. Normal Mon 09:30-16:00, flatten 15:50.
+RULEBOOK LIVE: breakout/first-leg entry at PROBATIONARY HALF size (~$1.25 risk, <=~$125) until a +EV 3-5 sample;
+  A+ CONCENTRATION active (A+ setup -> ~$250/~$5 risk + wider stop + fuller target; excludes probationary breakout).
+PRE-MKT TAPE: FLAT/mixed (not Fri's gap) — SPY 769.4 (-0.03%), QQQ 747.9 (-0.22%), IWM 282.2 (+0.24%). No lean.
+THEMATIC: QUANTUM quiet/soft (IONQ 43.7 flat, QBTS 15.8, RGTI 15.3 — bled from Fri). NEW cluster = SEMICONDUCTORS
+  gapping on an apparent sector/M&A catalyst: MXL +15% ($106), SYNA +14% ($121), IMOS +14.6% ($83), WOLF +13%
+  ($35). (Also SpaceX-ETF pop SPAX/SPCF/LOFF = leveraged/banned; XRPN/SPAC junk — skip.)
+AFFORDABILITY at probationary half-size ($1.25 risk / <=$125 pos): WOLF (~$35) = best fit (2-3 sh w/ tight stop);
+  IMOS (~$83) marginal (1 sh); MXL/SYNA ($106-121) PRICED OUT (1 sh max, a 1xATR stop blows the $1.25 cap).
+WATCHLIST: WOLF (primary, semis, affordable), IMOS (backup). These are GAP-UPS -> NO chase; wait for a clean
+  post-open OR-high break-and-retest ABOVE VWAP on vol >=1.6x. Quantum = secondary watch only.
+PLAN: no pre-mkt entries; record 09:30-09:45 opening range for WOLF/IMOS (+ quantum). Post-open: if WOLF gives a
+  completed-5m break above its OR-high above VWAP on volume, entry AT the trigger (not extended) -> probationary
+  HALF size (stop >=1x ATR under base, RR>=1.5, full protocol, resting GTC stop after fill, flat 15:50). If it
+  gaps-and-runs = stand down. Manage UBER (no trail, below entry). Reserve day-trades (3 avail).
