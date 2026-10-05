@@ -3631,3 +3631,17 @@ UBER (Module H): **69.555 (+2.12% on the day vs 68.11; now +0.56% ABOVE the 69.1
   stop-trail if it extends to ~+3-4% above entry (~$71-72). Held, no action this pulse.
 DECISION: STAND DOWN on day-trades (candidates failed, tape choppy). 0 trades, PDT preserved (3 avail).
 PLAN: midday pulse ~11:30 ET (watch UBER's move + any fresh clean setup), EOD close ~15:35 ET.
+
+--- PULSE 11:30 ET — tape firmed green; UBER held (green but not trail-worthy); Brazil theme extended; STAND DOWN ---
+REGIME: SPY 772.92 (+0.43%), QQQ 753.62 (+0.54%), IWM 282.26 (+0.26%) — firmed to solidly green. Risk-on.
+UBER (Module H): 69.59 (+2.17% on day, +0.61% ABOVE 69.17 entry). Grinding sideways 69.1-69.85 all morning
+  (HOD 69.85), NOT extending. Well short of the ~+3-4% trail threshold -> $64 catastrophic-floor stop STAYS
+  (a tight trail near 69.0 risks a noise shakeout on a multi-week hold; it dipped to 69.05 at 14:15Z). No action.
+SCAN: new catalyst cluster = BRAZIL (macro/political) — XP +33% ($28.8), STNE +24% ($11.9), PAGS +22% ($11.1),
+  INTR +24% ($6.8), ITUB +16% ($10), BBD +20% ($4.4), + Brazil ETFs (BRZU/UBR/PBRG = LEVERAGED, BANNED).
+  Also PTC +34% ($193, M&A, too pricey), PCVX +32% ($74, biotech binary). Affordable Brazil names exist but ALL
+  gapped +16-33% already = EXTENDED gap-ups. Entering now = CHASE (far from VWAP/base), against the spec.
+DECISION: STAND DOWN. No clean NON-extended entry (everything's already run); chasing a +25% gap is exactly what
+  the no-chase rule forbids. Watch the liquid Brazil names (STNE/PAGS) for a possible afternoon VWAP-reclaim /
+  tight-flag break AT a trigger -> only then a probationary half-size breakout. Live breakout count still 0.
+PLAN: afternoon watch pulse ~13:30 ET (Brazil pullback setups + UBER), EOD close ~15:35 ET. 0 day-trades so far.
