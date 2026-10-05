@@ -3645,3 +3645,19 @@ DECISION: STAND DOWN. No clean NON-extended entry (everything's already run); ch
   the no-chase rule forbids. Watch the liquid Brazil names (STNE/PAGS) for a possible afternoon VWAP-reclaim /
   tight-flag break AT a trigger -> only then a probationary half-size breakout. Live breakout count still 0.
 PLAN: afternoon watch pulse ~13:30 ET (Brazil pullback setups + UBER), EOD close ~15:35 ET. 0 day-trades so far.
+
+--- PULSE 13:31 ET (afternoon) — Brazil names chopped/faded post-gap; no setup; STAND DOWN ---
+REGIME: SPY 774.26 (+0.60%), QQQ 754.52 (+0.66%), IWM 282.93 (+0.50%) — solidly green, trending. Risk-on day.
+BRAZIL THEME (the day's cluster) — all gap-and-fade, NO breakout entry:
+  - STNE (+22%): HOD 12.06 in first 40min, then chopped 11.55-12.0 all day; now 11.60 FADING toward day-low,
+    BELOW VWAP (~11.8). No long.
+  - PAGS (+23%): HOD 11.195 early, then dead sideways 10.9-11.14; now 11.04 mid-range ~at VWAP. No trigger.
+  (INTR 6.65 / ITUB 10.01 same profile.) Made their move at the open (correctly NOT chased) -> now drifting.
+  No completed OR-high break on volume anywhere. STAND DOWN.
+UBER (Module H): 69.43 (+1.94% day, +0.38% above 69.17 entry), pulled back slightly, still green/above $64 stop
+  -> hold, no trail (nowhere near the +3-4% threshold). No action.
+DECISION: STAND DOWN. 0 day-trades. PATTERN (honest): breakout module live 2 days now, 0 trades — EVERY
+  candidate this week (quantum Fri, semis + Brazil Mon) has been a gap-and-FADE, not a clean base-breakout. The
+  discipline is correctly keeping us out of losers (WOLF -8%, quantum reversals). Not a fumble; the tape simply
+  hasn't offered the setup the module needs. Live breakout count still 0/~3-5.
+PLAN: go to EOD close ~15:35 ET (already scheduled). Reserve day-trades (3 avail).
