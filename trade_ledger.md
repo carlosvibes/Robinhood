@@ -3688,3 +3688,21 @@ PATTERN FLAG (for Carlos): breakout module has been LIVE 2 full sessions (Fri + 
 NEXT: Tue 2026-10-06 pre-market wake ~08:35 ET / 12:35 UTC — STATUS/rails + learning.md Changelog top, confirm
   flat-except-UBER + $64 stop, manage UBER (trail up only if it extends well above entry), regime, thematic scan
   first then movers, clean setups only. SIZING: standard / A+ concentration / breakout probationary-half as logged.
+
+>>> SESSION OPEN — 2026-10-06 (Tue) 08:37 ET (pre-market) <<<
+STATUS ACTIVE. Broker reconciles: FLAT except UBER Module H (1 sh @69.17, GTC $64 stop order 6abd0fe5
+  state=confirmed/active), no options, cash $430.59, total $500.62. Account 609021910 (agentic, option_level_2)
+  confirmed; NEVER 527546030. Normal Tue 09:30-16:00, flatten 15:50.
+RULEBOOK LIVE: breakout probationary-half (~$1.25); A+ concentration (A+ -> ~$250/~$5 + wider stop + fuller
+  target); PAPER-LOGS active: (A) VWAP-reclaim-after-fade long, (B) gap-fade long PUTS — both zero-capital.
+PRE-MKT TAPE: green-continuation — SPY 777.65 (+0.36%), QQQ 759.65 (+0.46%), IWM 284.45 (+0.38%). Risk-on.
+UBER (Module H): 70.03 pre-mkt (+0.79% vs 69.48 Mon close; **+1.24% ABOVE the 69.17 entry** — broke $70,
+  climbing). Still short of the ~+3-4% trail threshold (~$71.5-72) -> $64 stop STAYS; WATCH the ~$71.5+ zone
+  during RTH to trail up to a sound swing low. No pre-mkt action (thin).
+SCAN NOTE: FMP biggest-gainers is STALE pre-mkt (returning Mon's movers verbatim — XP/STNE/PAGS/INTR/ITUB/PTC/
+  PCVX at ~Mon %). Cannot ID fresh Tue gappers pre-market -> RE-SCAN post-open on fresh 5m bars. Universe to
+  watch: Brazil (if still in play), quantum, semis, + whatever genuinely gaps fresh today.
+PLAN: no pre-mkt entries. Post-open: regime recheck, re-scan movers fresh, record opening ranges. On any liquid
+  catalyst gapper -> (live) clean above-VWAP break-retest only = probationary-half breakout, no chase; AND run
+  the 2 paper-logs (reclaim-long / gap-fade-put) zero-capital. Manage UBER (trail only if it clears ~$71.5+).
+  Reserve day-trades (3 avail).
