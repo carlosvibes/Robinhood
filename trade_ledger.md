@@ -3706,3 +3706,21 @@ PLAN: no pre-mkt entries. Post-open: regime recheck, re-scan movers fresh, recor
   catalyst gapper -> (live) clean above-VWAP break-retest only = probationary-half breakout, no chase; AND run
   the 2 paper-logs (reclaim-long / gap-fade-put) zero-capital. Manage UBER (trail only if it clears ~$71.5+).
   Reserve day-trades (3 avail).
+
+--- PULSE 09:51 ET (post-open) — big gapper is M&A-pinned (not tradeable); STAND DOWN ---
+REGIME: SPY 779.04 (+0.54%), QQQ 760.53 (+0.57%), IWM 283.20 (-0.06%) — green, tech-led; IWM flat. Risk-on.
+UBER (Module H): 69.41 (+0.35% above 69.17 entry) — the 70.03 pre-mkt pop FADED at the open (even our hold
+  shows the gap-fade pattern). Still above entry + above $64 stop; nowhere near the +3-4% trail zone -> HOLD, no
+  trail, no action. (Good that I didn't trail at the thin pre-mkt $70.)
+FRESH MOVER SCAN (post-open, real Tue data): biggest gapper = OPCH +32.9% ($31.05 vs 23.37) BUT it's a CASH
+  M&A/takeover PIN — opened 31.04, traded a dead-flat 31.00-31.08 range all 20min on huge volume (arb-pinned
+  just under the deal price). NOT a momentum gapper: won't break out (capped at deal price) or fade (supported)
+  -> neither the live breakout NOR the gap-fade-put applies (a put would just bleed theta). SKIP.
+  Others: RKLB +5.8% ($77, space) = marginal affordability, watch for a clean base-break; MRVL/NVDA semis
+  priced out; rest = leveraged ETFs (banned) or micro junk.
+REFINEMENT (for the gap-fade paper-logs): distinguish MOMENTUM gappers (news/earnings/sector -> run then fade,
+  tradeable by reclaim-long / gap-fade-put) from M&A-DEAL-PINNED gappers (cash buyout -> pinned at deal price,
+  flat, NOT tradeable). The paper-logs apply ONLY to momentum gappers.
+DECISION: STAND DOWN. No clean momentum setup; OPCH untradeable (deal pin); nothing to paper-log yet (no
+  momentum gapper faded/reclaimed). 0 day-trades. PDT preserved (3). RKLB = watch next pulse.
+PLAN: next pulse ~11:30 ET (RKLB + any fresh momentum gapper + UBER trail watch), EOD close ~15:35 ET.
