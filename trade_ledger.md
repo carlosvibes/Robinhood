@@ -3746,3 +3746,19 @@ MOVERS: nuclear/power theme (CEG +13.5% $303, TLN +12.9% $374 — priced out; af
 DECISION (live): STAND DOWN — no clean AT-the-trigger live entry (APOG extended from its reclaim; OPCH pinned;
   power names priced out). 0 day-trades, PDT preserved (3). Paper-log A now 1 sample logged.
 PLAN: midday pulse ~13:30 ET (APOG 42.74 breakout watch + UBER), EOD close ~15:35 ET.
+
+--- PULSE 13:31 ET (midday) — paper-log A #1 (APOG) = WIN; no live trade; STAND DOWN ---
+REGIME: SPY 779.62 (+0.62%, off the +0.81% high), QQQ 760.53 (+0.57%), IWM 281.47 (-0.67% RED) — large-cap
+  green but softening; small caps turned red. Mild afternoon fade.
+[PAPER-LOG A #1 — APOG — RESOLVED = WIN] Hypothetical reclaim-long entry 40.20 / stop 39.15 / target 42.74.
+  APOG pushed THROUGH the 42.74 target intraday (high 42.80 @16:40Z, 42.89 @17:10Z) -> TARGET HIT.
+  Result: +$2.54 / +2.42R (paper, zero capital). First VWAP-reclaim-after-fade sample = WIN. Clean validation of
+  the pattern (gap -> fade -> VWAP reclaim -> trend to gap-high).
+LIVE-SIDE NOTE: the bar that broke 42.74 (16:40Z) did so on only ~1.1x the prior-6-bar vol avg (needed >=1.6x)
+  AND fired between pulses (11:31->13:30); it's now extended/chopping near highs (42.62). So NO clean live
+  breakout trigger existed -> correctly no live entry, no chase. (The paper reclaim-long WAS the better edge here
+  than waiting for the volume-confirmed breakout that never came — a useful data point for the strategy review.)
+UBER (Module H): 68.907 — drifted BACK BELOW the 69.17 entry (-0.38% vs entry; intraday noise around entry).
+  Still well above the $64 stop -> HOLD, no trail (below entry), no action. Multi-week thesis unaffected.
+DECISION: STAND DOWN (live). 0 day-trades, PDT preserved (3). Paper-log A: 1 sample, 1 WIN (+2.4R).
+PLAN: EOD close ~15:35 ET (already scheduled).
