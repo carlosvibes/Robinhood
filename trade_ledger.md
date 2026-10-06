@@ -3724,3 +3724,25 @@ REFINEMENT (for the gap-fade paper-logs): distinguish MOMENTUM gappers (news/ear
 DECISION: STAND DOWN. No clean momentum setup; OPCH untradeable (deal pin); nothing to paper-log yet (no
   momentum gapper faded/reclaimed). 0 day-trades. PDT preserved (3). RKLB = watch next pulse.
 PLAN: next pulse ~11:30 ET (RKLB + any fresh momentum gapper + UBER trail watch), EOD close ~15:35 ET.
+
+--- PULSE 11:31 ET — tape strong green; FIRST gap-fade paper-log sample (APOG reclaim); UBER at entry; STAND DOWN (live) ---
+REGIME: SPY 781.14 (+0.81%), QQQ 762.06 (+0.78%), IWM 283.32 (flat) — strong green, tech-led, near HOD. Risk-on.
+UBER (Module H): 69.17 — faded back to EXACTLY our entry (the pre-mkt $70 pop fully round-tripped; UBER itself
+  gap-faded intraday). Still well above the $64 stop; multi-week thesis intact -> HOLD, no trail, no action.
+MOVERS: nuclear/power theme (CEG +13.5% $303, TLN +12.9% $374 — priced out; affordable exposure only via BANNED
+  leveraged ETFs OKLL/VSTL/NBIL etc.). OPCH still the +33% M&A pin (skip). APOG +17% ($42, earnings) = the one
+  affordable liquid MOMENTUM gapper -> analyzed below.
+
+[PAPER-LOG A #1 — VWAP-RECLAIM-AFTER-FADE — APOG — 2026-10-06] (hypothetical, ZERO capital)
+  Pattern: gapped +20% to 42.74 open -> FADED hard to 39.14 in the 1st 5m -> based 37.85-39.9 (~30min) ->
+  RECLAIMED VWAP (~40.0) ~14:00-14:35Z with momentum (39.6->40.1->40.7) -> trended up to 41.87 now.
+  Hypothetical entry: 40.20 (on the 14:35Z reclaim-confirmation bar, above VWAP ~40.0).
+  Stop: 39.15 (under the reclaim base low ~39.2) -> risk ~$1.05.
+  Target: 42.74 (prior HOD / gap high) -> reward ~$2.54. RR ~2.4.
+  Status so far: OPEN/working — 41.87 (~+$1.67, ~+1.6R unrealized); not yet hit target or stop.
+  NOTE: observed POST-trigger (didn't catch the ~14:00 reclaim live this pulse) -> NOT taken live; a live entry
+  now @41.87 would be a CHASE (+7% off the lows, extended from the reclaim). First sample for paper-log A. A
+  clean break of 42.74 on vol >=1.6x WOULD be a separate live breakout candidate -> watch next pulse (no chase).
+DECISION (live): STAND DOWN — no clean AT-the-trigger live entry (APOG extended from its reclaim; OPCH pinned;
+  power names priced out). 0 day-trades, PDT preserved (3). Paper-log A now 1 sample logged.
+PLAN: midday pulse ~13:30 ET (APOG 42.74 breakout watch + UBER), EOD close ~15:35 ET.
