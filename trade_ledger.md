@@ -3807,3 +3807,18 @@ PLAN: no pre-mkt entries. REGIME-CHECK-FIRST at the open: if the tape confirms R
   put (get_option_chains, 3-20 DTE, $50 cap, cheaper <~$80 name) + payoff/R, zero capital. Paper-log A (reclaim-
   long) only if a gapper fades-then-reclaims (lower-prob on red tape). FMP gainers stale pre-mkt -> re-scan
   post-open on fresh data; skip M&A pins. Manage UBER (hold). Reserve day-trades (3 avail).
+
+--- PULSE 09:51 ET (post-open) — RED/risk-off confirmed; live longs OFF; no clean paper sample yet; STAND DOWN ---
+REGIME: SPY 774.74 (-0.56%), QQQ 753.09 (-0.86%), IWM 278.60 (-0.97%) — RED across the board, risk-off. Gainers
+  board DOMINATED by inverse/short leveraged ETFs (2x-short MSTR/COIN/RKLB/IONQ/RGTI/ether, -3x gold miners) =
+  classic broad down-day signature. LIVE breakout longs OFF (need green tape).
+UBER (Module H): 68.70 (-0.68% vs 69.17 entry), drifting with the red tape, above the $64 stop -> HOLD, no
+  trail, no action. $64 GTC stop handles the downside automatically.
+GAP-FADE WATCH: only liquid UP-gapper = PENG (Penguin Solutions) +16.3% ($74.70, earnings). But it is HOLDING
+  STRONG — dipped to 65.70 first bar then ran to 75.44 HOD, now 74.70 ABOVE VWAP (~72) near highs = relative
+  STRENGTH on a red tape, NOT a failure. So NO gap-fade-PUT (B) sample (it's not failing) and NOT a clean
+  reclaim-long (A) sample (barely dipped, went straight up; + extended now + red tape = no live long anyway).
+DECISION: STAND DOWN. Live longs off (red tape); no clean paper sample yet (the up-gapper is holding, not
+  failing). 0 day-trades, PDT preserved (3). Paper-log tally unchanged (A: 1 win; B: 0). WATCH: if PENG rolls
+  over and loses VWAP later -> that becomes a paper-log B (gap-fade-put) sample; or any fresh gapper that fails.
+PLAN: next pulse ~11:30 ET, EOD close ~15:35 ET (both scheduled).
