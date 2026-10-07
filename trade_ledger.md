@@ -3790,3 +3790,20 @@ DISCUSSION (Carlos, chat): Kelly criterion for sizing — my take: directionally
 NEXT: Wed 2026-10-07 pre-market wake ~08:35 ET / 12:35 UTC — STATUS/rails + learning.md Changelog top, confirm
   flat-except-UBER + $64 stop, manage UBER (trail up only if it clears ~+3-4%), regime, thematic/mover scan, run
   the 2 gap-fade paper-logs on momentum gappers, live probationary-half breakout only on a clean at-the-trigger break.
+
+>>> SESSION OPEN — 2026-10-07 (Wed) 08:37 ET (pre-market) <<<
+STATUS ACTIVE. Broker reconciles: FLAT except UBER Module H (1 sh @69.17, GTC $64 stop order 6abd0fe5
+  state=confirmed/active), no options, cash $430.59, total $499.32. Account 609021910 (agentic, option_level_2)
+  confirmed; NEVER 527546030. Normal Wed 09:30-16:00, flatten 15:50.
+RULEBOOK LIVE: breakout probationary-half; A+ concentration; PAPER-LOGS (A reclaim-long / B gap-fade PUT) — both
+  zero-capital. Paper-log A so far: 1 win (APOG +2.4R). Paper-log B: 0 samples.
+PRE-MKT TAPE: RED across the board (first risk-off open after the green run) — SPY 776.04 (-0.39%), QQQ 754.20
+  (-0.72%), IWM 279.04 (-0.82%). Pullback day shaping up.
+UBER (Module H): 68.725 pre-mkt (-0.64% vs 69.17 entry; red tape pressuring it). Well above the $64 stop ->
+  HOLD, no trail (below entry), no action. Multi-week thesis intact.
+PLAN: no pre-mkt entries. REGIME-CHECK-FIRST at the open: if the tape confirms RED/risk-off, LIVE breakout longs
+  are OFF (need a green tape) -> stand down on live longs. BUT red tape = ideal for PAPER-LOG B (gap-fade PUTS):
+  watch for a momentum gapper that FAILS (loses VWAP after the 15-min OR on volume) -> log a hypothetical long
+  put (get_option_chains, 3-20 DTE, $50 cap, cheaper <~$80 name) + payoff/R, zero capital. Paper-log A (reclaim-
+  long) only if a gapper fades-then-reclaims (lower-prob on red tape). FMP gainers stale pre-mkt -> re-scan
+  post-open on fresh data; skip M&A pins. Manage UBER (hold). Reserve day-trades (3 avail).
