@@ -3822,3 +3822,13 @@ DECISION: STAND DOWN. Live longs off (red tape); no clean paper sample yet (the 
   failing). 0 day-trades, PDT preserved (3). Paper-log tally unchanged (A: 1 win; B: 0). WATCH: if PENG rolls
   over and loses VWAP later -> that becomes a paper-log B (gap-fade-put) sample; or any fresh gapper that fails.
 PLAN: next pulse ~11:30 ET, EOD close ~15:35 ET (both scheduled).
+
+--- PULSE 11:31 ET — red tape persists; UBER drifting (above stop); PENG still holding (no put sample); STAND DOWN ---
+REGIME: SPY 774.84 (-0.55%), QQQ 754.96 (-0.62%), IWM 277.27 (-1.45%, small caps weakest) — persistent risk-off.
+UBER (Module H): 68.34 (-1.20% vs 69.17 entry), drifting with the red tape; ~$4.34 above the $64 GTC stop ->
+  HOLD, no action, no trail (below entry). Multi-week thesis intact; stop handles downside.
+GAP-FADE WATCH: PENG 73.48 (+14.4%, off the 74.70 HOD but still holding most of the gap ABOVE VWAP ~72) = still
+  relative STRENGTH, NOT a failure -> no paper-log B (gap-fade-put) sample. No other liquid up-gapper failing.
+DECISION: STAND DOWN. Live longs off (red tape), no clean paper sample (up-gapper holding). 0 day-trades, PDT
+  preserved (3). Paper tally unchanged (A: 1 win; B: 0). Quiet red day = correct inaction.
+PLAN: EOD close ~15:35 ET (scheduled). Watch for a late gapper failure (put sample) but don't force it.
