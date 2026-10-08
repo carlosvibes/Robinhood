@@ -3867,3 +3867,21 @@ PLAN (same as Wed red-day posture): no pre-mkt entries. Regime-check-first at op
   breakout longs OFF (need green). Watch for a momentum UP-gapper that FAILS (loses VWAP after OR) -> paper-log
   B (gap-fade PUT) sample, zero capital; or a fade-then-reclaim -> paper-log A. FMP stale pre-mkt -> re-scan
   post-open; skip M&A pins. Manage UBER (hold). Reserve day-trades (3). Paper tally: A 1 win / B 0.
+
+--- PULSE — 2026-10-08 (Thu) 09:55 ET (post-open) ---
+REGIME: RED (day 2 of pullback), off lows but still down — SPY 775.39 (-0.24%), QQQ 753.06 (-0.62%),
+  IWM 276.57 (-0.41%). Risk-off. LIVE breakout longs OFF (regime-check-first; need GREEN tape). Correct stand-down.
+UBER (Module H): 68.85 (-0.36% vs 69.17 entry; +0.58% vs prior close 68.45) — relative strength / mild bounce vs
+  the red tape. Still ~$4.85 ABOVE the $64 GTC stop (order 6abd0fe5, confirmed/active, NOT triggered). HOLD, no
+  trail (below entry — never trail down). No action.
+GAP-FADE PAPER-LOGS (zero capital):
+  PCRX (Pacira Biosciences) +44% gap ($36.30 vs 25.20 close) — the liquid affordable momentum up-gapper. 5-min
+  bars 13:30-13:50Z show it PINNED FLAT in a 36.27-36.33 range (open 36.33, closes all ~36.29-36.31) — NOT
+  failing/fading, it's in equilibrium just under a level. NOT a gap-fade-PUT (B) sample; no VWAP-loss trigger.
+  HELE +11.3% ($28.44) — secondary up-gapper, not confirmed failing below VWAP either (wide bid/ask 28.24/28.85,
+  thin). No clean reclaim-long (A) setup. Tally UNCHANGED: A 1 win / B 0 samples. (Same lesson as Wed: a red tape
+  alone doesn't manufacture a gap-FAILURE; need an up-gapper that actually rolls over below VWAP on volume.)
+DAY-TRADE SIDE: 0 live trades. Live breakout count still 0/~3-5. PDT preserved (3 available).
+DECISION: STAND DOWN — no live long (red tape), no gap-fade-put/reclaim sample (no qualifying failure),
+  UBER held. Next: scheduled EOD close ~15:35 ET / 19:35 UTC. Watch for an up-gapper that loses VWAP for a
+  possible first paper-log B sample into the afternoon.
