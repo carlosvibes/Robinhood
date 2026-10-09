@@ -3910,3 +3910,29 @@ NEXT: Fri 2026-10-09 pre-market wake ~08:35 ET / 12:35 UTC — STATUS/rails + le
   it clears ~+3-4%; else $64 stays). WEEKLY REVIEW due Fri EOD (week of 10/6): win rate / avg win / avg loss /
   expectancy by strategy from ledger + broker get_realized_pnl cross-check; Kelly calc ONLY if Carlos has
   confirmed the tracking addition (NOT yet confirmed -> omit unless he says yes before then).
+
+>>> SESSION OPEN — 2026-10-09 (Fri) 08:37 ET (pre-market) <<<
+STATUS ACTIVE. Broker reconciles: FLAT except UBER Module H (1 sh @69.17, GTC $64 stop order 6abd0fe5
+  state=confirmed/active, NO overnight fill), no options, no day-trade positions, cash $430.59, total $500.83.
+  Account 609021910 (agentic, option_level_2) confirmed; NEVER 527546030. Normal Fri 09:30-16:00, flatten 15:50.
+RULES NOW LIVE (per 2026-10-09 Changelog — all 3 activity levers APPROVED by Carlos): (1) DOWNSIDE long PUTS
+  probationary-live ($25-35 premium, max 1 open, 3-20 DTE, no 0DTE, review first) on RED/weak tape failures;
+  (2) MORE LONG SETUPS — VWAP-reclaim-long + pullback-continuation-long graduated to probationary-HALF live
+  (RR>=1.5 and ATR floors HELD — not cut); (3) 2nd idle-cash swing/hold allowed (max 2 concurrent, >=~$200 cash
+  reserve). Kelly = weekly-review GAUGE only (sizing stays on rails). Breakout/first-leg + A+ concentration as
+  before. NO equity shorting (Phase-2 gate, ~3-4 closed). (Stored trigger text predated these approvals — running
+  against the CURRENT rules.)
+PRE-MKT TAPE: GREEN — the bounce after 3 red days. SPY 776.56 (+0.34% vs 773.93 close), QQQ 752.86 (+0.71% —
+  big-cap tech leading the bounce), IWM 278.28 (+0.26%). Risk-ON pre-market. IF confirmed GREEN at the open
+  (SPY & QQQ green + leaders above VWAP), LIVE longs are back ON (breakout + reclaim + continuation, probationary);
+  puts OFF on a green tape. Regime-check-FIRST still applies — confirm at/after the open on real volume, NOT on
+  pre-market prints.
+UBER (Module H): 70.24 pre-mkt (flat vs 70.24 close; +1.55% vs 69.17 entry) — holding Thu's relative-strength
+  gains. Still BELOW the ~$71.5-72 (+3-4%) trail trigger -> $64 stop STAYS, no trail, no action. If it clears
+  ~$71.5-72 and holds intraday, ratchet the stop up (NEVER down).
+PLAN: no pre-mkt entries (standing rule). Post-open: confirm regime. If GREEN holds -> scan the day's leaders /
+  relative-strength + fresh gainers for a clean probationary long (breakout at-the-trigger / VWAP-reclaim /
+  pullback-continuation), RR>=1.5, resting GTC stop; this is the first green tape with the expanded long menu
+  live. If it fades back red -> a failed gapper/breakdown becomes a probationary long-PUT candidate. Manage UBER
+  (hold). Reserve day-trades (3) + keep >=~$200 cash. WEEKLY REVIEW due at EOD (week of 10/6) incl. the new Kelly
+  gauge. Paper tally carry-in: A 1 win / B 0.
