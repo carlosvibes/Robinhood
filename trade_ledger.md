@@ -31,6 +31,7 @@ All times are US Eastern. All dollar figures to two decimals.
 | 2026-09-02 | $100.00 | $100.00 | $0.00 | 0.0% | 0 | Wed. RULE CHANGE: Carlos approved "Moderate" calibration midday (RR 1.5, ATR 0.04, vol 1.6x, RVOL 1.6). DPRO cleared ATR floor + triggered ORB but failed (2 closes below VWAP; a would-be entry = -1R). OABI = first arm-able long under new rules but broke down before triggering. ~1hr usage-limit gap (flat verified on resume). Flat verified 15:45 ET. |
 | 2026-09-03 | $100.00 | $100.00 | $0.00 | 0.0% | 0 | Thu. First full day on Moderate gates. Quiet AM (universe scan 0 all morning). PM movers evaluated under new gates — ALL failed >=1 hard rail: ABTC/BKKT spread (0.53%/0.36% vs 0.15% gate), DPRO day-high trigger failed + spread rewidened, SBET (finally a tight-$0.01-spread mover) failed ATR floor (0.034<0.04, late-day coil), BULL at $10 ceiling, UPB decliner. KEY FINDING: spread gate is the binding constraint on this sub-$10 universe. DPRO arm discipline held (rejected 6.4155 wick-chase). Flat verified 15:21 ET. |
 | 2026-09-04 | $100.00 | $100.00 | $0.00 | 0.0% | 0 | Fri. First day on widened-spread + trend-follow tactics. CHPT (day's mover, +8%) untradeable: too volatile at open (ATR~0.45>0.25 cap), then boxed by/above the $10 position cap. Universe RVOL scanner BUGGED all day (0 despite real movers). FMP-gainers cross-check: in-band names all 1.9-5% spreads (MTEX/KPLT/CURX). No tradeable in-band setup, triple-confirmed. ROOT CAUSE identified + FIXED: Carlos approved FRACTIONAL LARGE-CAP trading (starts Tue 9/8) — the $5-10 whole-share universe was the disease. Flat verified 15:34 ET. |
+| 2026-10-09 | $500.74 | $501.97 | +$1.23 | +0.25% | 0 | Fri. GREEN bounce day — ended the 3-day red streak (SPY +0.64%/QQQ +0.46%/IWM +0.53% close); firmed up into the afternoon. FIRST session with the expanded long menu LIVE (puts + reclaim + continuation per 2026-10-09 Changelog). Day-trade side flat (0 trades): at the 09:56 pulse the tape was SOFT green (indices green but below their own VWAP) and the gainers board was junk/extended gappers (HUM +14%@441, CCI +11%, FSLY +8.5%) — NO clean at-the-trigger setup, so STAND DOWN (did not force the first expanded-menu trade onto a mediocre setup; tape only firmed late). No gap-fade PUT sample (tape green, no failures). Live breakout/expanded-long count still 0, PDT preserved (3). **UBER (Module H): the day's engine — ran to 71.70 intraday (+3.65% vs 69.17 entry) then settled 71.38 close (+3.19%); TAGGED but did NOT HOLD >$71.5, so NO trail — $64 GTC stop (order 6abd0fe5) STAYS, carried overnight.** Day P&L = UBER MTM only (+$1.22; 0 realized). Paper tally A 1 win / B 0. Flat-except-UBER verified 15:36 ET. WEEKLY REVIEW done (see block). |
 | 2026-10-08 | $499.13 | $500.74 | +$1.62 | +0.32% | 0 | Thu. 3rd broadly RED day, big-cap tech weakest (QQQ -1.48%, SPY -0.52%) while small caps nearly flat (IWM -0.13%); off the lows but risk-off in tech. Day-trade side flat (0 trades): LIVE breakout longs OFF on a red tape (regime-check-first, correct stand-down); live breakout count still 0/~3-5, PDT preserved (3). Gap-fade PAPER-LOGS got NO sample again: PCRX +44% ($36.30) traded PINNED FLAT in a 36.27-36.33 range (equilibrium under a level, never failed VWAP) -> no gap-fade-put (B); HELE +11% thin/unconfirmed -> no clean reclaim (A). Tally unchanged (A: 1 win / B: 0). **UBER (Module H): the day's standout — bucked the red tape and closed $70.16 (+2.50% on the day, +1.43% ABOVE the 69.17 entry), strong relative strength.** Still below the ~$71.5-72 (+3-4%) trail trigger, so the $64 GTC stop (order 6abd0fe5, confirmed/active, NOT triggered) STAYS; held, carried overnight. Day P&L = UBER MTM only (0 realized; UBER 68.54->70.16 = +$1.62). Flat-except-UBER verified 15:36 ET. |
 | 2026-10-07 | $499.61 | $499.13 | -$0.48 | -0.10% | 0 | Wed. First RED/risk-off day after the green run; recovered off lows into the close but still red (SPY -0.25%/QQQ -0.30%/IWM -1.27%; small caps worst). Gainers board all inverse ETFs (down-day signature). Day-trade side flat (0 trades): LIVE breakout longs OFF on a red tape (regime-check-first, correct stand-down). Gap-fade PAPER-LOGS got NO sample despite the ideal red tape — the one liquid up-gapper (PENG +14-16% earnings) HELD its gap above VWAP all day (relative strength, never failed), so no gap-fade-put (B) setup; no clean reclaim (A) either. Paper tally unchanged (A: 1 win / B: 0). Lesson logged: a red tape alone doesn't make a gap FAILURE — need an up-gapper that actually rolls over. **UBER (Module H): drifted with the red tape to 68.54 (-0.91% vs 69.17 entry), held ~$4.54 above the $64 GTC stop (order 6abd0fe5, NOT triggered), carried overnight.** Day P&L = UBER MTM only (0 realized). PDT preserved (3). Flat-except-UBER verified 15:36 ET. |
 | 2026-10-06 | $500.27 | $499.61 | -$0.67 | -0.13% | 0 | Tue. Large-cap GREEN / small-cap RED (SPY +0.62%/QQQ +0.55%/IWM -0.88% close); narrow breadth. Day-trade side flat (0 trades, breakout module day 2): OPCH +33% was a cash M&A PIN (untradeable), power theme (CEG/TLN) priced out, APOG's 42.74 break came on sub-1.6x vol + between pulses -> no clean live breakout. Live breakout count still 0/~3-5, PDT preserved (3). **PAPER-LOG A #1 (APOG VWAP-reclaim-after-fade) = WIN +2.42R** (hypothetical, zero capital): gapped +20%, faded to 39.1, reclaimed VWAP ~40, ran through the 42.74 gap-high target — first gap-fade sample validates the pattern (and caught a move the volume-breakout rule missed). Paper-log A: 1 sample/1 win; paper-log B (puts): 0 samples (no clean momentum failure). **UBER (Module H): round-tripped its pre-mkt $70 pop back to 69.01 (-0.23% vs 69.17 entry, ~flat)**, well above the $64 GTC stop (order 6abd0fe5) — held, no trail, carried overnight. Day P&L = UBER MTM only (0 realized). Discussed Kelly sizing w/ Carlos (not adopting now — edge unmeasured; plan fractional-Kelly-hard-capped after ~20-30 samples). Flat-except-UBER verified 15:36 ET. |
@@ -3959,3 +3960,53 @@ DECISION: STAND DOWN on new entries — soft/borderline tape + no clean at-the-t
   preserved (3), cash reserve intact. Paper tally A 1 / B 0 (no sample — tape green, no failures). Next: watch for
   the indices to reclaim+hold VWAP (clean risk-on) + a leader continuation; EOD close + weekly review 15:35 ET
   (trig_012izMxgHgaNiPYTF3JLiGgN, armed).
+
+>>> SESSION CLOSE — 2026-10-09 (Fri) 15:36 ET <<<
+ACCOUNT (609021910, agentic, option_level_2 — confirmed; NEVER 527546030): total_value $501.97 = cash $430.59 +
+  UBER MTM $71.38. Starting $500.74 -> Ending $501.97, Day P&L +$1.23 (+0.25%) = UBER MTM drift only (0 realized,
+  0 day-trades). No options, no day-trade positions (flat-except-UBER). PDT preserved (3).
+TAPE: GREEN — the bounce held and strengthened into the close, ending the 3-day red streak. SPY 778.85 (+0.64%),
+  QQQ 751.03 (+0.46%), IWM 279.05 (+0.53%). But it was SOFT at the 09:55 window (indices below their own VWAP)
+  and only firmed up late -> the one actionable pulse correctly stood down.
+DAY-TRADE / EXPANDED MENU (first live day): 0 trades. The 3 new levers were live but the tape didn't hand us a
+  clean setup — soft-green indices + a junk/extended-gapper board at 09:56; no clean at-the-trigger long, no gap
+  failure for a put. Correct stand-down (did NOT force the first expanded-menu trade). Live expanded-long/breakout
+  count still 0; gap-fade PUT (B) still 0 samples.
+UBER (Module H): the day's engine — ran to 71.70 intraday (+3.65% vs 69.17 entry), tagging the $71.5-72 trail
+  zone, then settled to 71.38 close (+3.19%). Did NOT HOLD above $71.5 into the close -> trail condition NOT met
+  -> NO trail, $64 GTC stop (order 6abd0fe5, confirmed/active) STAYS. Held, carried overnight. (If it holds
+  >$71.5 next session, ratchet the floor to a structural ~$68 then — never tight, never down.)
+NEXT: Mon 2026-10-12 pre-market wake ~08:35 ET (Columbus Day — US EQUITIES OPEN, only bond mkt closed; verified).
+  Run the CURRENT expanded rules. Paper tally A 1 win / B 0.
+
+======================================================================
+WEEKLY REVIEW — Week of Mon 2026-10-05 to Fri 2026-10-09
+======================================================================
+ACCOUNT ARC: $498.88 (Mon start) -> $501.97 (Fri close) = +$3.09 (+0.62%) on the week.
+  Daily: 10/5 +$1.39 | 10/6 -$0.67 | 10/7 -$0.48 | 10/8 +$1.62 | 10/9 +$1.23.
+  **100% of the week's P&L is UBER (Module H) unrealized mark-to-market. ZERO came from day-trading.**
+LIVE CLOSED TRADES this week: 0 (broker get_realized_pnl span=week = 0 closing trades, $0.00 realized — confirmed).
+  -> No realized win rate / avg win / avg loss / expectancy can be computed: the live day-trade sample this week
+  is EMPTY. This is the central finding, not a footnote.
+BY STRATEGY:
+  - LIVE day-trades (breakout / reclaim / continuation / puts): 0 trades. The tape was red Mon-Thu (long-only
+    benched us) and soft-green Fri (no clean setup). The expanded menu went live 10/9 but hasn't had a tradeable
+    tape yet. Expectancy: NO DATA generated this week.
+  - Module H (UBER, open): unrealized +$2.21/sh (+3.19%), NOT closed -> not a realized trade; thesis intact,
+    on its $64 floor.
+  - PAPER-LOG A (VWAP-reclaim-after-fade): 1 sample / 1 win (APOG +2.42R, 10/6). n=1 -> not meaningful yet.
+  - PAPER-LOG B (gap-fade PUT): 0 samples (no clean momentum failure Mon-Fri; gappers were pinned or too strong).
+PHASE-2 GATE: ~3-4 closed trades all-time / 20 required; +0 this week. Expectancy sign: INDETERMINATE (sample too
+  small). Recommendation: HOLD at Phase 1 — no shorting, no phase advance. The gate is blocked on the SAME thing
+  as the stagnation: we don't have closed trades because we barely trade.
+KELLY GAUGE (now approved, MEASUREMENT only): Formula f* = p - q/b (p=win rate, q=1-p, b=avgWin/avgLoss).
+  STATUS THIS WEEK: DORMANT — insufficient sample. 0 live closed trades this week and ~3-4 all-time (mostly the
+  early $100 phase) is not enough to estimate p or b with any confidence. The single paper-log A win (p=1.0, n=1)
+  is statistically meaningless. So there is NO credible Kelly figure to report yet. The gauge is live and will
+  populate as closed trades accumulate; target a first real read at ~20-30 closed trades, at which point we
+  revisit adopting 1/4-Kelly-hard-capped. Sizing stays on the FIXED rails (0.5%E standard / 1%E A+) until then.
+TAKEAWAY: The account is modestly green on the week BUT entirely on one buy-and-hold's MTM — we have generated
+  ZERO day-trading expectancy data. The 10/9 activity expansion (downside puts + more long setup types + idle-cash
+  hold) is the fix; next week with a tradeable tape is where it has to start producing actual closed trades.
+  Discipline held all week: 5/5 correct stand-downs, no forced trades, no rail breaches.
+======================================================================
