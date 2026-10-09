@@ -3936,3 +3936,26 @@ PLAN: no pre-mkt entries (standing rule). Post-open: confirm regime. If GREEN ho
   live. If it fades back red -> a failed gapper/breakdown becomes a probationary long-PUT candidate. Manage UBER
   (hold). Reserve day-trades (3) + keep >=~$200 cash. WEEKLY REVIEW due at EOD (week of 10/6) incl. the new Kelly
   gauge. Paper tally carry-in: A 1 win / B 0.
+
+--- PULSE — 2026-10-09 (Fri) 09:56 ET (post-open) ---
+REGIME: SOFT GREEN (bounce holding but digesting the gap-up, NOT a clean above-VWAP trend). SPY 775.85 (+0.25%,
+  VWAP 776.09 -> just BELOW), QQQ 749.12 (+0.21%, VWAP 750.52 -> BELOW), IWM 278.21 (+0.23%, VWAP 278.11 -> just
+  above). Green on the day vs 3 red days, but the big indices are under their own opening VWAP -> borderline, not
+  confirmed risk-on. Longs PERMITTED but require a genuinely clean individual setup (above its own VWAP,
+  at-the-trigger); puts OFF (tape is green).
+SCAN (fresh post-open gainers): mostly UNTRADEABLE — sub-$5 microcaps (WFF +72%, OFAL, VEEA, VIVK, QSI +16% @1.42),
+  leveraged 2x/3x ETFs (XPEG/NIOG/BABU/KBAB/BABX/MRNX/SNAG — derivative products, not setups), SPACs/rights. The
+  few larger names are big CATALYST GAPPERS already extended: HUM +14% @441 (too expensive for $125 sizing + huge
+  news gap), CCI +11% @76.4 (REIT news gap), FSLY +8.5% @27.4, NVAX +8.4% @11.9. None is a clean base-breakout
+  AT-the-trigger; chasing an extended +8-14% gapper long = the documented gap-and-go trap. NO clean probationary
+  long available.
+UBER (Module H): 71.70 (+2.07% day vs 70.24; +3.65% ABOVE 69.17 entry), ABOVE its 71.17 VWAP — TOUCHED the
+  ~$71.5-72 trail zone. HELD OFF trailing: 26 min in, hold not confirmed, and Module H is a MULTI-MONTH
+  buy-and-hold with a CATASTROPHIC floor by design — converting $64 to a tight intraday stop on an unconfirmed
+  morning pop would whipsaw us out of the long-horizon thesis. $64 STAYS this pulse. Reassess trail at EOD: if
+  UBER holds >$71.5 into the afternoon, raise the floor only to a STRUCTURAL ~$68 (breakeven-plus), NEVER tight.
+DECISION: STAND DOWN on new entries — soft/borderline tape + no clean at-the-trigger setup (only extended
+  gappers/junk). Not forcing the first trade under the expanded menu onto a mediocre setup. UBER held. PDT
+  preserved (3), cash reserve intact. Paper tally A 1 / B 0 (no sample — tape green, no failures). Next: watch for
+  the indices to reclaim+hold VWAP (clean risk-on) + a leader continuation; EOD close + weekly review 15:35 ET
+  (trig_012izMxgHgaNiPYTF3JLiGgN, armed).
