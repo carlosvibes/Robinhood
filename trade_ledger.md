@@ -4027,3 +4027,19 @@ PLAN: no pre-mkt entries. At open, regime-check-first: if RED/weak confirmed -> 
   failed momentum gapper / clean breakdown losing VWAP on volume -> probationary long PUT (first B-strategy live
   candidate). If it firms GREEN + above VWAP -> clean probationary long (breakout/reclaim/continuation). Skip
   extended gappers / M&A pins / junk. Manage UBER (hold). Reserve day-trades (3) + >=~$200 cash. Paper tally A 1 / B 0.
+
+--- PULSE — 2026-10-12 (Mon) 09:57 ET (post-open) ---
+REGIME: MIXED / LISTLESS, tech slightly RED — not a clean tape either way. SPY 778.67 (+0.01%, VWAP 778.92 ->
+  just below), QQQ 748.48 (-0.37%, VWAP 748.24 -> just above but red on day; tech leading down), IWM 278.57
+  (-0.13%, VWAP 278.68 -> just below). Not green enough for a live long (QQQ red, SPY below VWAP); not cleanly
+  red either -> chop. LONGS OFF.
+PUT (B strategy) SCAN: NO candidate. Gainers board is unusually junky — MNDR +257% microcap at top, then all
+  sub-$20 microcaps (GIXI +61/WFF +61/YMAT +52/SKYA +41) + leveraged/inverse ETFs (IONZ 2x-short-IONQ, RGTZ, QBTZ,
+  MUZ, FBL). NONE is a liquid, optionable momentum gapper with affordable near-money puts (<~$80, penny option
+  spread) that is FAILING. The gap-fade-put needs a real liquid underlying rolling over below VWAP on volume -
+  none here. No sample; will not force a put onto junk microcaps/leveraged ETFs.
+UBER (Module H): 70.20 (-1.83% vs 71.51 Fri close; +1.49% vs 69.17 entry), pulled BELOW its 70.84 VWAP - giving
+  back some of Fri's pop but far above the $64 stop. BELOW the $71.5-72 trail zone -> NO trail, $64 stays. Hold.
+DECISION: STAND DOWN — no clean long (no green tape), no put (no qualifying liquid failure). UBER held. PDT
+  preserved (3), cash reserve intact. Paper tally A 1 / B 0. Next: EOD close 15:35 ET (trig_013zg4ggdgwcLASxCxkCe1JQ,
+  armed). Watch for a cleaner directional tape + a liquid optionable gapper into the afternoon.
