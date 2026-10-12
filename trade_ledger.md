@@ -4010,3 +4010,20 @@ TAKEAWAY: The account is modestly green on the week BUT entirely on one buy-and-
   hold) is the fix; next week with a tradeable tape is where it has to start producing actual closed trades.
   Discipline held all week: 5/5 correct stand-downs, no forced trades, no rail breaches.
 ======================================================================
+
+>>> SESSION OPEN — 2026-10-12 (Mon) 08:37 ET (pre-market, Columbus Day — EQUITIES OPEN) <<<
+STATUS ACTIVE. Broker reconciles: FLAT except UBER Module H (1 sh @69.17, GTC $64 stop order 6abd0fe5
+  state=confirmed/active, NO weekend fill), no options, no day-trade positions, cash $430.59, total $501.47.
+  Account 609021910 (agentic, option_level_2) confirmed; NEVER 527546030. Columbus Day — US equities trade
+  normal 09:30-16:00 (bond mkt closed), flatten day-trades 15:50.
+RULES LIVE (2026-10-09 Changelog, all 3 levers): downside long PUTS probationary ($25-35, max 1 open, 3-20 DTE,
+  no 0DTE, review first) on red/weak failures; VWAP-reclaim-long + pullback-continuation-long probationary-HALF
+  live (RR>=1.5 & ATR floors HELD); 2nd idle-cash hold allowed (max 2 concurrent, >=~$200 reserve). Kelly = gauge.
+PRE-MKT TAPE: slightly RED / digesting Friday's bounce — SPY 778.48 (-0.01%), QQQ 749.28 (-0.27%, weakest),
+  IWM 278.56 (-0.14%). Mild risk-off, no strong direction. Confirm at open on real volume + VWAP.
+UBER (Module H): 70.88 pre-mkt (-0.88% vs 71.51 Fri close; +2.47% vs 69.17 entry) — pulled back BELOW the
+  $71.5-72 trail zone -> $64 stop STAYS, no trail, no action. Hold, carried.
+PLAN: no pre-mkt entries. At open, regime-check-first: if RED/weak confirmed -> live longs OFF, watch for a
+  failed momentum gapper / clean breakdown losing VWAP on volume -> probationary long PUT (first B-strategy live
+  candidate). If it firms GREEN + above VWAP -> clean probationary long (breakout/reclaim/continuation). Skip
+  extended gappers / M&A pins / junk. Manage UBER (hold). Reserve day-trades (3) + >=~$200 cash. Paper tally A 1 / B 0.
