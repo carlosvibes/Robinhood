@@ -4081,3 +4081,17 @@ PLAN: no pre-mkt entries. At open, regime-check-first. If tech stays weak + a li
   penny option spread) FAILS below VWAP on volume -> probationary long PUT ($25-35, review_option_order first) =
   first live B sample. If a clean green leader sets up above VWAP -> probationary long. Skip junk microcaps /
   leveraged ETFs / M&A pins. Manage UBER (hold). Reserve day-trades (3) + >=~$200 cash. Paper tally A 1 / B 0.
+
+--- PULSE — 2026-10-13 (Tue) 09:56 ET (post-open) ---
+REGIME: the pre-mkt divergence COLLAPSED back to MIXED / LISTLESS. SPY 778.25 (+0.02%, VWAP 778.14 -> at VWAP),
+  QQQ 743.31 (-0.37%, VWAP 741.79 -> above its VWAP, weak but off lows), IWM 276.98 (-0.33%, VWAP 278.01 -> BELOW
+  VWAP; the pre-mkt small-cap strength FADED, flipped red). No clean GREEN leader (IWM faded) -> no long. Not a
+  decisive risk-off either (SPY flat, QQQ above its own VWAP) -> no conviction put setup.
+PUT (B) SCAN: FMP gainers board DISCONNECTED this pulse (MCP down) — but immaterial: the tape is not a decisive
+  red that warrants hunting a gap-fade put (need a clear risk-off + a liquid gapper failing below VWAP on volume;
+  neither present). No candidate. (If FMP returns + tape turns decisively red into the afternoon, re-scan.)
+UBER (Module H): 71.33 (-0.24% vs 71.50; +3.12% vs 69.17 entry), ABOVE its 71.09 VWAP, holding. BELOW $72 ->
+  no trail ($64 stays, trail only on daily CLOSE >=$72). Hold.
+DECISION: STAND DOWN — no clean long (no green leader), no put (tape not decisively red + no board). UBER held.
+  PDT preserved (3), cash reserve intact. Paper tally A 1 / B 0. Next: EOD close 15:35 ET
+  (trig_018HQb1c1WoE11q3ZmjjDewG, armed). Re-scan if the tape turns decisively directional this afternoon.
