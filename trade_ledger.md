@@ -4062,3 +4062,22 @@ UBER (Module H): round-tripped 70.20 midday (below VWAP) back to 71.58 close (+0
   Held, carried overnight.
 NEXT: Tue 2026-10-13 pre-market wake ~08:35 ET / 12:35 UTC — same checklist, CURRENT expanded rules (3 levers
   live, Kelly gauge, UBER $72-close trail trigger, >=~$200 reserve). Paper tally A 1 win / B 0.
+
+>>> SESSION OPEN — 2026-10-13 (Tue) 08:36 ET (pre-market) <<<
+STATUS ACTIVE. Broker reconciles: FLAT except UBER Module H (1 sh @69.17, GTC $64 stop order 6abd0fe5
+  state=confirmed/active, NO overnight fill), no options, no day-trade positions, cash $430.59, total $501.68.
+  Account 609021910 (agentic, option_level_2 — nickname now "MCP", same account) confirmed; NEVER 527546030.
+  Normal Tue 09:30-16:00, flatten day-trades 15:50.
+RULES LIVE (2026-10-09 Changelog, 3 levers): downside long PUTS probationary ($25-35, max 1 open, 3-20 DTE, no
+  0DTE, review first) on red/weak failures; VWAP-reclaim + pullback-continuation longs probationary-HALF live
+  (RR>=1.5 & ATR floors HELD); 2nd idle-cash hold allowed (max 2, >=~$200 reserve). Kelly = gauge only.
+PRE-MKT TAPE: DIVERGENT / rotation — tech WEAK, small caps BID. QQQ 740.87 (-0.69% vs 746.04, notably red again),
+  SPY 778.00 (-0.01%), IWM 278.65 (+0.27%, green). Risk-off-in-tech + small-cap rotation. Confirm at open on real
+  volume + VWAP. This split tape could finally offer a setup EITHER way: a weak tech gapper/leader losing VWAP ->
+  first PUT candidate; OR an IWM-led value/small-cap leader breaking out green -> long.
+UBER (Module H): 71.09 pre-mkt (-0.57% vs 71.50 Mon close; +2.78% vs 69.17 entry) — below the $71.5-72 zone ->
+  $64 stop STAYS (trail only on a daily CLOSE >=$72). Hold, no action.
+PLAN: no pre-mkt entries. At open, regime-check-first. If tech stays weak + a liquid optionable name (<~$80,
+  penny option spread) FAILS below VWAP on volume -> probationary long PUT ($25-35, review_option_order first) =
+  first live B sample. If a clean green leader sets up above VWAP -> probationary long. Skip junk microcaps /
+  leveraged ETFs / M&A pins. Manage UBER (hold). Reserve day-trades (3) + >=~$200 cash. Paper tally A 1 / B 0.
