@@ -4134,3 +4134,31 @@ PLAN: no pre-mkt entries. At the open, if RED confirmed (likely): ACTIVELY hunt 
   RR>=1.5) = FIRST live B sample. Watch QQQ/IWM-correlated weak large-caps + fresh losers. Skip junk microcaps /
   leveraged ETFs / M&A pins. If I pass, log WHY. Manage UBER (hold). Reserve day-trades (3) + >=~$200 cash.
   Paper tally A 1 / B 0.
+
+--- PULSE — 2026-10-14 (Wed) 09:56 ET (post-open) — FIRST ACTIVE PUT HUNT under the participation mandate ---
+REGIME: RED CONFIRMED + intensifying (first decisive directional tape this window). SPY 774.14 (-0.50%, VWAP
+  775.30 -> below), QQQ 737.34 (-0.84%, VWAP 738.53 -> below), IWM 273.50 (-1.16%, VWAP 273.94 -> below). All
+  three red AND below opening VWAP = clean risk-OFF. LEAN = DOWN -> puts in play, longs/calls OFF. Leaders DOWN =
+  AI-infra/datacenter theme (CRWV/NBIS/IREN/DELL/ORCL all sold hard; many leveraged ETFs on them on the losers board).
+PUT HUNT (actively looked, per mandate): biggest-losers board = mostly junk microcaps (CDT/YFOR/JBDI/BMEA...) +
+  leveraged 2x/3x ETFs (CRWG/NBIG/NBIL/DLLL/ORCU/ORCX/IRE — skip, derivative products). The ONE liquid optionable
+  sub-$80 faller = CRWV (CoreWeave) -13.1% @ $67.59 (AI-infra leader-down). PRICED THE ACTUAL CHAIN (10/23, 9 DTE):
+    - 65P (near-money, delta -0.37, IV 84%): mark $2.50 = **$250/contract = 5.0x our $50 cap**.
+    - 60P (OTM, delta -0.19, IV 90%): mark $1.08 = **$108/contract = 2.2x cap**.
+    - To fit $50 ($0.50/sh) needs ~$55 strike, delta ~-0.10, ~13% chance-of-profit = a deep-OTM LOTTERY ticket
+      (the banned-style gamble). CRWV also already -13% near lows -> buying puts now = CHASING. FAILS on BOTH
+      affordability (2-5x cap) AND entry (extended/no-chase).
+DECISION: EVIDENCE-BASED PASS (not a vibe) — the down lean was correct and I hunted actively, but the only
+  affordable instrument at the $50 cap is a lottery-ticket put, which violates the no-gamble principle. No equity
+  expression either (tape red + long-only/no-shorting until Phase 2). So: no trade.
+STRUCTURAL FINDING (surface to Carlos): quality near-money puts on liquid names cost ~$100-600; our account is
+  $500 and the per-option cap is $50. **Options are structurally mostly out of reach at this account size without
+  either gambling (deep-OTM lottery) or breaking the risk cap.** The staged $50->$75 step wouldn't fix it (CRWV
+  near-money is $108-250). Honest implication: at $500, the realistic workhorse is the EQUITY side (longs on green
+  tapes now; shorting on red tapes AFTER the Phase-2 gate) + growing the account — options stay a SITUATIONAL tool
+  for the rare cheap-liquid-name setup, not the daily driver. This is the 2nd red day the $50 cap was the binding
+  wall; worth revisiting the cap/approach with Carlos rather than waiting on the staged trigger.
+UBER (Module H): 70.74 (-0.81% vs 71.32; +2.27% vs 69.17 entry), just below its 70.88 VWAP, drifting w/ the tape;
+  above $64, below $72 trail trigger -> $64 stays, hold.
+Paper tally A 1 / B 0 (no live B sample — priced out, documented). PDT preserved (3), cash reserve intact. Next:
+  EOD close 15:35 ET (trig_014BShkaFYg6friAKjzaQQNA, armed).
