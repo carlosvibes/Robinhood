@@ -4112,3 +4112,25 @@ UBER (Module H): 71.37 close (-0.18% vs 71.50 Mon close; +3.18% vs 69.17 entry),
   BELOW the $72 trail trigger -> NO trail; $64 GTC stop (order 6abd0fe5, confirmed/active) STAYS. Held, carried.
 NEXT: Wed 2026-10-14 pre-market wake ~08:35 ET / 12:35 UTC — same checklist, CURRENT expanded rules (3 levers
   live, Kelly gauge, UBER $72-close trail trigger, >=~$200 reserve). Paper tally A 1 win / B 0.
+
+>>> SESSION OPEN — 2026-10-14 (Wed) 08:36 ET (pre-market) <<<
+STATUS ACTIVE. Broker reconciles: FLAT except UBER Module H (1 sh @69.17, GTC $64 stop order 6abd0fe5
+  confirmed/active, NO overnight fill), no options, no day-trade positions, cash $430.59, total $501.37.
+  Account 609021910 (agentic, option_level_2, nickname "MCP") confirmed; NEVER 527546030. Normal Wed, flatten
+  day-trades 15:50.
+NEW RULE ACTIVE (2026-10-14 PARTICIPATION MANDATE): setup-quality bar LOWERED for probationary trades — take a
+  REASONABLE directional lean (not only A+); PARTICIPATION — put a trade on when a reasonable lean exists, log WHY
+  if I pass. Risk caps UNCHANGED (options $25-35 start / $50 cap, equity ~$1.25 risk, no 0DTE, max 1 option,
+  >=~$200 reserve). Take-profit discipline: defined target, BANK it. Cap->$75 staged (>=5 closed + equity>=$600
+  or +EV).
+PRE-MKT TAPE: decisively RED (first clean directional lean this window) — SPY 776.04 (-0.25%), QQQ 739.37
+  (-0.57%), IWM 274.12 (-0.93%, small caps weakest). Risk-OFF. LEAN = DOWN -> per the mandate, PUTS are in play
+  today; longs/calls OFF (tape is red). Confirm at the open on real volume + VWAP.
+UBER (Module H): 70.58 pre-mkt (-1.04% vs 71.32 close; +2.04% vs 69.17 entry), drifting with the red tape; well
+  above the $64 stop, BELOW the $72 trail trigger -> $64 stays, hold, no action.
+PLAN: no pre-mkt entries. At the open, if RED confirmed (likely): ACTIVELY hunt a LIQUID OPTIONABLE name (<~$80,
+  penny option spread) that FAILS below VWAP after the 15-min OR on volume -> probationary LONG PUT (3-20 DTE, no
+  0DTE, near-money ~0.35-0.5 delta, premium $25-35, review_option_order FIRST, define entry/invalidation/target
+  RR>=1.5) = FIRST live B sample. Watch QQQ/IWM-correlated weak large-caps + fresh losers. Skip junk microcaps /
+  leveraged ETFs / M&A pins. If I pass, log WHY. Manage UBER (hold). Reserve day-trades (3) + >=~$200 cash.
+  Paper tally A 1 / B 0.
