@@ -4207,3 +4207,22 @@ PLAN: no pre-mkt entries. At open, if tech stays weak -> ACTIVELY hunt an AFFORD
   out of reach -> skip. If a name bounces green cleanly -> probationary long instead. Skip junk microcaps /
   leveraged ETFs / M&A pins; if I pass, log WHY. Manage UBER (hold). Reserve day-trades (3) + >=~$200 cash.
   Paper tally A 1 / B 0.
+
+--- PULSE — 2026-10-15 (Thu) 09:56 ET (post-open) — put hunt #2 under participation mandate / $75 cap ---
+REGIME: RED confirmed, tech selling HARD (3rd day). SPY 764.71 (-0.64%, VWAP 766.22 -> below), QQQ 715.72
+  (-1.82%, VWAP 718.63 -> below; sustained AI-infra/tech downtrend), IWM 271.17 (-0.07%, VWAP 271.51 -> ~flat;
+  small caps keep diverging/holding). Down-in-tech lean CONFIRMED. Puts side; broad longs off.
+PUT HUNT (actively, per mandate): NO affordable clean candidate. biggest-losers were either (a) HIGH-PRICED +
+  EXTENDED earnings craters -> near-money puts 2-5x the $75 cap AND chasing: RKLB -15.6%@$50, MAN -15%@$44;
+  (b) a -39% CATASTROPHE KNIFE: FMC @$4.96 (news crater, not a clean intraday VWAP-fail -> pure chase, skip);
+  (c) penny microcaps (FFAI $0.88 junk) + leveraged 2x ETFs (NBIG/DLLL/SMCX/RKLX/IRE... skip). No cheaper-liquid
+  (<~$25, >=0.30-delta <=$75, penny spread) name failing CLEANLY below VWAP. EVIDENCE-BASED PASS (not forcing a
+  knife or an over-cap put). 3rd straight red day the directional read was RIGHT but the affordable-put universe
+  was empty -> reinforces: options can't be the red-day workhorse at $500; the fallers that sell off are
+  high-priced. (Carlos chose stay-$500 + $75 cap + trade-what's-affordable; executing that faithfully.)
+UBER (Module H): the BRIGHT SPOT — 69.645 (+0.51% vs 69.29 close; +0.69% ABOVE 69.17 entry), GREEN + above its
+  69.50 VWAP, bucking the red tape = genuine relative strength (why the account is resilient today). HOLD; no add
+  (already our Module H position, no concentration/day-trade muddle); below $72 -> no trail, $64 stays.
+DECISION: STAND DOWN on new trades — no affordable/clean put, broad longs off (red), UBER held. PDT preserved (3),
+  cash reserve intact. Paper tally A 1 / B 0. Next: EOD close 15:35 ET (trig_015Xy78wG82UC4pMfWtwnUDy, armed);
+  Fri = weekly review.
