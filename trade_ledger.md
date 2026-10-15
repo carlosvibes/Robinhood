@@ -4186,3 +4186,24 @@ RULE CHANGES TODAY (all logged in learning.md Changelog): (1) PARTICIPATION MAND
 NEXT: Thu 2026-10-15 pre-market wake ~08:35 ET / 12:35 UTC — same checklist, CURRENT rules. If the selloff
   continues, actively hunt an affordable (>=0.30-delta, <=$75) put on a CHEAPER liquid name; if it bounces green,
   a probationary long. Manage UBER (hold; the -2% day didn't threaten the $64 floor). Paper tally A 1 win / B 0.
+
+>>> SESSION OPEN — 2026-10-15 (Thu) 08:35 ET (pre-market) <<<
+STATUS ACTIVE. Broker reconciles: FLAT except UBER Module H (1 sh @69.17, GTC $64 stop order 6abd0fe5
+  confirmed/active, NO overnight fill), no options, no day-trade positions, cash $430.59, total $499.49.
+  Account 609021910 (agentic, option_level_2, "MCP") confirmed; NEVER 527546030. Flatten day-trades 15:50.
+RULES (newest first): 2026-10-14(pm) option cap $50->$75 + |delta|>=0.30 floor (no lottery; size != odds);
+  2026-10-14 Participation Mandate (lowered probationary bar, log passes); 3 levers. Options $25-75/<=$75 max
+  loss/|delta|>=0.30/3-20 DTE/no 0DTE/max 1 open/review first; equity ~$1.25 risk; >=~$200 reserve; TP = bank it.
+PRE-MKT TAPE: tech selloff CONTINUING, small caps steadier (divergent). QQQ 720.02 (-1.22% vs 728.95 — AI-infra/
+  tech downtrend now sustained 2+ days), SPY 767.26 (-0.30%), IWM 271.61 (+0.09%, stabilizing after Wed's -2.1%).
+  Net lean = DOWN-IN-TECH -> puts side; broad longs off (tech red). Confirm at open on real volume + VWAP.
+UBER (Module H): 68.90 pre-mkt (-0.56% vs 69.29 close; -0.39% vs 69.17 entry) — dipped just BELOW cost on the
+  high-beta drift with the tape; still ~$4.90 above the $64 stop, multi-month value thesis intact -> HOLD, no
+  reaction (one -2% market day + a 0.4% dip below entry doesn't change a months-horizon hold; $64 is the floor).
+  Below $72 -> no trail.
+PLAN: no pre-mkt entries. At open, if tech stays weak -> ACTIVELY hunt an AFFORDABLE put: a CHEAPER liquid name
+  (<~$25 so a >=0.30-delta near-money put fits <=$75, penny option spread) FAILING below VWAP on volume;
+  review_option_order FIRST; entry/invalidation/target RR>=1.5. High-priced fallers (CRWV/QQQ/IWM near-money) stay
+  out of reach -> skip. If a name bounces green cleanly -> probationary long instead. Skip junk microcaps /
+  leveraged ETFs / M&A pins; if I pass, log WHY. Manage UBER (hold). Reserve day-trades (3) + >=~$200 cash.
+  Paper tally A 1 / B 0.
