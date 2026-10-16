@@ -4283,3 +4283,13 @@ UBER (Module H): 71.84 (+0.80% vs 71.27; +3.86% ABOVE 69.17 entry), GREEN + abov
 DECISION: STAND DOWN — no clean long (tape not green), no affordable/clean put (knives/high-priced/junk; tape not
   decisively red). UBER held, watching for a >=$72 close. PDT preserved (3), cash reserve intact. Paper tally
   A 1 / B 0. Next: EOD close + WEEKLY REVIEW 15:35 ET (trig_01L1z3Tm7zZGm2YTPK9NHMAL, armed).
+
+--- PULSE — 2026-10-16 (Fri) 14:51 ET (intraday hourly — FIRST fire of the new cron) ---
+CADENCE-FIX PROOF: this pulse (new standing hourly cron) caught an afternoon ROLL-OVER that the old 1-pulse/day
+  cadence would have missed entirely. At 09:56 the tape was flat; now RED/risk-off accelerating: SPY 761.80
+  (-1.29%), QQQ 709.35 (-2.56%), IWM 270.26 (-1.75%). Decisive down.
+ACTION: no late-day put — 39 min to close, entering near the lows of a -2.5% day risks buying the exhaustion
+  bounce (cf. Thu's reversal), and the affordable-put wall (high-priced tech fallers) still applies. The 15:35 EOD
+  close + weekly review handles the formal wrap. (Not a scramble; disciplined.)
+UBER (Module H): 69.91 (-1.91% vs 71.27; +1.07% vs 69.17 entry), pulled back below its 70.78 VWAP with the tape
+  but still above entry and far above the $64 stop -> HOLD, no action, no trail (nowhere near $72). Carried.
