@@ -4265,3 +4265,21 @@ PLAN: no pre-mkt entries. At open: if GREEN follow-through + a clean leader abov
   hunt (cheaper liquid <~$25, >=0.30-delta <=$75, penny spread, failing below VWAP). Skip junk/leveraged-ETFs/
   knives/M&A pins; log passes. Manage UBER (hold). Reserve day-trades (3) + >=~$200 cash. Paper tally A 1 / B 0.
   *** FRI EOD = WEEKLY REVIEW (week of 10/12-10/16). ***
+
+--- PULSE — 2026-10-16 (Fri) 09:56 ET (post-open) ---
+REGIME: tech weak, broad flat (not a clean lean either way). SPY 771.42 (-0.05%, VWAP 772.04 -> below), QQQ 720.60
+  (-1.02%, VWAP 723.10 -> below; tech soft 4th day), IWM 275.20 (+0.04%, VWAP 275.40 -> ~flat). NOT green (no long)
+  + NOT decisively red (SPY/IWM flat) -> tech-specific chop.
+SCAN (both boards): NO clean affordable setup. Gainers = junk microcaps + INVERSE/bear leveraged ETFs (SOXS +8%,
+  LABD +8%, IONZ/SMCZ/SKDD 2x-short — confirm semis/biotech/tech weakness but not instruments). Losers = sub-$25
+  biotech NEWS-CRATERS / knives (GUTS -50%, OMER -13.6%, FOXF -15% earnings gap — chases, thin options) + the
+  thematic weakness in HIGH-PRICED semis/AI-infra (SK Hynix, SMCI, NBIS, CRWV, IREN — all via leveraged ETFs or
+  $50+ underlyings -> near-money puts priced out at $75) + penny junk. No cheaper-liquid (<~$25, >=0.30-delta
+  <=$75, penny spread) name failing CLEANLY (non-extended) below VWAP. EVIDENCE-BASED PASS.
+UBER (Module H): 71.84 (+0.80% vs 71.27; +3.86% ABOVE 69.17 entry), GREEN + above its 71.37 VWAP, pressing new
+  recovery highs = relative strength (engine again). PRESSING the $72 trail trigger — WATCH THE CLOSE: if UBER
+  CLOSES >=$72, ratchet the $64 GTC stop UP to ~$68 (structural breakeven-plus) at the EOD close; else $64 stays.
+  Hold.
+DECISION: STAND DOWN — no clean long (tape not green), no affordable/clean put (knives/high-priced/junk; tape not
+  decisively red). UBER held, watching for a >=$72 close. PDT preserved (3), cash reserve intact. Paper tally
+  A 1 / B 0. Next: EOD close + WEEKLY REVIEW 15:35 ET (trig_01L1z3Tm7zZGm2YTPK9NHMAL, armed).
