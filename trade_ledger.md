@@ -4247,3 +4247,21 @@ NEXT: Fri 2026-10-16 pre-market wake ~08:35 ET / 12:35 UTC — same checklist, C
   participation mandate). **Fri EOD close = WEEKLY REVIEW due (week of 10/12-10/16): win rate / avg win / avg loss
   / expectancy by strategy from ledger + get_realized_pnl (span=week) cross-check; Phase-2 gate progress; Kelly
   gauge (p, b, 1/4-Kelly — measurement only).** Paper tally A 1 win / B 0.
+
+>>> SESSION OPEN — 2026-10-16 (Fri) 08:35 ET (pre-market) <<<
+STATUS ACTIVE. Broker reconciles: FLAT except UBER Module H (1 sh @69.17, GTC $64 stop order 6abd0fe5
+  confirmed/active, NO overnight fill), no options, no day-trade positions, cash $430.59, total $501.74.
+  Account 609021910 (agentic, option_level_2, "MCP") confirmed; NEVER 527546030. Flatten day-trades 15:50.
+RULES (newest first): 2026-10-14(pm) option cap $75 + |delta|>=0.30 floor (no lottery; size != odds); Participation
+  Mandate (reasonable lean, log passes); 3 levers. Options $25-75/|delta|>=0.30/3-20 DTE/no 0DTE/max 1 open/review
+  first; equity ~$1.25 risk; >=~$200 reserve; TP=bank it.
+PRE-MKT TAPE: mixed / slightly GREEN — stabilizing after Thu's bear-trap reversal. SPY 773.23 (+0.19%), QQQ 727.28
+  (-0.10%, ~flat), IWM 275.72 (+0.23%). No decisive lean; slight green bias -> longs/calls side allowed if it
+  firms, puts off unless it rolls red. Confirm at open on real volume + VWAP.
+UBER (Module H): 71.15 pre-mkt (-0.17% vs 71.27 close; +2.86% vs 69.17 entry), holding its recovery; below the
+  $72 trail trigger -> $64 stays, hold, no action.
+PLAN: no pre-mkt entries. At open: if GREEN follow-through + a clean leader above VWAP -> probationary long
+  (breakout/reclaim/continuation) half-size, resting GTC stop, review first. If it rolls RED -> affordable put
+  hunt (cheaper liquid <~$25, >=0.30-delta <=$75, penny spread, failing below VWAP). Skip junk/leveraged-ETFs/
+  knives/M&A pins; log passes. Manage UBER (hold). Reserve day-trades (3) + >=~$200 cash. Paper tally A 1 / B 0.
+  *** FRI EOD = WEEKLY REVIEW (week of 10/12-10/16). ***
