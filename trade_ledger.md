@@ -4389,3 +4389,11 @@ DECISION: STAND DOWN this pulse (active hunt, logged pass). Green day keeps the 
   WATCH next pulse: if QQQ or a liquid semi leader pulls back to VWAP and RECLAIMS with the gap holding -> that's
   the trigger for a probationary long/call. UBER held (70.08, ~at VWAP, far from $64/$72), no action. PDT 3/3,
   cash reserve intact. Paper tally A 1 / B 0.
+
+--- PULSE — 2026-10-19 (Mon) 10:50 ET (hourly cron) ---
+REGIME: narrow QQQ-led grind, still green. SPY 767.32 (+0.53%, ~at VWAP), QQQ 720.31 (+1.48%, ABOVE VWAP -
+  leading), IWM 271.12 (+0.25%, below VWAP). Green but not broad (SPY at VWAP, IWM below) = tech-concentrated.
+DECISION: STAND DOWN (continuation of 09:50; QQQ firmed slightly above VWAP but no clean affordable at-trigger
+  pullback-reclaim leader surfaced; semi theme still via banned leveraged ETFs / extended underlyings). Long/call
+  side stays live; same watch (VWAP reclaim on QQQ or a liquid semi). UBER 70.20 held (above VWAP, -0.21% day,
+  far from $64/$72), no action. PDT 3/3, reserve intact. Paper A 1 / B 0.
