@@ -4440,3 +4440,9 @@ DECISION: STAND DOWN for the day on new entries. (1) Long/call side: the armed p
   WAS the edge — waited for a reclaim that never came rather than chasing, avoided a loser. UBER 70.26 (-0.13%,
   just below its VWAP) held, far from $64/$72, no action/no trail. PDT 3/3, reserve intact. Paper A 1 / B 0.
   ~1h10m to close; 14:50 pulse + 15:35 EOD close remain.
+
+--- PULSE — 2026-10-19 (Mon) 14:50 ET (hourly cron, last intraday) ---
+REGIME: stabilized into listless GREEN chop below VWAP. SPY 767.58 (+0.57%), QQQ 719.39 (+1.35%), IWM 271.23
+  (+0.29%) — all just below VWAP; morning trend faded, now sideways. No clean setup either direction (same as
+  13:50). STAND DOWN into the close. UBER 70.34 (flat, at VWAP) held, far from $64/$72. 0 day-trades (nothing to
+  flatten), PDT 3/3, reserve intact. Paper A 1 / B 0. EOD close + formal wrap at 15:35.
