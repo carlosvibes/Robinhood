@@ -4350,3 +4350,28 @@ HONEST TAKEAWAY: the account is essentially flat for the 7th consecutive week on
   trades to start the Phase-2 / Kelly sample. Discipline this week was NOT the problem and was in fact validated
   (Thu's reversal would have crushed a chased AM put; Fri's late-day roll same). The job for next week: convert
   the restored cadence + lower bar into actual closed trades without lowering the risk rails.
+
+>>> SESSION OPEN — 2026-10-19 (Mon) 08:36 ET (pre-market) <<<
+NEW WEEK. STATUS ACTIVE. Broker reconciles: FLAT except UBER Module H (1 sh @69.17, GTC $64 stop order 6abd0fe5
+  confirmed/active [state=confirmed, no executions], NO overnight fill), no options, no day-trade positions,
+  cash $430.59, total $500.76. Account 609021910 (agentic, option_level_2, "MCP") confirmed; NEVER 527546030.
+  New-week resets: daily ~$5 / weekly ~$12.50 halts fresh; PDT budget 3/3. Flatten day-trades 15:50.
+RULES (current, newest-first): participation mandate — take the best REASONABLE lean each session even if B-grade
+  (regime-not-against + clean trigger/invalidation + RR>=1.5 + liquid/penny) at grade-appropriate size; RESERVE
+  A+ concentration ($250/~$5 risk) for a TRUE A (textbook-clean + catalyst/RS-leadership + RR>=2.0 + best idea).
+  Options $25-75 premium / |delta|>=0.30 / 3-20 DTE / no 0DTE / max 1 open / review_option_order first. Equity
+  probationary ~$1.25 std risk / <=~$125 / resting GTC stop / review first; long-only-above-VWAP; ATR% floor
+  ~0.3%; >=~$200 reserve; size != odds.
+PRE-MKT TAPE: decisive GREEN bounce, TECH-LED — reversing Fri's -2.6% risk-off. SPY 767.37 (+0.54% vs 763.25),
+  QQQ 719.50 (+1.37% vs 709.80 — leading), IWM 271.76 (+0.49% vs 270.44). Clear risk-on lean pre-open. CAVEAT:
+  a sharp bounce the session after a -2.6% flush often opens strong then fades (cf. the week's chop) — CONFIRM at
+  the open on real volume + a leader holding ABOVE VWAP before committing; do not buy the gap.
+UBER (Module H): 70.17 pre-mkt (-0.26% vs 70.35 Fri official close; +1.42% vs 69.17 entry), ~flat. Far above the
+  $64 stop, far below the $72 trail trigger -> $64 stays, hold, no action. (Note: Fri's official 16:00 close was
+  70.35, slightly above the 70.16 I snapshotted at 15:39 ET; immaterial, carried on.)
+PLAN: no pre-mkt entries. At open -> LONG/CALL side is live: if GREEN follow-through holds + a clean liquid leader
+  pulls back and reclaims VWAP (RS, not an extended gap-chase) -> probationary long or a >=0.30-delta call (<=$75,
+  3-20 DTE), grade-appropriate size, resting GTC stop / defined target, review first. Under the participation
+  mandate ACTIVELY hunt; if I pass, log the one-line reason. Puts OFF unless the bounce rolls hard red. Manage
+  UBER (hold). Reserve PDT (3) + >=~$200 cash. Paper tally A 1 win / B 0. Standing hourly cron covers the intraday
+  pulses (09:50/.../14:50 ET); EOD close ~15:35 ET.
