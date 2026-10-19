@@ -4375,3 +4375,17 @@ PLAN: no pre-mkt entries. At open -> LONG/CALL side is live: if GREEN follow-thr
   mandate ACTIVELY hunt; if I pass, log the one-line reason. Puts OFF unless the bounce rolls hard red. Manage
   UBER (hold). Reserve PDT (3) + >=~$200 cash. Paper tally A 1 win / B 0. Standing hourly cron covers the intraday
   pulses (09:50/.../14:50 ET); EOD close ~15:35 ET.
+
+--- PULSE — 2026-10-19 (Mon) 09:50 ET (hourly cron, open read) ---
+REGIME: green gap HELD but digesting around VWAP 20 min in. SPY 766.83 (+0.47%, VWAP 767.25 -> below), QQQ 719.52
+  (+1.37%, VWAP 719.22 -> just above), IWM 271.11 (+0.25%, VWAP 271.89 -> below). Green on the day, NOT clean
+  above-VWAP leadership yet (gap digesting).
+SCAN: dominant theme = SEMIS ripping (SOXL +9.5%; SK Hynix/Marvell/Micron/Intel 2x ETFs all +9-11% -> the tech-led
+  bounce). BUT that's mostly BANNED leveraged/inverse ETFs, and the underlyings (NVDA/AVGO/MU/MRVL/SK Hynix) are
+  gapped + extended = chasing; near-money calls likely priced out at $75. Rest of the gainers board = junk
+  microcaps + biotech news-pops (SLN +125%, IRON +25%). No clean liquid pullback-reclaim leader AT a trigger.
+DECISION: STAND DOWN this pulse (active hunt, logged pass). Green day keeps the LONG/CALL side live, but buying
+  now = chasing a +1.4% QQQ gap with price right at VWAP (no confirmed pullback-and-reclaim) — the no-chase rule.
+  WATCH next pulse: if QQQ or a liquid semi leader pulls back to VWAP and RECLAIMS with the gap holding -> that's
+  the trigger for a probationary long/call. UBER held (70.08, ~at VWAP, far from $64/$72), no action. PDT 3/3,
+  cash reserve intact. Paper tally A 1 / B 0.
