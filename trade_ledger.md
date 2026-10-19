@@ -4413,3 +4413,16 @@ PARTICIPATION CALL: long/call side is LIVE and the setup (broad trend) is real �
   but I WILL take a clean reclaim if one presents at a pulse.
 UBER (Module H): 70.63 (+0.40%, green, above VWAP) — participating in the trend; far below $72 -> no trail, $64
   stays, hold. PDT 3/3, reserve intact. Paper A 1 / B 0.
+
+--- PULSE — 2026-10-19 (Mon) 12:50 ET (hourly cron) — pullback arrived, NOT yet a reclaim ---
+REGIME: midday pullback off the highs (the one I armed for at 11:50). SPY 767.78 (+0.59%, VWAP 768.21 -> pulled
+  BELOW), QQQ 720.63 (+1.53%, VWAP 720.65 -> right AT), IWM 271.60 (+0.43%, VWAP 271.76 -> just below). Still
+  green on the day but now sitting AT/just-below VWAP = the pullback, not the reclaim.
+DECISION: STAND DOWN (no trade). The pullback-to-VWAP is the SETUP; my entry trigger is the RECLAIM (push back
+  above VWAP, pullback low holding) — NOT present, and SPY/IWM are leaning slightly weak below the line, so a call
+  here = anticipating a reclaim that could instead roll into the "post-flush bounce fades" case I flagged pre-mkt.
+  Won't buy an unconfirmed at-VWAP print on faith. The hourly cadence limitation is live: reclaim-or-fail will
+  resolve between pulses. WATCH 13:50: clean reclaim + day still green -> a defined-risk call is still takeable
+  (though time-of-day is getting late / flat-by-15:50 shrinks the runway); roll-through below VWAP -> bounce
+  fading, stand down (no late put chase either). UBER 70.51 (+0.23%, above VWAP) held, far from $64/$72, no
+  action. PDT 3/3, reserve intact. Paper A 1 / B 0.
