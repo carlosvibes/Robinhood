@@ -4426,3 +4426,17 @@ DECISION: STAND DOWN (no trade). The pullback-to-VWAP is the SETUP; my entry tri
   (though time-of-day is getting late / flat-by-15:50 shrinks the runway); roll-through below VWAP -> bounce
   fading, stand down (no late put chase either). UBER 70.51 (+0.23%, above VWAP) held, far from $64/$72, no
   action. PDT 3/3, reserve intact. Paper A 1 / B 0.
+
+--- PULSE — 2026-10-19 (Mon) 13:50 ET (hourly cron) — pullback FAILED, long setup invalidated ---
+REGIME: the midday pullback ROLLED THROUGH VWAP instead of reclaiming. SPY 766.99 (+0.49%, VWAP 768.11 -> below),
+  QQQ 718.70 (+1.25%, VWAP 720.52 -> below; fell from 720.63 at 12:50), IWM 271.02 (+0.21%, VWAP 271.69 -> below).
+  All three now BELOW VWAP = morning trend fading in the afternoon (the "post-flush bounce fades" case flagged
+  pre-mkt). Still net GREEN on the day, just intraday-weak.
+DECISION: STAND DOWN for the day on new entries. (1) Long/call side: the armed pullback-reclaim NEVER triggered
+  (rolled below VWAP) -> setup invalidated; the 12:50 no-chase call is VINDICATED — a call bought at that at-VWAP
+  print would now be underwater. (2) Put side: NOT clean — indices are still net green on the day (not a red
+  tape), it's ~1:50pm, and the affordable-put wall (high-priced index/tech) still applies; shorting a fade into
+  mid-afternoon risks the bounce. No clean setup either direction = no forced trade. Net: today the discipline
+  WAS the edge — waited for a reclaim that never came rather than chasing, avoided a loser. UBER 70.26 (-0.13%,
+  just below its VWAP) held, far from $64/$72, no action/no trail. PDT 3/3, reserve intact. Paper A 1 / B 0.
+  ~1h10m to close; 14:50 pulse + 15:35 EOD close remain.
