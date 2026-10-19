@@ -4397,3 +4397,19 @@ DECISION: STAND DOWN (continuation of 09:50; QQQ firmed slightly above VWAP but 
   pullback-reclaim leader surfaced; semi theme still via banned leveraged ETFs / extended underlyings). Long/call
   side stays live; same watch (VWAP reclaim on QQQ or a liquid semi). UBER 70.20 held (above VWAP, -0.21% day,
   far from $64/$72), no action. PDT 3/3, reserve intact. Paper A 1 / B 0.
+
+--- PULSE — 2026-10-19 (Mon) 11:50 ET (hourly cron) — REGIME SHIFT ---
+REGIME UPGRADE: chop -> CLEAN BROAD RISK-ON TREND. All three green AND above VWAP now: SPY 769.83 (+0.86%, >VWAP
+  768.10), QQQ 723.90 (+1.99%, >VWAP 720.38, leading), IWM 272.42 (+0.73%, >VWAP 271.69, small caps joined). This
+  is the green follow-through the pre-mkt plan flagged as actionable for the long/call side. Full reversal of
+  Fri's -2.6% flush holding and extending.
+PARTICIPATION CALL: long/call side is LIVE and the setup (broad trend) is real — BUT it's ~2hrs in and QQQ has
+  already run +2% off the open / ~0.5% ABOVE VWAP. Buying calls HERE = chasing an extended mid-day move = the
+  no-chase rule (and last week's chase-into-reversal lessons). Grade of a fresh chase now: poor ENTRY despite a
+  good SETUP. So ARM, don't chase: if a liquid leader (QQQ / a semi or mega-cap) pulls back toward VWAP and holds/
+  reclaims into the next pulse(s), take a defined-risk call (>=0.30 delta, $25-75, 3-20 DTE, review first). Honest
+  limitation logged: the hourly cadence is coarse for catching an intraday VWAP-reclaim entry — a pullback could
+  come and go between pulses; I will NOT chase an extended move just to book activity (that manufactures losses),
+  but I WILL take a clean reclaim if one presents at a pulse.
+UBER (Module H): 70.63 (+0.40%, green, above VWAP) — participating in the trend; far below $72 -> no trail, $64
+  stays, hold. PDT 3/3, reserve intact. Paper A 1 / B 0.
