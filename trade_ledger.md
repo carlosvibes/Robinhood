@@ -4471,3 +4471,25 @@ UBER (Module H): 70.28 close (-0.11% day vs 70.35; +1.60% ABOVE 69.17 entry), ro
   trail trigger -> $64 GTC stop (order 6abd0fe5) STAYS, no trail. Hold, carried.
 NEXT: Tue 2026-10-20 pre-market wake ~08:35 ET / 12:35 UTC (trig_01KZ9m8Tk2KJEbBB48BD71QC, armed) — same
   checklist, CURRENT rules. Standing hourly intraday cron remains armed (09:50-14:50 ET). Paper tally A 1 win / B 0.
+
+>>> SESSION OPEN — 2026-10-20 (Tue) 08:36 ET (pre-market) <<<
+STATUS ACTIVE. Broker reconciles: FLAT except UBER Module H (1 sh @69.17, GTC $64 stop order 6abd0fe5
+  confirmed/active, NO overnight fill), no options, no day-trade positions, cash $430.59, total $500.32.
+  Account 609021910 (agentic, option_level_2, "MCP") confirmed; NEVER 527546030. Flatten day-trades 15:50.
+  (Note: UBER's OFFICIAL Mon close was 69.96 — it slipped from the 70.28 I snapshotted at 15:36; immaterial,
+  carried. Mon ending equity in the log stands at $500.87 on that snapshot mark.)
+RULES (current): participation mandate (best REASONABLE lean each session, grade-appropriate size; A+ concentration
+  reserved for a true A); options $25-75 / |delta|>=0.30 / 3-20 DTE / no 0DTE / max 1 open / review first; equity
+  ~$1.25 std risk / <=~$125 / resting GTC stop / review first; long-only-above-VWAP; >=~$200 reserve; size != odds.
+PRE-MKT TAPE: modest RED / risk-off lean, TECH-LED — giving back some of Mon's bounce. SPY 764.23 (-0.29% vs
+  766.48), QQQ 713.43 (-0.69% vs 718.36, worst), IWM 270.67 (-0.22% vs 271.28). Not a decisive flush; a soft-red
+  lean. Puts side becomes live IF it rolls red at the open; longs off unless it firms green. Confirm on real
+  volume + VWAP at the open (no pre-mkt entries).
+UBER (Module H): 69.73 pre-mkt (-0.33% vs 69.96; +0.81% vs 69.17 entry), holding above entry; far above the $64
+  stop, far below the $72 trail trigger -> $64 stays, hold, no action.
+PLAN: no pre-mkt entries. At open -> if it ROLLS RED with a clean liquid faller below VWAP -> affordable put hunt
+  (cheaper <~$25, >=0.30-delta <=$75, penny spread, failing below VWAP; skip high-priced tech priced out at $75,
+  junk microcaps, leveraged/inverse ETFs, knives, M&A pins). If it RECLAIMS green + a leader holds above VWAP ->
+  probationary long/call. Under the participation mandate ACTIVELY hunt; log the one-line reason on a pass. Manage
+  UBER (hold). Reserve PDT (3) + >=~$200 cash. Paper tally A 1 win / B 0. Standing hourly cron covers intraday
+  pulses (09:50-14:50 ET); EOD close ~15:35.
