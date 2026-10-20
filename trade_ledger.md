@@ -4493,3 +4493,17 @@ PLAN: no pre-mkt entries. At open -> if it ROLLS RED with a clean liquid faller 
   probationary long/call. Under the participation mandate ACTIVELY hunt; log the one-line reason on a pass. Manage
   UBER (hold). Reserve PDT (3) + >=~$200 cash. Paper tally A 1 win / B 0. Standing hourly cron covers intraday
   pulses (09:50-14:50 ET); EOD close ~15:35.
+
+--- PULSE — 2026-10-20 (Tue) 09:50 ET (hourly cron, open read) ---
+REGIME: ROTATION tape, two-sided (not the clean red pre-mkt implied). SPY 766.25 (-0.03%, >VWAP 765.42), QQQ
+  712.95 (-0.75%, ~AT VWAP 712.90 — tech laggard), IWM 273.44 (+0.80%, >VWAP 272.36 — small caps LEADING green).
+  Money rotating OUT of big-cap tech INTO small-caps/broad. No single clean directional lean.
+SCAN: tradeable expressions don't fit our box. Long side = IWM is the green leader but IWM calls priced out at
+  $75 (IWM $273 -> near-money premium ~$300-500). Put side = shorting QQQ into a GREEN broad tape (SPY flat/IWM
+  +0.8% bid) isn't clean, and QQQ only -0.75% sitting at VWAP (not failing). Losers board = penny junk (<$1) +
+  leveraged/inverse ETFs (IREN/CRWV/RIOT/ARM/BE 2x down -> crypto+AI-infra weakness) + thin earnings craters
+  (RAIL -31%, UPLD -11%); no cheaper-liquid clean optionable faller below VWAP.
+DECISION: STAND DOWN (active hunt, logged pass). WATCH: QQQ decisively failing VWAP WITH SPY/IWM rolling red ->
+  put lean; or SPY/IWM leading green on a pullback-reclaim -> long lean (budget-constrained on the instrument).
+  UBER 69.43 (-0.76% day, +0.38% vs entry, above its VWAP) held, far from $64/$72, no action. PDT 3/3, reserve
+  intact. Paper A 1 / B 0.
