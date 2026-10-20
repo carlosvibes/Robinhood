@@ -4524,3 +4524,13 @@ DECISION: STAND DOWN — and this is the STRUCTURAL WALL, logged concretely: on 
   growth, not more forcing, is the unlock.) Did NOT chase an extended gapper to manufacture a trade.
 UBER (Module H): 69.58 (-0.54% day, +0.59% vs entry, above its VWAP) held, far from $64/$72, no action. PDT 3/3,
   reserve intact. Paper A 1 / B 0.
+
+--- PULSE — 2026-10-20 (Tue) 11:50 ET (hourly cron) ---
+REGIME: broad trend PULLED BACK to VWAP midday. SPY 769.06 (+0.34%, ~AT VWAP 769.16), QQQ 718.78 (+0.06%, back to
+  ~flat, just >VWAP 717.83), IWM 275.68 (+1.62%, still leader, off the 276.26 high). No clean reclaim trigger, no
+  breakdown — a midday fade. Affordable-expression wall from 10:50 stands (index calls priced out; no cheap clean
+  leader). STAND DOWN (continuation of 10:50).
+UBER (Module H): slipped to 68.79 (-1.67% day; now ~-0.55% BELOW the 69.17 entry), below its intraday VWAP with
+  the tape. Still +$4.79 above the $64 GTC stop (order 6abd0fe5) -> thesis intact, Module H holds through the
+  drawdown, NO action, no trail (nowhere near $72). Noting the intraday dip below entry only. PDT 3/3, reserve
+  intact. Paper A 1 / B 0.
