@@ -4507,3 +4507,20 @@ DECISION: STAND DOWN (active hunt, logged pass). WATCH: QQQ decisively failing V
   put lean; or SPY/IWM leading green on a pullback-reclaim -> long lean (budget-constrained on the instrument).
   UBER 69.43 (-0.76% day, +0.38% vs entry, above its VWAP) held, far from $64/$72, no action. PDT 3/3, reserve
   intact. Paper A 1 / B 0.
+
+--- PULSE — 2026-10-20 (Tue) 10:50 ET (hourly cron) — rotation resolved UP; structural-wall stand-down ---
+REGIME UPGRADE: the morning rotation resolved to the UPSIDE -> clean BROAD risk-on trend. SPY 771.43 (+0.65%,
+  >VWAP 768.81), QQQ 721.19 (+0.39%, >VWAP 717.15 — recovered from -0.75%), IWM 276.26 (+1.84%, >VWAP 274.04 —
+  small caps LEADING hard). Green + above VWAP across the board.
+HUNTED (participation mandate, clean-trend day): scanned gainers to find an AFFORDABLE clean leader, not just
+  wave at the index. Result = nothing fits the box: index/large-cap calls priced out at $75 (SPY $771 / QQQ $721 /
+  IWM $276 -> near-money premiums ~$300-500); gainers board = extended catalyst gappers (BRZE +50% $45 M&A-type
+  pin / IV-crushed -> excluded; MYGN +33% $5.62 extended biotech / thin) + junk microcaps + leveraged ETFs (MSTR/
+  Sui 2x). No non-extended liquid name at a trigger with >=0.30-delta penny-spread options <=$75.
+DECISION: STAND DOWN — and this is the STRUCTURAL WALL, logged concretely: on a clean INDEX trend day with no
+  single cheap liquid leader, our <=$75 options box literally cannot participate (ETFs' near-money calls are 4-6x
+  the cap; the cheap movers are gapper junk). This is the clearest evidence yet that ACCOUNT SIZE — not cadence,
+  not the setup bar — is the binding constraint on participation. (Ties directly to the 1%/day discussion:
+  growth, not more forcing, is the unlock.) Did NOT chase an extended gapper to manufacture a trade.
+UBER (Module H): 69.58 (-0.54% day, +0.59% vs entry, above its VWAP) held, far from $64/$72, no action. PDT 3/3,
+  reserve intact. Paper A 1 / B 0.
