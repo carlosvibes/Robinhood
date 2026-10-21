@@ -4582,3 +4582,23 @@ PLAN: no pre-mkt entries. At open -> if GREEN holds + a clean liquid leader recl
   leveraged ETFs/M&A pins). If it rolls RED -> affordable put on a cheaper liquid name failing below VWAP. Manage
   UBER (hold). Reserve PDT (3) + >=~$200 cash. Paper A 1 win / B 0. Standing hourly cron covers intraday pulses
   (09:50-14:50 ET); EOD close ~15:35.
+
+--- PULSE — 2026-10-21 (Wed) 09:50 ET (hourly cron, open read) — concrete affordability data ---
+REGIME: green open confirmed, broad risk-on continuing. SPY 771.09 (+0.26%, >VWAP), QQQ 722.55 (+0.69%, >VWAP,
+  tech leading), IWM 277.38 (+0.58%, >VWAP). Clean uptrend.
+HUNT (participation mandate): gainers board had a REAL candidate for once — SMCI (Super Micro) +12.5% @ $36.52,
+  liquid/heavily-optionable, mid-priced, catalyst-driven, supportive green tape. Pulled the actual 10/30 (9 DTE)
+  call chain to settle the affordability question with numbers:
+    $37c mark $1.63 delta 0.46 -> $163    $38c mark $1.27 delta 0.39 -> $127
+    $39c mark $0.95 delta 0.31 -> $95      $40c mark $0.72 delta 0.25 -> $72 (BELOW 0.30 floor)
+  FINDING: the cheapest call clearing the >=0.30-delta floor is the $39 strike at ~$95 — $20 OVER the $75 cap.
+  The only <=$75 contract ($40c, $72) is a sub-0.30-delta lottery ticket (banned). So even a $36 mid-priced
+  catalyst leader on a green tape is ~$20 out of reach. Hardest-numbers structural-wall evidence to date.
+DECISION: STAND DOWN — two independent reasons: (1) SMCI +12.5% at 09:50 = extended gap = chase (no-chase rule);
+  88% IV = elevated premium / crush risk; (2) the >=0.30-delta call ($95) exceeds the $75 cap. Not forcing a
+  sub-0.30 lottery to fit the box. **This is decision-relevant for Carlos: the earlier-approved staged cap step
+  to $100 (gated on >=5 closed option trades OR equity>=$600 OR +EV) would make exactly this trade takeable — but
+  that gate is NOT met (0 closed option trades). NOT changing the rail; surfacing the evidence for his call.**
+UBER (Module H): 68.54 (-0.58% day, below its VWAP, now -0.91% BELOW the 69.17 entry — not participating in the
+  green tape, 3rd day of relative weakness). Still +$4.54 above the $64 GTC stop (order 6abd0fe5); below $72 ->
+  no trail, $64 stays; hold, carried. PDT 3/3, reserve intact. Paper A 1 / B 0.
