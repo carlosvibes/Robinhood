@@ -4602,3 +4602,14 @@ DECISION: STAND DOWN — two independent reasons: (1) SMCI +12.5% at 09:50 = ext
 UBER (Module H): 68.54 (-0.58% day, below its VWAP, now -0.91% BELOW the 69.17 entry — not participating in the
   green tape, 3rd day of relative weakness). Still +$4.54 above the $64 GTC stop (order 6abd0fe5); below $72 ->
   no trail, $64 stays; hold, carried. PDT 3/3, reserve intact. Paper A 1 / B 0.
+
+--- PULSE — 2026-10-21 (Wed) 11:50 ET (hourly cron) ---
+REGIME: uptrend firmed, rotated back to TECH-LED. SPY 772.73 (+0.48%, >VWAP), QQQ 726.24 (+1.20%, >VWAP,
+  accelerating/leading), IWM 276.87 (+0.39%, ~AT VWAP, small caps now lagging). Clean broad green. No trade
+  posture change from 09:50/10:50 — clean trend, affordable expression is the bind (SMCI chain settled it: cheapest
+  >=0.30-delta call $95 > $75 cap). No cheap clean leader surfaced.
+UBER (Module H) — WATCH: slid to 68.25 (-1.00% day, below its VWAP), now -1.33% BELOW the 69.17 entry = a new
+  intraday low and 3rd straight day of RELATIVE WEAKNESS (falling while the tape rises). Still +$4.25 above the
+  $64 GTC stop (order 6abd0fe5); below $72 -> no trail, $64 stays; hold, carried (Module H holds through drawdown
+  to its stop — no discretionary exit). Noting the divergence for the record; no action. PDT 3/3, reserve intact.
+  Paper A 1 / B 0.
