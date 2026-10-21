@@ -4562,3 +4562,23 @@ NEXT: Wed 2026-10-21 pre-market wake ~08:35 ET / 12:35 UTC (trig_0146gZfrGHS162X
 PENDING (not a rule change): Carlos's ~1%/day goal -> I proposed a dated learning.md row framing it as an
   ASPIRATION measured over weeks, NOT a daily quota (don't force trades to hit a $ number). Awaiting his yes
   before writing it; NOT logged yet.
+
+>>> SESSION OPEN — 2026-10-21 (Wed) 08:36 ET (pre-market) <<<
+STATUS ACTIVE. Broker reconciles: FLAT except UBER Module H (1 sh @69.17, GTC $64 stop order 6abd0fe5
+  confirmed/active, NO overnight fill), no options, no day-trade positions, cash $430.59, total $499.60.
+  Account 609021910 (agentic, option_level_2, "MCP") confirmed; NEVER 527546030. Flatten day-trades 15:50.
+RULES (current): participation mandate (best REASONABLE lean each session, grade-appropriate size; A+ concentration
+  reserved for a true A); options $25-75 / |delta|>=0.30 / 3-20 DTE / no 0DTE / max 1 open / review first; equity
+  ~$1.25 std risk / <=~$125 / resting GTC stop / review first; long-only-above-VWAP; >=~$200 reserve; size != odds.
+PRE-MKT TAPE: modestly GREEN, TECH-LED — continuing the broad uptrend. SPY 771.01 (+0.26% vs 769.05), QQQ 721.95
+  (+0.60% vs 717.63, leading), IWM 276.65 (+0.32% vs 275.78). Risk-on lean. Longs/calls side live if it holds
+  green above VWAP at the open; puts off unless it rolls red. Confirm on volume (no pre-mkt entries).
+UBER (Module H): 69.01 pre-mkt (+0.10% vs 68.94; -0.23% vs 69.17 entry), hovering just under entry; far above the
+  $64 stop, far below the $72 trail trigger -> $64 stays, hold, no action.
+PLAN: no pre-mkt entries. At open -> if GREEN holds + a clean liquid leader reclaims/holds above VWAP ->
+  probationary long or a >=0.30-delta call (<=$75, 3-20 DTE), grade-appropriate size, resting GTC stop, review
+  first. NOTE the recurring constraint (2 days running): index/large-cap calls priced out at $75 -> participation
+  needs a CHEAPER clean liquid leader (<~$25) off the gainers board (hunt at the open; skip extended gappers/junk/
+  leveraged ETFs/M&A pins). If it rolls RED -> affordable put on a cheaper liquid name failing below VWAP. Manage
+  UBER (hold). Reserve PDT (3) + >=~$200 cash. Paper A 1 win / B 0. Standing hourly cron covers intraday pulses
+  (09:50-14:50 ET); EOD close ~15:35.
