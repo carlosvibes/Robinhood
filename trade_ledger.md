@@ -4642,3 +4642,26 @@ NEXT: Thu 2026-10-22 pre-market wake ~08:35 ET / 12:35 UTC (trig_01CCvmMgxr9emSm
   — flagged in the Thu wake.** Paper tally A 1 win / B 0.
 PENDING (Carlos, not rule changes yet): (1) ~1%/day goal -> aspiration-not-quota learning.md row, proposed, awaiting
   yes. (2) Staged $100 option-cap step -> surfaced today with SMCI evidence; gate unmet; his call.
+
+>>> SESSION OPEN — 2026-10-22 (Thu) 08:41 ET (pre-market) <<<
+STATUS ACTIVE. Broker reconciles: FLAT except UBER Module H (1 sh @69.17, GTC $64 stop order 6abd0fe5
+  confirmed/active, NO overnight fill), no options, no day-trade positions, cash $430.59, total $497.95.
+  Account 609021910 (agentic, option_level_2, "MCP") confirmed; NEVER 527546030. Flatten day-trades 15:50.
+RULES (current): participation mandate (best REASONABLE lean each session, grade-appropriate size; A+ reserved for
+  a true A); options $25-75 / |delta|>=0.30 / 3-20 DTE / no 0DTE / max 1 open / review first; equity ~$1.25 std
+  risk / <=~$125 / resting GTC stop / review first; long-only-above-VWAP; >=~$200 reserve; size != odds.
+PRE-MKT TAPE: sharp RED / risk-off gap, TECH-LED DOWN — first clean down-tape of the week, reversing the 3-day
+  uptrend. SPY 766.22 (-0.89% vs 773.09), QQQ 714.07 (-1.53% vs 725.20, worst), IWM 274.95 (-0.55% vs 276.48).
+  PUTS side becomes live IF it holds/rolls red at the open; longs/calls OFF. Confirm on volume + VWAP (no pre-mkt
+  entries).
+UBER (Module H) — WATCH CLOSELY TODAY: 67.36 pre-mkt (-0.38% vs 67.62; now -2.62% BELOW the 69.17 entry, new low),
+  high-beta into a tech-led red tape -> could get pressured toward the $64 GTC stop (order 6abd0fe5), which is
+  $3.36 away and is the catastrophic backstop (NOT discretionary). Hold, no pre-mkt action; if it trades to $64
+  the stop fills per plan.
+PLAN: no pre-mkt entries. At open -> if RED holds/rolls, ACTIVELY hunt an affordable PUT on a CHEAPER liquid name
+  (<~$25 underlying, >=0.30-delta, <=$75 premium, penny spread) FAILING below VWAP — note: a put on a cheaper
+  faller can actually fit the $75 box where near-money index/tech puts don't, so today's down-tape is where
+  participation is most reachable. Skip high-priced tech fallers (priced out), junk microcaps, leveraged/inverse
+  ETFs, knives, M&A pins. If it reclaims green -> longs/calls (same cap constraint). Manage UBER (hold / watch the
+  $64 stop). Reserve PDT (3) + >=~$200 cash. Paper A 1 win / B 0. Standing hourly cron covers intraday pulses
+  (09:50-14:50 ET); EOD close ~15:35. *** FRI 10/23 EOD = WEEKLY REVIEW (week of 10/19-10/23). ***
