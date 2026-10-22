@@ -4681,3 +4681,12 @@ DECISION: STAND DOWN. The $75 cap blocks participation on BOTH sides now — cal
 UBER (Module H) — GOOD: 68.16 (+0.80% day, >VWAP), GREEN while tech sells off = relative strength, bouncing off
   its lows and moving AWAY from the $64 stop (yesterday's divergence eased). Still -1.46% vs 69.17 entry; below
   $72 -> no trail, $64 stays; hold, carried. PDT 3/3, reserve intact. Paper A 1 / B 0.
+
+--- PULSE — 2026-10-22 (Thu) 10:50 ET (hourly cron) — selloff deepened/broadened ---
+REGIME: risk-off DEEPENED + broadened. SPY 762.39 (-1.38%, <VWAP), QQQ 707.54 (-2.43%, <VWAP, tech crushed), IWM
+  275.02 (-0.53%, <VWAP — gave up its 09:50 resilience). Now broad, not just tech. STAND DOWN — same affordable-
+  put wall as 09:50 (the sellable weakness is priced-out tech/index puts + banned leveraged ETFs; no cheap clean
+  non-knife faller below VWAP). No chase into a -2.4% QQQ day.
+UBER (Module H): 68.04 (+0.62% day, ~AT VWAP), still GREEN while QQQ -2.4% = strong relative strength, holding up
+  through the selloff (the divergence flipped in our favor today). -1.64% vs 69.17 entry; far above the $64 stop
+  -> no trail, $64 stays; hold, carried. PDT 3/3, reserve intact. Paper A 1 / B 0.
