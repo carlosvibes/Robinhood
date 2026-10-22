@@ -4665,3 +4665,19 @@ PLAN: no pre-mkt entries. At open -> if RED holds/rolls, ACTIVELY hunt an afford
   ETFs, knives, M&A pins. If it reclaims green -> longs/calls (same cap constraint). Manage UBER (hold / watch the
   $64 stop). Reserve PDT (3) + >=~$200 cash. Paper A 1 win / B 0. Standing hourly cron covers intraday pulses
   (09:50-14:50 ET); EOD close ~15:35. *** FRI 10/23 EOD = WEEKLY REVIEW (week of 10/19-10/23). ***
+
+--- PULSE — 2026-10-22 (Thu) 09:50 ET (hourly cron, open read) — put hunt on a red tape ---
+REGIME: red/risk-off, TECH-SPECIFIC selloff (not fully broad). SPY 765.67 (-0.96%, <VWAP), QQQ 712.04 (-1.81%,
+  <VWAP, worst), IWM 276.15 (-0.12%, >VWAP — small caps RESILIENT). Tech/semis the epicenter.
+PUT HUNT (participation mandate, finally a down-tape): scanned losers board for an AFFORDABLE clean put. Result =
+  SAME WALL on the put side: tradeable weakness is TECH/SEMIS, but QQQ $712 near-money puts ~$300-500 (priced
+  out), semis only via BANNED leveraged ETFs (SOXL -13%) or $100+ underlyings; single-name fallers are high-priced
+  earnings KNIVES already down big (TTMI -21% $80, NVEC -30% $72, CRS -18% $303, GGG -13% $71, OII -15% $38 — all
+  chase/priced-out) + junk microcaps + leveraged/inverse ETFs. No cheap (<~$25) liquid NON-knife name failing
+  cleanly below VWAP with a >=0.30-delta <=$75 put. 
+DECISION: STAND DOWN. The $75 cap blocks participation on BOTH sides now — calls priced out Wed (SMCI $95), puts
+  priced out today (QQQ/semis $300+ or banned ETFs; cheap = knives/junk). Reinforces: account SIZE is the bind.
+  No chase into a -1.8% tech gap / no knife.
+UBER (Module H) — GOOD: 68.16 (+0.80% day, >VWAP), GREEN while tech sells off = relative strength, bouncing off
+  its lows and moving AWAY from the $64 stop (yesterday's divergence eased). Still -1.46% vs 69.17 entry; below
+  $72 -> no trail, $64 stays; hold, carried. PDT 3/3, reserve intact. Paper A 1 / B 0.
