@@ -4752,3 +4752,17 @@ DECISION: STAND DOWN (active hunt, logged pass) — NOT the options/affordabilit
   cheaper leader (HSAI/QMCO/ZLAB-class) BASING then reclaiming a level, or a clean index green reclaim, into the
   next pulses -> small equity long. UBER 68.18 (-1.29% day, at VWAP, -1.44% vs 69.17 entry) held, far above $64.
   PDT 3/3, reserve intact. Paper A 1 / B 0. *** Fri EOD = WEEKLY REVIEW. ***
+
+--- PULSE — 2026-10-23 (Fri) 10:50 ET (hourly cron) — regime firmed, still no clean affordable leader ---
+REGIME SHIFT vs 09:50: tape turned constructive/tech-led. QQQ 708.08 (+0.51%, >VWAP 704.58), SPY 762.25 (-0.22%
+  day but RECLAIMED VWAP 760.31), IWM 275.41 (-0.46%, laggard). Both big indices now above opening VWAP = long-side
+  gate open at index level (was mixed/at-VWAP at 09:50).
+EQUITY-FIRST HUNT: gainers board = same wall. Junk/knives (AIOK +82%, BOLT +68%, YMAT/CLRO +49%), ONE extended
+  large-cap earnings gapper (RHI +17% $44 - vertical pop, a chase not a pullback), and a stack of leveraged ETFs
+  (OKTG=2xOKTA, PALU/PANG=2xPANW, CRWL=2xCRWD, NETG=2xNET, SKHL). The TELL: today's strength = software/security
+  megacaps (PANW, CRWD, NET, OKTA) - but all high-priced AND already extended/running at 10:50; a fractional buy
+  now = chasing. No clean, affordable, NON-extended leader at a VWAP-pullback trigger.
+DECISION: STAND DOWN (active hunt, logged pass). Tape improved but the opportunity set didn't - strength locked in
+  extended high-priced names. WATCH into 11:50/12:50: a software leader (PANW/CRWD/NET/OKTA) pulling back INTO VWAP
+  for a clean fractional long, or a cheaper clean name basing+reclaiming. UBER 67.87 (-1.74% day, far above $64,
+  not near $72 trail) held. PDT 3/3, reserve intact, daily/weekly halts untouched. Paper A 1 / B 0.
