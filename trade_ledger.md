@@ -4717,3 +4717,24 @@ UBER (Module H): the standout — 68.47 close (+1.25% day) while QQQ -3.06%, str
 NEXT: Fri 2026-10-23 pre-market wake ~08:35 ET / 12:35 UTC (trig_01AaiLyK2uLTD6bWu6ubh58A, armed) — same checklist,
   CURRENT rules (equity-first, $100 cap). **Fri 10/23 EOD = WEEKLY REVIEW (week of 10/19-10/23) — flagged in the
   Fri wake.** Standing hourly cron armed. Paper tally A 1 win / B 0.
+
+>>> SESSION OPEN — 2026-10-23 (Fri) 08:37 ET (pre-market) — WEEKLY REVIEW DAY <<<
+STATUS ACTIVE. Broker reconciles: FLAT except UBER Module H (1 sh @69.17, GTC $64 stop order 6abd0fe5
+  confirmed/active, NO overnight fill), no options, no day-trade positions, cash $430.59, total $499.09.
+  Account 609021910 (agentic, option_level_2, "MCP") confirmed; NEVER 527546030. Flatten day-trades 15:50.
+RULES (current, per 2026-10-22 Changelog): EQUITY-FIRST participation (primary engine = small affordable equity
+  trades that dodge the options wall; prefer an equity expression of a lean when one exists; options opportunistic
+  at $25-100 premium / |delta|>=0.30 / max 1 open / 3-20 DTE / no 0DTE / review first). Equity B/std ~$1.25-2.50
+  risk / <=~$125; A+ concentration up to ~$5 / ~$250 for a true A; resting GTC stop (whole) or attended manual
+  stop (fractional); long-only-above-VWAP; RR>=1.5 + defined target; >=~$200 reserve; PDT 3/5; size != odds.
+PRE-MKT TAPE: mildly RED, softer than Thu's -3% QQQ rout. SPY 760.61 (-0.44% vs 763.96), QQQ 702.57 (-0.27% vs
+  704.47), IWM 274.93 (-0.63% vs 276.67). Soft risk-off lean, not decisive. Longs/equity only if it reclaims
+  green + a clean leader holds above VWAP; put side only if it rolls red on a clean affordable faller.
+UBER (Module H): 68.50 pre-mkt (-0.83% vs 69.07 Thu close; -0.97% vs 69.17 entry), rallied into Thu's close
+  (69.07), far above the $64 stop, far below $72 -> $64 stays, hold, no action.
+PLAN (first full session on equity-first): no pre-mkt entry. At open -> EQUITY-FIRST: if it reclaims GREEN + a
+  clean liquid leader holds above VWAP, take a small probationary EQUITY long ($100-125, tight defined stop,
+  review_equity_order first) — the affordable door, the pivot's first real test. If it rolls RED on a clean
+  cheaper-liquid faller below VWAP -> affordable put (<=$100, >=0.30-delta). Skip junk/leveraged ETFs/knives/
+  M&A pins. Manage UBER (hold). Reserve PDT (3) + >=~$200 cash. Paper A 1 win / B 0. Standing hourly cron covers
+  intraday pulses. *** FRI EOD (~15:35) = full WEEKLY REVIEW (week of 10/19-10/23). ***
