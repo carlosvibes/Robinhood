@@ -4738,3 +4738,17 @@ PLAN (first full session on equity-first): no pre-mkt entry. At open -> EQUITY-F
   cheaper-liquid faller below VWAP -> affordable put (<=$100, >=0.30-delta). Skip junk/leveraged ETFs/knives/
   M&A pins. Manage UBER (hold). Reserve PDT (3) + >=~$200 cash. Paper A 1 win / B 0. Standing hourly cron covers
   intraday pulses. *** FRI EOD (~15:35) = full WEEKLY REVIEW (week of 10/19-10/23). ***
+
+--- PULSE — 2026-10-23 (Fri) 09:50 ET (hourly cron, open read) — FIRST equity-first hunt ---
+REGIME: mixed/choppy open around VWAP. SPY 760.54 (-0.45%, ~AT VWAP), QQQ 704.11 (-0.05%, >VWAP, ~flat — tech
+  recovered), IWM 274.64 (-0.73%, ~AT VWAP, small caps weakest). Not a clean green trend, not decisively red.
+EQUITY-FIRST HUNT (new 2026-10-22 engine, first real test): scanned gainers for a CHEAP (<~$25) clean liquid
+  LEADER holding above VWAP for a small equity long. Board = all EXTENDED catalyst gappers (RNG +12% $89, CCI +11%
+  $87, RHI +10.6% $42, ZLAB +8.6% $24, QMCO +8% $18, HSAI +7.9% $13) + penny junk + leveraged ETFs. Buying any at
+  09:50 up +8-12% = chasing an extended gap (no-chase rule). None is a NON-extended leader at a clean trigger, and
+  the index tape is mixed (not clearly supportive for a long).
+DECISION: STAND DOWN (active hunt, logged pass) — NOT the options/affordability wall this time (equity-first makes
+  these cheap names affordable); it's a mixed open offering only extended gappers = no clean entry. WATCH: a
+  cheaper leader (HSAI/QMCO/ZLAB-class) BASING then reclaiming a level, or a clean index green reclaim, into the
+  next pulses -> small equity long. UBER 68.18 (-1.29% day, at VWAP, -1.44% vs 69.17 entry) held, far above $64.
+  PDT 3/3, reserve intact. Paper A 1 / B 0. *** Fri EOD = WEEKLY REVIEW. ***
