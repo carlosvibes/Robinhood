@@ -4912,3 +4912,8 @@ REGIME: morning green FADED -> all 3 indices now BELOW VWAP, soft/directionless.
 DECISION: STAND DOWN both ways (no long: below VWAP; no clean put: no decisive red failure). No fresh setup.
 UBER (Module H) WATCH: 64.825 (-1.45% day vs 65.78; -6.3% below 69.17 entry) — now only $0.83 above the $64 GTC stop (order 6abd0fe5, confirmed/active). If it prints $64 the resting stop fills automatically and UBER exits = the plan (hold through drawdown TO the stop; don't pre-empt). Below $72 -> no trail. No action; the resting GTC stop manages it. (If it fills, next pulse/EOD logs the Module H close + frees a swing slot.)
 PDT 2 left, reserve intact, daily halt fresh. Live engine 1-0. Paper A 1 / B 0.
+
+--- PULSE — 2026-10-28 (Wed) 11:50 ET (hourly cron) — choppy, no setup; UBER bounced off its stop approach ---
+REGIME: firmed slightly off the 10:50 fade but still choppy/mixed, no clean broad-green confirmation. SPY 771.22 (+0.20%), QQQ 721.98 (+0.10%), IWM 280.04 (-0.05%). No long trigger (not a clean broad >VWAP trend), no clean put. STAND DOWN, no fresh setup.
+UBER (Module H): BOUNCED to 65.50 (-0.43% day) from the 64.83 low -> moved AWAY from the $64 stop, now $1.50 above; position INTACT (held_for_sells=1, GTC stop 6abd0fe5 never filled). Held correctly through the drawdown-toward-stop; no trail (below $72). Still 1 of 2 swing slots.
+PDT 2 left, reserve intact, daily halt fresh. Live engine 1-0. Paper A 1 / B 0.
