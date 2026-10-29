@@ -4966,3 +4966,7 @@ DECISION = case (c) HOLD: price above VWAP, below target. Cut only on a clear VW
 --- MANAGE PULSE — 2026-10-29 (Thu) 12:39 ET — IWM long: AT VWAP line, tight leash ---
 IWM 284.26 (bid 284.26/ask 284.27), VWAP 284.157 -> +0.10 above VWAP = sitting ON the invalidation line. Entry 284.79 -> -$0.53/sh (~-$0.23 unrealized on 0.43892 sh). TAPE AGAINST: QQQ -1.46% (deepened from -1.1% at entry), SPY -0.43%, IWM +1.06% day (gave back from +1.23% at entry). Reclaim-continuation thesis NOT playing out — one-directional drift down since entry, broad tape never firmed.
 DECISION = HOLD on a TIGHT leash (still +0.10 above VWAP; "clear VWAP loss" not yet triggered; cutting a $0.10 cushion on a $125 position isn't meaningfully better than honoring the stop). Re-armed ~5min self-wake. CUT ALL the instant IWM clearly loses VWAP (~284.15). UBER 65.43 ($1.43 above $64 stop). PDT 1 left. Flat by 15:50.
+
+--- MANAGE PULSE — 2026-10-29 (Thu) 12:47 ET — IWM long: coiling ON VWAP, tape steadying, HOLD ---
+IWM 284.22 (bid 284.22/ask 284.23), VWAP 284.160 -> +0.06 above VWAP = coiling ON the line ~15min, NOT lost. ~-$0.25 unrealized. TAPE steadying: QQQ -1.43% (up from -1.46%), SPY -0.41%, UBER 65.525 (+0.39%, bouncing). Not breaking down, not reclaiming — dead-on-VWAP chop.
+DECISION = HOLD (stop intact, tape not worsening, ~3h to 15:50 flat). Re-armed ~7min. CUT ALL on a clear VWAP loss (~284.15); let it run toward 285.80 if it reclaims+pushes. UBER $1.53 above $64 stop. PDT 1 left.
