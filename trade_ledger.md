@@ -5022,3 +5022,8 @@ UBER 65.19 (-0.84%), $1.19 above $64 stop; <$72 no trail; hold. PDT 1 left. Flat
 
 --- PULSE — 2026-10-30 (Fri) 12:50 ET (hourly cron) — red trend extending lower, STAND DOWN (light); UBER rel-strength ---
 Unchanged from 11:50, extending: SPY 756.02 (-1.73%, <VWAP 758.91), QQQ 690.32 (-3.50%, fresh lows, <VWAP 694.81), IWM 278.62 (-1.90%, <VWAP 280.50). One-way down day, still extended ~$3-4.5 below VWAP; no bounce-to-VWAP-reject re-entry appeared -> STAND DOWN (chasing extended = the mistake). UBER 65.17 (-0.87%) = NOTABLE relative strength holding up while QQQ -3.5% (Module H thesis); $1.17 above $64 stop; <$72 no trail; hold. PDT 1 left. Flat-except-UBER. Reassess 13:50. EOD = weekly review.
+
+--- PULSE — 2026-10-30 (Fri) 13:50 ET (hourly cron) — red trend grinds lower; UBER nearing its $64 stop ---
+REGIME: red trend extending. SPY 754.28 (-1.96%, <VWAP 758.18), QQQ 687.72 (-3.86%, fresh lows, <VWAP 693.56), IWM 278.04 (-2.10%, <VWAP 280.18). Still one-way, still extended -> STAND DOWN on new trades (no non-chase entry; put entry was hours/3%+ ago). PDT 1 left.
+UBER (Module H) WATCH: 64.925 (-1.24% day) — the broad selloff finally dragged UBER down; now only ~$0.925 above the $64 GTC stop (order 6abd0fe5, still confirmed/0-filled). Per rule = HOLD THROUGH DRAWDOWN TO THE STOP; the resting $64 order is the exit and auto-fills if hit (would close the swing at 69.17->64 = -$5.17/sh, -7.5%). NO intervention — let the stop do its job. Below $72 -> no trail. Flagging proximity only.
+Flat-except-UBER. Reassess 14:50 (last intraday pulse). EOD 15:35 = weekly review.
