@@ -5077,3 +5077,7 @@ Fade continued: SPY 757.57 (+0.24% day, <VWAP 760.70), QQQ 690.43 (~FLAT on day,
 
 --- PULSE — 2026-11-02 (Mon) ~13:50 ET (hourly cron) — unchanged: failed-bounce chop <VWAP, STAND DOWN (light) ---
 No change from 12:54: SPY 757.52 (+0.24%), QQQ 689.64 (-0.12%, slightly red), IWM 280.51 (+0.42%), all BELOW VWAP (760.24/694.08/281.90). Failed oversold bounce -> chop under VWAP. Long OFF, no short (Phase-2). STAND DOWN. UBER 67.08 (+2.81% day) holding, $3.08 above $64 stop; hold. Flat-except-UBER. EOD 15:35 does the reconcile.
+
+--- PULSE — 2026-11-02 (Mon) ~14:50 ET (hourly cron, last intraday) — day FULLY REVERSED to red, STAND DOWN vindicated ---
+The green oversold bounce fully REVERSED into RED by late afternoon: SPY 753.35 (-0.31% day now, well <VWAP 759.13), QQQ 682.80 (-1.11%, well <VWAP 692.27 — bounce completely given back + then some), IWM 279.45 (+0.04%, <VWAP 281.64). Textbook failed bounce -> sold into the close. All sub-VWAP all afternoon.
+DECISION = STAND DOWN (all day) VINDICATED — the open's +0.5-0.8% green never gave the coincident-confirmation trigger (indices never decisively held above VWAP), then rolled to red; a long at the open would be deeply underwater now. Long OFF, no short (Phase-2). UBER 66.46 (+1.85% day) gave back from +3% but still green, $2.46 above $64 stop; <$72 no trail; hold. Flat-except-UBER. PDT unused today (1-2 left). EOD 15:35 reconcile.
