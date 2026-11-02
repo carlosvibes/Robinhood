@@ -5074,3 +5074,6 @@ DECISION = STAND DOWN. Long trigger now OFF (SPY/QQQ sub-VWAP = long-only rule b
 
 --- PULSE — 2026-11-02 (Mon) ~12:54 ET (hourly cron) — fade deepened, bounce fully given back, STAND DOWN (light) ---
 Fade continued: SPY 757.57 (+0.24% day, <VWAP 760.70), QQQ 690.43 (~FLAT on day, <VWAP 694.73 — gave back the whole bounce), IWM 280.90 (+0.56%, <VWAP 282.08). Classic failed oversold bounce (gap-up-then-fade-all-day). All sub-VWAP -> long OFF, no short (Phase-2). STAND DOWN holds. UBER 67.17 (+2.94% day) holding gains, $3.17 above $64 stop; hold. Flat-except-UBER. PDT 1-2 left. Reassess 13:50/14:50. EOD 15:35.
+
+--- PULSE — 2026-11-02 (Mon) ~13:50 ET (hourly cron) — unchanged: failed-bounce chop <VWAP, STAND DOWN (light) ---
+No change from 12:54: SPY 757.52 (+0.24%), QQQ 689.64 (-0.12%, slightly red), IWM 280.51 (+0.42%), all BELOW VWAP (760.24/694.08/281.90). Failed oversold bounce -> chop under VWAP. Long OFF, no short (Phase-2). STAND DOWN. UBER 67.08 (+2.81% day) holding, $3.08 above $64 stop; hold. Flat-except-UBER. EOD 15:35 does the reconcile.
