@@ -5461,3 +5461,17 @@ UBER (Module H): the standout 2 days running — popped +1.6% intraday then fade
 POSITION STATE: FLAT-except-UBER verified 15:36 ET. STATUS ACTIVE. Reserve $430.85.
 TALLY: LIVE engine 2-1 (+$0.26) / 3 closed day-trades; 0 trades today. Phase-2 gate ~7/20. Paper A 1 / B 0. STAT-ARB paper: V/MA watch / KO/PEP rejected.
 NEXT: Tue 11/17 pre-market ~08:35 ET (to be scheduled). Standing hourly cron covers 09:50->14:50. Both proposals (research-expansion + tighter-hunting-cadence) still PENDING Carlos.
+
+--- SEASONALITY PAPER MODULE — STUDY #1 — 2026-11-17 (per learning.md 2026-11-17 row; ZERO capital, NO orders) ---
+HYPOTHESIS (from the quant explainer Carlos shared): long an index proxy at the OPEN, sell at the CLOSE, on Mondays only = positive open->close drift. VALIDATION STACK applied: (1) T-stat per weekday, (2) permutation null 2000x (incl. selection-corrected max|T| across all 5 days), (3) out-of-sample split (two halves must agree), (4) remove-top-N robustness, (5) economic-"why" conditional (after red vs green prior session). DATA: SPY & QQQ daily OHLC, split-adjusted, 2020-01-02 -> 2026-11-13 (1727 trading days), via get_equity_historicals. Metric = open->close return (close/open - 1).
+
+QQQ (the Nasdaq proxy, matches the video's instrument):
+  Per-weekday open->close:  Mon +21.5 bps T=3.57 (N=322) | Tue -0.6 T=-0.10 | Wed +2.4 T=0.35 | Thu -4.3 T=-0.60 | Fri -0.9 T=-0.14.  Mon cum +96.2% vs others flat/negative.
+  PERMUTATION (2000x): shuffled Monday-T >= observed 0/2000; selection-corrected (max|T| across 5 days >= best-day |T|) 2/2000 (~0.001). Not noise.
+  OOS split: H1 (2020-01 -> 2023-06) Mon +20.7 bps T=2.11 | H2 (2023-07 -> 2026-11) +22.4 bps T=3.17. BOTH halves agree (both >2). Not an overfit single regime.
+  REMOVE-TOP-N (Mon): remove 0 -> T=3.57 cum 96.2% | remove 5 -> T=2.94 cum 67.6% | remove 10 -> T=2.35 cum 48.2%. Edge thins but QQQ survives top-10 removal (>2).
+  CONDITIONAL "why": Monday after a RED prior session +29.4 bps T=3.13 (N=152) vs after GREEN +14.5 bps T=1.88 (N=170). Consistent with weekend-fear-unwind -> dies if weekends stop being scary.
+
+SPY (broad proxy): Mon +14.5 bps T=3.30 (N=322), Tue-Fri all |T|<0.6. Permutation: Mon-T beat 1/2000, selection-corrected 5/2000 (~0.003). OOS: H1 T=1.83 (under 2) / H2 T=3.12 (agree in direction, H1 weaker). REMOVE-TOP-N: remove 10 -> T=1.91 (UNDER 2 = fragile). After red +20.1 bps T=2.92 / after green +10.3 bps T=1.80.
+
+TAKEAWAY: the effect is REAL and replicates our own data + the video's method — QQQ is the cleaner/stronger version (survives top-10 removal and OOS both-halves). BUT it is a THIN DRIFT concentrated in a minority of Mondays (SPY dies on top-10 removal), it is a TINY ~15-22 bps/trade edge (~$0.20-0.27 on a $125 position), it was SELECTED as the best weekday (use the selection-corrected perm number), and it carries a FAT LEFT TAIL (Mon 11/16 was QQQ -2.71%, a loser, the day before this study). NOT YET DONE: intraday time-of-day decomposition (needs intraday Monday bars). LIVE-FLIP GATE (per learning.md): rail-fitting expression only (small affordable fractional SPY/QQQ Monday open->close long, long-only, flat 15:50 — NEVER futures/1 NQ), must SURVIVE a protective stop test, + a reviewed sample. ZERO capital committed; live account UNCHANGED: flat-except-UBER (1 sh, $64 stop), STATUS ACTIVE. FORWARD-TRACK: log each upcoming Monday's hypothetical QQQ open->close result (and the red/green-Friday condition) to grow a live out-of-sample sample.
